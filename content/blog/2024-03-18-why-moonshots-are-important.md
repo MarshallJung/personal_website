@@ -1,0 +1,53 @@
+---
+title: "Why moonshots are important"
+slug: "2024-03-18-why-moonshots-are-important"
+date: "2024-03-18"
+description: "Why moonshots are important"
+coverImage: "/images/blog/2024-03-18-why-moonshots-are-important/image-01.jpg"
+tags: ["AI Strategy"]
+readTime: "6 min read"
+---
+
+“…failure and invention are inseparable twins. To invent you have to experiment, and if you know in advance that it’s going to work, it’s not an experiment. Most large organizations embrace the idea of invention but are not willing to suffer the string of failed experiments necessary to get there. Outsized returns often come from betting against conventional wisdom, and conventional wisdom is usually right. Given a ten percent chance of a one hundred times payoff, you should take that bet every time. But you’re still going to be wrong nine times out of ten. We all know that if you swing for the fences, you’re going to strike out a lot, but you’re also going to hit some home runs.” — Jeff Bezos
+
+I think a complementary idea to the quote above is the idea of failing fast. You can iterate through so many ideas, sort the prospects from the laggards and get those 100x successes much faster. What is needed is curiosity and a humble attitude towards ideas. Letting the failed ideas go with no loss to ego. Finding this in an individual is uncommon. Having this in a team is very rare. Companies should very much pay attention to these precious gems. Too many organizations underestimate the value of truly creative research and development teams. Oftentimes they are the first groups to go if funding gets a bit tight. Or perhaps even worse they end up neutering the group and turning it into a standard, conventional, and siloed engineering team.
+
+### Turns out I can pester this guy instead…
+
+[https://github.com/vintrocode/curation-buddy/tree/main](https://github.com/vintrocode/curation-buddy/tree/main)
+
+I’m a chronic link oversharer. This newsletter is a great example. I find really nifty stuff that I think is interesting and useful, but I don’t get a chance to really engage with someone about the details. People’s attention spans are limited. You might drop them links, but oftentimes they won’t reciprocate the enthusiasm you have nor will they have the same takeaways/aha moments you did. But language models have infinite attention, so why not bug them instead? And why not leverage them to develop an understanding of what you’re into and why. I’ve been using Obsidian as a way of building knowledge graphs of my own content, but there is a lack of “engagement” with that tool. That’s where [Honcho](https://pypi.org/project/honcho/) comes in. Language models are great, but their ability to “skip” reasoning steps and predict your needs are fundamentally limited by the context they have. So if you use Honcho to manage your application’s context, it can perform reasoning steps server-side and expose endpoints for you to query enriched context. Currently the app uses API’s to third party LLMs for the power under the hood but could use local I’d imagine.
+
+I like to think of this as a way of gathering and curating a team’s or company’s internal knowledge, slowly building a better understanding as it “observes and interacts”
+
+### Rhymes with orange
+
+[https://arxiv.org/abs/2403.05440](https://arxiv.org/abs/2403.05440)
+
+Netflix releases a paper that cautions against using cosine similarity for use in comparing semantic overlay in learned embeddings. This is kind of obvious when you think about how close “I love cats” and “I hate cats” might be if you are just doing a vector distance calculation. I do wonder what happened at Netflix to inspire writing this paper. Did horror titles and kids shows get mixed up in the “Suggested for you”? This may affect more than just language. Could physical objects, seismic volumes or even specific zero day code embedded for LLM learnings “look” the same leading to some very poor or disastrous responses.
+
+### Chat with your code
+
+[https://github.com/Doriandarko/RepoToTextForLLMs](https://github.com/Doriandarko/RepoToTextForLLMs)
+
+It’s part of enterprise offerings from Tabnine and others, but the ability to understand code repos for engineer performance boosting is something that I haven’t really seen made as simple as this effort. Use it to understand and use open source tooling (appropriate licensing) or consume your own internal git and then use that as a context for “chat with your code”. I can’t wait to do this with ultra long context LLMs like Claude 3 or Gemini 1.5.
+
+### The newest kid on the block
+
+![Figure](/images/blog/2024-03-18-why-moonshots-are-important/image-01.jpg)
+
+So Devin is apparently going to replace all coders? Yea, probably not. However it isn’t something entirely new either. It’s GPT-4 with an agentic framework layered over the top. A good framework for sure. This has shown the capabilities of a code tool built on top of a foundational LLM, imagine this same type of framework built on top of a more fine tuned model? Sure, the interface may move a bit further away from universally understandable plain text interactions but the boost could be awesome. What if you put this model in the backend and gave it to the bio-scientists? [https://huggingface.co/papers/2403.03234](https://huggingface.co/papers/2403.03234)
+
+### Predictions and debate
+
+![Figure](/images/blog/2024-03-18-why-moonshots-are-important/image-02.jpg)
+
+The post above ignited a bit of debate online, and I have been speaking with folks from the VC and investment realm on a pretty regular basis over the past year or so on the SoTA for AI. I actually disagree with the above post on a few points and agree with others. A few observations
+
+1.  Will there be 7–10 GPT-4 models? Probably more like 5 or so, but they run into cost issues with current training methods and more importantly they run into data issues. Sure, synthetic data is a thing, but we’re only adding additional detail not nearly enough wholly unique concepts for the models to get much better.
+2.  GPT-5? Yea probably, but I think long context LLMs will be the biggest change and that is just ease of use rather than deeper knowledge.
+3.  Yes on price wars. Especially as compute/new chip options come on.
+4.  The inevitable onslaught of open source kills moat.
+5.  I think hallucinations will be much better done with layered reasoning engines that can fix logic errors. Making up text/history etc. still a problem.
+6.  Corporate adoption…yes, but not with big LLMs due to unresolved legal issues. Open source derived, fine tuned and long context/RAG based solutions narrowly tailored to specific industry verticals will be the thing.
+7.  Profits will be nil for the big models. Modest for the smaller niche players offering solid UI/UX on top of fine tuned and maintained models.

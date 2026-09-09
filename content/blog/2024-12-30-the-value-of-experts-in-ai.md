@@ -1,0 +1,47 @@
+---
+title: "The value of Experts in AI"
+slug: "2024-12-30-the-value-of-experts-in-ai"
+date: "2024-12-30"
+description: "The last newsletter of the year. Got all 52 weeks, and combined with the previous efforts from 2023 brings the total to 71 weeks unbroken. There are certainly some weeks where I do..."
+coverImage: "/images/blog/2024-12-30-the-value-of-experts-in-ai/image-01.jpg"
+tags: ["AI Strategy"]
+readTime: "8 min read"
+---
+
+The last newsletter of the year. Got all 52 weeks, and combined with the previous efforts from 2023 brings the total to 71 weeks unbroken. There are certainly some weeks where I don’t feel much like writing, but I am a strong believer in discipline whether it be physical or mental. Pushing ourselves to do something even when we don’t want to do it brings out the best in each of us. I challenge every reader to find something for 2025 and do it every single week.
+
+A week or two after the release of OpenAI’s o3 model we haven’t heard much about the world changing applications yet. This might have something to do with the holiday season and the pace of AI releases near the end of the year. People just need a breather. But I can’t help feeling that like o1, o3 will not show the kind of 10x step. I think that part of this is down to the non-quantifiable role of “expertise” in the reasoning process applied during the TTC model architecture. This paper: [https://journals.sagepub.com/doi/10.1177/0170840605053102](https://journals.sagepub.com/doi/10.1177/0170840605053102) states that, “Deliberation is certainly used by experts, if time permits, but it is done for the purpose of improving intuition, not replacing it.” and reasoning AI models require training on human reasoning. One of the real gaps in pushing forward these models is going to be the old problem of how to figure out how to get experts to explain what they do.
+
+### Where did you get these exactly?
+
+Chinese AI lab Deepseek released its next iteration of its eponymous model (v3) last week and it seems to defy much of the scaling speed bumps that were understood to be in place for frontier models. The model which performs very well on benchmarks is essentially an independent replica of OpenAI’s o1, done in about 2 months. However, the claims of only using a few thousand NVIDIA GPU’s and a total cost of about $6M make this a much more cost efficient model. Does this mean you don’t need large GPU clusters for frontier LLMs? No but you have to ensure that you’re not wasteful with what you have, and this looks like a nice demonstration that there’s still a lot to get through with both data and algorithms. The technical paper is nice as well. Read here: [https://github.com/deepseek-ai/DeepSeek-V3/blob/main/DeepSeek\_V3.pdf](https://github.com/deepseek-ai/DeepSeek-V3/blob/main/DeepSeek_V3.pdf)
+
+There are some questions though:
+
+![Figure](/images/blog/2024-12-30-the-value-of-experts-in-ai/image-01.jpg)
+
+It’s worth asking where much of the training data for the Deepseek model came from. Was the model really much more $$ where they spent most of the cash on OpenAI API calls? Kind of hilarious but still it raises the spectre of models feeding off synthetic data created by other models. Is that really something that will make the evolution of these models better in the long run?
+
+### Cookin’ with Examples
+
+[https://github.com/google-gemini/cookbook](https://github.com/google-gemini/cookbook)
+
+100+ notebooks to give everyone an idea on how to build with Gemini. The 2.0 models’ API will be released in January!
+
+### Where to Use AI…and where not to use AI
+
+[https://www.oneusefulthing.org/p/15-times-to-use-ai-and-5-not-to](https://www.oneusefulthing.org/p/15-times-to-use-ai-and-5-not-to)
+
+For many of us really in the trenches, this is kind of common sense, but the one admonition in particular, don’t use AI where the effort is the point is a very wise one. AI has its place in helping but it is never a substitute for just doing the hard work.
+
+### The Lack of Wisdom
+
+I don’t often wade into controversial topics. That being said I don’t usually shy away from them either. I don’t put them here in the newsletter since typically, ML/AI is focused on the technical, the mathematical and progress in general. And while AI as a scientific topic isn’t innately political, the effects of AI on society are multifaceted. Today, however, I do have to touch upon a subject that is personal to me, very current and is tangential to AI as well.
+
+Recently on X, there has been a…robust conversation about skilled immigration, in particular around computer science and engineering. It is, I believe, the first real misstep by the incoming administration. In particular the tech leadership including people like Elon Musk, Vivek Ramaswamy, David Sacks, Paul Andreeson, Paul Graham and others. As with any controversial topic the entirety of the subject is grey, not black and white. But to summarise: One side claims, rightly, that the US needs to attract the best of the best in engineering talent, and this means bringing in smart folks from around the world. The other side has experienced, again rightly, that tech companies have used “skilled” immigration to replace US tech workers at cheaper rates. One side sees the need for talent, and the other sees talented natives being overlooked or laid off and replaced by cheaper labor. And you know what? Both sides are right and both sides lack wisdom to understand the other.
+
+The reason that I have chosen to wade in here is that I have been directly affected by the changing trends in tech, and I also possess enough life experience and spiritual maturity to understand why the changes are happening and see both sides. I spent nearly 8 months unemployed. I’m a very experienced ML engineer, PM and creative individual. I have a stack of undeniable proof by my published work, git resume, and contacts. I would make a great employee at any number of US tech companies. But I’ve had to scrounge, take small contract gigs and apply to hundreds of jobs with no response. When I was employed at a tech major, I was constantly passed over for promotion despite my demonstrated and documented successes. As an early middle-age, conservative, Christian, white male I was at the very bottom of the hierarchy. And I was far from the only one. The tech industry has laid off hundreds of thousands of engineers and other staff. Of course many of these layoffs are perfectly justified. There was a lot of redundancy and uselessness in the tech space. But there were lots of good, solid US engineers caught up. Part of this was an affirmative action based shotgun blast designed to keep any discrimination lawsuits from the doorstep of the tech companies and part was simply cutting costs. None of this is particularly egregious and I bear part of the responsibility for my plight as well. I can’t EXPECT to be employed, and the truth is that I’m a funny shaped puzzle piece for most big companies to fit into the machine. So I can see the nuances with regard to myself and amongst my contacts, many of whom share a similar story to mine. I won’t generalize it to everyone, but it’s a common enough story.
+
+Where the controversy heightens is where the tech companies, and their evangelists in the incoming administration, the aforementioned Musk et al, have really failed to understand the situation. To “read the room” so to speak. In typical, maniacally focused fashion, the tech cadre have claimed the need for massive technically competent immigration, overlooking (purposefully or not) the long standing and increasing abuse of the H1B visa program in the tech industry. For years now, marginally competent workers have been brought in under the H1B program because companies claim they cannot source the talent from US citizens. But these visa workers are paid at much lower rates, residency is tightly coupled with the company sponsoring them and they are not often particularly well adapted to the culture. Yes, these visa workers are taken advantage of as well, unable to really afford a decent life in the high cost areas they are required to work in. Meanwhile, the US citizen could likely do the work instead, but they cost as much as two H1B visa workers. I’ve seen this first hand when I worked at Google. And this isn’t to say that the visa folks are not good people. Most of the ones I’ve worked with or met are decent and hardworking. There are terrible ones too, but that goes for any employee pool.
+
+So I can see both sides of the issue here, but what is frustrating is that the people tasked with leading the US in the technology race cannot seem to grasp this same two sided nuance. I agree that the US should be the destination for brilliant, hardworking and creative people from wherever they might be in the world. Everyone should want them here. But, but, but, the tech leadership should also acknowledge that the current “skilled immigration” system in the US is broken, is gamed by tech companies to cut costs, and overlooks talented US citizens. Both sides are right. I would encourage anyone in my shoes to voice their opinions, but it should come with a dose of personal introspection on how to get better. AND I would encourage those leaders now in a place of power to take a dose of humility and understand that some things are broken, need fixing and people are hurting because of current policy. Ignore that and you’ll find out that elections do matter.

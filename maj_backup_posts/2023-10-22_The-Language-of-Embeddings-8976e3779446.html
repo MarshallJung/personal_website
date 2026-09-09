@@ -1,0 +1,72 @@
+<!DOCTYPE html><html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"><title>The Language of Embeddings</title><style>
+      * {
+        font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+      }
+      html, body {
+        margin: 0;
+        padding: 0;
+      }
+      h1 {
+        font-size: 50px;
+        margin-bottom: 17px;
+        color: #333;
+      }
+      h2 {
+        font-size: 24px;
+        line-height: 1.6;
+        margin: 30px 0 0 0;
+        margin-bottom: 18px;
+        margin-top: 33px;
+        color: #333;
+      }
+      h3 {
+        font-size: 30px;
+        margin: 10px 0 20px 0;
+        color: #333;
+      }
+      header {
+        width: 640px;
+        margin: auto;
+      }
+      section {
+        width: 640px;
+        margin: auto;
+      }
+      section p {
+        margin-bottom: 27px;
+        font-size: 20px;
+        line-height: 1.6;
+        color: #333;
+      }
+      section img {
+        max-width: 640px;
+      }
+      footer {
+        padding: 0 20px;
+        margin: 50px 0;
+        text-align: center;
+        font-size: 12px;
+      }
+      .aspectRatioPlaceholder {
+        max-width: auto !important;
+        max-height: auto !important;
+      }
+      .aspectRatioPlaceholder-fill {
+        padding-bottom: 0 !important;
+      }
+      header,
+      section[data-field=subtitle],
+      section[data-field=description] {
+        display: none;
+      }
+      </style></head><body><article class="h-entry">
+<header>
+<h1 class="p-name">The Language of Embeddings</h1>
+</header>
+<section data-field="subtitle" class="p-summary">
+For the past month or so there has been a thought rattling around my head in quieter times while organizing my garage or cleaning the…
+</section>
+<section data-field="body" class="e-content">
+<section name="afe4" class="section section--body section--first section--last"><div class="section-divider"><hr class="section-divider"></div><div class="section-content"><div class="section-inner sectionLayout--insetColumn"><h3 name="3f8f" id="3f8f" class="graf graf--h3 graf--leading graf--title">The Language of Embeddings</h3><figure name="a417" id="a417" class="graf graf--figure graf-after--h3"><img class="graf-image" data-image-id="1*A_vCxPoTdfATTVnxml99UQ.jpeg" data-width="4080" data-height="3072" data-is-featured="true" src="https://cdn-images-1.medium.com/max/800/1*A_vCxPoTdfATTVnxml99UQ.jpeg"><figcaption class="imageCaption">A cold autumn rain in the Rocky Mountains</figcaption></figure><p name="d665" id="d665" class="graf graf--p graf-after--figure">For the past month or so there has been a thought rattling around my head in quieter times while organizing my garage or cleaning the dishes. A consideration of the state of the art in transformer models and the application of these models in everyday life. I take lots of calls with VCs and investment firms that ask the same generic questions about “LLMs” and the potential for industry changing advancements and applications. Combined with my daily habit of scouring the depths of ML Twitter (X?) and the recent publications on arxiv.org and the like, I keep coming back to the same question: If languages are the rails upon which the transformer train runs, what powers that train?</p><h3 name="8172" id="8172" class="graf graf--h3 graf-after--p">Are we there yet?</h3><p name="f812" id="f812" class="graf graf--p graf-after--h3">I’m sure that I’ve asked this question in other ways previously, but it seems that our ML community has reached the gentler slopes of attention enhanced transformer neural network efficiency advancement. That isn’t to say that there will be no further advancements in the space, efficient parameter manipulation/sorting, attention mechanism manipulation etc. etc., but the bulk of efficiency gains in these algorithms have already been found in their current state. New “announcements” of open-source models are all focused around the fine-tuning or polishing of existing models to perform some percent better on questionable benchmarks that no one actually agrees on and cannot be replicated by anyone else.</p><figure name="6ea8" id="6ea8" class="graf graf--figure graf-after--p"><img class="graf-image" data-image-id="0*McLbfXnfmxnhnglc" data-width="838" data-height="1166" src="https://cdn-images-1.medium.com/max/800/0*McLbfXnfmxnhnglc"><figcaption class="imageCaption">Figure 1: Is there anything else left undiscovered in here? Maybe…</figcaption></figure><h3 name="2df4" id="2df4" class="graf graf--h3 graf-after--figure">The Multi-Modal vs. Industry Specific Question</h3><p name="2b33" id="2b33" class="graf graf--p graf-after--h3">So if we are at the diminishing marginal returns stage of the model development, is the writing already on the wall for attention transformers? Are we going to see the bimodal distribution of this technology like we have for so many others in the tech space where hyperscalers have massive multi-modal models trained on huge semi-proprietary data sets on one side and scrappy open-source based applications on the other side?</p><figure name="16af" id="16af" class="graf graf--figure graf-after--p"><img class="graf-image" data-image-id="0*Hm494PlTFGajqClA" data-width="1264" data-height="710" src="https://cdn-images-1.medium.com/max/800/0*Hm494PlTFGajqClA"><figcaption class="imageCaption">Figure 2: Why does Llama2 always wear sunglasses in diffusion based creations?</figcaption></figure><p name="6387" id="6387" class="graf graf--p graf-after--figure">The first is usage based API driven and the second fine-tuned and feature specific for a particular industry that will find success. This may well be, but I think it’s missing the biggest un-explored question and performance opportunity that no-one seems to be talking about. The embeddings question.</p><h3 name="a4f4" id="a4f4" class="graf graf--h3 graf-after--p">What is a language?</h3><p name="99ee" id="99ee" class="graf graf--p graf-after--h3">For much of its current run, LLMs have been exactly as described…”Large Language Models’’. And that has been easy enough for most to grasp. Written languages and programming are obvious, and with some creativity you can force in images, audio and video as well, though not as well. (Think of a well crafted meme. Images and possibly text combine to impart far more than a superficial understanding, but an astute reader can see the growing issue here.) But continue along this path and you begin to see that there are far more languages than simply the obvious ones. For example, I have had some professional training in petrophyiscs and an enthusiast’s expertise in race car aerodynamics.</p><figure name="4d1f" id="4d1f" class="graf graf--figure graf-after--p"><img class="graf-image" data-image-id="0*BGvX2ECqkUbHWORY" data-width="1408" data-height="1166" src="https://cdn-images-1.medium.com/max/800/0*BGvX2ECqkUbHWORY"></figure><figure name="79d3" id="79d3" class="graf graf--figure graf-after--figure"><img class="graf-image" data-image-id="0*EwmVxuwpw9He64yk" data-width="1600" data-height="1031" src="https://cdn-images-1.medium.com/max/800/0*EwmVxuwpw9He64yk"><figcaption class="imageCaption">Figure 3: Can you read the above images?</figcaption></figure><p name="25f3" id="25f3" class="graf graf--p graf-after--figure">These are not related fields, however when I look at both the above images they tell me a story no different than if it was written in an explanatory paragraph, python code or n-dimensional structured data. In essence I “read” these images. To me they are a language no different than the words on this page.</p><p name="83da" id="83da" class="graf graf--p graf-after--p">So why are current LLMs not particularly good at understanding the images in Figure 3? The easy response is because they have not seen the data that would allow them to learn the relationships in the images. But that’s not exactly the correct answer. As anyone that has played around with GPT-4V has learned, the image understanding leaves a fair amount to be desired. I propose that this is because embedding algorithms for “languages” like Figure 3 is lagging significantly behind the research into the transformer models themselves.</p><p name="c24c" id="c24c" class="graf graf--p graf-after--p">There are some popular embedding algorithms out there like Word2Vec, FastText, BERT etc. and these are well represented on written languages. Further techniques like concatenation, fusion, attention and summation are effective for modalities that have representations that have varying levels of similarity. So there are embedding methodologies that exist, however the perceived intelligence of attention transformers are only as good as the relationships that can be learned in the embedded data. This arena is the least explored of the LLM effort and consequently the place where the greatest advancements in focused, industry specific solutions will be found.</p><p name="a1a4" id="a1a4" class="graf graf--p graf-after--p">In the paper “<a href="https://www.jmlr.org/papers/volume14/verma13a/verma13a.pdf" data-href="https://www.jmlr.org/papers/volume14/verma13a/verma13a.pdf" class="markup--anchor markup--p-anchor" rel="noopener" target="_blank">Distance Preserving Embeddings for General n-Dimensional Manifolds</a>” by Nakul Verma 2013, information provided in higher dimensional space can be embedded in a way that preserves all interpoint geodesic distances. Applications for this type of embedding include 3D part design, airflow analysis, stress calculations, and volumetric estimation and categorization.</p><p name="14f4" id="14f4" class="graf graf--p graf-after--p graf--trailing">The quantity of data for these types of solutions is plentiful, and the transformer architecture and model selection is available. What is not well accomplished is the description and understanding of these new languages. The enhancement of multi-modal models and the success of industry specific LLM solutions largely hinges on the research and application of these types of embedding algorithms. It won’t have the same social “impact” as releasing the next XXB open-source model that competes with OpenAI, but it will be the place where the smaller players can find real success in developing solutions for particular industry verticals.</p></div></div></section>
+</section>
+<footer><p>By <a href="https://medium.com/@jung.marshall" class="p-author h-card">Marshall Jung</a> on <a href="https://medium.com/p/8976e3779446"><time class="dt-published" datetime="2023-10-22T19:27:52.881Z">October 22, 2023</time></a>.</p><p><a href="https://medium.com/@jung.marshall/the-language-of-embeddings-8976e3779446" class="p-canonical">Canonical link</a></p><p>Exported from <a href="https://medium.com">Medium</a> on September 3, 2026.</p></footer></article></body></html>

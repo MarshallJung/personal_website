@@ -1,0 +1,95 @@
+/**
+ * Race Car Engineering Specifications — Porsche 944 / Corvette C4 Hybrid
+ * Engineered & Fabricated by Marshall Jung
+ */
+
+export const racecarSpecs = {
+  carName: "Porsche 944 / Corvette Chassis Hybrid",
+  concept: "One-of-a-kind bespoke track machine: gutted Porsche 944 body dropped over a Corvette rolling chassis, reinforced with an integrated mandrel-bent roll cage.",
+  curbWeight: "2,520 lbs",
+  weightDetail: "with fluids & driver",
+  power: "350 WHP / 400 lb-ft",
+  powerDetail: "flat 2,500–5,800 RPM",
+  powerToWeight: "7.2 lbs / hp",
+  ratioDetail: "curb power-to-weight",
+  powertrain: {
+    engine: "350 ci (5.7L) Small Block Chevy V8, hydraulic roller cam, upgraded forged rods/pistons",
+    cooling: "Dual radiator system (front-mount + high-pressure rear-tunnel heat exchanger)",
+    inductionFuel: "Electronic fuel injection, electric high-flow water pump",
+    transmission: "Tremec TKO 500 5-speed manual, 18 lb lightweight flywheel, race clutch",
+    differential: "3.73 clutch-type limited slip rear differential, aluminum driveshaft",
+    mounting: "100% solid-mounted drivetrain (zero deflection under hard acceleration)",
+  },
+  chassisSuspension: {
+    chassis: "Totalled Corvette rolling chassis integrated under gutted Porsche 944 unibody",
+    cage: "Custom mandrel-bent DOM steel roll cage welded directly to body & frame",
+    geometry: "Zero-droop suspension concept with limiting straps (maintains flat platform in corners)",
+    frontSuspension: "Dual control arms, transverse fiberglass leaf spring, stock Corvette sway bar",
+    rearSuspension: "SLA with dual trailing arms, transverse fiberglass leaf spring, custom sway bar",
+    dampers: "Single-adjustable Koni dampers actuated via custom pushrods and rockers (2:1 motion ratio)",
+    bumpstops: "Multicellular urethane progressive bump stops to support high aerodynamic compression",
+    brakes: "Wilwood dual master cylinders with cockpit-adjustable balance bar, race pads",
+    steering: "Corvette rack & pinion with 2:1 steering quickener and needle-bearing solid U-joints",
+    wheelsTires: "17-inch wheels; 275 Nitto NT05 (Front), 315 Nitto NT05 (Rear)",
+  },
+  aerodynamics: {
+    floor: "Full flat floor constructed from marine plywood ('natural carbon fiber')",
+    diffuser: "Rear diffuser with HDPE guide fences and strakes",
+    skirts: "HDPE side skirts running ground-level to seal side pressure leakage",
+    rearSpoiler: "High-angle vertical rear spoiler creating pressure differential for rear radiator",
+    centerOfPressure: "Optimized underfloor pressure center under the engine bay",
+  },
+  cockpitElectronics: {
+    seats: "Kirkey aluminum racing seats mounted directly to roll cage",
+    firewall: "Lexan rear firewall for visibility and cockpit acoustics",
+    pdm: "Solid-state MOSFET Power Distribution Module (single-wire hookup, 30A/channel)",
+    instrumentation: "Tablet ECM telemetry display, GPS speedometer, analog tach & fluid gauges",
+  },
+};
+
+export const racecarVideos = [
+  {
+    id: "gt4-chase",
+    title: "Chasing the GT4 · Open Track Shakedown",
+    kicker: "[ 01 / YOUTUBE SHORT · 9:16 ]",
+    format: "YouTube Short",
+    orientation: "vertical",
+    aspectRatio: "9/16",
+    url: "https://youtube.com/shorts/9HY5ZgztXE4?si=AYI3OtgI-pLkN8lQ",
+    youtubeId: "9HY5ZgztXE4",
+    thumbnail: "/images/racecar/video_short_crop.jpg",
+    fallbackThumbnail: "https://img.youtube.com/vi/9HY5ZgztXE4/maxresdefault.jpg",
+    location: "High Plains Raceway (HPR)",
+    badge: "Track Shakedown",
+    tag: "AERODYNAMICS & TOP END",
+    description: "Here's a video of my car from an open track session a couple of years ago, trying to outrun my brother's 2016 Porsche GT4.",
+    techNote: "Chassis: Porsche 944 / Corvette hybrid vs. factory 3.8L mid-engine Porsche Cayman GT4.",
+    metrics: [
+      { label: "Target", value: "2016 Cayman GT4" },
+      { label: "Track", value: "High Plains Raceway" },
+      { label: "Aspect", value: "9:16 Vertical Short" },
+    ],
+  },
+  {
+    id: "heel-toe-demo",
+    title: "The Art of Heel-Toe · Footwell Cockpit Camera",
+    kicker: "[ 02 / ONBOARD DEMO · 16:9 ]",
+    format: "Standard Video",
+    orientation: "horizontal",
+    aspectRatio: "16/9",
+    url: "https://youtu.be/pvPUv74CcHA?si=QqeKlmuLrV-GiHIt",
+    youtubeId: "pvPUv74CcHA",
+    thumbnail: "/images/racecar/video_pedal_full.jpg",
+    fallbackThumbnail: "https://img.youtube.com/vi/pvPUv74CcHA/maxresdefault.jpg",
+    location: "High Plains Raceway (HPR) · Pedal Box",
+    badge: "Driver Technique",
+    tag: "FOOTWORK & KINEMATICS",
+    description: "A lot of people have asked what heel-toe driving looks like in a manual transmission, so I shot a quick demo video during a low-key track session at HPR. Race cars are much faster these days with a fully sequential gearbox, making manual driving a bit of a dying art, but it is something I still truly enjoy and take pride in knowing how to do.",
+    techNote: "Transmission: Tremec TKO 500 5-Speed Manual · Wilwood dual master cylinders with balance bar.",
+    metrics: [
+      { label: "Gearbox", value: "Tremec TKO 500 5-Spd" },
+      { label: "Technique", value: "Three-Pedal Blip" },
+      { label: "Aspect", value: "16:9 Widescreen" },
+    ],
+  },
+];

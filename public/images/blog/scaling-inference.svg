@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="100%" height="100%">
+  <rect width="800" height="450" fill="#0b0f19"/>
+  <text x="40" y="50" fill="#10b981" font-family="system-ui, sans-serif" font-size="14" font-weight="700" letter-spacing="2">INFERENCE LATENCY PROFILING</text>
+  <text x="40" y="85" fill="#f8fafc" font-family="system-ui, sans-serif" font-size="24" font-weight="700">KV-Cache PagedAttention vs Standard Dense Attention</text>
+  
+  <!-- Bar 1: Standard Attention -->
+  <rect x="120" y="160" width="480" height="50" rx="8" fill="#ef4444" fill-opacity="0.8"/>
+  <text x="140" y="192" fill="#ffffff" font-family="system-ui" font-size="14" font-weight="600">Standard Dense Attention: 142ms / token (Fragmentation: 48%)</text>
+  
+  <!-- Bar 2: Continuous Batching -->
+  <rect x="120" y="240" width="310" height="50" rx="8" fill="#f59e0b" fill-opacity="0.8"/>
+  <text x="140" y="272" fill="#ffffff" font-family="system-ui" font-size="14" font-weight="600">Continuous Batching: 82ms / token</text>
+
+  <!-- Bar 3: PagedAttention + Speculative -->
+  <rect x="120" y="320" width="140" height="50" rx="8" fill="#10b981" fill-opacity="0.9"/>
+  <text x="280" y="352" fill="#10b981" font-family="system-ui" font-size="16" font-weight="700">36ms / token (3.9x Speedup)</text>
+</svg>

@@ -1,0 +1,72 @@
+<!DOCTYPE html><html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"><title>If Only I was Smarter</title><style>
+      * {
+        font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+      }
+      html, body {
+        margin: 0;
+        padding: 0;
+      }
+      h1 {
+        font-size: 50px;
+        margin-bottom: 17px;
+        color: #333;
+      }
+      h2 {
+        font-size: 24px;
+        line-height: 1.6;
+        margin: 30px 0 0 0;
+        margin-bottom: 18px;
+        margin-top: 33px;
+        color: #333;
+      }
+      h3 {
+        font-size: 30px;
+        margin: 10px 0 20px 0;
+        color: #333;
+      }
+      header {
+        width: 640px;
+        margin: auto;
+      }
+      section {
+        width: 640px;
+        margin: auto;
+      }
+      section p {
+        margin-bottom: 27px;
+        font-size: 20px;
+        line-height: 1.6;
+        color: #333;
+      }
+      section img {
+        max-width: 640px;
+      }
+      footer {
+        padding: 0 20px;
+        margin: 50px 0;
+        text-align: center;
+        font-size: 12px;
+      }
+      .aspectRatioPlaceholder {
+        max-width: auto !important;
+        max-height: auto !important;
+      }
+      .aspectRatioPlaceholder-fill {
+        padding-bottom: 0 !important;
+      }
+      header,
+      section[data-field=subtitle],
+      section[data-field=description] {
+        display: none;
+      }
+      </style></head><body><article class="h-entry">
+<header>
+<h1 class="p-name">If Only I was Smarter</h1>
+</header>
+<section data-field="subtitle" class="p-summary">
+March 16, 2026
+</section>
+<section data-field="body" class="e-content">
+<section name="60fa" class="section section--body section--first section--last"><div class="section-divider"><hr class="section-divider"></div><div class="section-content"><div class="section-inner sectionLayout--insetColumn"><h3 name="136e" id="136e" class="graf graf--h3 graf--leading graf--title">If Only I was Smarter</h3><figure name="dc20" id="dc20" class="graf graf--figure graf-after--h3"><img class="graf-image" data-image-id="1*iZ_LDwaEn7jLtCfekuPu9w.png" data-width="978" data-height="602" src="https://cdn-images-1.medium.com/max/800/1*iZ_LDwaEn7jLtCfekuPu9w.png"></figure><p name="0d77" id="0d77" class="graf graf--p graf-after--figure">March 16, 2026</p><p name="3019" id="3019" class="graf graf--p graf-after--p"><strong class="markup--strong markup--p-strong">If Only I was Smarter</strong></p><p name="17c3" id="17c3" class="graf graf--p graf-after--p">The world is shaped by thinkers and doers, and sometimes they overlap. I’m not one of those rare combinations. I often have interesting ideas and I’m not short of builds, but I often lack the time or intelligence to implement them in combination. But when I have a small win, I like to acknowledge it. <a href="https://nousresearch.com/" data-href="https://nousresearch.com/" class="markup--anchor markup--p-anchor" rel="noopener" target="_blank">https://nousresearch.com/</a> is an open source AI research company with about $50M in Series A funding. They recently released an AI agent self-evolution process that combines DSPy and Genetic Pareto Prompt Evolution (GEPA) to automatically enhance an LLM harness’s skill set.</p><p name="3531" id="3531" class="graf graf--p graf-after--p"><a href="https://github.com/NousResearch/hermes-agent-self-evolution/blob/main/reports/phase1_validation_report.pdf" data-href="https://github.com/NousResearch/hermes-agent-self-evolution/blob/main/reports/phase1_validation_report.pdf" class="markup--anchor markup--p-anchor" rel="noopener" target="_blank">https://github.com/NousResearch/hermes-agent-self-evolution/blob/main/reports/phase1_validation_report.pdf</a></p><p name="fd10" id="fd10" class="graf graf--p graf-after--p">I thought, “That sounds clever and maybe a bit familiar.” I dug through my newsletters and found this snippet from last October.</p><figure name="4ad2" id="4ad2" class="graf graf--figure graf-after--p"><img class="graf-image" data-image-id="1*ZAbi4Omikm-DvZO5z31tmA.png" data-width="1024" data-height="144" src="https://cdn-images-1.medium.com/max/800/1*ZAbi4Omikm-DvZO5z31tmA.png"></figure><p name="8b2c" id="8b2c" class="graf graf--p graf-after--figure">So it seems that I came up with a concept for self-evolving LLM agentic harnesses about six months before a leading open source AI lab. Still, ideas are only as good as their implementation, and I wasn’t yet able to build it. It’s encouraging, though, to see I was thinking along the right lines.</p><p name="ff2c" id="ff2c" class="graf graf--p graf-after--p"><strong class="markup--strong markup--p-strong">Optimize all the Things</strong></p><p name="7ea3" id="7ea3" class="graf graf--p graf-after--p">About a week ago, Andrej Karpathy released an open‑source concept called Autoresearch, designed to let AI agents make continuous, fastest-possible research progress on a defined topic indefinitely and without any human supervision.</p><p name="5bdc" id="5bdc" class="graf graf--p graf-after--p"><a href="https://github.com/karpathy/autoresearch" data-href="https://github.com/karpathy/autoresearch" class="markup--anchor markup--p-anchor" rel="noopener" target="_blank">https://github.com/karpathy/autoresearch</a></p><p name="5763" id="5763" class="graf graf--p graf-after--p">Although he doesn’t explicitly say it’s generalizable, once you understand the method’s concepts, you can see it’s essentially a tireless LLM-powered research assistant. Here’s the basic parts breakdown for a couple of non-code applications.</p><p name="57e8" id="57e8" class="graf graf--p graf-after--p">1. The Mutable Logic Sandbox (train.py)</p><p name="e5ab" id="e5ab" class="graf graf--p graf-after--p">You must isolate the specific logic you want the LLM to optimize into a single, editable script. This file should contain the “policy” or the “generator.”</p><ul class="postList"><li name="ea5c" id="ea5c" class="graf graf--li graf-after--p"><strong class="markup--strong markup--li-strong">Example 1 (Motorsport/Aerodynamics):</strong> A script containing the control logic for an active aero wing, defining the angle of attack based on telemetry inputs (speed, lateral Gs, brake pressure).</li><li name="a5e4" id="a5e4" class="graf graf--li graf-after--li"><strong class="markup--strong markup--li-strong">Example 2 (Materials/Fabrication):</strong> A Python script that generates parametric toolpaths or infill geometries for 3D printing a structural component.</li></ul><p name="963c" id="963c" class="graf graf--p graf-after--li">2. The Deterministic Evaluator (prepare.py / hidden logic)</p><p name="3c3d" id="3c3d" class="graf graf--p graf-after--p">The LLM needs immediate, reliable feedback. Because of the strict time budget (e.g., 5 minutes per iteration), you cannot run full, high-fidelity simulations (like complete CFD, deep molecular dynamics, or heavy finite element analysis). You must build a lightweight evaluation layer.</p><ul class="postList"><li name="b78c" id="b78c" class="graf graf--li graf-after--p"><strong class="markup--strong markup--li-strong">For the aero example:</strong> A kinematic lap-time simulator for a specific circuit that takes the wing’s control logic and outputs a lap time.</li><li name="6120" id="6120" class="graf graf--li graf-after--li"><strong class="markup--strong markup--li-strong">For the 3D printing example:</strong> A fast, proxy Finite Element Analysis (FEA) solver or a pre-trained Graph Neural Network that estimates the yield strength of the generated geometry.</li></ul><p name="a3f0" id="a3f0" class="graf graf--p graf-after--li">3. The Scalar Objective Function (The Metric)</p><p name="af99" id="af99" class="graf graf--p graf-after--p">The entire system hinges on a single, unambiguous number that the LLM is instructed to minimize or maximize. If the problem is multi-objective, you must encode the trade-offs into a single reward function.</p><ul class="postList"><li name="8c15" id="8c15" class="graf graf--li graf-after--p"><strong class="markup--strong markup--li-strong">Metric:</strong> Lap time in seconds (minimize).</li><li name="1805" id="1805" class="graf graf--li graf-after--li"><strong class="markup--strong markup--li-strong">Metric:</strong> Strength-to-weight ratio (maximize).</li></ul><p name="5d37" id="5d37" class="graf graf--p graf-after--li">4. The Meta-Prompt (program.md)</p><p name="434f" id="434f" class="graf graf--p graf-after--p">This is where you define the boundaries of the sandbox. You tell the agent what the problem is, what the inputs and outputs of the mutable script are, and what the scalar metric represents. Crucially, you must explicitly forbid the agent from modifying the evaluator or hardcoding the metric to artificially “win” the loop.</p><p name="815e" id="815e" class="graf graf--p graf-after--p">The Execution Loop</p><p name="a459" id="a459" class="graf graf--p graf-after--p">Once these components are set up, the loop runs exactly as it does in autoresearch:</p><ol class="postList"><li name="326e" id="326e" class="graf graf--li graf-after--p">The LLM reads the current mutable script, the prompt, and the history of recent changes and their resulting scores.</li><li name="c3bb" id="c3bb" class="graf graf--li graf-after--li">The LLM rewrites the mutable script to test a new hypothesis.</li><li name="711e" id="711e" class="graf graf--li graf-after--li">The system executes the script, passes the output to the evaluator, and calculates the scalar metric.</li><li name="9a0c" id="9a0c" class="graf graf--li graf-after--li">If the metric improves, the change is committed. If it degrades or the code crashes, the change is rolled back.</li></ol><p name="31de" id="31de" class="graf graf--p graf-after--li">This methodology works exceptionally well for problems where the search space is highly non-linear, where human intuition struggles to find edge-case optimizations, and where evaluating a hypothesis is computationally cheap.</p><p name="f36a" id="f36a" class="graf graf--p graf-after--p"><strong class="markup--strong markup--p-strong">Where we’re Going</strong></p><p name="991e" id="991e" class="graf graf--p graf-after--p">If you haven’t been using OpenClaw to track where the next iteration of agent orchestration/harnesses is headed, you’re falling behind (no, really). The concept has sparked competition and there are solid competitors. (See: <a href="https://github.com/NousResearch/hermes-agent" data-href="https://github.com/NousResearch/hermes-agent" class="markup--anchor markup--p-anchor" rel="noopener" target="_blank">https://github.com/NousResearch/hermes-agent</a>) and major enterprises are recognizing this direction and rolling out new capabilities.</p><figure name="8fd0" id="8fd0" class="graf graf--figure graf-after--p"><img class="graf-image" data-image-id="1*yphzX7qf_bdSye4qxg1r_w.png" data-width="1071" data-height="714" src="https://cdn-images-1.medium.com/max/800/1*yphzX7qf_bdSye4qxg1r_w.png"></figure><p name="1d79" id="1d79" class="graf graf--p graf-after--figure">One of the biggest complaints about OpenClaw was that it was a security nightmare out of the box. While you could avoid PII or secrets leakage with careful setup, it wasn’t well suited to its early users — especially not for enterprise use. Companies like NVIDIA have recognized this and plan to release versions that meet enterprise security requirements. Microsoft is also fast-following other research labs. Anthropic’s success with its Cowork tool has prompted Microsoft to launch its own offering to maintain AI market share among enterprise customers who want easy-to-use, agentic platforms that plug into their existing tech stacks.</p><p name="5181" id="5181" class="graf graf--p graf-after--p"><a href="https://www.microsoft.com/en-us/microsoft-365/blog/2026/03/09/copilot-cowork-a-new-way-of-getting-work-done/" data-href="https://www.microsoft.com/en-us/microsoft-365/blog/2026/03/09/copilot-cowork-a-new-way-of-getting-work-done/" class="markup--anchor markup--p-anchor" rel="noopener" target="_blank">https://www.microsoft.com/en-us/microsoft-365/blog/2026/03/09/copilot-cowork-a-new-way-of-getting-work-done/</a></p><p name="79fe" id="79fe" class="graf graf--p graf-after--p graf--trailing">I’m excited to see this tech advancing at a breathtaking pace. It’s hard to keep up, but each week the opportunities, capabilities, and applications are astounding. I feel blessed, and a bit overwhelmed, trying to stay at the forefront of what’s possible.</p></div></div></section>
+</section>
+<footer><p>By <a href="https://medium.com/@jung.marshall" class="p-author h-card">Marshall Jung</a> on <a href="https://medium.com/p/cf970875f39b"><time class="dt-published" datetime="2026-03-15T19:42:50.984Z">March 15, 2026</time></a>.</p><p><a href="https://medium.com/@jung.marshall/if-only-i-was-smarter-cf970875f39b" class="p-canonical">Canonical link</a></p><p>Exported from <a href="https://medium.com">Medium</a> on September 3, 2026.</p></footer></article></body></html>

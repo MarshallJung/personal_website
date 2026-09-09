@@ -1,0 +1,47 @@
+---
+title: "The Cost of Doing Business"
+slug: "2026-05-31-the-cost-of-doing-business"
+date: "2026-05-31"
+description: "(Archive​s available here: https://medium.com/@jung.marshall)"
+coverImage: "/images/blog/2026-05-31-the-cost-of-doing-business/image-01.png"
+tags: ["AI Strategy","Motorsport & Dynamics"]
+readTime: "7 min read"
+---
+
+![Figure](/images/blog/2026-05-31-the-cost-of-doing-business/image-01.png)
+
+(Archive​s available here: [https://medium.com/@jung.marshall](https://medium.com/@jung.marshall/marshalls-monday-morning-ml-archive-002-3f54812a7b37))
+
+June 01, 2026
+
+A couple of months ago, I wrote about the hangover from the looming “API token bill.” Back then it was early rumblings, but this past week brought both unfortunate and unbelievable stories, all pointing to the same theme. Enterprise AI spending is hitting a reckoning. Unchecked token usage, gamified adoption metrics, and overly complex agentic workflows are driving unpredictable, sometimes catastrophic costs. Rapid adoption without guardrails, project vetting, or thoughtful use of AI tools turns a productivity aid into an infrastructure-like expense with no natural ceiling. Meanwhile, success stories show that real value comes from deep integration with a company’s context, not from raw model access or usage volume.
+
+Several big names hit the wires. Amazon scrapped its internal AI leaderboard, KiroRank. It backfired with employees gaming the metric with low-value or pointless tasks to climb the rankings, driving up costs with no real business benefit. A senior executive reportedly told staff, “Don’t use AI just for the sake of using AI,” a stark contrast to earlier directives that essentially said, “Use AI or find a different job.”
+
+We heard back in April that Uber burned through most of its 2026 AI budget in just a few months, and Microsoft has reportedly canceled most of its internal Claude Code licenses after per‑user spend ballooned. One enterprise client was said to have run up a $500 million bill on Claude in a single month due to absent usage caps. Though that seems unlikely when you break it down per user. Still, the story highlights how token spend can outpace value when there are no limits or monitoring.
+
+In an uncertain future where AI costs are variable (driven by model choice, context size, agent chaining, and adoption velocity) and hard to predict, businesses should treat AI deployment with financial and operational discipline:
+
+-   **Implement Usage Guardrails Early**: Erect a perimeter fence around your wallets. Install **real-time token monitoring** and **spending caps** immediately, or your helpful agent will achieve lift-off and become an unplanned, **infrastructure-grade expense** with a zero-G ceiling. Remember to dismantle grand projects into smaller, audited acts of petty bureaucracy to prevent catastrophic, yet predictable, token loss.
+-   **Align Incentives to Outcomes, Not Vanity Metrics**: Never incentivize the *pressing* of the button. Ditch the pointless **usage-based KPIs** (like leaderboards) and measure the actual value of existence. The only metric that truly counts is **cost per valuable output** — whether that’s a **merged PR** or a **revenue impact**. If it doesn’t demonstrably improve the P&L, it’s merely a high-tech form of pointless busywork, and we already have enough of that.
+-   **Build Cross-Functional AI Governance**: Establish a dedicated, **cross-functional AI governance** body before the machines decide to govern themselves. This team must handle the dismal science of **cost forecasting** and **feasibility analyses**. Crucially, mandate **security, compliance, and provenance checks**; you must know precisely which black box is providing the answers, especially when dealing with **closed-source models**.
+-   **Prioritize Enterprise Context and Efficiency as Moats**: Your greatest defense against the infinite, unhelpful sea of raw computation is your own **enterprise context**. Invest deeply in systems that know where the metaphorical towels are kept. This grants **reliability**, radically reduces **token waste**, and acts as a **differentiating moat**. Raw model access is now about as unique as a paperclip; it is the deep, contextual **integration** that provides the actual, non-trivial answer.
+-   **Adopt Iterative, Measured Scaling**: Proceed with the sort of **iterative, measured scaling** one reserves for defusing a small, but rather expensive, explosive device. **Pilot with controls**, measure against a sensible baseline, and **optimize dynamically**. The winning strategy is to combine technical wizardry with old-fashioned **managerial common sense**, ensuring you treat AI as a disciplined business investment, not merely a very large, unsupervised open bar.
+
+The hype phase of unchecked experimentation is giving way to financial accountability and structural integration. The takeaway is clear — proactive governance today prevents painful reckonings tomorrow, while positioning AI as a true value driver rather than a cost center.
+
+Considering FinOps impacts on AI, larger enterprises will likely be more cautious about broad AI adoption, rather than pursuing AI-first narratives. If costs can only be justified in narrow, well-defined use cases, consumption-based revenue models from the labs look overly optimistic. This widens the gap between AI company revenue models and the realities of enterprise adoption.
+
+In this context, labs building forward-deployed engineering and professional services to pull forward consumption makes sense to sustain those models. But if these approaches don’t converge quickly, difficult financial times are likely ahead.
+
+### Some Definitions
+
+Over the past week, I’ve seen the same confusions come up when discussing AI topics. We often use product names or specific designations, but that makes apples-to-apples comparisons hard. In fast-moving fields, vocabulary evolves faster than shared understanding. Terms blur, get reused in different contexts, or become shorthand for poorly explained ideas that lack details. This is especially true in AI (particularly around AI agents) where concepts get mixed, renamed, widely adopted, and occasionally disappear abruptly. I’m going to define four common terms to help clarify the concepts around them, especially for people causally using AI or enterprise teams deciding how to roll out AI internally. As usual I may rely on some motorsports themes to help.
+
+**Model**: The model is the large language model (LLM), the most basic and essential part of the process. People usually refer to them by the lab that created them, Claude, Qwen, Gemini, GPT, etc. On its own, an LLM is just model weights: no memory between calls, no loop. It can express intent to use external tools (e.g., an API or MCP interaction) but needs something else to actually execute that. It answers one prompt and stops. To be useful, it must be wrapped with harnesses and scaffolding. Think of the model as a race car engine — V12, V8, Turbo 4, etc. Some are more powerful, but on their own they can’t do anything but sit around and make noise.
+
+**Scaffolding**: This is the layer around the LLM that defines its behavior: system prompts, tool descriptions, response parsing, and cross-step memory (context management). It shapes how the model perceives and acts, in both training and inference, and is closely guarded and continuously iterated by most labs. In race car terms, it’s like the ECU, transmission, and drivetrain that connect the engine to the road and let it use its power effectively.
+
+**Harness**: This is the part most people interact with, even if they don’t see it as separate from the LLM. Think Claude Code, Codex, or the Gemini app. The harness is the execution layer: it selects and invokes a model, manages tool calls (e.g., calling an API or using an MCP), and decides when to stop once a task is complete. It’s what actually runs the agent and is tightly integrated into the user experience. Think of this as the race car’s suspension, chassis, and aerodynamics, what lets a finely tuned engine and drivetrain perform on a given circuit.
+
+Scaffolding and harnesses are key areas where big labs are advancing usability. The same underlying LLM can perform very differently depending on the scaffold and harness layered on top. For example, Microsoft Copilot serves Anthropic and OpenAI models, but because those labs don’t share their scaffolding and harnesses the same models can deliver notably different results natively at Anthropic or OpenAI versus inside Microsoft Copilot.

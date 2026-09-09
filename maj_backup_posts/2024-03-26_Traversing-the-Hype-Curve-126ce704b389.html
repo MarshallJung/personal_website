@@ -1,0 +1,72 @@
+<!DOCTYPE html><html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"><title>Traversing the Hype Curve</title><style>
+      * {
+        font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+      }
+      html, body {
+        margin: 0;
+        padding: 0;
+      }
+      h1 {
+        font-size: 50px;
+        margin-bottom: 17px;
+        color: #333;
+      }
+      h2 {
+        font-size: 24px;
+        line-height: 1.6;
+        margin: 30px 0 0 0;
+        margin-bottom: 18px;
+        margin-top: 33px;
+        color: #333;
+      }
+      h3 {
+        font-size: 30px;
+        margin: 10px 0 20px 0;
+        color: #333;
+      }
+      header {
+        width: 640px;
+        margin: auto;
+      }
+      section {
+        width: 640px;
+        margin: auto;
+      }
+      section p {
+        margin-bottom: 27px;
+        font-size: 20px;
+        line-height: 1.6;
+        color: #333;
+      }
+      section img {
+        max-width: 640px;
+      }
+      footer {
+        padding: 0 20px;
+        margin: 50px 0;
+        text-align: center;
+        font-size: 12px;
+      }
+      .aspectRatioPlaceholder {
+        max-width: auto !important;
+        max-height: auto !important;
+      }
+      .aspectRatioPlaceholder-fill {
+        padding-bottom: 0 !important;
+      }
+      header,
+      section[data-field=subtitle],
+      section[data-field=description] {
+        display: none;
+      }
+      </style></head><body><article class="h-entry">
+<header>
+<h1 class="p-name">Traversing the Hype Curve</h1>
+</header>
+<section data-field="subtitle" class="p-summary">
+I’ll go ahead and make the assumption that most of my readers are experienced users of AI tools. But for those that are not, I assume that…
+</section>
+<section data-field="body" class="e-content">
+<section name="422d" class="section section--body section--first section--last"><div class="section-divider"><hr class="section-divider"></div><div class="section-content"><div class="section-inner sectionLayout--insetColumn"><h3 name="ef5c" id="ef5c" class="graf graf--h3 graf--leading graf--title">Traversing the Hype Curve</h3><p name="d8a9" id="d8a9" class="graf graf--p graf-after--h3">I’ll go ahead and make the assumption that most of my readers are experienced users of AI tools. But for those that are not, I assume that at this point you’ll have been told, often quite forcefully, that AI tools like ChatGPT are going to replace most workers and that they can do things that are almost magic. Chances are that you’ve seen carefully curated demos (looking at you Google) where the tools seem to be silicon based human intelligences that can read our language, interpret our photos and videos, and create something new and wonderful. I see a lot of people in management worried and shouting, “We have to use LLMs everywhere, we can’t be left behind!”, but when I see what they’re putting into production, at the moment there’s very little other than buying and distributing a bunch of Copilot licenses. And even these types of code tools don’t have any significant adoption due to legal issues and uncertainty in productivity. There are a few shops that have done the work (shout out to CI&amp;T and SADA <a href="https://youtu.be/IVfpwbYdqjM" data-href="https://youtu.be/IVfpwbYdqjM" class="markup--anchor markup--p-anchor" rel="noopener" target="_blank">https://youtu.be/IVfpwbYdqjM</a>) that do understand the tools, but as of now it’s still not well defined. Does any company have a quantifiable handle on how much more productive these tools actually make their employees?</p><figure name="7c51" id="7c51" class="graf graf--figure graf-after--p"><img class="graf-image" data-image-id="0*RgZ_dyiVpYCnI-R_" data-width="844" data-height="635" data-is-featured="true" src="https://cdn-images-1.medium.com/max/800/0*RgZ_dyiVpYCnI-R_"><figcaption class="imageCaption">Where do you think we are?</figcaption></figure><p name="bb6b" id="bb6b" class="graf graf--p graf-after--figure">So in the tech adoption lifecycle I think we are right there at the top of the hype curve and we are about to see a retrenchment. This article: <a href="https://www.wheresyoured.at/peakai/" data-href="https://www.wheresyoured.at/peakai/" class="markup--anchor markup--p-anchor" rel="noopener" target="_blank">https://www.wheresyoured.at/peakai/</a> published last week, takes a particularly negative tone but does reference articles including one from The Information (<a href="https://www.theinformation.com/articles/generative-ai-providers-quietly-tamp-down-expectations" data-href="https://www.theinformation.com/articles/generative-ai-providers-quietly-tamp-down-expectations" class="markup--anchor markup--p-anchor" rel="noopener" target="_blank">https://www.theinformation.com/articles/generative-ai-providers-quietly-tamp-down-expectations</a>) that discusses the fact that most supermajors are downplaying the expected revenue bumps and adoption curves from AI. I think there are a few reasons for this which I’ll quickly cover here, mostly because I have addressed them more than a few times in the past.</p><ul class="postList"><li name="202c" id="202c" class="graf graf--li graf-after--p">Energy costs — It’s not cheap to run these models. Most companies are running these on NVIDIA GPUs where each chip burns hundreds of watts and heat dissipation issues require more cooling. Data center costs are the “gotchas” of most big players since the infrastructure itself can be accounted for and amortized but operational costs eat right into that bottom line. TPUs, LPUs and other more cost efficient chips are coming but is that soon enough?</li><li name="5489" id="5489" class="graf graf--li graf-after--li">Compute costs — Closely linked to the above, this is something that the majors are eating currently but will likely cause adoption issues for customers in the future. I don’t know about everyone else here, but I definitely use more compute than my ~$20/mo subscription. Would individuals and apps based on loss leading API calls still work for the market should they have to actually pay market? Or are we going to see serious limits on prompt lengths and API call volumes, which will really neuter the usefulness of the tools?</li><li name="0c58" id="0c58" class="graf graf--li graf-after--li">Data limitations — Does anyone have a massive quantity of data that these really big autoregressive models haven’t seen at this point? There is private data sure, but to a certain extent these really big models have “learned”/trained on most of what they are going to see. Synthetic data isn’t a solution, since we are just seeing a derivation of existing patterns even if this helps “QC” the base training data. And with more public data being generated by these tools in the first place are we just ending up with a kinda gross coprophagia?</li><li name="88ad" id="88ad" class="graf graf--li graf-after--li">Legal problems — Probably the landmine that hasn’t been stepped on yet, but everyone knows exists. With copyright and trademark infringement issues almost impossible to filter out of the models suggestions, the only real solution is to kill the models and retrain on “problem free” data however you might define that. Adding to the angst is that this type of legal issue will likely only affect countries that abide by these rules leaving bad actors to have an advantage in the space.</li></ul><p name="10f6" id="10f6" class="graf graf--p graf-after--li">So the models have some serious underlying issues. Add to the fact that most people simply don’t know how to get the best out of them (yes, prompting is a programming language all its own now, see my “Socrato” tweet <a href="https://x.com/marshalljung/status/1761556064838021502?s=20" data-href="https://x.com/marshalljung/status/1761556064838021502?s=20" class="markup--anchor markup--p-anchor" rel="noopener" target="_blank">https://x.com/marshalljung/status/1761556064838021502?s=20</a>) and I think we have a recipe for a bit of a disaster coming our way. Short of meaningful innovation in the model architectures or efficiency/cost reductions in compute we may be asymptotically approaching an upper bound at this point. As I stated earlier in the article I don’t see many actual production implementations of these LLM models (lots of R&amp;D though) and I think this largely falls out of the failure for these models to deliver consistent results in real world settings. Yes, it’s an educational factor. People don’t know how to use them effectively yet, and this will change over time but even well educated users won’t likely mean adoption to the scale that the market is expecting.</p><figure name="46fd" id="46fd" class="graf graf--figure graf-after--p"><img class="graf-image" data-image-id="0*HnJerKz12eylOpzI" data-width="1461" data-height="1453" src="https://cdn-images-1.medium.com/max/800/0*HnJerKz12eylOpzI"><figcaption class="imageCaption">Recently seen at Costco</figcaption></figure><p name="c93a" id="c93a" class="graf graf--p graf-after--figure graf--trailing">But it’s not all bad news, and this short article isn’t supposed to be some sort of argument between techno-optimists and luddites. I still think that autoregressive LLMs will have a place in industries and applications where the data is highly structured, well defined, and legally circumscribed. Think programming, legal and biomedical to name a few. In addition, structured interfaces for logical problem solving similar to Google’s AlphaGo methodology will extend the usefulness and trustworthiness of the models in specific spaces. I think this is where the hype curve will settle for adoption after we cross that valley of disillusionment. How long will it take to get there? My guess is we’ll know by the end of 2024.</p></div></div></section>
+</section>
+<footer><p>By <a href="https://medium.com/@jung.marshall" class="p-author h-card">Marshall Jung</a> on <a href="https://medium.com/p/126ce704b389"><time class="dt-published" datetime="2024-03-26T16:58:40.626Z">March 26, 2024</time></a>.</p><p><a href="https://medium.com/@jung.marshall/traversing-the-hype-curve-126ce704b389" class="p-canonical">Canonical link</a></p><p>Exported from <a href="https://medium.com">Medium</a> on September 3, 2026.</p></footer></article></body></html>

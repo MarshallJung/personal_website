@@ -1,0 +1,8 @@
+# robots.txt for personal website
+# Per Nick Losier architecture: do not put secret/unlisted paths in Disallow.
+# Use <meta name="robots" content="noindex, nofollow"> inside the HTML <head> of unlisted pages.
+
+User-agent: *
+Allow: /
+
+Sitemap: https://codeandsteel.net/sitemap.xml

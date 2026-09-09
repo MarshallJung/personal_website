@@ -1,0 +1,72 @@
+<!DOCTYPE html><html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"><title>We need to have “The Talk” (about Google’s Gemini)</title><style>
+      * {
+        font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+      }
+      html, body {
+        margin: 0;
+        padding: 0;
+      }
+      h1 {
+        font-size: 50px;
+        margin-bottom: 17px;
+        color: #333;
+      }
+      h2 {
+        font-size: 24px;
+        line-height: 1.6;
+        margin: 30px 0 0 0;
+        margin-bottom: 18px;
+        margin-top: 33px;
+        color: #333;
+      }
+      h3 {
+        font-size: 30px;
+        margin: 10px 0 20px 0;
+        color: #333;
+      }
+      header {
+        width: 640px;
+        margin: auto;
+      }
+      section {
+        width: 640px;
+        margin: auto;
+      }
+      section p {
+        margin-bottom: 27px;
+        font-size: 20px;
+        line-height: 1.6;
+        color: #333;
+      }
+      section img {
+        max-width: 640px;
+      }
+      footer {
+        padding: 0 20px;
+        margin: 50px 0;
+        text-align: center;
+        font-size: 12px;
+      }
+      .aspectRatioPlaceholder {
+        max-width: auto !important;
+        max-height: auto !important;
+      }
+      .aspectRatioPlaceholder-fill {
+        padding-bottom: 0 !important;
+      }
+      header,
+      section[data-field=subtitle],
+      section[data-field=description] {
+        display: none;
+      }
+      </style></head><body><article class="h-entry">
+<header>
+<h1 class="p-name">We need to have “The Talk” (about Google’s Gemini)</h1>
+</header>
+<section data-field="subtitle" class="p-summary">
+Was I wrong?
+</section>
+<section data-field="body" class="e-content">
+<section name="51b6" class="section section--body section--first section--last"><div class="section-divider"><hr class="section-divider"></div><div class="section-content"><div class="section-inner sectionLayout--insetColumn"><h3 name="cec0" id="cec0" class="graf graf--h3 graf--leading graf--title">We need to have “The Talk” (about Google’s Gemini)</h3><figure name="95b9" id="95b9" class="graf graf--figure graf-after--h3"><img class="graf-image" data-image-id="1*ierln8eAr5y81_KD0Sw44g.jpeg" data-width="3021" data-height="3428" data-is-featured="true" src="https://cdn-images-1.medium.com/max/800/1*ierln8eAr5y81_KD0Sw44g.jpeg"><figcaption class="imageCaption">Disclosure — Thoughts are based off my daily research and this article: <a href="https://www.semianalysis.com/p/google-gemini-eats-the-world-gemini" data-href="https://www.semianalysis.com/p/google-gemini-eats-the-world-gemini" class="markup--anchor markup--figure-anchor" rel="noopener" target="_blank">https://www.semianalysis.com/p/google-gemini-eats-the-world-gemini</a></figcaption></figure><h3 name="463f" id="463f" class="graf graf--h3 graf-after--figure">Was I wrong?</h3><p name="398c" id="398c" class="graf graf--p graf-after--h3">For most of my career in ML, big generic models were usually worse at performing particular industry specific tasks than carefully fine-tuned, smaller and curated algorithms. With the release of OpenAI’s GPT4 this paradigm shifted. Now for things like code, document understanding and language, amongst other tasks, began to tilt meaningfully in the direction of larger models. I wasn’t convinced that fine tuned models were a thing of the past, particularly in the case of data that was not part of the foundational model’s training set, but even in that case large prompt capabilities began to even the score. One ISSUE and one ANNOUNCEMENT have changed my mind.</p><p name="8314" id="8314" class="graf graf--p graf-after--p">The ISSUE comes in the form of model performance evaluation. Benchmarks for ML have been an issue for years. Reproducibility, transparency, size and diversity are all pretty nebulous. And in the wild it’s not uncommon for solutions that I’ve engineered to be more helpful using a foundational model or algorithmic methodology that scores “lower” on benchmarks. However, in the fast paced LLM arena the proliferation of models aimed specifically at low power (read; GPU-poor) inference solutions is essentially useless from a benchmark perspective. Not to mention that the fine-tuned variants are oftentimes polluted in the training data. Ignoring those pesky data science best practices ruining machine learning again! So it is not uncommon to spend time and effort on building an OSS based solution that can be easily outpaced with larger foundational models from the big guys.</p><p name="465c" id="465c" class="graf graf--p graf-after--p">The ANNOUNCEMENT comes from Google and actually has two parts. First is the revelation that Google has undertaken a mind-melting build out of ML infrastructure based around their TPUv5 chips. Soon Google will be able to out-compute nearly every GPU competitor combined. Not getting stuck in the claws of NVIDIA GPU servitude seems now like a brilliant move. Building transformer based models that can scale on TPUs was always an opinion that I proselytised to anyone willing to listen. And let’s face it, no-one scales like Google. Second, Google has been teasing “Gemini” which comes from the DeepMind incubator. Digging deeper into the details shows a unique and very game changing advancement. A usable multi-modal LLM. Hallucinations and logicality errors are common in GPT models. By combining multi-modal LLM with the reasoning engine of tools like AlphaGo, Gemini promises the capabilities of generation and manipulation along with strict rule following and logical consistency.</p><h3 name="4f25" id="4f25" class="graf graf--h3 graf-after--p">What to do?</h3><p name="9eca" id="9eca" class="graf graf--p graf-after--h3">This puts many tech forward companies in a unique position. While I don’t think that multi-modal LLMs will necessarily supplant existing ML pipelines or concepts envisioned in future the concepts already outlined in AI plans, especially for machine learning efforts that are not well suited for the LLM solutions space, however it will begin to nibble away at the edges especially if the tools begin to integrate logic engines.</p><p name="f5b7" id="f5b7" class="graf graf--p graf-after--p">While I can hear the calls for “on-prem” and IL-6 requirements wafting on the wind right now, let’s keep in mind that those contracts will not make or break the long term business models of most companies that are not exclusively involved in government contracting. And even there I think the potential for ITAR restrictions and Gov only models developed by big players will end up serving those use cases when the benefits become too hard to ignore.</p><p name="e9c3" id="e9c3" class="graf graf--p graf-after--p">Companies should begin planning today what resources will be necessary in order to understand, build, partner and deliver with these models. It will be here before we know it. Building in-house models, maintaining and improving those models will become both increasingly hard to do for lack of personnel and hardware capable of the lift.</p><p name="4ecd" id="4ecd" class="graf graf--p graf-after--p">There is certainly room for discussion around where companies feel confident in ML technology for delivery of the mission as well as where it makes sense to partner to gain access to these tools. Patents might provide a bit of reprieve, but using commercial multi-modal LLMs to deliver ideas is not something where most will have an IP moat.</p><h3 name="e08f" id="e08f" class="graf graf--h3 graf-after--p">The next step</h3><p name="aa38" id="aa38" class="graf graf--p graf-after--h3">There is a risk of analysis paralysis here. Simply doing nothing and forgoing the potential for productivity boosting interim solutions waiting on the next best thing is a sub-optimal strategy. Having enough in-house talent to build OSS solutions now is ideal, even if those tools are ripped and replaced by API integrations with major AI providers in the future. With an eye towards revenue optimization (and keep in mind ALL the costs that might go into either selection) it makes sense to develop an A/B strategy and be flexible in what tools and providers to use. If there is one absolute here, it’s that the AI revolution is still moving very fast, and tomorrow’s capabilities will be better than yesterday’s. Costs will come down, innovation will surprise and on balance business will be more and more dependent on AI in the future.</p><p name="10d0" id="10d0" class="graf graf--p graf-after--p graf--trailing">Food for thought…-M</p></div></div></section>
+</section>
+<footer><p>By <a href="https://medium.com/@jung.marshall" class="p-author h-card">Marshall Jung</a> on <a href="https://medium.com/p/18ef6f9e781"><time class="dt-published" datetime="2023-08-29T18:45:34.128Z">August 29, 2023</time></a>.</p><p><a href="https://medium.com/@jung.marshall/we-need-to-have-the-talk-about-gemini-18ef6f9e781" class="p-canonical">Canonical link</a></p><p>Exported from <a href="https://medium.com">Medium</a> on September 3, 2026.</p></footer></article></body></html>

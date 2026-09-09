@@ -1,0 +1,63 @@
+---
+title: "Shifting Under Our Feet"
+slug: "2025-08-11-shifting-under-our-feet"
+date: "2025-08-11"
+description: "Shifting Under Our Feet"
+coverImage: "/images/blog/2025-08-11-shifting-under-our-feet/image-01.jpg"
+tags: ["AI Strategy"]
+readTime: "7 min read"
+---
+
+For the past two years, the AI industry has moved at a pace that defied prediction. But after the initial gold rush, the peak of inflated expectations, we are entering a new, more sober phase. The hype is beginning to recede, revealing the complex, often frustrating reality of making AI work in the real world.
+
+I believe the canaries in the coal mine are starting to sing. While many of these signals are still anecdotal, they are shifting from cynical prognostication to direct observation from the front lines. And they are telling us that the business models and technical limits of today’s AI are starting to be visible.
+
+The first canary is the developer. I recently heard from leadership at a billion-dollar SaaS observability company who shared that their developers are constantly hitting API request limits on tools like GitHub Copilot due to the model providers attempting to control costs on surging usage. This friction is compounded by the often unspoken service degradation (“quantization” that throttles performance during peak demand) making the tools feel unreliable when they’re needed most. This isn’t just an inconvenience; it’s a direct threat to developer productivity, the very thing these tools promised to revolutionize.
+
+We’re even seeing this frustration used as a marketing strategy. Model-agnostic coding assistants like Kilo and Cline spend much of their developer relations effort highlighting the opaque limits and confusing usage models of their larger competitors. When your rivals’ primary sales pitch is that your product is frustrating to use, it’s a clear sign of market disillusionment.
+
+The second canary is the C-Suite. The initial mandate to “put AI in everything” is giving way to a tougher, more pragmatic question: “What is the ROI?” Bolting a Large Language Model onto a product doesn’t magically solve customer problems or create a defensible moat. I’m hearing more and more reports of “AI” features that fail to deliver, and of newly-minted “AI engineers” who struggle to navigate the complexities of enterprise-grade software. Combine this with clearly untrue claims of AI productivity:
+
+![Figure](/images/blog/2025-08-11-shifting-under-our-feet/image-01.jpg)
+
+Or the mad scramble to put AI into everything:
+
+![Figure](/images/blog/2025-08-11-shifting-under-our-feet/image-02.jpg)
+
+You end up with failures via word of mouth that are way more powerful than marketing spend can undo:
+
+![Figure](/images/blog/2025-08-11-shifting-under-our-feet/image-03.jpg)
+
+This brings us to the fundamental truth of building useful technology. When you dig into the real work of enterprise modernization or new product development, you find that AI is often just a small component of a much larger, more disciplined effort. The real work looks remarkably similar to the traditional software development lifecycle. Painstaking focus on data quality, rigorous security and compliance, and a deep-seated obsession with the user’s actual needs.
+
+Success isn’t being delivered by “AI engineers” working in a vacuum. It’s being delivered by integrated software teams who understand that AI is a powerful tool, but not a replacement for sound engineering.
+
+So, where do we go from here? The combination of steadily rising costs, over-investment, and raw hype has set the stage for the classic pattern of over-promising and under-delivering. We’re headed for a necessary correction.
+
+But this disillusionment is also an opportunity. The key is to get specific. We must narrow our focus to the problems where AI provides a genuine, defensible advantage. The enduring companies will be those that aren’t just selling “AI,” but are obsessively focused on solving a specific problem where this technology can create undeniable value. Whether you are investing in, building for, or working at one of these companies, that is where you’ll find long-term stability in the age of AI.
+
+### The Part You Were Missing
+
+[https://research.google/blog/achieving-10000x-training-data-reduction-with-high-fidelity-labels/](https://research.google/blog/achieving-10000x-training-data-reduction-with-high-fidelity-labels/)
+
+![Figure](/images/blog/2025-08-11-shifting-under-our-feet/image-04.jpg)
+
+Google released a new blog about reducing the amount of training data needed to fine-tune language models. This is particularly relevant since “agentic” workloads are moving towards smaller fine-tuned models which are experts in narrower areas. This is currently a heavy workload for data scientists handling larger numbers of smaller, diverse datasets. The approach is also effective at handling concept drift, as new data gathered may change underlying relationships over time.
+
+The process involves using an initial untuned model to label a large dataset, then applying clustering algorithms to find the most useful examples where the model is uncertain. Human experts then review and label only highly informative examples, creating a smaller, high-quality dataset for fine-tuning. This significantly improves the model’s alignment with human experts, especially for larger models, and is particularly useful for tasks where the policies and content are constantly changing.
+
+From an enterprise perspective, where AI will consist of a linked process flow of a large number of small fine-tuned models, this approach helps in several ways. First is the feasibility of in-house fine-tuning per model due to the massive reduction in training data requirements. This makes it more practical for organizations to fine-tune their own models. It provides agility and adaptability, where you can change models based on rapid retraining and adaptation as new data is added. It offers superior data control and governance, and it helps shift the focus from data quantity to data quality.
+
+### Learning It All Over Again
+
+It seems we’re having to relearn many hard-fought lessons from the past world of machine learning and data science. These lessons need to be learned all over again as transformers enter the mix. Is it hubris or lack of experienced folks in the space? Who knows.
+
+The first example is last week’s GPT-5 release, which creates an increasingly opaque way to interact with a foundation model. Previously, non-determinism was certainly relevant, possibly mitigated by careful context engineering. But now we have something like five versions of GPT-5. People need to understand that GPT-5 Pro is better than GPT-5 Thinking, which is better than GPT-5, unless GPT-5 decides to hand off your question to GPT-5 Thinking or GPT-5 Pro, which you cannot control or even know is happening. Confounding this is OpenAI’s very strange decision to retire every other model without warning. They provided no explanation of how switching models inside GPT-5 works or details of the various GPT-5 models themselves. They did this when everyone was building workflows around the older models, breaking all of them.
+
+The crux of the matter is that OpenAI and other major model labs are not releasing large foundational models that actually do what they promised. We’re not achieving magical superintelligence through this process. These foundational models, which form the core business of these AI labs through API access, can’t reliably accomplish what enterprises need. This is somewhat frustrating, as they aren’t particularly useful in the real world.
+
+Another related example of “software development forgetting” involved a little startup team I was advising using an LLM to implement a state machine. They called this process “agentic” and said it worked reasonably well most of the time. When I asked them to write down the rules for moving from one state to another in their workflow, they listed them all out. It didn’t take long for them to realize what was happening — they had built an AI solution for a problem that didn’t actually need AI.
+
+We ripped out the LLM model and wrote some code to implement the rules (using AI, natch). It took a couple of hours at most, and they went from “it works most of the time, it’s reasonably fast, and it costs some tokens” to “it works 100% of the time, it’s basically instantaneous, and it costs nothing.”
+
+There are many examples like this right now. I think we need to adhere to an old golden rule: build the simplest thing that could possibly work.

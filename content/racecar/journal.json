@@ -1,0 +1,532 @@
+[
+  {
+    "id": "build-2026-09-01",
+    "date": "2026-09-01",
+    "title": "Build Milestone - 2026-09-01",
+    "subsystem": "Cooling & Aero",
+    "summary": "Completed exit ducting for front heat exchanger",
+    "specs": {},
+    "images": [
+      "/images/racecar/2026-08/PXL_20260901_023347595.jpg"
+    ],
+    "tags": [
+      "Fabrication",
+      "Build Log"
+    ],
+    "notes": "After printing all my 3D parts, I assembled them with hot staples into the final configuration for test fitting."
+  },
+  {
+    "id": "build-2026-08-31",
+    "date": "2026-08-31",
+    "title": "Build Milestone - 2026-08-31",
+    "subsystem": "Cooling & Aero",
+    "summary": "Printing the 3D parts on the Bambu H2S",
+    "specs": {},
+    "images": [
+      "/images/racecar/2026-08/PXL_20260831_235207491.jpg",
+      "/images/racecar/2026-08/PXL_20260831_235355266.jpg"
+    ],
+    "tags": [
+      "Fabrication",
+      "Build Log"
+    ],
+    "notes": "The part designed in Fusion forms tools was too large for my printer, so I sectioned it into six pieces in the slicing software and printed them individually. The fit up was pretty good, though the PLA was not stiff enough for my liking. Maybe neet to use ABS-GF."
+  },
+  {
+    "id": "build-2026-08-07",
+    "date": "2026-08-07",
+    "title": "Build Milestone - 2026-08-07",
+    "subsystem": "Aero & Chassis",
+    "summary": "New front end canards",
+    "specs": {},
+    "images": [
+      "/images/racecar/2026-08/PXL_20260807_005125773~2.jpg"
+    ],
+    "tags": [
+      "Fabrication",
+      "Build Log"
+    ],
+    "notes": "As I've advanced in my AI experiments, I managed to set up an agentic loop using OpenFOAM, the open source computational fluid dynamics software. I loaded in a 3D scan of my bumper's front corner and set some parameters to see if the AI could design the most efficient front canards for my race car. The initial result was not directly manufacturable, so I refined the design before 3D printing the final parts in ABS-GF. Hopefully, they will add a bit more front-end downforce. Combined with my new, larger front tires, this should help bring back a more neutral balance through the medium-speed corners that make up most of my home track at High Plains."
+  },
+  {
+    "id": "build-2026-07-26",
+    "date": "2026-07-26",
+    "title": "Build Milestone - 2026-07-26",
+    "subsystem": "Track Day",
+    "summary": "Hot pits at HPR",
+    "specs": {},
+    "images": [
+      "/images/racecar/2026-07/PXL_20260726_134635072~2.jpg"
+    ],
+    "tags": [
+      "Fabrication",
+      "Build Log"
+    ],
+    "notes": "Awaiting roll out for practice session."
+  },
+  {
+    "id": "build-2026-06-07",
+    "date": "2026-06-07",
+    "title": "Build Milestone - 2026-06-07",
+    "subsystem": "Track Day",
+    "summary": "Back on track at HPR",
+    "specs": {},
+    "images": [
+      "/images/racecar/2026-06/DSC_3717~2.jpg"
+    ],
+    "tags": [
+      "Fabrication",
+      "Build Log"
+    ],
+    "notes": "Braking into turn 4 off the back straight."
+  },
+  {
+    "id": "build-2026-06-06",
+    "date": "2026-06-06",
+    "title": "Build Milestone - 2026-06-06",
+    "subsystem": "Livery",
+    "summary": "Finally got around to getting the car livery done",
+    "specs": {},
+    "images": [
+      "/images/racecar/2026-06/PXL_20260606_150120949.jpg"
+    ],
+    "tags": [
+      "Fabrication",
+      "Build Log"
+    ],
+    "notes": "After nearly six years, I finally wrapped the car in the livery I originally planned. I went with a vinyl wrap instead of paint, and it was definitely a lot harder than the tutorial videos made it look. Still, it looks good enough at 50 miles an hour from 50 feet away, which is all that really counts on the racetrack. Race cars take a heck of a beating out there, so a perfect exterior only lasts about one track session anyway."
+  },
+  {
+    "id": "build-2026-06-03",
+    "date": "2026-06-03",
+    "title": "Build Milestone - 2026-06-03",
+    "subsystem": "Brakes",
+    "summary": "Brake cooling",
+    "specs": {},
+    "images": [
+      "/images/racecar/2026-06/PXL_20260603_020533479.jpg"
+    ],
+    "tags": [
+      "Fabrication",
+      "Build Log"
+    ],
+    "notes": "As the race car got faster, I started having front brake overheating issues. To solve this, I engineered ducting during the front-end rebuild and connected high temperature brake hose to brake cooling attachments, colloquially known as cake tins. I used my 3D scanner and Fusion to create the patterns, then laser cut and TIG welded them together. Having a 3D scanner, 3D printer, lathe, mill, and online fabrication providers is really starting to become the next generation of fabrication technology."
+  },
+  {
+    "id": "build-2026-04-11",
+    "date": "2026-04-11",
+    "title": "Build Milestone - 2026-04-11",
+    "subsystem": "Track Day",
+    "summary": "Back at COTA",
+    "specs": {},
+    "images": [
+      "/images/racecar/2026-04/PXL_20260411_020011374.NIGHT~2.jpg"
+    ],
+    "tags": [
+      "Fabrication",
+      "Build Log"
+    ],
+    "notes": "With rumors confirmed that Circuit of the Americas is going private, this was likely our last chance to head down and race there. It is frustrating, as tracks like this ought to stay open to clubs and everyday racers. I barely made the trip after just getting the front end back together, but the car performed extremely well. I beat my previous track time by at least five seconds and had an absolute blast all weekend, even with the wet conditions and a couple of on-track spins and excursions."
+  },
+  {
+    "id": "build-2026-03-23",
+    "date": "2026-03-23",
+    "title": "Build Milestone - 2026-03-23",
+    "subsystem": "Chassis & Engineering",
+    "summary": "New front end/weight reduction",
+    "specs": {},
+    "images": [
+      "/images/racecar/2026-03/PXL_20260323_001806290~2.jpg",
+      "/images/racecar/2026-03/PXL_20260323_224837573.jpg"
+    ],
+    "tags": [
+      "Fabrication",
+      "Build Log"
+    ],
+    "notes": "After five years of driving the race car, I decided it was time to pull some more weight out of it. One of the easiest ways to do this was rebuilding the entire front end. I kept the splitter in place and found someone that builds one-piece fiberglass front ends, as a composite project of this size is a bit beyond what I want to tackle myself right now. Removing the bumper, the steel, and the factory attachment points dropped about 65 pounds off the front. The new front end also added four inches of width per side, allowing me to run 315-millimeter tires up front to match the rear for a true square setup. The weight reduction noticeably improved responsiveness, turn-in, and braking on track. While I was at it, I swapped in offset bushings on the lower front control arms to gain more negative camber. I was previously maxed out at negative 2.5 degrees, but I managed to gain another full degree. This restored balance to the car, eliminated high-speed understeer, and improved front tire wear."
+  },
+  {
+    "id": "build-2025-03-09",
+    "date": "2025-03-09",
+    "title": "Build Milestone - 2025-03-09",
+    "subsystem": "Track day",
+    "summary": "Progress on vehicle engineering, fabrication, and track setup.",
+    "specs": {},
+    "images": [
+      "/images/racecar/2025-03/PXL_20250309_220524346~2.jpg"
+    ],
+    "tags": [
+      "Fabrication",
+      "Build Log"
+    ],
+    "notes": "This was my first trip to Circuit of the Americas outside Austin, Texas. Being a Formula 1 circuit makes it an amazing place to drive. With plenty of runoff and no scary sections, you can really push the car. I loved the experience and had a great time sharing the trip with my younger brother and a good friend from the Porsche Club. One of these vehicles clearly doesn't look like the others, but we all got to drive fast."
+  },
+  {
+    "id": "build-2025-01-06",
+    "date": "2025-01-06",
+    "title": "Build Milestone - 2025-01-06",
+    "subsystem": "Electrial",
+    "summary": "Battery/Weight Reduction",
+    "specs": {},
+    "images": [
+      "/images/racecar/2025-01/PXL_20250106_223957542.jpg"
+    ],
+    "tags": [
+      "Fabrication",
+      "Build Log"
+    ],
+    "notes": "Adding a lightweight lithium-ion battery is one of the easiest ways to drop weight on a race car, and I was able to find a fairly affordable one from Antigravity."
+  },
+  {
+    "id": "build-2024-07-06",
+    "date": "2024-07-06",
+    "title": "Build Milestone - 2024-07-06",
+    "subsystem": "Aerodynamics",
+    "summary": "Wiiiing",
+    "specs": {},
+    "images": [
+      "/images/racecar/2024-07/PXL_20240706_220644629~2.jpg"
+    ],
+    "tags": [
+      "Fabrication",
+      "Build Log"
+    ],
+    "notes": "Good race car aero usually means placing the center of pressure as close to the vehicle's center of mass as possible. That way, changes in downforce do not radically upset the car's balance. After adding front diffuser tunnels to the splitter, redesigning the front bumper canards, and adding strakes to guide turbulent air off the front tires, I ran into some high-speed oversteer. Since that is both scary and high-consequence, I decided to add a rear wing. I used the same online laser-cutting service to make aluminum swan neck mounts, bolting them through the rear Lexan window directly to the chassis for a solid mount. The result was more high-speed understeer, which feels much safer even if it is a bit slower. As a knock-on effect, it also increased front tire wear slightly."
+  },
+  {
+    "id": "build-2024-05-04",
+    "date": "2024-05-04",
+    "title": "Build Milestone - 2024-05-04",
+    "subsystem": "Misc",
+    "summary": "PCA Instructor",
+    "specs": {},
+    "images": [
+      "/images/racecar/2024-05/PXL_20240504_170627856~2.jpg"
+    ],
+    "tags": [
+      "Fabrication",
+      "Build Log"
+    ],
+    "notes": "Earning national certification as a Porsche Club of America instructor takes a lot of work, but I love doing it during high performance driving events on track weekends. It gives me the chance to meet new people and coach them through high-stress situations as they push their cars to the limit on a racetrack. The role requires understanding different communication styles, staying patient, and clearly explaining track driving concepts so students can improve, all while keeping things safe, positive, and fun. It is a rewarding skill set that has served me well in my professional life and as a leader."
+  },
+  {
+    "id": "build-2024-04-28",
+    "date": "2024-04-28",
+    "title": "Build Milestone - 2024-04-28",
+    "subsystem": "Track Day",
+    "summary": "Track day at Ozarks International Raceway",
+    "specs": {},
+    "images": [
+      "/images/racecar/2024-04/PXL_20240428_025716117~2.jpg"
+    ],
+    "tags": [
+      "Fabrication",
+      "Build Log"
+    ],
+    "notes": "My younger brother, some friends from the Colorado Porsche Club, and I often travel to tracks across the country. I usually volunteer as an instructor, which gets me a discount for the weekend and gives me a great opportunity to meet new people and drive different circuits. This trip was to Ozarks International Raceway in Missouri, a wild track known as the Nürburgring of the United States. With over 1,200 feet of elevation change per lap, 26 corners, and plenty of blind crests, it is a blast to drive, but it carries high consequences if you make a mistake."
+  },
+  {
+    "id": "build-2023-06-09",
+    "date": "2023-06-09",
+    "title": "Build Milestone - 2023-06-09",
+    "subsystem": "Track Day",
+    "summary": "At HPR",
+    "specs": {},
+    "images": [
+      "/images/racecar/2026-09/Generated Image October 23, 2025 - 5_57PM.png"
+    ],
+    "tags": [
+      "Fabrication",
+      "Build Log"
+    ],
+    "notes": "Track day at High Plains Raceway"
+  },
+  {
+    "id": "build-2023-03-26",
+    "date": "2023-03-26",
+    "title": "Build Milestone - 2023-03-26",
+    "subsystem": "Suspension",
+    "summary": "Rear suspension installed",
+    "specs": {},
+    "images": [
+      "/images/racecar/2023-03/PXL_20230326_224439796~2.jpg"
+    ],
+    "tags": [
+      "Fabrication",
+      "Build Log"
+    ],
+    "notes": "Photo looking back from the cockpit through the rear bulkhead at the race car's rocker arm suspension."
+  },
+  {
+    "id": "build-2022-11-11",
+    "date": "2022-11-11",
+    "title": "Build Milestone - 2022-11-11",
+    "subsystem": "Suspension",
+    "summary": "Rocker arm suspension",
+    "specs": {},
+    "images": [
+      "/images/racecar/2022-11/PXL_20221111_175708944.PORTRAIT~2.jpg"
+    ],
+    "tags": [
+      "Fabrication",
+      "Build Log"
+    ],
+    "notes": "During a track day, I had the chance to drive a GT3 RS and was really impressed by its suspension. It made me realize that with my car’s short wheel travel, light weight, and high spring rates, my current dampers simply could not control the unsprung mass effectively. To fix this, I engineered a 2:1 ratio rocker arm damping setup for the race car. Keeping the original composite Corvette leaf springs and their rates, every inch of wheel travel now translates to two inches of damper travel. The longer stroke inside the damper units provides significantly better wheel control. This was my first time using an online laser cutting service. I designed the rocker arms in Fusion, laid them out as tabbed flat plates, and easily TIG welded them together. I machined the remaining parts from stainless steel and oil-impregnated bronze bushings using the tools in my garage. The results turned out pretty well."
+  },
+  {
+    "id": "build-2022-09-06",
+    "date": "2022-09-06",
+    "title": "Build Milestone - 2022-09-06",
+    "subsystem": "Suspension",
+    "summary": "Rear anti-roll bar",
+    "specs": {},
+    "images": [
+      "/images/racecar/2022-09/PXL_20220906_013419935.jpg"
+    ],
+    "tags": [
+      "Fabrication",
+      "Build Log"
+    ],
+    "notes": "When I first built the car, I ran a zero droop suspension—which works on smooth tracks, though it has its downsides—and no rear anti-roll bar. Running without the bar helped rear weight transfer for better traction coming out of corners, but it also caused more corner entry oversteer than I was comfortable with. To fix this, I built a custom rear anti-roll bar. After running basic calculations for overall weight transfer, I selected a DOM tube with the right spring characteristics for the length, machined the bar ends, turned Delrin mounting bushings on the lathe, and welded the setup into the back of the car. It did a great job taming the oversteer, giving me the confidence to push for faster lap times."
+  },
+  {
+    "id": "build-2022-07-27",
+    "date": "2022-07-27",
+    "title": "Build Milestone - 2022-07-27",
+    "subsystem": "Garage Helper",
+    "summary": "Cat & Car",
+    "specs": {},
+    "images": [
+      "/images/racecar/2022-07/PXL_20220727_030746290.PORTRAIT~2.jpg"
+    ],
+    "tags": [
+      "Fabrication",
+      "Build Log"
+    ],
+    "notes": "Anyone who knows me knows there are two things I absolutely love: fast cars and cats. I have four cats—two rescues and two Maine Coons. If I could take in all the cats in the world, I would probably foster them all."
+  },
+  {
+    "id": "build-2022-07-24",
+    "date": "2022-07-24",
+    "title": "Build Milestone - 2022-07-24",
+    "subsystem": "Track Day",
+    "summary": "Track day",
+    "specs": {},
+    "images": [
+      "/images/racecar/2022-07/Sun-DSC_9190.jpg"
+    ],
+    "tags": [
+      "Fabrication",
+      "Build Log"
+    ],
+    "notes": "For my next track day, I made a few additions, including hood vents to help relieve lift from the front end of the car and improve cooling from air passing through the front heat exchanger. I also added a NACA duct at the top to get cooler air into the engine intake, as I was noticing pretty high intake temperatures during summer track days."
+  },
+  {
+    "id": "build-2022-06-11",
+    "date": "2022-06-11",
+    "title": "Build Milestone - 2022-06-11",
+    "subsystem": "Track Day",
+    "summary": "Track day.",
+    "specs": {},
+    "images": [
+      "/images/racecar/2022-06/Smooth-is-Fast-DE-D7500-1_SP2506.jpg"
+    ],
+    "tags": [
+      "Track Day",
+      "Build Log"
+    ],
+    "notes": "Probably not my first time at the track, but photographers are sometimes there, so I was able to pick this one up. I believe this is coming into the left-hand hairpin Turn 8 at High Plains Raceway. I actually use these professional photographs to measure car dynamics between individual sessions, since they're taken in roughly the same location."
+  },
+  {
+    "id": "build-2020-08-14",
+    "date": "2020-08-14",
+    "title": "Build Milestone - 2020-08-14",
+    "subsystem": "Aero & Chassis",
+    "summary": "Flat floor",
+    "specs": {},
+    "images": [
+      "/images/racecar/2020-08/IMG_20200814_145423.jpg"
+    ],
+    "tags": [
+      "Fabrication",
+      "Build Log"
+    ],
+    "notes": "The single best aerodynamic modification for any race car is a properly designed aerodynamic floor, and the best practices are relatively easy to follow. Even before I had access to computational fluid dynamics to refine the underfloor, following the core fundamentals worked remarkably well. If you have a splitter with an approximately seven degree intake angle, a flat floor through the mid section of the car, and a properly angled diffuser that allows underbody air to merge back into the free stream behind the vehicle without flow separation, you can generate around half a psi per square inch across the entire floor. Add that up, and at sufficient speed, you can easily produce hundreds, if not more than a thousand pounds of downforce."
+  },
+  {
+    "id": "build-2020-07-30",
+    "date": "2020-07-30",
+    "title": "Build Milestone - 2020-07-30",
+    "subsystem": "Chassis & Engineering",
+    "summary": "Painted",
+    "specs": {},
+    "images": [
+      "/images/racecar/2020-07/RaceCar001.jpg"
+    ],
+    "tags": [
+      "Fabrication",
+      "Build Log"
+    ],
+    "notes": "I got the car painted in epoxy primer white, and it stayed that way for a fair few years. I wasn't sure if I was going to make any substantial changes, but this is how it looked for its first trip to the shop to get a track-ready alignment."
+  },
+  {
+    "id": "build-2020-07-07",
+    "date": "2020-07-07",
+    "title": "Build Milestone - 2020-07-07",
+    "subsystem": "Chassis & Engineering",
+    "summary": "First startup!",
+    "specs": {},
+    "images": [
+      "/images/racecar/2020-07/20200706_193822.jpg"
+    ],
+    "tags": [
+      "Fabrication",
+      "Build Log"
+    ],
+    "notes": "After nearly 10 years, I finally got the car running and out of the garage. Even with time spent overseas, it took five years and thousands of hours of effort to reach this point. It keeps looking better as time goes on, but I was able to drive it up and down the street. My neighbors called the police, probably because it was so loud, but when the cops showed up, they took one look, told me it was awesome, and went on their way."
+  },
+  {
+    "id": "build-2020-06-29",
+    "date": "2020-06-29",
+    "title": "Build Milestone - 2020-06-29",
+    "subsystem": "Interior & Controls",
+    "summary": "My office at the track",
+    "specs": {},
+    "images": [
+      "/images/racecar/2020-06/00100trPORTRAIT_00100_BURST20200629131741328_COVER.jpg"
+    ],
+    "tags": [
+      "Fabrication",
+      "Build Log"
+    ],
+    "notes": "Here is a quick look at the race car cockpit, along with a few key details. The electrical circuits are controlled by a MOSFET solid state electrical switch panel, which eliminates the need for switches, breakers, or fuses. The tablet serves as the control panel for the EFI system that I custom programmed from an Arduino to manage the engine. Through the tablet, I can control mapping and engine parameters, as well as handle monitoring and logging. The steering is connected through a two-to-one planetary gear system, which lets me turn lock to lock without taking my hands off the wheel. It is great for the track, but I have to be very careful driving on the street because it is quite twitchy. If I sneeze, it is pretty easy to change two lanes instantaneously."
+  },
+  {
+    "id": "build-2020-06-06",
+    "date": "2020-06-06",
+    "title": "Build Milestone - 2020-06-06",
+    "subsystem": "Electrical",
+    "summary": "Electrical wiring harness work.",
+    "specs": {},
+    "images": [
+      "/images/racecar/2020-06/00100trPORTRAIT_00100_BURST20200606121805263_COVER~2.jpg"
+    ],
+    "tags": [
+      "Fabrication",
+      "Build Log"
+    ],
+    "notes": "Most of the time, plumbing and electrical wiring are what keep race cars from being reliable. For this build, I took the time to lay out dedicated circuits for the front, the cockpit controls, and the rear of the vehicle. I also placed three nickel-plated grounding bus bars throughout the car to serve as a central grounding loop. Aside from one loose wire during the initial shakedown, I have had zero electrical problems so far.."
+  },
+  {
+    "id": "build-2020-05-12",
+    "date": "2020-05-12",
+    "title": "Build Milestone - 2020-05-12",
+    "subsystem": "Engine",
+    "summary": "Just another veiw of the front of the car.",
+    "specs": {},
+    "images": [
+      "/images/racecar/2020-05/00100trPORTRAIT_00100_BURST20200512171228780_COVER~2.jpg"
+    ],
+    "tags": [
+      "Fabrication",
+      "Build Log"
+    ],
+    "notes": "Someone made me paint the valve covers pink...."
+  },
+  {
+    "id": "build-2018-10-25",
+    "date": "2018-10-25",
+    "title": "Build Milestone - 2018-10-25",
+    "subsystem": "Engine & Exhaust",
+    "summary": "Engine in and custom headers built.",
+    "specs": {},
+    "images": [
+      "/images/racecar/2018-10/IMG_20181025_115822.jpg"
+    ],
+    "tags": [
+      "Fabrication",
+      "Build Log"
+    ],
+    "notes": "Because of the race car's flat floor, I had to build custom headers that exit directly out both sides of the front engine bay. With no room for mufflers or catalytic converters, hearing protection is 100% necessary while driving. It definitely draws a bit more attention on the road than most people would like, but as they say, loud pipes save lives."
+  },
+  {
+    "id": "build-2017-11-12",
+    "date": "2017-11-12",
+    "title": "Build Milestone - 2017-11-12",
+    "subsystem": "Aero & Chassis",
+    "summary": "Bodywork mocked and aero floor fitted",
+    "specs": {},
+    "images": [
+      "/images/racecar/2017-11/1112171247a.jpg"
+    ],
+    "tags": [
+      "Fabrication",
+      "Build Log"
+    ],
+    "notes": "Once the engine and suspension were knocked out, I got the car back on its wheels and tires to refit the body and configure the initial flat floor. As you'll see in later photos, the car features a completely flat floor with an appropriately configured splitter and diffuser. Given the total downforce they generate, these need to be robustly attached to the vehicle. The stock 944 body definitely needed some customization to fit over the wider track width and tires, but ultimately it worked out pretty well."
+  },
+  {
+    "id": "build-2015-05-23",
+    "date": "2015-05-23",
+    "title": "Build Milestone - 2015-05-23",
+    "subsystem": "Chassis & Engineering",
+    "summary": "Drivetrain in and suspension mocked",
+    "specs": {},
+    "images": [
+      "/images/racecar/2015-05/0523151730.jpg"
+    ],
+    "tags": [
+      "Fabrication",
+      "Build Log"
+    ],
+    "notes": "After painting the chassis, I was able to drop in the engine and transmission and mock up the front and rear suspensions. The suspension would go through a fair amount of changes over the years, as we'll see in later updates, but this was my first effort to get the geometry and best-guess initial settings configured."
+  },
+  {
+    "id": "build-2014-03-09",
+    "date": "2014-03-09",
+    "title": "Build Milestone - 2014-03-09",
+    "subsystem": "Chassis & Engineering",
+    "summary": "Chassis painted",
+    "specs": {},
+    "images": [
+      "/images/racecar/2026-09/IMG_20200317_183446_034.jpg"
+    ],
+    "tags": [
+      "Fabrication",
+      "Build Log"
+    ],
+    "notes": "After finishing the chassis build out, I dragged it outside, cleaned it up, and prepped it for painting with epoxy. It made a big difference in giving the vehicle a professional look, as most quality paint jobs do. Not to say mine was top-tier work, but it has held up remarkably well to fluids and abuse over the years."
+  },
+  {
+    "id": "build-2013-04-10",
+    "date": "2013-04-10",
+    "title": "Build Milestone - 2013-04-10",
+    "subsystem": "Chassis & Engineering",
+    "summary": "Chassis build",
+    "specs": {},
+    "images": [
+      "/images/racecar/2013-04/IMG_20130409_200452_348-COLLAGE.jpg"
+    ],
+    "tags": [
+      "Fabrication",
+      "Build Log"
+    ],
+    "notes": "This was easily the longest single fabrication project on the car. A friend helped me run some basic FEA analysis on the cage design, and I tried to satisfy as many rule books as possible to keep it legal across various types of competition. This build was where I truly learned to weld even after getting certified in the classroom. I made plenty of mistakes and had to cut out a fair amount to get everything up to my standards, but it laid the foundation for the car's performance today. A stiff, solid chassis is the fundamental requirement for building a great car. Looking back, I see opportunities to make it a bit lighter, but at least I know I'm safe."
+  },
+  {
+    "id": "build-2009-04-01",
+    "date": "2009-04-01",
+    "title": "Build Milestone - 2009-04-01",
+    "subsystem": "Design",
+    "summary": "How it all started",
+    "specs": {},
+    "images": [
+      "/images/racecar/2009-03/944 livery_01-COLLAGE.jpg"
+    ],
+    "tags": [
+      "Fabrication",
+      "Build Log"
+    ],
+    "notes": "Even though I'd had the car for a while, it really started with a set of basic sketches and renderings that helped me visualize the final design. The poster of the completed vehicle is still on my garage wall today, reminding me of where it all began."
+  }
+]

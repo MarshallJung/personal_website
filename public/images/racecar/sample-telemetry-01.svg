@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="100%" height="100%">
+  <rect width="800" height="500" fill="#0f172a"/>
+  <text x="40" y="50" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="14" font-weight="600" letter-spacing="2">DATA LOGGER TRACE</text>
+  <text x="40" y="80" fill="#f8fafc" font-family="system-ui, sans-serif" font-size="24" font-weight="700">Throttle, Brake Pressure &amp; Steering Angle</text>
+  
+  <line x1="40" y1="180" x2="760" y2="180" stroke="#334155" stroke-width="1" stroke-dasharray="4"/>
+  <line x1="40" y1="280" x2="760" y2="280" stroke="#334155" stroke-width="1" stroke-dasharray="4"/>
+  <line x1="40" y1="380" x2="760" y2="380" stroke="#334155" stroke-width="1" stroke-dasharray="4"/>
+  
+  <!-- Throttle (Green) -->
+  <path d="M 40,260 L 140,260 L 150,140 L 280,140 L 300,260 L 380,260 L 400,140 L 550,140 L 580,260 L 760,140" fill="none" stroke="#22c55e" stroke-width="3"/>
+  <text x="700" y="130" fill="#22c55e" font-family="system-ui, sans-serif" font-size="12" font-weight="600">Throttle 100%</text>
+
+  <!-- Brake (Red) -->
+  <path d="M 40,360 L 130,360 L 140,280 L 150,360 L 290,360 L 300,270 L 320,360 L 570,360 L 580,280 L 610,360 L 760,360" fill="none" stroke="#ef4444" stroke-width="3"/>
+  <text x="700" y="270" fill="#ef4444" font-family="system-ui, sans-serif" font-size="12" font-weight="600">Brake 1200 PSI</text>
+
+  <!-- Steering (Blue) -->
+  <path d="M 40,430 Q 140,400 200,450 T 360,430 T 520,410 T 680,440 T 760,430" fill="none" stroke="#38bdf8" stroke-width="3"/>
+  <text x="700" y="410" fill="#38bdf8" font-family="system-ui, sans-serif" font-size="12" font-weight="600">Steering Angle</text>
+</svg>

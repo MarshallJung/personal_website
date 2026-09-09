@@ -1,0 +1,72 @@
+<!DOCTYPE html><html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"><title>Skynet Awakens</title><style>
+      * {
+        font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+      }
+      html, body {
+        margin: 0;
+        padding: 0;
+      }
+      h1 {
+        font-size: 50px;
+        margin-bottom: 17px;
+        color: #333;
+      }
+      h2 {
+        font-size: 24px;
+        line-height: 1.6;
+        margin: 30px 0 0 0;
+        margin-bottom: 18px;
+        margin-top: 33px;
+        color: #333;
+      }
+      h3 {
+        font-size: 30px;
+        margin: 10px 0 20px 0;
+        color: #333;
+      }
+      header {
+        width: 640px;
+        margin: auto;
+      }
+      section {
+        width: 640px;
+        margin: auto;
+      }
+      section p {
+        margin-bottom: 27px;
+        font-size: 20px;
+        line-height: 1.6;
+        color: #333;
+      }
+      section img {
+        max-width: 640px;
+      }
+      footer {
+        padding: 0 20px;
+        margin: 50px 0;
+        text-align: center;
+        font-size: 12px;
+      }
+      .aspectRatioPlaceholder {
+        max-width: auto !important;
+        max-height: auto !important;
+      }
+      .aspectRatioPlaceholder-fill {
+        padding-bottom: 0 !important;
+      }
+      header,
+      section[data-field=subtitle],
+      section[data-field=description] {
+        display: none;
+      }
+      </style></head><body><article class="h-entry">
+<header>
+<h1 class="p-name">Skynet Awakens</h1>
+</header>
+<section data-field="subtitle" class="p-summary">
+July 27, 2026
+</section>
+<section data-field="body" class="e-content">
+<section name="c9c3" class="section section--body section--first section--last"><div class="section-divider"><hr class="section-divider"></div><div class="section-content"><div class="section-inner sectionLayout--insetColumn"><h3 name="d885" id="d885" class="graf graf--h3 graf--leading graf--title">Skynet Awakens</h3><figure name="1627" id="1627" class="graf graf--figure graf-after--h3"><img class="graf-image" data-image-id="1*94KwE26zLHaCnTaxji3n8Q.png" data-width="907" data-height="614" data-focus-x="50" data-focus-y="13" src="https://cdn-images-1.medium.com/max/800/1*94KwE26zLHaCnTaxji3n8Q.png"></figure><p name="f942" id="f942" class="graf graf--p graf-after--figure">July 27, 2026</p><p name="2b66" id="2b66" class="graf graf--p graf-after--p"><strong class="markup--strong markup--p-strong">Skynet Awakens?</strong></p><p name="b64b" id="b64b" class="graf graf--p graf-after--p">Most people have probably seen reports about an autonomous cyber incident involving OpenAI and the Hugging Face open source model community website. I won’t rehash, but here’s a concise timeline:</p><ul class="postList"><li name="e8d8" id="e8d8" class="graf graf--li graf-after--p">May 2026: ExploitGym benchmark is released to evaluate LLM-powered agents on turning vulnerabilities into real-world attacks.</li><li name="c228" id="c228" class="graf graf--li graf-after--li">Mid-July: OpenAI runs an internal cyber capability assessment with a mix of public and pre-release models, with production cyber guardrails disabled. During the assessment, the model combination solving ExploitGym bypasses network isolation by discovering and exploiting a zero-day in the internal package registry cache proxy. After gaining internet access, the model infers Hugging Face may host datasets or test solutions and chains multiple attack vectors — stolen credentials and remote code execution paths — to compromise parts of Hugging Face’s production infrastructure to retrieve test answers. Hugging Face’s security team detects and stops the unauthorized agentic activity and begins forensic work alongside OpenAI’s internal discovery.</li><li name="b433" id="b433" class="graf graf--li graf-after--li">July 16: Hugging Face publicly discloses the incident, detailing detection and containment of an unauthorized attack driven by an agentic security research harness.</li><li name="4279" id="4279" class="graf graf--li graf-after--li">July 21: OpenAI and Hugging Face issue a joint disclosure with a preliminary report confirming research models drove the breach during benchmark testing. Both organizations outline collaborative remediation steps and best practices for cybersecurity in a world of autonomous AI going forward.</li></ul><p name="4957" id="4957" class="graf graf--p graf-after--li">What’s unique about this incident isn’t that the model found vulnerabilities, but that it independently chained multiple attack vectors without human guidance. Over the past month, I’ve seen certain models (first Claude Fable, now GPT’s 5.6 Sol) be relentlessly proactive. For example, it spun up custom web servers and used CORS tricks on my laptop to debug connectivity issues.</p><p name="40ff" id="40ff" class="graf graf--p graf-after--p">That relentless proactivity defines this new generation of Mythos-class models. If you set a goal and provide any path, even inadvertently, they’ll find it. Some will dismiss this as OpenAI marketing, but that’s untenable. You’d have to rope in Hugging Face, a relentlessly open-source organization, to sustain that conspiracy.</p><p name="ef47" id="ef47" class="graf graf--p graf-after--p">The best current models can both discover and exploit new vulnerabilities. The ExploitGym paper concludes that “autonomous exploit development by frontier AI agents is no longer a hypothetical capability”, and this incident exemplifies it.</p><p name="74d9" id="74d9" class="graf graf--p graf-after--p">What’s most frustrating is that when Hugging Face faced an accidental, aggressive attack from OpenAI models, they couldn’t use OpenAI’s models to help fend it off. The Frontier models available to us are increasingly constrained in how much they can help protect our software, heavily influenced by ongoing U.S. export control threats. I can’t even use Fable 5 to proofread this article (it keeps downgrading me to a less capable model because the content might be interpreted as cyber attack instructions). Meanwhile, open-source models from China, GLM 5.2, Kimi 3, and the new Qwen 3.8 Max, seem to have none of these restrictions and are only a step behind the top U.S. closed models. The cat is out of the bag. We cannot afford to limit models in the U.S. if we want to protect our digital economy going forward. The current restraints are meant to make us safer. They appear to be doing the opposite.</p><p name="eaf1" id="eaf1" class="graf graf--p graf-after--p"><strong class="markup--strong markup--p-strong">Who Said They Couldn’t Math?</strong></p><p name="6f53" id="6f53" class="graf graf--p graf-after--p">Calling large language models “stochastic parrots” is long gone, even if transformer-based next-token prediction remains inherently non-deterministic. Equipping these models with neuro-symbolic capabilities and tools, such as Lean (a mathematical proof language), external solvers like MATLAB, and the ability to build, run, and iterate on deterministic programming languages, has enabled them to independently solve some long-standing open math problems.</p><p name="fb7b" id="fb7b" class="graf graf--p graf-after--p">Falling are the Jacobian Conjecture, Dinitz-Garg-Goemans and a bunch of others. Is this actually useful for my devoted readers? Probably not directly, though it aligns with this week’s newsletter lead. Early LLMs couldn’t solve most of these math problems due to limited proactivity and tool use. The real impact will be in white-space exploration across physical AI, medical applications, drug discovery, materials science, and more. I expect a new golden age of discovery in the next few years as models grow more powerful and existing scientific tools are adapted to work with these AI agents.</p><figure name="4017" id="4017" class="graf graf--figure graf-after--p"><img class="graf-image" data-image-id="1*cEw-zpDGzL6yHKk1ihA2WQ.png" data-width="652" data-height="812" src="https://cdn-images-1.medium.com/max/800/1*cEw-zpDGzL6yHKk1ihA2WQ.png"></figure><p name="7162" id="7162" class="graf graf--p graf-after--figure"><strong class="markup--strong markup--p-strong">Enterprise Intelligence</strong></p><p name="7fa6" id="7fa6" class="graf graf--p graf-after--p">Borrowing from Palantir again, they’re ahead of the curve on a universal organizational knowledge layer called their “ontology,” a well‑curated, structured, searchable enterprise knowledge base. While proprietary, newer options are emerging. Cerberus, for example, describes an internal platform handling 15,000+ daily queries by ingesting data where it lives — Slack threads, internal wikis, code repositories, and custom databases. Without forcing workflow migrations.</p><p name="ce25" id="ce25" class="graf graf--p graf-after--p">Their article outlines data ingestion and normalization, a hybrid retrieval pipeline, fusion re‑ranking and context expansion, and multiple access surfaces for effective use. This is the future for truly AI‑native companies. A centralized, highly scalable data layer enabling global, distributed enterprises. It reduces silos by extracting data directly from collaborative environments, supply chain databases, and communication channels, avoiding error‑prone manual documentation and migrations. It balances exact matches with semantic context and decouples storage from orchestration, treating custom data sources as standardized plug‑ins to a shared schema so technical divisions or acquisitions can integrate instantly without coordination or translation.</p><p name="bae3" id="bae3" class="graf graf--p graf-after--p"><a href="https://www.cerebras.ai/blog/how-we-built-our-knowledge-base" data-href="https://www.cerebras.ai/blog/how-we-built-our-knowledge-base" class="markup--anchor markup--p-anchor" rel="noopener" target="_blank">https://www.cerebras.ai/blog/how-we-built-our-knowledge-base</a></p><p name="d6c4" id="d6c4" class="graf graf--p graf-after--p">While not a full enterprise intelligence layer, Microsoft’s open-source Ontology Playground lets users visually manipulate and refine a knowledge graph before building it. It includes pre-built domain ontologies to help users understand entities, relationships, properties, and domain structure. It’s fully static, deployable almost anywhere, and supports building a useful company knowledge model.</p><p name="da9b" id="da9b" class="graf graf--p graf-after--p"><a href="https://github.com/microsoft/Ontology-Playground" data-href="https://github.com/microsoft/Ontology-Playground" class="markup--anchor markup--p-anchor" rel="noopener" target="_blank">https://github.com/microsoft/Ontology-Playground</a></p><p name="73a7" id="73a7" class="graf graf--p graf-after--p"><strong class="markup--strong markup--p-strong">Follow the Steps</strong></p><p name="cedd" id="cedd" class="graf graf--p graf-after--p"><a href="https://claude.ai/code/artifact/bfdfaef9-bc62-4dfe-ba9e-c58a26c9accf" data-href="https://claude.ai/code/artifact/bfdfaef9-bc62-4dfe-ba9e-c58a26c9accf" class="markup--anchor markup--p-anchor" rel="noopener" target="_blank">https://claude.ai/code/artifact/bfdfaef9-bc62-4dfe-ba9e-c58a26c9accf</a></p><p name="db20" id="db20" class="graf graf--p graf-after--p">Here’s a clear, straightforward guide to AI adoption steps for enterprises. I’ll share screenshots highlighting where I believe the leading edge of average U.S. companies (excluding tech-centric firms in SF &amp; NY for example)currently stand. I think, even at the forefront, most are still on step one.</p><figure name="54c9" id="54c9" class="graf graf--figure graf-after--p"><img class="graf-image" data-image-id="1*7PQjKYCkHePwga1cOkapQA.png" data-width="1037" data-height="252" src="https://cdn-images-1.medium.com/max/800/1*7PQjKYCkHePwga1cOkapQA.png"></figure><p name="6814" id="6814" class="graf graf--p graf-after--figure"><strong class="markup--strong markup--p-strong">Tinker Your Inkling</strong></p><p name="ec0d" id="ec0d" class="graf graf--p graf-after--p">A few folks asked about the new US-based open-source model Inkling, so here’s a quick follow-up. Here’s a humorous summary video if your’re so inclined. <a href="https://youtu.be/M51asSwRLxA?si=mokxni5283q24WoJ" data-href="https://youtu.be/M51asSwRLxA?si=mokxni5283q24WoJ" class="markup--anchor markup--p-anchor" rel="noopener" target="_blank">https://youtu.be/M51asSwRLxA?si=mokxni5283q24WoJ</a></p><p name="ac00" id="ac00" class="graf graf--p graf-after--p">Background: After leaving OPAI with a sizable research team, Thinking Machines raised $2B, stayed mostly quiet, shipped Tinker (a fine-tuning API for small models), and then released Inkling, a from-scratch model. Inkling is a 970B-parameter mixture-of-experts. It doesn’t top traditional benchmarks, but it can automatically adjust its reasoning level and directly process raw audio and pixels without separate encoders.</p><p name="3a9e" id="3a9e" class="graf graf--p graf-after--p graf--trailing">Their business model seems aimed at providing a well-fit model on their platform so companies can fine-tune for specific workflows. They’re targeting the future I’ve discussed: companies relying on self-hosted, fine-tuned, open-source models, and only turning to expensive frontier models when truly needed. I see Thinking Machines positioning to capture that space.</p></div></div></section>
+</section>
+<footer><p>By <a href="https://medium.com/@jung.marshall" class="p-author h-card">Marshall Jung</a> on <a href="https://medium.com/p/0be562281083"><time class="dt-published" datetime="2026-07-27T02:42:53.138Z">July 27, 2026</time></a>.</p><p><a href="https://medium.com/@jung.marshall/skynet-awakens-0be562281083" class="p-canonical">Canonical link</a></p><p>Exported from <a href="https://medium.com">Medium</a> on September 3, 2026.</p></footer></article></body></html>

@@ -1,0 +1,44 @@
+---
+title: "Dealing with it"
+slug: "2024-08-05-dealing-with-it"
+date: "2024-08-05"
+description: "Dealing with it"
+coverImage: "/images/blog/2024-08-05-dealing-with-it/image-01.jpg"
+tags: ["AI Strategy"]
+readTime: "4 min read"
+---
+
+So I’m not typically given to frustration, but it has been a bit disheartening to be both right and have nothing to show for it. I think we are well on our way to an AI wipeout at this point. Combined with an oncoming global recession, it’s tough to see the job market improving substantially for those of us that are still looking for a role where we can contribute commensurate with our talents.
+
+I’ve been saying for a while now that companies going all-in on the AI hype train, ESPECIALLY when they don’t have any decent data process in place to support the effort will be both disappointed if they are buying and totally unsuccessful if they are selling. I’ve given maybe dozens of interviews and pro bono consultations with companies that want to build an “AI” roadmap and my steadfast, first-principles “old school” methodology to incorporate these newer technologies hasn’t really gotten me any traction. By the time you see ads on X for Oracle pitching data-first AI initiatives, it’s already too late.
+
+So that’s the long way of saying I think I’ve missed the boat. It was a hell of a fast hype curve. I’ve only really been talking publicly about it for 18 months or so. Ce la vie. It’s still my passion though and I’ll keep trucking. There is some value when our collective heads resurface on the plateau of adoption.
+
+### Signs of things to come
+
+[https://www.cnbc.com/2024/07/29/apple-says-its-ai-models-were-trained-on-googles-custom-chips-.html](https://www.cnbc.com/2024/07/29/apple-says-its-ai-models-were-trained-on-googles-custom-chips-.html)
+
+I suppose that I assumed that Apple had trained its models on NVIDIA GPUs, or were at least in the process of doing so on Apple silicon. Afterall, the MLX library is pretty awesome for getting models optimally deployed on M chips. Now perhaps the model training preceded MLX development, or the library isn’t internally optimized for training vs. deployment, BUT the fact that Apple chose to train on TPU’s says something about the speed and cost advantage that Google has with its ASIC structure. I would not be surprised if others are trying the same thing with AWS Trainium(?) etc.
+
+As companies move towards more narrowly defined models and high profitability in narrow industry verticals, I think the efficiency of hardware selection will continue to be a really important part of the equation. With its standalone data centers, solid networking and cost advantages, Google might just end up being the home of the LLM in the future. Pioneers get arrows and settlers get the land.
+
+### Not LLM
+
+[https://www.kaggle.com/code/nabeelvalley/time-series-analysis-with-stumpy](https://www.kaggle.com/code/nabeelvalley/time-series-analysis-with-stumpy)
+
+Time series analysis is still really important to many industries. Particularly those that use sensors to monitor real-time processes. Think predictive maintenance, flow or material handling optimization, traffic regulation etc. Stumpy is a python library that introduces a highly efficient method for time series analysis by computing matrix profiles. The matrix profile is a vector that records the distances between every subsequence within a time series and its nearest neighbor. A solid tool for the arsenal should you need something that works well with time series data.
+
+![Figure](/images/blog/2024-08-05-dealing-with-it/image-01.jpg)
+
+### Yes, LLM!
+
+[https://towardsdatascience.com/will-transformers-revolutionize-time-series-forecasting-1ac0eb61ecf3](https://towardsdatascience.com/will-transformers-revolutionize-time-series-forecasting-1ac0eb61ecf3)
+
+The previous article and this one are not specifically at odds with one another. It’s just that LLMs have not proven to be particularly well suited to time series prediction at the moment. However it’s obvious that they actually should be pretty good at this task. If predicting what token comes next such that it looks like something that the model has seen previously, any continuous time series data ought to be great. I think there are two major issues to solve. The first is tokenization. NLP based LLMs are relatively straightforward to tokenize as they lend themselves to discrete partitioning. How do you do this with continuous data? There might also be an issue with the data volumes and similarity as well. Corpus of stock data and indicators are plentiful and I can see this as being one of the first areas that LLMs might find the requisite data to be successful, however outside of this arena data might be more difficult to find.
+
+Referencing the previous article, should you have enough proprietary data, using Stumpy to identify similar patterns on a discreet enough time frame might get you the tokenization algorithm. Perhaps I should build a prototype?
+
+### Remember this
+
+“If you think of a nice, true thing to tell another person, say it. It will probably be the best thing that happens to them all day.”   
+― Dale Carnegie
