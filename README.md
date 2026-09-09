@@ -74,23 +74,23 @@ npm run preview
 ## 🌐 Connecting Your Domain (DNS & GitHub Pages)
 
 ### 1. Configure Domain in `public/CNAME`
-Edit [`public/CNAME`](./public/CNAME) and replace `marshalljung.com` with your exact domain name:
+[`public/CNAME`](./public/CNAME) is configured with your domain:
 ```
-yourdomain.com
+codeandsteel.net
 ```
 
-### 2. Set Up DNS Records at Your Registrar (GoDaddy, Namecheap, Cloudflare, etc.)
-Point your apex domain to GitHub Pages edge:
+### 2. Set Up DNS Records at GoDaddy
+Point your apex domain `codeandsteel.net` to GitHub Pages:
 
-| Type | Host / Name | Value / Points To |
-| :--- | :--- | :--- |
-| **A** | `@` | `185.199.108.153` |
-| **A** | `@` | `185.199.109.153` |
-| **A** | `@` | `185.199.110.153` |
-| **A** | `@` | `185.199.111.153` |
-| **CNAME** | `www` | `<your-github-username>.github.io` |
+| Type | Host / Name | Value / Points To | TTL |
+| :--- | :--- | :--- | :--- |
+| **A** | `@` | `185.199.108.153` | 1/2 hour (or default) |
+| **A** | `@` | `185.199.109.153` | 1/2 hour |
+| **A** | `@` | `185.199.110.153` | 1/2 hour |
+| **A** | `@` | `185.199.111.153` | 1/2 hour |
+| **CNAME** | `www` | `MarshallJung.github.io` | 1/2 hour |
 
-*Note (from Nick Losier guide)*: If your registrar has a default "parked page" A record on `@`, delete it so it does not conflict with GitHub's IPs. Do not use registrar domain forwarding.
+*Note*: If GoDaddy has a default "parked page" A record on `@` (e.g. `34.102.136.180`), delete it so it does not conflict with GitHub's IPs. Do not use GoDaddy domain forwarding.
 
 ### 3. Enable GitHub Pages in Your Private Repository
 1. In your GitHub repository: go to **Settings** > **Pages**.
