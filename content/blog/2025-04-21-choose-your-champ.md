@@ -2,7 +2,7 @@
 title: "Choose Your Champ"
 slug: "2025-04-21-choose-your-champ"
 date: "2025-04-21"
-description: "Choose Your Champ"
+description: "If you’re not using these tools as a programmer, it’s only a matter of time before you’re replaced. While none of the tools we’ll discuss today can do everything, they are essential resources. So buck..."
 coverImage: "/images/blog/2025-04-21-choose-your-champ/image-01.jpg"
 tags: ["AI Strategy"]
 readTime: "6 min read"

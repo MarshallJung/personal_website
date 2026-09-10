@@ -2,7 +2,7 @@
 title: "Happy I made it this far"
 slug: "2024-09-03-happy-i-made-it-this-far"
 date: "2024-09-03"
-description: "Happy I made it this far"
+description: "This past week I had the opportunity to interview (and test) with a leading AI research company. You might know them, as the AI is French and writes music and poetry. I’ll save you the suspense and te..."
 coverImage: "/images/blog/2024-09-03-happy-i-made-it-this-far/image-01.png"
 tags: ["AI Strategy"]
 readTime: "6 min read"

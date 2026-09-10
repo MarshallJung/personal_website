@@ -2,7 +2,7 @@
 title: "The Price of Authenticity"
 slug: "2025-10-20-the-price-of-authenticity"
 date: "2025-10-20"
-description: "The Price of Authenticity"
+description: "Graphite.io released a study that quantified the prevalence of AI vs. human articles on the internet. The study (linked here: https://graphite.io/five-percent/more-articles-are-now-created-by-ai-than-..."
 coverImage: "/images/blog/2025-10-20-the-price-of-authenticity/image-01.png"
 tags: ["AI Strategy"]
 readTime: "6 min read"

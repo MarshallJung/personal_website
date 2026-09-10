@@ -2,7 +2,7 @@
 title: "Step-by-Step"
 slug: "2026-02-07-step-by-step"
 date: "2026-02-07"
-description: "February 09 , 2026"
+description: "I try to avoid the self-congratulatory victory laps common in this industry — mostly because the market has a way of humbling prophets mere hours after they hit “publish.” However, the record is the r..."
 coverImage: "/images/blog/2026-02-07-step-by-step/image-01.jpg"
 tags: ["AI Strategy"]
 readTime: "5 min read"

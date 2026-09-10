@@ -2,7 +2,7 @@
 title: "Financial Due Diligence"
 slug: "2025-12-01-financial-due-diligence"
 date: "2025-12-01"
-description: "Financial Due Diligence"
+description: "First, it goes without saying that nothing in these newsletters is investment advice. That said, because money drives economic opportunity and growth in the United States, and because AI and its secon..."
 coverImage: "/images/blog/2025-12-01-financial-due-diligence/image-01.png"
 tags: ["AI Strategy"]
 readTime: "7 min read"

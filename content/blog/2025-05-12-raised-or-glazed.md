@@ -2,7 +2,7 @@
 title: "Raised or Glazed"
 slug: "2025-05-12-raised-or-glazed"
 date: "2025-05-12"
-description: "Raised or Glazed"
+description: "I’m a bit late to the story, but OpenAI, in a strategic move typical of a Silicon Valley unicorn, decided to tweak the GPT-4o model to enhance its intuitiveness and effectiveness. What they ended up c..."
 coverImage: "/images/blog/2025-05-12-raised-or-glazed/image-01.jpg"
 tags: ["AI Strategy"]
 readTime: "6 min read"

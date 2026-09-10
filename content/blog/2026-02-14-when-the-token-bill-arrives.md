@@ -2,15 +2,13 @@
 title: "When the Token Bill Arrives"
 slug: "2026-02-14-when-the-token-bill-arrives"
 date: "2026-02-14"
-description: "(Archive​s available here: https://medium.com/@jung.marshall/marshalls-monday-morning-ml-archive-002-3f54812a7b37​ and here…"
+description: "As the buzz from the OpenClaw release fades, we are left with a lingering headache. It isn’t quite the effect of a Pan-Galactic Gargle Blaster, but the pain is real enough when the invoice hits."
 coverImage: "/images/blog/2026-02-14-when-the-token-bill-arrives/image-01.png"
 tags: ["AI Strategy"]
 readTime: "4 min read"
 ---
 
 ![Figure](/images/blog/2026-02-14-when-the-token-bill-arrives/image-01.png)
-
-(Archive​s available here: [https://medium.com/@jung.marshall/marshalls-monday-morning-ml-archive-002-3f54812a7b37](https://medium.com/@jung.marshall/marshalls-monday-morning-ml-archive-002-3f54812a7b37)​ and here: [https://medium.com/@jung.marshall/marshalls-monday-morning-ml-7af6a0d2b77f](https://medium.com/@jung.marshall/marshalls-monday-morning-ml-7af6a0d2b77f))
 
 February 16 , 2026
 

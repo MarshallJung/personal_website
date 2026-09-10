@@ -2,7 +2,7 @@
 title: "A Controversial Take"
 slug: "2024-10-28-a-controversial-take"
 date: "2024-10-28"
-description: "A Controversial Take"
+description: "Last Sunday I listened to a sermon that I think has some crossover to the world of AI and ultimately the pursuit of AGI. While the words were not specifically, nor generally, aimed at the world of tec..."
 coverImage: "/images/blog/2024-10-28-a-controversial-take/image-01.jpg"
 tags: ["AI Strategy"]
 readTime: "7 min read"

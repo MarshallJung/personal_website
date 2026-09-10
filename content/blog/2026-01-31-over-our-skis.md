@@ -2,15 +2,13 @@
 title: "Over Our Skis"
 slug: "2026-01-31-over-our-skis"
 date: "2026-01-31"
-description: "(Archive​s available here: https://medium.com/@jung.marshall/marshalls-monday-morning-ml-archive-002-3f54812a7b37​ and here…"
+description: "In this week’s newsletter, I’m weaving a larger narrative from articles and observations I gathered over the week."
 coverImage: "/images/blog/2026-01-31-over-our-skis/image-01.png"
 tags: ["AI Strategy"]
 readTime: "5 min read"
 ---
 
 ![Figure](/images/blog/2026-01-31-over-our-skis/image-01.png)
-
-(Archive​s available here: [https://medium.com/@jung.marshall/marshalls-monday-morning-ml-archive-002-3f54812a7b37](https://medium.com/@jung.marshall/marshalls-monday-morning-ml-archive-002-3f54812a7b37)​ and here: [https://medium.com/@jung.marshall/marshalls-monday-morning-ml-7af6a0d2b77f](https://medium.com/@jung.marshall/marshalls-monday-morning-ml-7af6a0d2b77f))
 
 February 02 , 2026
 

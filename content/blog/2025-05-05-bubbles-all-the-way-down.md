@@ -2,7 +2,7 @@
 title: "Bubbles All the Way Down"
 slug: "2025-05-05-bubbles-all-the-way-down"
 date: "2025-05-05"
-description: "Bubbles All the Way Down"
+description: "Just the other day I was having a really in-depth conversation about an AI app that is meant to serve a group of folks that most people would think are not a target audience for AI. It was very intere..."
 coverImage: "/images/blog/2025-05-05-bubbles-all-the-way-down/image-01.jpg"
 tags: ["AI Strategy"]
 readTime: "6 min read"

@@ -2,7 +2,7 @@
 title: "Creativity and AI"
 slug: "2025-10-27-creativity-and-ai"
 date: "2025-10-27"
-description: "Creativity and AI"
+description: "This week I read an article by Dan Shipper from https://every.to/ that I found particularly interesting. It discusses AI’s use in creative spaces. We know AI has successfully tackled more technical pu..."
 coverImage: "/images/blog/2025-10-27-creativity-and-ai/image-01.png"
 tags: ["AI Strategy"]
 readTime: "5 min read"

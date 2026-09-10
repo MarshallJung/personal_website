@@ -1,11 +1,12 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useMemo } from 'react';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 import BlogCard from '../components/BlogCard';
 import BlogRepoAnalysis from '../components/BlogRepoAnalysis';
 import posts from '../../content/blog/posts.json';
 import { marked } from 'marked';
-import { Calendar, Clock, ArrowLeft, ArrowUpRight, Search } from 'lucide-react';
+import { Calendar, Clock, ArrowLeft, ArrowUpRight, Search, X } from 'lucide-react';
+import MiniSearch from 'minisearch';
 
 // Lazy-load markdown files on demand
 const markdownModules = import.meta.glob('../../content/blog/*.md', { query: '?raw', import: 'default' });
@@ -16,6 +17,38 @@ export default function BlogApp() {
   const [isLoadingArticle, setIsLoadingArticle] = useState(false);
   const [searchQuery, setSearchQuery] = useState('');
   const [selectedTag, setSelectedTag] = useState('All');
+  const [miniSearch, setMiniSearch] = useState(null);
+
+  useEffect(() => {
+    let isMounted = true;
+    fetch('/search-index.json')
+      .then((res) => {
+        if (!res.ok) throw new Error(`HTTP ${res.status}`);
+        return res.json();
+      })
+      .then((indexData) => {
+        if (isMounted) {
+          const ms = MiniSearch.loadJS(indexData, {
+            fields: ['title', 'tags', 'description', 'content'],
+            storeFields: ['title', 'slug', 'date', 'readTime', 'tags'],
+            searchOptions: {
+              boost: { title: 4, tags: 2.5, description: 1.5, content: 1 },
+              prefix: true,
+              fuzzy: 0.2,
+              combineWith: 'AND',
+            },
+          });
+          setMiniSearch(ms);
+        }
+      })
+      .catch((err) => {
+        console.warn('Could not load search index, using metadata fallback:', err);
+      });
+
+    return () => {
+      isMounted = false;
+    };
+  }, []);
 
   useEffect(() => {
     const params = new URLSearchParams(window.location.search);
@@ -65,15 +98,48 @@ export default function BlogApp() {
     window.history.pushState({}, '', window.location.pathname);
   };
 
-  const allTags = ['All', ...Array.from(new Set(posts.flatMap((p) => p.tags || [])))];
+  const postMap = useMemo(() => {
+    const map = new Map();
+    posts.forEach((p) => map.set(p.slug, p));
+    return map;
+  }, []);
 
-  const filteredPosts = posts.filter((post) => {
-    const matchesSearch =
-      post.title?.toLowerCase().includes(searchQuery.toLowerCase()) ||
-      post.description?.toLowerCase().includes(searchQuery.toLowerCase());
-    const matchesTag = selectedTag === 'All' || post.tags?.includes(selectedTag);
-    return matchesSearch && matchesTag;
-  });
+  const allTags = useMemo(
+    () => ['All', ...Array.from(new Set(posts.flatMap((p) => p.tags || [])))],
+    []
+  );
+
+  const filteredPosts = useMemo(() => {
+    const query = searchQuery.trim();
+
+    if (query) {
+      let matchedPosts = [];
+      if (miniSearch) {
+        const results = miniSearch.search(query);
+        matchedPosts = results.map((r) => postMap.get(r.id)).filter(Boolean);
+      } else {
+        const qLower = query.toLowerCase();
+        matchedPosts = posts.filter(
+          (p) =>
+            p.title?.toLowerCase().includes(qLower) ||
+            p.description?.toLowerCase().includes(qLower) ||
+            p.tags?.some((t) => t.toLowerCase().includes(qLower))
+        );
+      }
+
+      if (selectedTag !== 'All') {
+        matchedPosts = matchedPosts.filter((p) => p.tags?.includes(selectedTag));
+      }
+
+      return matchedPosts;
+    }
+
+    if (selectedTag !== 'All') {
+      return posts.filter((p) => p.tags?.includes(selectedTag));
+    }
+
+    return posts;
+  }, [searchQuery, selectedTag, miniSearch, postMap]);
 
   const renderArticleContent = (post) => {
     return (
@@ -191,20 +257,55 @@ export default function BlogApp() {
             <BlogRepoAnalysis />
 
             {/* Filter and Search Bar */}
-            <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 mb-8">
-              <div className="relative w-full sm:w-80">
-                <Search className="w-3.5 h-3.5 text-[var(--text-muted)] absolute left-3 top-1/2 -translate-y-1/2" />
-                <input
-                  type="text"
-                  placeholder="SEARCH PAPERS & ESSAYS..."
-                  value={searchQuery}
-                  onChange={(e) => setSearchQuery(e.target.value)}
-                  className="w-full pl-8 pr-4 py-2 bg-[var(--bg-surface)] hairline-all text-xs font-mono text-[var(--text-main)] placeholder-[var(--text-muted)] focus:outline-none uppercase tracking-wider"
-                />
+            <div className="space-y-4 mb-8">
+              {/* Tag Filter Pills */}
+              <div className="flex flex-wrap items-center gap-1.5 pb-2 hairline-b">
+                <span className="text-[10px] font-mono uppercase tracking-wider text-[var(--text-muted)] mr-2">
+                  Filter Topic:
+                </span>
+                {allTags.map((tag) => {
+                  const isSelected = selectedTag === tag;
+                  return (
+                    <button
+                      key={tag}
+                      onClick={() => setSelectedTag(tag)}
+                      className={`px-2.5 py-1 text-[10px] font-mono uppercase tracking-wider transition-colors cursor-pointer ${
+                        isSelected
+                          ? 'bg-[var(--text-main)] text-[var(--bg-surface)] font-bold'
+                          : 'text-[var(--text-muted)] hairline-all hover:text-[var(--text-main)] hover:bg-[var(--border-subtle)]'
+                      }`}
+                    >
+                      {tag}
+                    </button>
+                  );
+                })}
               </div>
 
-              <div className="text-xs font-mono text-[var(--text-muted)] uppercase tracking-wider">
-                {filteredPosts.length} Documents Indexed
+              {/* Search Input and Counter */}
+              <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
+                <div className="relative w-full sm:w-80">
+                  <Search className="w-3.5 h-3.5 text-[var(--text-muted)] absolute left-3 top-1/2 -translate-y-1/2" />
+                  <input
+                    type="text"
+                    placeholder="SEARCH PAPERS & ESSAYS..."
+                    value={searchQuery}
+                    onChange={(e) => setSearchQuery(e.target.value)}
+                    className="w-full pl-8 pr-8 py-2 bg-[var(--bg-surface)] hairline-all text-xs font-mono text-[var(--text-main)] placeholder-[var(--text-muted)] focus:outline-none uppercase tracking-wider"
+                  />
+                  {searchQuery && (
+                    <button
+                      onClick={() => setSearchQuery('')}
+                      className="absolute right-2.5 top-1/2 -translate-y-1/2 text-[var(--text-muted)] hover:text-[var(--text-main)] cursor-pointer"
+                      aria-label="Clear search"
+                    >
+                      <X className="w-3.5 h-3.5" />
+                    </button>
+                  )}
+                </div>
+
+                <div className="text-xs font-mono text-[var(--text-muted)] uppercase tracking-wider">
+                  {filteredPosts.length} {filteredPosts.length === 1 ? 'Document' : 'Documents'} {searchQuery ? 'Found' : 'Indexed'}
+                </div>
               </div>
             </div>
 
@@ -216,8 +317,19 @@ export default function BlogApp() {
                 ))}
               </div>
             ) : (
-              <div className="p-12 text-center text-xs font-mono text-[var(--text-muted)] uppercase tracking-widest hairline-all">
-                No matching documents found.
+              <div className="p-12 text-center text-xs font-mono text-[var(--text-muted)] uppercase tracking-widest hairline-all flex flex-col items-center gap-4">
+                <span>No matching documents found{searchQuery ? ` for "${searchQuery}"` : ''}{selectedTag !== 'All' ? ` in ${selectedTag}` : ''}.</span>
+                {(searchQuery || selectedTag !== 'All') && (
+                  <button
+                    onClick={() => {
+                      setSearchQuery('');
+                      setSelectedTag('All');
+                    }}
+                    className="px-3 py-1.5 hairline-all text-[var(--text-main)] hover:bg-[var(--border-subtle)] transition-colors uppercase tracking-wider text-[11px] cursor-pointer"
+                  >
+                    Reset Filters
+                  </button>
+                )}
               </div>
             )}
           </div>

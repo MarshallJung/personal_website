@@ -2,7 +2,7 @@
 title: "This is why we can’t have nice things"
 slug: "2024-05-27-this-is-why-we-cant-have-nice-things"
 date: "2024-05-27"
-description: "This is why we can’t have nice things"
+description: "When the web 3.0/crypto/NFT hype was at its peak, I’ll admit that I was singularly unimpressed. Sure, there are interesting uses for blockchain technology in very specific cryptographic applications, ..."
 coverImage: "/images/blog/2024-05-27-this-is-why-we-cant-have-nice-things/image-01.jpg"
 tags: ["AI Strategy"]
 readTime: "5 min read"

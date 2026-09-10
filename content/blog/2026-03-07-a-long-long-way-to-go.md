@@ -2,17 +2,13 @@
 title: "A Long, Long way to go…"
 slug: "2026-03-07-a-long-long-way-to-go"
 date: "2026-03-07"
-description: "(Archive​s available here: https://medium.com/@jung.marshall/marshalls-monday-morning-ml-archive-002-3f54812a7b37​ and here…"
+description: "It’s often hard to gauge how other enterprise AI initiatives compare to what I’m helping to build at Valvoline Global Operations. I recently read a Wall Street Journal piece on Colgate-Palmolive, high..."
 coverImage: "/images/blog/2026-03-07-a-long-long-way-to-go/image-01.png"
 tags: ["AI Strategy"]
 readTime: "5 min read"
 ---
 
 ![Figure](/images/blog/2026-03-07-a-long-long-way-to-go/image-01.png)
-
-(Archive​s available here: [https://medium.com/@jung.marshall/marshalls-monday-morning-ml-archive-002-3f54812a7b37](https://medium.com/@jung.marshall/marshalls-monday-morning-ml-archive-002-3f54812a7b37)​ and here: [https://medium.com/@jung.marshall/marshalls-monday-morning-ml-7af6a0d2b77f](https://medium.com/@jung.marshall/marshalls-monday-morning-ml-7af6a0d2b77f))
-
-March 07, 2026
 
 It’s often hard to gauge how other enterprise AI initiatives compare to what I’m helping to build at Valvoline Global Operations. I recently read a Wall Street Journal piece on Colgate-Palmolive, highlighting how a long-time insider is leading AI efforts there. I know these articles usually lag reality, but taking it at face value, my reaction to their program would be “unimpressed.”
 

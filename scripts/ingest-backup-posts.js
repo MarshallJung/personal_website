@@ -178,6 +178,21 @@ function createTurndownService() {
   return turndown;
 }
 
+function isJunkParagraph(text, title = '') {
+  if (!text) return true;
+  const t = text.trim();
+  if (t.length < 35) return true;
+  if (t.startsWith('http://') || t.startsWith('https://')) return true;
+  if (t.includes('@') && t.includes('.')) return true;
+  if (/^\(?\d{3}\)?[-.\s]?\d{3}[-.\s]?\d{4}$/.test(t)) return true;
+  if (t.includes('Wild West, Colorado')) return true;
+  if (/^Archive[s]? available here/i.test(t) || t.includes('medium.com/@jung.marshall')) return true;
+  if (/^(January|February|March|April|May|June|July|August|September|October|November|December)\s+\d{1,2},\s+\d{4}$/i.test(t)) return true;
+  if (/^\d{4}-\d{2}-\d{2}$/.test(t)) return true;
+  if (title && (normalizeCompare(t) === normalizeCompare(title) || normalizeCompare(title).startsWith(normalizeCompare(t)))) return true;
+  return false;
+}
+
 function htmlToMarkdown($, title) {
   // Remove boilerplate headers, footers, and dividers
   $('header').remove();
@@ -193,6 +208,21 @@ function htmlToMarkdown($, title) {
   $('h1, h2, h3, h4, p').slice(0, 4).each((i, el) => {
     const text = normalizeCompare($(el).text());
     if (text === normTitle || (text.length > 8 && normTitle.startsWith(text))) {
+      $(el).remove();
+    }
+  });
+
+  // Remove contact and metadata boilerplate paragraphs at start of post
+  $('p').slice(0, 10).each((i, el) => {
+    const text = $(el).text().trim();
+    if (
+      text.includes('jung.marshall@gmail.com') ||
+      text.includes('Wild West, Colorado') ||
+      /^\(?\d{3}\)?[-.\s]?\d{3}[-.\s]?\d{4}$/.test(text) ||
+      text.includes('Archive​s available here') ||
+      text.includes('Archives available here') ||
+      /^(January|February|March|April|May|June|July|August|September|October|November|December)\s+\d{1,2},\s+\d{4}$/i.test(text)
+    ) {
       $(el).remove();
     }
   });
@@ -238,10 +268,17 @@ async function processFile(filename) {
   }
 
   // Extract subtitle / description
-  let description = $('section[data-field="subtitle"]').text().trim();
-  if (!description) {
-    const firstP = $('section[data-field="body"] p').not('.graf--leading').first().text().trim();
-    description = firstP.slice(0, 180) + (firstP.length > 180 ? '...' : '');
+  let description = '';
+  const subtitle = $('section[data-field="subtitle"]').text().trim();
+  if (subtitle && !isJunkParagraph(subtitle, title)) {
+    description = subtitle.slice(0, 200) + (subtitle.length > 200 ? '...' : '');
+  } else {
+    $('section[data-field="body"] p, section.e-content p, article p').each((_, el) => {
+      const pText = $(el).text().trim();
+      if (!description && !isJunkParagraph(pText, title)) {
+        description = pText.slice(0, 200) + (pText.length > 200 ? '...' : '');
+      }
+    });
   }
 
   const slug = `${postDate}-${slugify(title)}`;
@@ -345,8 +382,14 @@ async function run() {
     12
   );
 
+  const seenSlugs = new Set();
   const cleanPosts = posts
     .filter(Boolean)
+    .filter((p) => {
+      if (seenSlugs.has(p.slug)) return false;
+      seenSlugs.add(p.slug);
+      return true;
+    })
     .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
 
   const registryPath = path.join(BLOG_CONTENT_DIR, 'posts.json');

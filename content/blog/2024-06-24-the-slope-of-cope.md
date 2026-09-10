@@ -2,7 +2,7 @@
 title: "The Slope of Cope"
 slug: "2024-06-24-the-slope-of-cope"
 date: "2024-06-24"
-description: "The back side of the hype curve"
+description: "With any new technology, be it silicon based, medical or physical, we are not immune from the hype curve. This is different from the adoption curve, which one might say is the first derivative of the ..."
 coverImage: "/images/blog/2024-06-24-the-slope-of-cope/image-01.jpg"
 tags: ["AI Strategy"]
 readTime: "6 min read"

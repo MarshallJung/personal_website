@@ -2,7 +2,7 @@
 title: "What I’ve Learned in the Wild"
 slug: "2025-11-03-what-ive-learned-in-the-wild"
 date: "2025-11-03"
-description: "What I’ve Learned in the Wild"
+description: "This last week I had a wonderful opportunity to spend most of the day speaking with folks from a well-established but still forward-thinking company that wants to improve their operations using AI. Th..."
 coverImage: "/images/blog/2025-11-03-what-ive-learned-in-the-wild/image-01.png"
 tags: ["AI Strategy"]
 readTime: "10 min read"

@@ -2,7 +2,7 @@
 title: "Rebel with a cause"
 slug: "2024-02-05-rebel-with-a-cause"
 date: "2024-02-05"
-description: "Rebel with a cause"
+description: "Rival products (burgers, pop songs, political parties) tend to grow more alike over time, because creators copy more successful rivals to replicate their success and steal their customers/audiences. P..."
 coverImage: "/images/blog/2024-02-05-rebel-with-a-cause/image-01.png"
 tags: ["AI Strategy"]
 readTime: "3 min read"

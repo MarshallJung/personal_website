@@ -2,7 +2,7 @@
 title: "When you need to write something…"
 slug: "2023-11-27-when-you-need-to-write-something"
 date: "2023-11-27"
-description: "When you need to write something…"
+description: "Whether writing an article, creating a presentation or making an argument remember the Serial-Position Effect:"
 coverImage: ""
 tags: ["AI Strategy"]
 readTime: "2 min read"

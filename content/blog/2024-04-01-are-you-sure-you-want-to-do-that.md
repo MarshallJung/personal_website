@@ -2,7 +2,7 @@
 title: "Are you sure you want to do that?"
 slug: "2024-04-01-are-you-sure-you-want-to-do-that"
 date: "2024-04-01"
-description: "No tricks today, just useful info!"
+description: "This last week I spent a day at a workshop sponsored by a big player in the data analytics platform space. They, like many others, have gone all in with the “AI” revolution. Curiously, when I had talk..."
 coverImage: "/images/blog/2024-04-01-are-you-sure-you-want-to-do-that/image-01.jpg"
 tags: ["AI Strategy"]
 readTime: "4 min read"

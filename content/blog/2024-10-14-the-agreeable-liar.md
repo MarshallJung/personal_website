@@ -2,7 +2,7 @@
 title: "The agreeable liar"
 slug: "2024-10-14-the-agreeable-liar"
 date: "2024-10-14"
-description: "Late night Sunday, long weekend at the racetrack for the last Porsche Club DE of the 2024 season. Sometimes banging out these newsletters is tougher than other times. Habits are a ..."
+description: "Late night Sunday, long weekend at the racetrack for the last Porsche Club DE of the 2024 season. Sometimes banging out these newsletters is tougher than other times. Habits are a good thing though an..."
 coverImage: "/images/blog/2024-10-14-the-agreeable-liar/image-01.jpg"
 tags: ["AI Strategy","Motorsport & Dynamics"]
 readTime: "5 min read"

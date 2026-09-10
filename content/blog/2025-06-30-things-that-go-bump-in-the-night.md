@@ -2,7 +2,7 @@
 title: "Things That Go Bump in the Night"
 slug: "2025-06-30-things-that-go-bump-in-the-night"
 date: "2025-06-30"
-description: "Things That Go Bump in the Night"
+description: "I assure you this newsletter isn’t turning into a security blog, but it’s important to consider the unintended consequences and mistakes related to AI during this ongoing integration phase. As foundat..."
 coverImage: "/images/blog/2025-06-30-things-that-go-bump-in-the-night/image-01.jpg"
 tags: ["AI Strategy"]
 readTime: "6 min read"

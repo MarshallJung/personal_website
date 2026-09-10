@@ -2,7 +2,7 @@
 title: "The buck stops…"
 slug: "2023-12-04-the-buck-stops"
 date: "2023-12-04"
-description: "The buck stops…"
+description: "The Abilene paradox is a group dynamic where a group of people agree on a course of action that goes against the preferences of the individual members. This explains why a group made up of very intell..."
 coverImage: "/images/blog/2023-12-04-the-buck-stops/image-01.jpg"
 tags: ["AI Strategy","Motorsport & Dynamics"]
 readTime: "7 min read"

@@ -2,7 +2,7 @@
 title: "Mental Superposition"
 slug: "2024-09-09-mental-superposition"
 date: "2024-09-09"
-description: "Mental Superposition"
+description: "This past week I had a lovely and enlightening conversation with one of the people that I have been lucky to meet in my effort to expand my network and knowledge base while looking for my next role. O..."
 coverImage: "/images/blog/2024-09-09-mental-superposition/image-01.jpg"
 tags: ["AI Strategy"]
 readTime: "6 min read"

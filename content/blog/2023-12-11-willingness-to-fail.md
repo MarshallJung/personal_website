@@ -2,7 +2,7 @@
 title: "Willingness to fail…"
 slug: "2023-12-11-willingness-to-fail"
 date: "2023-12-11"
-description: "Willingness to fail…"
+description: "Your attitude is not proportional to how you feel about your successes. Your attitude is how you feel about your failures. A person who loves and cares for themselves does not have an overwhelming nee..."
 coverImage: "/images/blog/2023-12-11-willingness-to-fail/image-01.jpg"
 tags: ["AI Strategy"]
 readTime: "6 min read"

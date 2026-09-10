@@ -2,7 +2,7 @@
 title: "The 3-Layer Pyramid: A Blueprint for Enterprise Survival"
 slug: "2025-12-22-the-3-layer-pyramid-a-blueprint-for-enterprise-survival"
 date: "2025-12-22"
-description: "The 3-Layer Pyramid: A Blueprint for Enterprise Survival"
+description: "The modern enterprise is currently drowning in a flood of “intelligence.” Every software vendor you pay, from the monolithic CRM to the humble HR portal, has recently slapped a sparkle icon on their i..."
 coverImage: "/images/blog/2025-12-22-the-3-layer-pyramid-a-blueprint-for-enterprise-survival/image-01.png"
 tags: ["Monday Morning ML","AI Strategy"]
 readTime: "11 min read"

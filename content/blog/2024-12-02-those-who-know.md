@@ -2,7 +2,7 @@
 title: "Those who know"
 slug: "2024-12-02-those-who-know"
 date: "2024-12-02"
-description: "Those who know"
+description: "This past week I had a short, but very enlightening conversation with a recruiter. Someone who has had great success finding, and attracting top technical talent to tech organisations. Think L7 type I..."
 coverImage: "/images/blog/2024-12-02-those-who-know/image-01.jpg"
 tags: ["AI Strategy"]
 readTime: "5 min read"

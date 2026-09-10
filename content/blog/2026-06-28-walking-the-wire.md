@@ -2,7 +2,7 @@
 title: "Walking the Wire"
 slug: "2026-06-28-walking-the-wire"
 date: "2026-06-28"
-description: "jung.marshall@gmail.com"
+description: "The drama in AI and the race for the industry’s future are always fascinating. This week, OpenAI released a couple of “smaller” models that landed just shy of Anthropic’s Mythos level still stuck in t..."
 coverImage: "/images/blog/2026-06-28-walking-the-wire/image-01.png"
 tags: ["AI Strategy"]
 readTime: "5 min read"
@@ -10,15 +10,7 @@ readTime: "5 min read"
 
 ![Figure](/images/blog/2026-06-28-walking-the-wire/image-01.png)
 
-jung.marshall@gmail.com
-
-Wild West, Colorado
-
 (720)315–6713
-
-(Archive​s available here: [https://medium.com/@jung.marshall](https://medium.com/@jung.marshall/marshalls-monday-morning-ml-archive-002-3f54812a7b37))
-
-June 29, 2026
 
 ### Walking the Wire
 

@@ -2,15 +2,13 @@
 title: "It’s Upside Down"
 slug: "2026-01-16-its-upside-down"
 date: "2026-01-16"
-description: "January 18, 2026"
+description: "I thought my job was to teach the workforce to fish. It turns out, the best way to start is to build a better fishing boat."
 coverImage: "/images/blog/2026-01-16-its-upside-down/image-01.png"
 tags: ["AI Strategy"]
 readTime: "8 min read"
 ---
 
 ![Figure](/images/blog/2026-01-16-its-upside-down/image-01.png)
-
-January 18, 2026
 
 ### Why “Moonshots” Are Actually the Low-Hanging Fruit
 

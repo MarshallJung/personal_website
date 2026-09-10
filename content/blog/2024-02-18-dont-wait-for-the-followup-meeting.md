@@ -2,7 +2,7 @@
 title: "Don’t wait for the followup meeting"
 slug: "2024-02-18-dont-wait-for-the-followup-meeting"
 date: "2024-02-18"
-description: "Don’t wait for the followup meeting"
+description: "There comes a time in many meetings where someone says something of the form"
 coverImage: "/images/blog/2024-02-18-dont-wait-for-the-followup-meeting/image-01.jpg"
 tags: ["AI Strategy"]
 readTime: "4 min read"

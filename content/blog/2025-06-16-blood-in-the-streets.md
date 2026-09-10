@@ -2,7 +2,7 @@
 title: "Blood in the Streets"
 slug: "2025-06-16-blood-in-the-streets"
 date: "2025-06-16"
-description: "Blood in the Streets"
+description: "A well-known saying, often attributed to Baron Rothschild after the financial panic following the Battle of Waterloo, suggests that it’s time to “buy when there’s blood in the streets”. This notion ha..."
 coverImage: "/images/blog/2025-06-16-blood-in-the-streets/image-01.jpg"
 tags: ["AI Strategy"]
 readTime: "7 min read"

@@ -2,7 +2,7 @@
 title: "An Instructional"
 slug: "2025-10-13-an-instructional"
 date: "2025-10-13"
-description: "An Instructional"
+description: "The algorithm has served me up all sorts of info after the past weeks where I’ve been talking about and searching for information on DSPy and other programmatic LLm interface technologies. And along c..."
 coverImage: "/images/blog/2025-10-13-an-instructional/image-01.png"
 tags: ["AI Strategy"]
 readTime: "6 min read"

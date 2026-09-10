@@ -2,7 +2,7 @@
 title: "Where to specialize"
 slug: "2024-07-01-where-to-specialize"
 date: "2024-07-01"
-description: "Where to specialize"
+description: "Everyone’s an expert right? Only about 18 months after the widespread publicity of GPT-3 and other foundational models the number of people with “AI Innovator” or other guru like title is thicker than..."
 coverImage: "/images/blog/2024-07-01-where-to-specialize/image-01.jpg"
 tags: ["AI Strategy"]
 readTime: "4 min read"

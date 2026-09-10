@@ -2,7 +2,7 @@
 title: "The Future is Local"
 slug: "2026-07-06-the-future-is-local"
 date: "2026-07-06"
-description: "jung.marshall@gmail.com"
+description: "Happy birthday to the United States! While 250 years is brief in the span of history, it’s an accomplishment to be proud of. Wherever you are, have a great 4th of July and appreciate the blessings we ..."
 coverImage: "/images/blog/2026-07-06-the-future-is-local/image-01.png"
 tags: ["AI Strategy"]
 readTime: "6 min read"
@@ -10,15 +10,7 @@ readTime: "6 min read"
 
 ![Figure](/images/blog/2026-07-06-the-future-is-local/image-01.png)
 
-jung.marshall@gmail.com
-
-Wild West, Colorado
-
 (720)315–6713
-
-(Archive​s available here: [https://medium.com/@jung.marshall](https://medium.com/@jung.marshall/marshalls-monday-morning-ml-archive-002-3f54812a7b37))
-
-July 05, 2026
 
 ### The Future is Local-ish
 

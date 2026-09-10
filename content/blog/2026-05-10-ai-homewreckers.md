@@ -2,15 +2,13 @@
 title: "AI Homewreckers"
 slug: "2026-05-10-ai-homewreckers"
 date: "2026-05-10"
-description: "May 11, 2026"
+description: "(This week I tried to emulate a favorite X account in a dialogue style, mixing a bit of spiciness with the current tech landscape. I spent much longer than usual, struggling to make the flow witty, cl..."
 coverImage: "/images/blog/2026-05-10-ai-homewreckers/image-01.png"
 tags: ["AI Strategy"]
 readTime: "6 min read"
 ---
 
 ![Figure](/images/blog/2026-05-10-ai-homewreckers/image-01.png)
-
-May 11, 2026
 
 ### AI Homewreckers — SF Style
 

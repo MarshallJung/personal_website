@@ -2,15 +2,13 @@
 title: "The Org is Shifting"
 slug: "2026-08-03-the-org-is-shifting"
 date: "2026-08-03"
-description: "August 03, 2026"
+description: "Lots to cover this week. I’ll keep the opening brief and dive into the most interesting and wild developments from the past week."
 coverImage: "/images/blog/2026-08-03-the-org-is-shifting/image-01.jpg"
 tags: ["AI Strategy"]
 readTime: "8 min read"
 ---
 
 ![Figure](/images/blog/2026-08-03-the-org-is-shifting/image-01.jpg)
-
-August 03, 2026
 
 Lots to cover this week. I’ll keep the opening brief and dive into the most interesting and wild developments from the past week.
 

@@ -2,15 +2,13 @@
 title: "AI Pushback"
 slug: "2025-11-17-ai-pushback"
 date: "2025-11-17"
-description: "November 17, 2025"
+description: "I was recently on a business trip to help an enterprise with AI transformation. After landing, I went to the rental car facility, where, while waiting for my reservation to be confirmed, an attendant ..."
 coverImage: "/images/blog/2025-11-17-ai-pushback/image-01.jpg"
 tags: ["AI Strategy"]
 readTime: "21 min read"
 ---
 
 ![Figure](/images/blog/2025-11-17-ai-pushback/image-01.jpg)
-
-November 17, 2025
 
 I was recently on a business trip to help an enterprise with AI transformation. After landing, I went to the rental car facility, where, while waiting for my reservation to be confirmed, an attendant struck up a conversation. They asked why I was in town and after telling them that I was there to help said company with AI transformation they said, confidently and quickly, that they really didn’t like AI. “It’s taking everyone’s jobs.” was the conclusion. The satement struck me more than I would have thought.
 

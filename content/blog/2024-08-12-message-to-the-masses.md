@@ -2,7 +2,7 @@
 title: "Message to the masses"
 slug: "2024-08-12-message-to-the-masses"
 date: "2024-08-12"
-description: "Message to the masses"
+description: "When I say that this is written to the masses, in this case I mean both employees and employers in the tech space. So…not exactly the masses, but enough folks these days. I was tracking tech layoffs (..."
 coverImage: "/images/blog/2024-08-12-message-to-the-masses/image-01.jpg"
 tags: ["AI Strategy"]
 readTime: "5 min read"

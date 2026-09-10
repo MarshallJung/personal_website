@@ -2,7 +2,7 @@
 title: "Shifting Under Our Feet"
 slug: "2025-08-11-shifting-under-our-feet"
 date: "2025-08-11"
-description: "Shifting Under Our Feet"
+description: "For the past two years, the AI industry has moved at a pace that defied prediction. But after the initial gold rush, the peak of inflated expectations, we are entering a new, more sober phase. The hyp..."
 coverImage: "/images/blog/2025-08-11-shifting-under-our-feet/image-01.jpg"
 tags: ["AI Strategy"]
 readTime: "7 min read"

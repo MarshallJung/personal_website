@@ -2,7 +2,7 @@
 title: "Not a palette cleanser…"
 slug: "2024-11-25-not-a-palette-cleanser"
 date: "2024-11-25"
-description: "Not a palette cleanser…"
+description: "As I was listening to my wife talk about the VA, and the tragic inability of our veterans to get the mental health help they so desperately need I was saddened. Much of the problem stems from the laby..."
 coverImage: "/images/blog/2024-11-25-not-a-palette-cleanser/image-01.jpg"
 tags: ["AI Strategy"]
 readTime: "4 min read"

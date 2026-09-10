@@ -2,7 +2,7 @@
 title: "How Things Have Changed"
 slug: "2025-09-15-how-things-have-changed"
 date: "2025-09-15"
-description: "How Things Have Changed"
+description: "Most of my readers know me from my time in the technology space. And for sure, I have strong opinions, but they’re focused on observations of an ever-changing field where application is represented in..."
 coverImage: "/images/blog/2025-09-15-how-things-have-changed/image-01.png"
 tags: ["AI Strategy"]
 readTime: "6 min read"

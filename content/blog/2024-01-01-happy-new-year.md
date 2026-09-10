@@ -2,7 +2,7 @@
 title: "Happy New Year!!"
 slug: "2024-01-01-happy-new-year"
 date: "2024-01-01"
-description: "Happy New Year!!"
+description: "I hope everyone is having a lovely start to the new year. I’ll pretend that this newsletter will cure all hangovers and help facilitate a productive start to 2024, but alas, that is up to y’all. I wil..."
 coverImage: "/images/blog/2024-01-01-happy-new-year/image-01.jpg"
 tags: ["AI Strategy"]
 readTime: "3 min read"

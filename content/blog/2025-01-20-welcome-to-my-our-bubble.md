@@ -2,7 +2,7 @@
 title: "Welcome to my (our) bubble"
 slug: "2025-01-20-welcome-to-my-our-bubble"
 date: "2025-01-20"
-description: "Welcome to my (our) bubble"
+description: "Given that Google search analytics are, for now, reasonably good proxies for the general interest and understanding of society more broadly, I’d like to present you with this graph…"
 coverImage: "/images/blog/2025-01-20-welcome-to-my-our-bubble/image-01.jpg"
 tags: ["AI Strategy"]
 readTime: "5 min read"

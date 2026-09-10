@@ -2,7 +2,7 @@
 title: "Safety First"
 slug: "2025-09-01-safety-first"
 date: "2025-09-01"
-description: "Safety First"
+description: "I often wonder about the daily frustration security professionals face in the tech world. They repeatedly encounter nearly identical vulnerabilities across multiple clients and vendors. Despite their ..."
 coverImage: "/images/blog/2025-09-01-safety-first/image-01.png"
 tags: ["AI Strategy"]
 readTime: "4 min read"

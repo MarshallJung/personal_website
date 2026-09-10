@@ -2,7 +2,7 @@
 title: "The Missing Manual"
 slug: "2026-02-21-the-missing-manual"
 date: "2026-02-21"
-description: "February 21 , 2026"
+description: "There is a question circulating in boardrooms right now, usually asked by a strategic advisor staring at a flat ROI chart: “If this technology is so revolutionary, why can’t we just buy the playbook f..."
 coverImage: "/images/blog/2026-02-21-the-missing-manual/image-01.png"
 tags: ["AI Strategy"]
 readTime: "4 min read"

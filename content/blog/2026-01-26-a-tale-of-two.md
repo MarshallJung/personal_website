@@ -2,17 +2,13 @@
 title: "A Tale of Two"
 slug: "2026-01-26-a-tale-of-two"
 date: "2026-01-26"
-description: "(Archive​s available here: https://medium.com/@jung.marshall/marshalls-monday-morning-ml-archive-002-3f54812a7b37​ and here…"
+description: "I was talking with my twin brother about the future of management in large enterprises as AI tools mature. We explored some unconventional ideas for how senior managers and C-suite leaders could be ef..."
 coverImage: "/images/blog/2026-01-26-a-tale-of-two/image-01.png"
 tags: ["AI Strategy"]
 readTime: "6 min read"
 ---
 
 ![Figure](/images/blog/2026-01-26-a-tale-of-two/image-01.png)
-
-(Archive​s available here: [https://medium.com/@jung.marshall/marshalls-monday-morning-ml-archive-002-3f54812a7b37](https://medium.com/@jung.marshall/marshalls-monday-morning-ml-archive-002-3f54812a7b37)​ and here: [https://medium.com/@jung.marshall/marshalls-monday-morning-ml-7af6a0d2b77f](https://medium.com/@jung.marshall/marshalls-monday-morning-ml-7af6a0d2b77f))
-
-January 26, 2026
 
 ### Management in the age of AI
 

@@ -2,15 +2,13 @@
 title: "AGI? Nah…not soon anyway"
 slug: "2026-06-20-agi-nah-not-soon-anyway"
 date: "2026-06-20"
-description: "June 22, 2026"
+description: "If you’re a regular reader of this newsletter, you’ve likely come across podcaster and AI intellectual Dwarkesh Patel. He’s an interesting figure I often resonate with, partly because he isn’t selling..."
 coverImage: "/images/blog/2026-06-20-agi-nah-not-soon-anyway/image-01.png"
 tags: ["AI Strategy"]
 readTime: "5 min read"
 ---
 
 ![Figure](/images/blog/2026-06-20-agi-nah-not-soon-anyway/image-01.png)
-
-June 22, 2026
 
 If you’re a regular reader of this newsletter, you’ve likely come across podcaster and AI intellectual Dwarkesh Patel. He’s an interesting figure I often resonate with, partly because he isn’t selling his “book” when it comes to AI.
 

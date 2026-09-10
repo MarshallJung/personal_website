@@ -2,7 +2,7 @@
 title: "Unable or Canny?"
 slug: "2025-03-17-unable-or-canny"
 date: "2025-03-17"
-description: "I’m back from driving my race car at Circuit of the Americas in Texas. It was a great weekend where I got to learn more about my winter modifications and how well they performed at..."
+description: "I’m back from driving my race car at Circuit of the Americas in Texas. It was a great weekend where I got to learn more about my winter modifications and how well they performed at the limit. There’s ..."
 coverImage: "/images/blog/2025-03-17-unable-or-canny/image-01.jpg"
 tags: ["AI Strategy"]
 readTime: "8 min read"

@@ -2,7 +2,7 @@
 title: "The Human Firmware Update"
 slug: "2025-12-15-the-human-firmware-update"
 date: "2025-12-15"
-description: "The Human Firmware Update"
+description: "I’ve spent my first two weeks as Senior Director of Global AI at Valvoline Global Operations, and it has clarified a suspicion I’ve held for years: The primary bottleneck in enterprise AI is not the s..."
 coverImage: "/images/blog/2025-12-15-the-human-firmware-update/image-01.png"
 tags: ["AI Strategy"]
 readTime: "6 min read"

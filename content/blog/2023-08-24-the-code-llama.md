@@ -2,7 +2,7 @@
 title: "The Code Llama"
 slug: "2023-08-24-the-code-llama"
 date: "2023-08-24"
-description: "What is this letter all about? Well, I love the world of ML and see it in, perhaps, a unique way. So I’m writing this letter to Istari on a weekly basis (barring vacations, etc.) t..."
+description: "What is this letter all about? Well, I love the world of ML and see it in, perhaps, a unique way. So I’m writing this letter to Istari on a weekly basis (barring vacations, etc.) to summarize a few in..."
 coverImage: "/images/blog/2023-08-24-the-code-llama/image-01.jpg"
 tags: ["AI Strategy"]
 readTime: "2 min read"

@@ -2,7 +2,7 @@
 title: "Why your frustration around LLMs can be explained by Sapir-Whorf"
 slug: "2025-01-13-why-your-frustration-around-llms-can-be-explained-by-sapir-whorf"
 date: "2025-01-13"
-description: "Why your frustration around LLMs can be explained by Sapir-Whorf"
+description: "Recently I was working on a few items for an AI company for their DevRel and messaging. For part of this effort I was attempting to distill the ideas to a pitch deck that combined some Douglas Adams h..."
 coverImage: "/images/blog/2025-01-13-why-your-frustration-around-llms-can-be-explained-by-sapir-whorf/image-01.jpg"
 tags: ["AI Strategy"]
 readTime: "6 min read"

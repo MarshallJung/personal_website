@@ -2,7 +2,7 @@
 title: "A Plan for the Future"
 slug: "2026-04-09-a-plan-for-the-future"
 date: "2026-04-09"
-description: "A Plan for the Future"
+description: "In my previous newsletter, which I released early due to concerns about open source security and AI application development, I called for industry-wide cooperation to secure open source software packa..."
 coverImage: "/images/blog/2026-04-09-a-plan-for-the-future/image-01.png"
 tags: ["AI Strategy"]
 readTime: "6 min read"

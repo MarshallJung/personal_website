@@ -2,7 +2,7 @@
 title: "Was it Always Thus?"
 slug: "2026-07-13-was-it-always-thus"
 date: "2026-07-13"
-description: "jung.marshall@gmail.com"
+description: "Even before agents became the main way to do productive work — coding or knowledge tasks — prompting tricks had already lost much of their value. The Wharton research linked below details this."
 coverImage: "/images/blog/2026-07-13-was-it-always-thus/image-01.png"
 tags: ["AI Strategy"]
 readTime: "7 min read"
@@ -10,15 +10,7 @@ readTime: "7 min read"
 
 ![Figure](/images/blog/2026-07-13-was-it-always-thus/image-01.png)
 
-jung.marshall@gmail.com
-
-Wild West, Colorado
-
 (720)315–6713
-
-(Archive​s available here: [https://medium.com/@jung.marshall](https://medium.com/@jung.marshall/marshalls-monday-morning-ml-archive-002-3f54812a7b37))
-
-July 13, 2026
 
 ### It Was Always About Management?
 

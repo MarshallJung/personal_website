@@ -2,7 +2,7 @@
 title: "Take a Breather"
 slug: "2025-06-23-take-a-breather"
 date: "2025-06-23"
-description: "Take a Breather"
+description: "It’s been several months since major AI labs released new foundational models, and recent updates have mainly been iterations of existing ones. This pause seems to result from a mix of economics, stra..."
 coverImage: "/images/blog/2025-06-23-take-a-breather/image-01.jpg"
 tags: ["AI Strategy"]
 readTime: "5 min read"

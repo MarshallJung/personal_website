@@ -2,7 +2,7 @@
 title: "When the best agree ;-)"
 slug: "2024-09-23-when-the-best-agree"
 date: "2024-09-23"
-description: "Last week’s newsletter was more of a deep dive article into OpenAI’s o1 model. I thought it important enough to focus on since it does represent a meaningful step change in LLM typ..."
+description: "Last week’s newsletter was more of a deep dive article into OpenAI’s o1 model. I thought it important enough to focus on since it does represent a meaningful step change in LLM type models. (Or iLLMs ..."
 coverImage: "/images/blog/2024-09-23-when-the-best-agree/image-01.jpg"
 tags: ["AI Strategy"]
 readTime: "5 min read"

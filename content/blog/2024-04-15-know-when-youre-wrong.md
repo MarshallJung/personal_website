@@ -2,7 +2,7 @@
 title: "Know when you’re wrong"
 slug: "2024-04-15-know-when-youre-wrong"
 date: "2024-04-15"
-description: "Know when you’re wrong"
+description: "I think it’s a uniquely rare quality to have an open mind with defensible and consistent ethical principles COMBINED with the willingness to be public with one’s opinions. I strive to read the tea lea..."
 coverImage: "/images/blog/2024-04-15-know-when-youre-wrong/image-01.jpg"
 tags: ["AI Strategy"]
 readTime: "4 min read"

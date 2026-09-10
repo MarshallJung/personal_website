@@ -2,7 +2,7 @@
 title: "Proving Me Wrong"
 slug: "2025-09-29-proving-me-wrong"
 date: "2025-09-29"
-description: "Proving Me Wrong"
+description: "A couple of papers to lead the week. I think they claim some very interesting and (as of yet) underreported findings. The first one definitely challenges my assumptions about how transformer-based mod..."
 coverImage: "/images/blog/2025-09-29-proving-me-wrong/image-01.png"
 tags: ["AI Strategy"]
 readTime: "6 min read"

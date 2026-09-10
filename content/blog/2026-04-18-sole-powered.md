@@ -2,15 +2,13 @@
 title: "Sole Powered"
 slug: "2026-04-18-sole-powered"
 date: "2026-04-18"
-description: "April 20, 2026"
+description: "Almost two years ago, I wrote in my newsletter that the AI hype train seemed near its peak after the photo of Jensen Huang signing a woman’s chest at Taiwan’s Computex expo was published. But, as with..."
 coverImage: "/images/blog/2026-04-18-sole-powered/image-01.png"
 tags: ["AI Strategy"]
 readTime: "4 min read"
 ---
 
 ![Figure](/images/blog/2026-04-18-sole-powered/image-01.png)
-
-April 20, 2026
 
 Almost two years ago, I wrote in my newsletter that the AI hype train seemed near its peak after the photo of Jensen Huang signing a woman’s chest at Taiwan’s Computex expo was published. But, as with many of my predictions, I’m often early. So don’t treat my calls as investment advice. Peaks in any cycle can have their own bumps, and occasionally you’re reminded that everyone wants to grab cash while they still can. A recent reality check for the AI gold rush came last week: Allbirds, once a Silicon Valley darling (I’ve always thought the shoes were ugly but then I prefer cowboy boots) announced a dramatic pivot. The company is selling its footwear IP and rebranding as NewBird AI to chase GPU-as-a-service and “neo-cloud” infrastructure, backed by a $50 million convertible financing round.
 

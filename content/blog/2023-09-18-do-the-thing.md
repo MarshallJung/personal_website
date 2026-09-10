@@ -2,7 +2,7 @@
 title: "Do the thing"
 slug: "2023-09-18-do-the-thing"
 date: "2023-09-18"
-description: "Do the thing"
+description: "Here is a list of things that are not doing the thing:"
 coverImage: "/images/blog/2023-09-18-do-the-thing/image-01.jpg"
 tags: ["AI Strategy"]
 readTime: "5 min read"

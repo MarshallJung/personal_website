@@ -2,7 +2,7 @@
 title: "Power Struggle"
 slug: "2025-06-09-power-struggle"
 date: "2025-06-09"
-description: "Power Struggle"
+description: "Last week on the All-In podcast (https://open.spotify.com/episode/3MTSo0kmsIHRxtsJkP9Km8?si=b0a3f907afc84b93), which I believe many of my readers listen to as well, the first half of the episode focus..."
 coverImage: "/images/blog/2025-06-09-power-struggle/image-01.jpg"
 tags: ["AI Strategy"]
 readTime: "6 min read"

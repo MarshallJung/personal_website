@@ -2,7 +2,7 @@
 title: "The forbidden fruit. Tasty but is it a game changer?"
 slug: "2024-09-16-the-forbidden-fruit-tasty-but-is-it-a-game-changer"
 date: "2024-09-16"
-description: "The forbidden fruit. Tasty but is it a game changer?"
+description: "It’s always important to acknowledge when events that change your paradigm happen. Does o1/Strawberry/Q*/Orion change the outlook that I had with regards to plateauing of AI models? In a way yes it do..."
 coverImage: "/images/blog/2024-09-16-the-forbidden-fruit-tasty-but-is-it-a-game-changer/image-01.jpg"
 tags: ["AI Strategy"]
 readTime: "8 min read"

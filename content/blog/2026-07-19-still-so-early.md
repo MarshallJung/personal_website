@@ -2,7 +2,7 @@
 title: "Still So Early"
 slug: "2026-07-19-still-so-early"
 date: "2026-07-19"
-description: "jung.marshall@gmail.com"
+description: "That 2.2% figure sparked a look into the data. A few additional metrics worth considering: (numbers seem a little mismatched, but I don’t know survey methods)"
 coverImage: "/images/blog/2026-07-19-still-so-early/image-01.png"
 tags: ["AI Strategy"]
 readTime: "6 min read"
@@ -10,15 +10,7 @@ readTime: "6 min read"
 
 ![Figure](/images/blog/2026-07-19-still-so-early/image-01.png)
 
-jung.marshall@gmail.com
-
-Wild West, Colorado
-
 (720)315–6713
-
-(Archive​s available here: [https://medium.com/@jung.marshall](https://medium.com/@jung.marshall/marshalls-monday-morning-ml-archive-002-3f54812a7b37))
-
-July 20, 2026
 
 ### We’ere Still So Early
 

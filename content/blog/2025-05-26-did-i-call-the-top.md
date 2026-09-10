@@ -2,7 +2,7 @@
 title: "Did I Call the Top?"
 slug: "2025-05-26-did-i-call-the-top"
 date: "2025-05-26"
-description: "Did I Call the Top?"
+description: "I’m not one to shy away from self-congratulation, but last week’s newsletter entry highlighted the looming price hikes for SOTA AI models. Those with keen eyes might have noticed my timing was rather ..."
 coverImage: "/images/blog/2025-05-26-did-i-call-the-top/image-01.jpg"
 tags: ["AI Strategy"]
 readTime: "6 min read"

@@ -2,7 +2,7 @@
 title: "Words Matter"
 slug: "2026-01-12-words-matter"
 date: "2026-01-12"
-description: "Words Matter"
+description: "In an era where a stochastic parrot can generate a 5,000-word essay on the geopolitical nuances of 17th-century spice trade in four seconds, we face a paradox: Human writing has never been more ineffi..."
 coverImage: "/images/blog/2026-01-12-words-matter/image-01.png"
 tags: ["AI Strategy"]
 readTime: "5 min read"

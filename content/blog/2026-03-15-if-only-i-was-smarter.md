@@ -2,15 +2,13 @@
 title: "If Only I was Smarter"
 slug: "2026-03-15-if-only-i-was-smarter"
 date: "2026-03-15"
-description: "March 16, 2026"
+description: "The world is shaped by thinkers and doers, and sometimes they overlap. I’m not one of those rare combinations. I often have interesting ideas and I’m not short of builds, but I often lack the time or ..."
 coverImage: "/images/blog/2026-03-15-if-only-i-was-smarter/image-01.png"
 tags: ["AI Strategy"]
 readTime: "5 min read"
 ---
 
 ![Figure](/images/blog/2026-03-15-if-only-i-was-smarter/image-01.png)
-
-March 16, 2026
 
 The world is shaped by thinkers and doers, and sometimes they overlap. I’m not one of those rare combinations. I often have interesting ideas and I’m not short of builds, but I often lack the time or intelligence to implement them in combination. But when I have a small win, I like to acknowledge it. [https://nousresearch.com/](https://nousresearch.com/) is an open source AI research company with about $50M in Series A funding. They recently released an AI agent self-evolution process that combines DSPy and Genetic Pareto Prompt Evolution (GEPA) to automatically enhance an LLM harness’s skill set.
 

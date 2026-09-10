@@ -2,7 +2,7 @@
 title: "Where it all makes a difference"
 slug: "2024-08-26-where-it-all-makes-a-difference"
 date: "2024-08-26"
-description: "Where it all makes a difference"
+description: "Those longer term readers of the newsletter will know that I am very bullish on LLM based tools making a real impact in industry verticals rather than broad based “AGI” type tools. The more structured..."
 coverImage: "/images/blog/2024-08-26-where-it-all-makes-a-difference/image-01.jpg"
 tags: ["AI Strategy"]
 readTime: "5 min read"

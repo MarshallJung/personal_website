@@ -2,7 +2,7 @@
 title: "In another’s shoes"
 slug: "2024-02-12-in-anothers-shoes"
 date: "2024-02-12"
-description: "In another’s shoes"
+description: "“Every single person is exactly what you would be if you were them. This includes your political opponents. So instead of dismissing them as evil or stupid, maybe seek to understand the circumstances ..."
 coverImage: "/images/blog/2024-02-12-in-anothers-shoes/image-01.jpg"
 tags: ["AI Strategy"]
 readTime: "3 min read"

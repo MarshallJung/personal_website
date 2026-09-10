@@ -2,17 +2,13 @@
 title: "Return on Indecision"
 slug: "2026-06-08-return-on-indecision"
 date: "2026-06-08"
-description: "(Archive​s available here: https://medium.com/@jung.marshall)"
+description: "Last week, Bain & Company released a report noting disappointing ROI from AI in most enterprise settings. It caught on quickly in our polarized climate, where you’re either an AI accelerationist or an..."
 coverImage: "/images/blog/2026-06-08-return-on-indecision/image-01.png"
 tags: ["AI Strategy"]
 readTime: "5 min read"
 ---
 
 ![Figure](/images/blog/2026-06-08-return-on-indecision/image-01.png)
-
-(Archive​s available here: [https://medium.com/@jung.marshall](https://medium.com/@jung.marshall/marshalls-monday-morning-ml-archive-002-3f54812a7b37))
-
-June 08, 2026
 
 ### ROI or Return on Indecision
 

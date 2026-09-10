@@ -2,7 +2,7 @@
 title: "From the Sandbox to the Assembly Line"
 slug: "2025-12-08-from-the-sandbox-to-the-assembly-line"
 date: "2025-12-08"
-description: "From the Sandbox to the Assembly Line"
+description: "Some personal news: I have accepted a role as Senior Director of Global Artificial Intelligence at Valvoline."
 coverImage: "/images/blog/2025-12-08-from-the-sandbox-to-the-assembly-line/image-01.png"
 tags: ["AI Strategy"]
 readTime: "4 min read"

@@ -2,7 +2,7 @@
 title: "Gratitude for Others"
 slug: "2025-03-31-gratitude-for-others"
 date: "2025-03-31"
-description: "Gratitude for Others"
+description: "This past weekend, I was reminded of the importance of gratitude in our lives, especially towards those who help us during difficult times or inspire us when our own spirit gives up. Reflecting on my ..."
 coverImage: "/images/blog/2025-03-31-gratitude-for-others/image-01.jpg"
 tags: ["AI Strategy"]
 readTime: "5 min read"

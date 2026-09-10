@@ -2,7 +2,7 @@
 title: "Know your mission and have faith"
 slug: "2023-11-06-know-your-mission-and-have-faith"
 date: "2023-11-06"
-description: "Know your mission and have faith"
+description: "“I spent so much of my life terrified of what I was going to become and whether I was going to be right here right now. God, how much time did I waste afraid I wasn’t going to be right here right now?..."
 coverImage: "/images/blog/2023-11-06-know-your-mission-and-have-faith/image-01.jpg"
 tags: ["Intelligence"]
 readTime: "3 min read"

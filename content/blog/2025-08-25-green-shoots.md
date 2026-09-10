@@ -2,7 +2,7 @@
 title: "Green Shoots"
 slug: "2025-08-25-green-shoots"
 date: "2025-08-25"
-description: "Green Shoots"
+description: "I’m sure my readers will relate to this, but I often have a flurry of ideas around a particular technology concept and then take in-depth time to collect those thoughts and build an argument from them..."
 coverImage: "/images/blog/2025-08-25-green-shoots/image-01.jpg"
 tags: ["AI Strategy"]
 readTime: "7 min read"

@@ -2,7 +2,7 @@
 title: "How to Decide"
 slug: "2023-10-30-how-to-decide"
 date: "2023-10-30"
-description: "How to Decide"
+description: "“A man who procrastinates in his choosing will inevitably have his choice made for him by circumstance.” — Hunter S. Thompson"
 coverImage: ""
 tags: ["AI Strategy","Motorsport & Dynamics"]
 readTime: "3 min read"

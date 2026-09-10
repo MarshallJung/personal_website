@@ -2,7 +2,7 @@
 title: "Dealing with tough times"
 slug: "2024-05-06-dealing-with-tough-times"
 date: "2024-05-06"
-description: "Dealing with tough times"
+description: "We all go through tough times. For some it’s family related, others have health issues. But for the vast number of us we will also at some point face pain in our working lives. I know that these days ..."
 coverImage: "/images/blog/2024-05-06-dealing-with-tough-times/image-01.jpg"
 tags: ["AI Strategy"]
 readTime: "3 min read"

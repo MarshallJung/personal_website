@@ -2,7 +2,7 @@
 title: "Truth that I wished I knew earlier"
 slug: "2024-07-08-truth-that-i-wished-i-knew-earlier"
 date: "2024-07-08"
-description: "Truth that I wished I knew earlier"
+description: "Sometimes when the news cycle in the world of machine learning is a bit slower around the holidays and in the summer when people are on vacation I tend to look for ideas that are more inspirational. P..."
 coverImage: "/images/blog/2024-07-08-truth-that-i-wished-i-knew-earlier/image-01.jpg"
 tags: ["AI Strategy"]
 readTime: "5 min read"

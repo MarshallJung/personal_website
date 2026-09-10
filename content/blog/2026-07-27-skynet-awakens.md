@@ -2,15 +2,13 @@
 title: "Skynet Awakens"
 slug: "2026-07-27-skynet-awakens"
 date: "2026-07-27"
-description: "July 27, 2026"
+description: "Most people have probably seen reports about an autonomous cyber incident involving OpenAI and the Hugging Face open source model community website. I won’t rehash, but here’s a concise timeline:"
 coverImage: "/images/blog/2026-07-27-skynet-awakens/image-01.png"
 tags: ["AI Strategy"]
 readTime: "6 min read"
 ---
 
 ![Figure](/images/blog/2026-07-27-skynet-awakens/image-01.png)
-
-July 27, 2026
 
 Most people have probably seen reports about an autonomous cyber incident involving OpenAI and the Hugging Face open source model community website. I won’t rehash, but here’s a concise timeline:
 

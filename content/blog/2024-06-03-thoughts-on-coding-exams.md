@@ -2,7 +2,7 @@
 title: "Thoughts on coding exams"
 slug: "2024-06-03-thoughts-on-coding-exams"
 date: "2024-06-03"
-description: "Thoughts on coding exams"
+description: "I recently had an interview with a startup company in the AI model management space. It seems like a solid company from what I can gather, and in an area that I believe will actually be quite needed i..."
 coverImage: "/images/blog/2024-06-03-thoughts-on-coding-exams/image-01.jpg"
 tags: ["AI Strategy"]
 readTime: "7 min read"

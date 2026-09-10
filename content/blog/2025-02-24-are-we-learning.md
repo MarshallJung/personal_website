@@ -2,7 +2,7 @@
 title: "Are we learning?"
 slug: "2025-02-24-are-we-learning"
 date: "2025-02-24"
-description: "Are we learning?"
+description: "I’m following up on our discussion about AI in education from last week. I found an article that raises some additional questions for me. Used properly, AI is a great way to understand new and unique ..."
 coverImage: "/images/blog/2025-02-24-are-we-learning/image-01.jpg"
 tags: ["AI Strategy"]
 readTime: "7 min read"

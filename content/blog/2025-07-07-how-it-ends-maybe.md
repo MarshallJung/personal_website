@@ -2,7 +2,7 @@
 title: "How it Ends — Maybe"
 slug: "2025-07-07-how-it-ends-maybe"
 date: "2025-07-07"
-description: "How it Ends — Maybe"
+description: "There has been significant discussion on the social medias/internet recently about the activities of major AI model labs and other key AI players like Google and Microsoft. This last week the steak ta..."
 coverImage: "/images/blog/2025-07-07-how-it-ends-maybe/image-01.png"
 tags: ["AI Strategy"]
 readTime: "7 min read"

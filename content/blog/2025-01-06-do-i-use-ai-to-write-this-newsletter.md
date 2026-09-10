@@ -2,7 +2,7 @@
 title: "Do I use AI to write this newsletter?"
 slug: "2025-01-06-do-i-use-ai-to-write-this-newsletter"
 date: "2025-01-06"
-description: "My dear readers will need to forgive me this week. I will include a few useful tools and interesting papers that I’ve encountered, but there is some introspection that needs to be ..."
+description: "My dear readers will need to forgive me this week. I will include a few useful tools and interesting papers that I’ve encountered, but there is some introspection that needs to be done now that we are..."
 coverImage: "/images/blog/2025-01-06-do-i-use-ai-to-write-this-newsletter/image-01.jpg"
 tags: ["AI Strategy"]
 readTime: "6 min read"

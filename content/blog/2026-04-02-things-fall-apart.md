@@ -2,15 +2,13 @@
 title: "Things Fall Apart"
 slug: "2026-04-02-things-fall-apart"
 date: "2026-04-02"
-description: "April 02, 2026"
+description: "Note: I’m releasing my Monday morning newsletter early this week to put a stake in the ground on the open source security issues currently plaguing the AI development environment. It’s mostly opinion,..."
 coverImage: "/images/blog/2026-04-02-things-fall-apart/image-01.png"
 tags: ["AI Strategy"]
 readTime: "9 min read"
 ---
 
 ![Figure](/images/blog/2026-04-02-things-fall-apart/image-01.png)
-
-April 02, 2026
 
 *Note: I’m releasing my Monday morning newsletter early this week to put a stake in the ground on the open source security issues currently plaguing the AI development environment. It’s mostly opinion, but any facts are easily verifiable via X.com or other up-to-the-minute tech reporters.*
 

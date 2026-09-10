@@ -2,7 +2,7 @@
 title: "I missed something"
 slug: "2024-12-23-i-missed-something"
 date: "2024-12-23"
-description: "I missed something"
+description: "Last week I reviewed my 2024 predictions and put my thoughts and beliefs on paper for 2025. However, I missed something in prediction and it was also something that I failed to recognize or predict du..."
 coverImage: "/images/blog/2024-12-23-i-missed-something/image-01.jpg"
 tags: ["AI Strategy","Motorsport & Dynamics"]
 readTime: "7 min read"

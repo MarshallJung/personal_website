@@ -2,7 +2,7 @@
 title: "Touching Grass"
 slug: "2026-08-31-touching-grass"
 date: "2026-08-31"
-description: "jung.marshall@gmail.com"
+description: "This week, we will cover a few economic and business strategy concepts. Don’t worry, I will still include some tech tips at the end for readers who like getting some dirt under their fingernails."
 coverImage: "/images/blog/2026-08-31-touching-grass/image-01.png"
 tags: ["AI Strategy"]
 readTime: "6 min read"
@@ -10,15 +10,7 @@ readTime: "6 min read"
 
 ![Figure](/images/blog/2026-08-31-touching-grass/image-01.png)
 
-jung.marshall@gmail.com
-
-Wild West, Colorado
-
 (720)315–6713
-
-(Archive​s available here: [https://medium.com/@jung.marshall](https://medium.com/@jung.marshall/marshalls-monday-morning-ml-archive-002-3f54812a7b37))
-
-August 31, 2026
 
 ### Touching Grass
 

@@ -2,7 +2,7 @@
 title: "Play the hand you’re dealt…"
 slug: "2023-11-20-play-the-hand-youre-dealt"
 date: "2023-11-20"
-description: "Play the hand you’re dealt…"
+description: "“If you had disadvantages — I agree with you. You are right. It’s harder to be successful if “X” happened to you. Replace “X” with: Gender, race, birth deformity, different language, different country..."
 coverImage: "/images/blog/2023-11-20-play-the-hand-youre-dealt/image-01.jpg"
 tags: ["AI Strategy"]
 readTime: "4 min read"

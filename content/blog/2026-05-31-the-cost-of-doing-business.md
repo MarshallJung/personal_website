@@ -2,17 +2,13 @@
 title: "The Cost of Doing Business"
 slug: "2026-05-31-the-cost-of-doing-business"
 date: "2026-05-31"
-description: "(Archive​s available here: https://medium.com/@jung.marshall)"
+description: "A couple of months ago, I wrote about the hangover from the looming “API token bill.” Back then it was early rumblings, but this past week brought both unfortunate and unbelievable stories, all pointi..."
 coverImage: "/images/blog/2026-05-31-the-cost-of-doing-business/image-01.png"
 tags: ["AI Strategy","Motorsport & Dynamics"]
 readTime: "7 min read"
 ---
 
 ![Figure](/images/blog/2026-05-31-the-cost-of-doing-business/image-01.png)
-
-(Archive​s available here: [https://medium.com/@jung.marshall](https://medium.com/@jung.marshall/marshalls-monday-morning-ml-archive-002-3f54812a7b37))
-
-June 01, 2026
 
 A couple of months ago, I wrote about the hangover from the looming “API token bill.” Back then it was early rumblings, but this past week brought both unfortunate and unbelievable stories, all pointing to the same theme. Enterprise AI spending is hitting a reckoning. Unchecked token usage, gamified adoption metrics, and overly complex agentic workflows are driving unpredictable, sometimes catastrophic costs. Rapid adoption without guardrails, project vetting, or thoughtful use of AI tools turns a productivity aid into an infrastructure-like expense with no natural ceiling. Meanwhile, success stories show that real value comes from deep integration with a company’s context, not from raw model access or usage volume.
 

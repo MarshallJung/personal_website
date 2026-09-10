@@ -2,7 +2,7 @@
 title: "Merry Christmas!!"
 slug: "2023-12-25-merry-christmas"
 date: "2023-12-25"
-description: "Merry Christmas!!"
+description: "I wrote a story a while back, but I thought it might be interesting for others to read."
 coverImage: "/images/blog/2023-12-25-merry-christmas/image-01.jpg"
 tags: ["Intelligence"]
 readTime: "3 min read"

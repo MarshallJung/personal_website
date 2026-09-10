@@ -2,7 +2,7 @@
 title: "Theory of Mind"
 slug: "2025-04-14-theory-of-mind"
 date: "2025-04-14"
-description: "Theory of Mind"
+description: "I’ve been using LLM-based tools for quite some time, and the initial sense of magic has faded. When I started over two years ago, even less capable models occasionally delivered astonishing results. H..."
 coverImage: "/images/blog/2025-04-14-theory-of-mind/image-01.jpg"
 tags: ["AI Strategy"]
 readTime: "6 min read"
