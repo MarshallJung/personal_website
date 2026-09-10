@@ -54,9 +54,8 @@ export default function HomeApp() {
               <a
                 key={item.id}
                 href={`/blog/?post=${item.slug}`}
-                className={`p-6 sm:p-8 bg-[var(--bg-surface)] hover:bg-[var(--border-subtle)] transition-colors group flex flex-col justify-between ${
-                  idx % 2 === 0 ? 'md:hairline-r' : ''
-                } ${idx < 2 ? 'hairline-b' : 'hairline-b md:hairline-b-0'}`}
+                className={`p-6 sm:p-8 bg-[var(--bg-surface)] hover:bg-[var(--border-subtle)] transition-colors group flex flex-col justify-between ${idx % 2 === 0 ? 'md:hairline-r' : ''
+                  } ${idx < 2 ? 'hairline-b' : 'hairline-b md:hairline-b-0'}`}
               >
                 <div>
                   <div className="flex items-center justify-between text-xs font-mono text-[var(--text-muted)] mb-3">
@@ -92,7 +91,7 @@ export default function HomeApp() {
                 The Porsche 944 / Corvette Track Build
               </h3>
               <p className="text-sm sm:text-base text-[var(--text-muted)] leading-relaxed font-normal">
-                Bespoke track car engineering combining a gutted Porsche 944 body dropped onto a C4 Corvette rolling chassis. Engineered with a 350ci SBC, pushrod Koni suspension with 2:1 rocker geometry, zero-droop kinematics, flat marine-plywood floor aero, and complete CAN-bus telemetry logging.
+                Tube frame track car combining a Porsche 944 body dropped onto a Corvette chassis. Engineered with a 350ci SBC, pushrod suspension with 2:1 rocker geometry, zero-droop kinematics, flat floor aero, and complete CAN-bus telemetry logging.
               </p>
             </div>
 

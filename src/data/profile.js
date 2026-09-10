@@ -17,7 +17,7 @@ export const profileData = {
   manifesto: {
     title: "Executive Manifesto: Code and Steel",
     lead: "Combining the precision of hard engineering with the foresight of modern AI strategy.",
-    text: `I bridge the gap between Silicon Valley innovation and the realities of a Fortune 1000 P&L. As a former Google ML Strategic Advisor and current Head of AI for a major industrial brand, I specialize in moving artificial intelligence from "demo cool" to "enterprise critical." My leadership philosophy is built on "Code & Steel"—combining the precision of hard engineering with the foresight of modern AI strategy. I don't just hire engineers; I hire "rocket navigators" who can steer complex organizations through technological disruption.`,
+    text: `I bridge the gap between Silicon Valley innovation and the realities of a Fortune 1000 P&L. As a former Google ML Strategic Advisor and current Head of AI for a major industrial brand, I specialize in moving AI from "demo cool" to "enterprise critical." My leadership philosophy is built on "Code & Steel"—combining the precision of hard engineering with the foresight of modern AI strategy. I believe in navigators who can steer complex organizations through technological disruption.`,
   },
   dualSplit: {
     code: {
@@ -37,11 +37,11 @@ export const profileData = {
     steel: {
       tag: "STEEL",
       title: "Physical Engineering & Dynamics",
-      subtitle: "The Precision of Hard Engineering & Motorsport",
-      description: "Hands-on vehicle dynamics, custom roll cage fabrication, pushrod suspension kinematics, aerodynamic balance, and a decade of petrophysical engineering in heavy industry.",
+      subtitle: "The Precision of Engineering & Motorsport",
+      description: "Hands-on vehicle dynamics, custom roll cage fabrication, pushrod suspension kinematics, aerodynamic balance, plus a decade of petrophysical engineering in heavy industry.",
       anchors: [
-        { label: "Bespoke Race Car Build", desc: "Porsche 944 body mated to Corvette rolling chassis & 350ci SBC" },
-        { label: "Suspension Kinematics", desc: "Zero-droop pushrod Koni dampers with 2:1 rocker geometry" },
+        { label: "Bespoke Race Car Build", desc: "Porsche 944 body mated to Corvette chassis & 350ci SBC" },
+        { label: "Suspension Kinematics", desc: "Zero-droop pushrod dampers with 2:1 rocker geometry" },
         { label: "Aerodynamic Floor", desc: "Marine plywood flat floor, sealed side skirts & rear diffuser" },
         { label: "Hard Engineering Roots", desc: "11 years at Whiting & Halliburton saving $1.5M/well" },
       ],
@@ -110,7 +110,7 @@ export const profileData = {
       role: "Founder & Principal AI Advisor",
       company: "Shrike Ventures",
       period: "Jan 2022 – Present",
-      lead: "Fractional CTO Advisor for Venture Capital and DeepTech startups.",
+      lead: "Fractional CTO Advisor for Venture Capital and startups.",
       bullets: [
         {
           label: "Due Diligence",
@@ -207,7 +207,7 @@ export const profileData = {
     {
       degree: "Bachelor of Science, Mathematics & Computer Science",
       institution: "Colorado School of Mines",
-      details: "Double degree in pure/applied mathematics, numerical algorithms, and computer systems.",
+      details: "Double degree in applied mathematics and computer systems.",
     },
   ],
   certifications: [
