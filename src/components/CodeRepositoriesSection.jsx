@@ -6,7 +6,7 @@ export default function CodeRepositoriesSection() {
   const { title, subtitle, summary, profileUrl, repositories } = repositoriesData;
 
   return (
-    <section id="code-repositories" className="py-16 md:py-24 max-w-6xl mx-auto px-4 sm:px-6 hairline-t">
+    <section id="code-repositories" className="py-16 md:py-24 max-w-6xl mx-auto px-4 sm:px-6 hairline-t-orange">
       {/* Section Header */}
       <div className="flex flex-col lg:flex-row lg:items-end justify-between gap-6 pb-6 hairline-b mb-10">
         <div>

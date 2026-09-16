@@ -13,7 +13,7 @@ export default function ResumeSection() {
       : profileData.skills.filter((s) => s.category === selectedSkillCategory);
 
   return (
-    <section id="resume" className="py-16 md:py-24 max-w-6xl mx-auto px-4 sm:px-6">
+    <section id="resume" className="py-16 md:py-24 max-w-6xl mx-auto px-4 sm:px-6 hairline-t-orange">
       {/* Section Header */}
       <div className="flex flex-col sm:flex-row sm:items-baseline justify-between gap-4 pb-6 hairline-b mb-12">
         <div>
@@ -38,7 +38,7 @@ export default function ResumeSection() {
       </div>
 
       {/* Professional Experience Ledger */}
-      <div className="mb-20">
+      <div className="mb-16 md:mb-20">
         <div className="text-[11px] font-mono tracking-widest text-[var(--text-muted)] uppercase mb-6">
           Executive Leadership &amp; Engineering Roles
         </div>
@@ -108,7 +108,7 @@ export default function ResumeSection() {
 
       {/* Intellectual Property & Patents */}
       {profileData.patents && profileData.patents.length > 0 && (
-        <div className="mb-20">
+        <div className="pt-16 md:pt-20 hairline-t-orange mb-16 md:mb-20">
           <div className="text-[11px] font-mono tracking-widest text-[var(--text-muted)] uppercase mb-6">
             Intellectual Property &amp; Patents
           </div>
@@ -164,7 +164,7 @@ export default function ResumeSection() {
       )}
 
       {/* Competencies Matrix */}
-      <div className="mb-20">
+      <div className="pt-16 md:pt-20 hairline-t-orange mb-16 md:mb-20">
         <div className="flex flex-col sm:flex-row sm:items-baseline justify-between gap-4 mb-6">
           <div className="text-[11px] font-mono tracking-widest text-[var(--text-muted)] uppercase">
             Technical &amp; Strategic Competencies
@@ -214,7 +214,7 @@ export default function ResumeSection() {
       </div>
 
       {/* Education & Certifications Ledger */}
-      <div>
+      <div className="pt-16 md:pt-20 hairline-t-orange">
         <div className="text-[11px] font-mono tracking-widest text-[var(--text-muted)] uppercase mb-6">
           Academic Foundations &amp; Certifications
         </div>

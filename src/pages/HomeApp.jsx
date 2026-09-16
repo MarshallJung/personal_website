@@ -25,7 +25,7 @@ export default function HomeApp() {
         <CodeRepositoriesSection />
 
         {/* Strategic Foresight & Publications Ledger */}
-        <section className="py-16 md:py-24 max-w-6xl mx-auto px-4 sm:px-6 hairline-t">
+        <section className="py-16 md:py-24 max-w-6xl mx-auto px-4 sm:px-6 hairline-t-orange">
           <div className="flex flex-col sm:flex-row sm:items-baseline justify-between gap-4 pb-6 hairline-b mb-10">
             <div>
               <div className="text-[11px] font-mono tracking-widest text-[var(--text-muted)] uppercase mb-2">
@@ -81,7 +81,7 @@ export default function HomeApp() {
         </section>
 
         {/* Physical Engineering & Race Car Spotlight */}
-        <section className="py-16 md:py-20 max-w-6xl mx-auto px-4 sm:px-6 hairline-t">
+        <section className="py-16 md:py-20 max-w-6xl mx-auto px-4 sm:px-6 hairline-t-orange">
           <div className="p-8 md:p-12 hairline-all bg-[var(--bg-surface)] flex flex-col lg:flex-row lg:items-center justify-between gap-8">
             <div className="max-w-2xl">
               <div className="text-[11px] font-mono tracking-widest text-[var(--text-muted)] uppercase mb-3">
