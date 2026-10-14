@@ -10,6 +10,8 @@ readTime: "5 min read"
 
 ![Figure](/images/blog/2026-03-07-a-long-long-way-to-go/image-01.png)
 
+### A Long, Long way to go...
+
 It’s often hard to gauge how other enterprise AI initiatives compare to what I’m helping to build at Valvoline Global Operations. I recently read a Wall Street Journal piece on Colgate-Palmolive, highlighting how a long-time insider is leading AI efforts there. I know these articles usually lag reality, but taking it at face value, my reaction to their program would be “unimpressed.”
 
 ![Figure](/images/blog/2026-03-07-a-long-long-way-to-go/image-02.png)
@@ -18,7 +20,7 @@ I do think their “AI Ambassador” program, where people across the company pa
 
 Used correctly, adoption can scale quickly. In my short time at VGO, I’ve seen usage evolve from a Google search replacement to advanced data analysis and workflow/process replacement. I’m also seeing new users and fresh enthusiasm from across the company nearly every day.
 
-While I often feel I’m falling behind the state of the art day to day (hard not to with things advancing so quickly), the truth is that Valvoline Global Operations — despite being a 3,000-employee global company — is pushing real boundaries in thinking and adoption. I look forward to continuing to see what these AI tools can enable, even for a 140-year-old company.
+While I often feel I’m falling behind the state of the art day to day (hard not to with things advancing so quickly), the truth is that Valvoline Global Operations—despite being a 3,000-employee global company—is pushing real boundaries in thinking and adoption. I look forward to continuing to see what these AI tools can enable, even for a 140-year-old company.
 
 ### Harnessing AI
 
@@ -26,30 +28,32 @@ Over the past couple of weeks, there’s been a consistent challenge: AI is movi
 
 Common Terminology (03/2026 Landscape)
 
-1.  **LLM Harness:** The runtime environment (prompt engineering + tool registry + execution engine + context manager) that wraps an LLM. Same model in different harnesses yields radically different behavior because the harness defines available tools, context assembly, and the feedback loop.
-2.  **Agentic Workflow / ReAct Loop**: The canonical cycle:
+1.  LLM Harness: The runtime environment (prompt engineering + tool registry + execution engine + context manager) that wraps an LLM. Same model in different harnesses yields radically different behavior because the harness defines available tools, context assembly, and the feedback loop.
 
-a. Intake + context assembly
+2.  Agentic Workflow / ReAct Loop: The canonical cycle:
 
-b. LLM inference (text or structured tool call)
+    1.  Intake + context assembly
 
-c. Tool execution → observation injected as new message
+    2.  LLM inference (text or structured tool call)
 
-d. Loop until final answer or max steps.
+    3.  Tool execution → observation injected as new message
 
-e. Pseudocode (the heart of every serious harness):
+    4.  Loop until final answer or max steps.
 
-![Figure](/images/blog/2026-03-07-a-long-long-way-to-go/image-03.png)
+    5.  Pseudocode (the heart of every serious harness):
 
-**3\. MCP (Model Context Protocol)**: The emerging open standard (modelcontextprotocol.io) that lets any harness discover and call tools from external CLIs/servers without custom glue code. Think USB-C for AI tools.
+        ![Figure](/images/blog/2026-03-07-a-long-long-way-to-go/image-03.png)
 
-**4\. Skills / Tools**: Pluggable, natural-language-described capabilities (OpenClaw) or MCP servers.
+
+3.  **MCP (Model Context Protocol)**: The emerging open standard (modelcontextprotocol.io) that lets any harness discover and call tools from external CLIs/servers without custom glue code. Think USB-C for AI tools.
+
+4.  **Skills / Tools**: Pluggable, natural-language-described capabilities (OpenClaw) or MCP servers.
 
 Links:
 
-[https://github.com/googleworkspace/cli  
-](https://github.com/googleworkspace/cli)[https://learn.microsoft.com/en-us/microsoft-365-copilot/extensibility/workiq-overview  
-](https://learn.microsoft.com/en-us/microsoft-365-copilot/extensibility/workiq-overview)[https://github.com/anthropics/skills/tree/main/skills/skill-creator](https://github.com/anthropics/skills/tree/main/skills/skill-creator)
+[https://github.com/googleworkspace/cli](https://github.com/googleworkspace/cli)  
+[https://learn.microsoft.com/en-us/microsoft-365-copilot/extensibility/workiq-overview](https://learn.microsoft.com/en-us/microsoft-365-copilot/extensibility/workiq-overview)  
+[https://github.com/anthropics/skills/tree/main/skills/skill-creator](https://github.com/anthropics/skills/tree/main/skills/skill-creator)
 
 OpenClaw is the dominant open-source personal-agent harness (formerly Moltbot/Clawdbot) but there are other notable harnesses including OpenCode (planning + build split), Aider, Cursor, agent-runner, and vendor-specific ones (GitHub Copilot CLI, Gemini CLI Harness AI DevOps Agent, etc).
 
@@ -61,7 +65,7 @@ AND!!! We’re seeing a higher abstraction layer emerge that lets you manage mul
 
 ![Figure](/images/blog/2026-03-07-a-long-long-way-to-go/image-04.png)
 
-There are likely good reasons for this graph, but the Anthropic team relies heavily on AI to write code — apparently 80% of deployed code is written by Claude Code. They ship fast, yet these poor reliability numbers suggest a downside to that speed. This could be due to rapid user growth and infrastructure constraints — something to keep in mind. If you depend on cloud-provided models to power mission-critical parts of your product, it behooves you to be careful about how this works.
+There are likely good reasons for this graph, but the Anthropic team relies heavily on AI to write code—apparently 80% of deployed code is written by Claude Code. They ship fast, yet these poor reliability numbers suggest a downside to that speed. This could be due to rapid user growth and infrastructure constraints—something to keep in mind. If you depend on cloud-provided models to power mission-critical parts of your product, it behooves you to be careful about how this works.
 
 ### SEO in the Age of AI
 
@@ -69,10 +73,14 @@ There are likely good reasons for this graph, but the Anthropic team relies heav
 
 Many consumer-facing companies are asking how years of painstaking SEO work will be affected by one-click AI summaries from Google and chat interfaces like ChatGPT, Perplexity. The article is a good read. I won’t summarize it here, but I’ll share a few takeaways to spark discussion.
 
--   Prioritize Bottom-of-Funnel Content: Focus on ranking for commercial terms. Being cited by AI is key to remaining in the consumer’s “consideration set.”
--   Implement Self-Reported Attribution: Use “How did you hear about us?” fields to capture search-driven discovery often misreported as direct traffic due to unreliable digital tracking.
+-   Prioritize Bottom-of-Funnel Content: Focus on ranking for commercial terms. Being cited by AI is key to remaining in the consumer's "consideration set."
+
+-   Implement Self-Reported Attribution: Use "How did you hear about us?" fields to capture search-driven discovery often misreported as direct traffic due to unreliable digital tracking.
+
 -   Monitor Branded Search: Use an increase in branded searches as a KPI, indicating non-branded SEO success is driving awareness.
+
 -   Track LLM Referrals: Monitor traffic from AI platforms (like ChatGPT/Claude) to identify brand recommendations outside of search.
+
 -   Holistic Lead Measurement: Measure organic leads site-wide (not just per article) to account for users who find the brand via AI-cited content but convert through a direct visit.
 
 ### OpenFrawd

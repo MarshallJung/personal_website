@@ -8,6 +8,8 @@ tags: ["Generative Media & Diffusion","AI Security & Safety","AI Agents & Agenti
 readTime: "6 min read"
 ---
 
+### Why your frustration around LLMs can be explained by Sapir-Whorf
+
 Recently I was working on a few items for an AI company for their DevRel and messaging. For part of this effort I was attempting to distill the ideas to a pitch deck that combined some Douglas Adams humor with the technical details of this companies’ product. While the words were, I believe, enough to communicate precisely what I was thinking, the imagery that I added to the deck was really frustrating. I was using AI based generation to create the images. This was natural language to image, and requires the user to tell the model what the image should look like. In my head I knew what the result should be. But try as I might I could not get the AI to create something that I wanted. And in the end the image prompts were quite lengthy, very detailed and specific yet the results were always only “close enough”.
 
 Perhaps my readers have also run into this issue. Back in the early 20th century two researchers, Edward Sapir and Benjamin Lee Whorf proposed a theory ([https://en.wikipedia.org/wiki/Linguistic\_relativity](https://en.wikipedia.org/wiki/Linguistic_relativity)) where the language that a person speaks influences the way they view the world. A deep analysis of how this might apply to today’s modern society is far too detailed to attempt here, but a simple example is the Native American Hopi have no grammar for time in their native language so the way they speak about time might be difficult to comprehend for someone coming from an English speaking background.
@@ -18,7 +20,7 @@ As this applies to AI, some of us have found interacting with AI to be frustrati
 
 ![Figure](/images/blog/2025-01-13-why-your-frustration-around-llms-can-be-explained-by-sapir-whorf/image-01.jpg)
 
-Look, I’m not the safest guy on the planet. If an activity doesn’t have at least a smidge of danger in it it’s not really all that fun is it? Yes, I am the guy that runs the chainsaw wheel on my angle grinder with no guard. I recently was sent this post: [https://x.com/eigenrobot/status/1877964147935068240?t=tGOYypGt\_nW-R6o7gPZjJw&s=01](https://x.com/eigenrobot/status/1877964147935068240?t=tGOYypGt_nW-R6o7gPZjJw&s=01) and while I’m not one to try and get LLMs to misbehave for the fun of it, there are people that do and the behavior is actually pretty interesting. What is my opinion? Alignment just doesn’t work. It never will work when LLM’s are trained on enormous uncurated datasets. It’ll be interesting to see the distribution of products based on demand in the public. Will there be very “safe” LLMs? Will those safe models come with nerfed capabilities? It’s probably indeterminate. But usefulness, and capability will probably win out so I think people will gravitate to the wide open ones even if there is a chance you’re going to see some intolerant or dangerous behavior. Like the guard on my angle grinder. I take that crap right off since the tool is way more useful. But it does significantly increase the chance of removing a finger.
+Look, I’m not the safest guy on the planet. If an activity doesn’t have at least a smidge of danger in it it’s not really all that fun is it? Yes, I am the guy that runs the chainsaw wheel on my angle grinder with no guard. I recently was sent this post: [https://x.com/eigenrobot/status/1877964147935068240?t=tGOYypGt\_nW-R6o7gPZjJw&s=01](https://x.com/eigenrobot/status/1877964147935068240?t=tGOYypGt_nW-R6o7gPZjJw&s=01) and while I’m not one to try and get LLMs to misbehave for the fun of it, there are people that do and the behavior is actually pretty interesting. What is my opinion? Alignment just doesn't work. It never will work when LLM’s are trained on enormous uncurated datasets. It'll be interesting to see the distribution of products based on demand in the public. Will there be very "safe" LLMs? Will those safe models come with nerfed capabilities? It’s probably indeterminate. But usefulness, and capability will probably win out so I think people will gravitate to the wide open ones even if there is a chance you're going to see some intolerant or dangerous behavior. Like the guard on my angle grinder. I take that crap right off since the tool is way more useful. But it does significantly increase the chance of removing a finger.
 
 ### Agents, agents everywhere
 
@@ -28,7 +30,7 @@ But are these the future of AI? As much as it kills me to say so, yes, I do thin
 
 Here is a wonderful, and long overview of agents and concepts that is a good place to start: [https://huyenchip.com//2025/01/07/agents.html](https://huyenchip.com//2025/01/07/agents.html)
 
-### CAG — Cache Augmented Generation
+### CAG - Cache Augmented Generation
 
 [https://arxiv.org/pdf/2412.15605](https://arxiv.org/pdf/2412.15605)
 

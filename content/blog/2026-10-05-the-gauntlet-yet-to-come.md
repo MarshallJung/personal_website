@@ -14,7 +14,7 @@ readTime: "6 min read"
 
 I rarely cover macroeconomics here, which is a bit funny given that I actually have a degree in economics. I usually stick to business or industry-specific analysis. Recently, though, there has been a lot of scrutiny around how the AI investment hypercycle affects the broader economy.
 
-Filings analyzed by UBS, The Wall Street Journal, and others point to roughly $3 to $3.8 trillion in off-balance sheet liabilities held by major AI laboratories, primarily Anthropic and OpenAI but include Neoclouds as well as Google, AWS and MSFT as well. Current as of September 30, these obligations jumped by more than $700 billion in Q3 alone. They are largely driven by uncommenced leases, purchase commitments for data center hardware like chips, HB memory, power, networking etc. and SPV structures tied directly to AI data centers and infrastructure.
+Filings analyzed by UBS, The Wall Street Journal, and others point to roughly $3 to $3.8 trillion in off-balance sheet liabilities held by major AI laboratories, primarily Anthropic and OpenAI but include Neoclouds as well as Google, AWS and MSFT as well.. Current as of September 30, these obligations jumped by more than $700 billion in Q3 alone. They are largely driven by uncommenced leases, purchase commitments for data center hardware like chips, HB memory, power, networking etc. and SPV structures tied directly to AI data centers and infrastructure.
 
 Getting more specific, Anthropic's leaked S1 filing ahead of its planned IPO shows a reported loss of $8 billion on $4.6 billion in revenue for 2025. The company has also committed to $518 billion in compute agreements, with over $400 billion classified as non-cancellable. These "take or pay" contracts create a massive long-term liability that exceeds the operating expenses of giants like Microsoft and Meta.
 
@@ -44,7 +44,7 @@ It also ships with an MCP server so your agents get the same permission-aware co
 
 ### Ontology
 
-[https://textql.com/blog/ontology-v3](https://textql.com/blog/ontology-v3)
+[**<u>https://textql.com/blog/ontology-v3</u>**](https://textql.com/blog/ontology-v3)
 
 One of my most important projects right now is introducing an ontology solution to VGO. It needs to build organically on top of our existing systems of record and documentation.
 
@@ -58,15 +58,15 @@ I am curious to see how a company like TextQL handles this type of question and 
 
 ### The Goog strikes back
 
-[https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon](https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon)
-
 ![Figure](/images/blog/2026-10-05-the-gauntlet-yet-to-come/image-03.png)
+
+[**<u>https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon</u>**](https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon)
 
 Lots of people counted Google out of the frontier model race, but they came back strong this past week with Gemini 4. I can't wait to try it once it reaches general availability. We are definitely seeing an embarrassment of riches when it comes to great models right now.
 
 ### Rise of the FDE
 
-[https://x.com/jakeserval/status/2105659201221804372](https://x.com/jakeserval/status/2105659201221804372)
+[**<u>https://x.com/jakeserval/status/2105659201221804372</u>**](https://x.com/jakeserval/status/2105659201221804372)
 
 Many younger tech professionals I work with worry about their careers given the rapid, impressive rise of AI models. However, if you enjoy problem-solving and want to learn how to use AI effectively, this is actually a time of incredible opportunity.
 
@@ -86,9 +86,12 @@ Where I see this shining is in complex organic chemistry. If you have a library 
 
 ### Adopt This
 
-**AI Writing Policy**
+AI Writing Policy
 
-1. **You must stand behind every idea and every sentence in your docs.** It is your responsibility to ensure the entire document represents your own thoughts before sharing. Readers should never hear "AI wrote that, ignore it" when asking about a passage.
-2. **Writing is thinking.** The process of structuring ideas and choosing emphasis builds topic understanding. Written artifacts (specs, retrospectives, updates) serve as "proof of thought"—outsourcing generation risks bypassing the critical thinking required to understand the core problem.
-3. **More time should be spent authoring a document than consuming it.** Generating long outputs from short prompts offloads effort onto readers. Because docs are read by many people, any reading friction incurs a multiplicative team cost, whereas authoring conciseness pays a one-time cost to benefit everyone.
-4. **Longer is not better.** AI tends to pad text with vacuous phrasing that obscures meaning. Natural language transformations are rarely lossless; every automated rewrite risks stripping nuance that only the author fully understands.
+1.  **You must stand behind every idea and every sentence in your docs.** It is your responsibility to ensure the entire document represents your own thoughts before sharing. Readers should never hear "AI wrote that, ignore it" when asking about a passage.
+
+2.  **Writing is thinking.** The process of structuring ideas and choosing emphasis builds topic understanding. Written artifacts (specs, retrospectives, updates) serve as "proof of thought"—outsourcing generation risks bypassing the critical thinking required to understand the core problem.
+
+3.  **More time should be spent authoring a document than consuming it.** Generating long outputs from short prompts offloads effort onto readers. Because docs are read by many people, any reading friction incurs a multiplicative team cost, whereas authoring conciseness pays a one-time cost to benefit everyone.
+
+4.  **Longer is not better.** AI tends to pad text with vacuous phrasing that obscures meaning. Natural language transformations are rarely lossless; every automated rewrite risks stripping nuance that only the author fully understands.

@@ -8,15 +8,17 @@ tags: ["Context, Memory & Knowledge Management","AI Economics & Infrastructure",
 readTime: "6 min read"
 ---
 
-“…failure and invention are inseparable twins. To invent you have to experiment, and if you know in advance that it’s going to work, it’s not an experiment. Most large organizations embrace the idea of invention but are not willing to suffer the string of failed experiments necessary to get there. Outsized returns often come from betting against conventional wisdom, and conventional wisdom is usually right. Given a ten percent chance of a one hundred times payoff, you should take that bet every time. But you’re still going to be wrong nine times out of ten. We all know that if you swing for the fences, you’re going to strike out a lot, but you’re also going to hit some home runs.” — Jeff Bezos
+### Why moonshots are important
+
+“...failure and invention are inseparable twins. To invent you have to experiment, and if you know in advance that it’s going to work, it’s not an experiment. Most large organizations embrace the idea of invention but are not willing to suffer the string of failed experiments necessary to get there. Outsized returns often come from betting against conventional wisdom, and conventional wisdom is usually right. Given a ten percent chance of a one hundred times payoff, you should take that bet every time. But you’re still going to be wrong nine times out of ten. We all know that if you swing for the fences, you’re going to strike out a lot, but you’re also going to hit some home runs.” - Jeff Bezos
 
 I think a complementary idea to the quote above is the idea of failing fast. You can iterate through so many ideas, sort the prospects from the laggards and get those 100x successes much faster. What is needed is curiosity and a humble attitude towards ideas. Letting the failed ideas go with no loss to ego. Finding this in an individual is uncommon. Having this in a team is very rare. Companies should very much pay attention to these precious gems. Too many organizations underestimate the value of truly creative research and development teams. Oftentimes they are the first groups to go if funding gets a bit tight. Or perhaps even worse they end up neutering the group and turning it into a standard, conventional, and siloed engineering team.
 
-### Turns out I can pester this guy instead…
+<u>Turns out I can pester this guy instead…
 
-[https://github.com/vintrocode/curation-buddy/tree/main](https://github.com/vintrocode/curation-buddy/tree/main)
+<https://github.com/vintrocode/curation-buddy/tree/main></u>
 
-I’m a chronic link oversharer. This newsletter is a great example. I find really nifty stuff that I think is interesting and useful, but I don’t get a chance to really engage with someone about the details. People’s attention spans are limited. You might drop them links, but oftentimes they won’t reciprocate the enthusiasm you have nor will they have the same takeaways/aha moments you did. But language models have infinite attention, so why not bug them instead? And why not leverage them to develop an understanding of what you’re into and why. I’ve been using Obsidian as a way of building knowledge graphs of my own content, but there is a lack of “engagement” with that tool. That’s where [Honcho](https://pypi.org/project/honcho/) comes in. Language models are great, but their ability to “skip” reasoning steps and predict your needs are fundamentally limited by the context they have. So if you use Honcho to manage your application’s context, it can perform reasoning steps server-side and expose endpoints for you to query enriched context. Currently the app uses API’s to third party LLMs for the power under the hood but could use local I’d imagine.
+I’m a chronic link oversharer. This newsletter is a great example. I find really nifty stuff that I think is interesting and useful, but I don’t get a chance to really engage with someone about the details. People's attention spans are limited. You might drop them links, but oftentimes they won't reciprocate the enthusiasm you have nor will they have the same takeaways/aha moments you did. But language models have infinite attention, so why not bug them instead? And why not leverage them to develop an understanding of what you're into and why. I’ve been using Obsidian as a way of building knowledge graphs of my own content, but there is a lack of “engagement” with that tool. That's where [Honcho](https://pypi.org/project/honcho/) comes in. Language models are great, but their ability to "skip" reasoning steps and predict your needs are fundamentally limited by the context they have. So if you use Honcho to manage your application's context, it can perform reasoning steps server-side and expose endpoints for you to query enriched context. Currently the app uses API’s to third party LLMs for the power under the hood but could use local I’d imagine.
 
 I like to think of this as a way of gathering and curating a team’s or company’s internal knowledge, slowly building a better understanding as it “observes and interacts”
 
@@ -44,10 +46,16 @@ So Devin is apparently going to replace all coders? Yea, probably not. However i
 
 The post above ignited a bit of debate online, and I have been speaking with folks from the VC and investment realm on a pretty regular basis over the past year or so on the SoTA for AI. I actually disagree with the above post on a few points and agree with others. A few observations
 
-1.  Will there be 7–10 GPT-4 models? Probably more like 5 or so, but they run into cost issues with current training methods and more importantly they run into data issues. Sure, synthetic data is a thing, but we’re only adding additional detail not nearly enough wholly unique concepts for the models to get much better.
+1.  Will there be 7-10 GPT-4 models? Probably more like 5 or so, but they run into cost issues with current training methods and more importantly they run into data issues. Sure, synthetic data is a thing, but we’re only adding additional detail not nearly enough wholly unique concepts for the models to get much better.
+
 2.  GPT-5? Yea probably, but I think long context LLMs will be the biggest change and that is just ease of use rather than deeper knowledge.
+
 3.  Yes on price wars. Especially as compute/new chip options come on.
+
 4.  The inevitable onslaught of open source kills moat.
+
 5.  I think hallucinations will be much better done with layered reasoning engines that can fix logic errors. Making up text/history etc. still a problem.
-6.  Corporate adoption…yes, but not with big LLMs due to unresolved legal issues. Open source derived, fine tuned and long context/RAG based solutions narrowly tailored to specific industry verticals will be the thing.
+
+6.  Corporate adoption...yes, but not with big LLMs due to unresolved legal issues. Open source derived, fine tuned and long context/RAG based solutions narrowly tailored to specific industry verticals will be the thing.
+
 7.  Profits will be nil for the big models. Modest for the smaller niche players offering solid UI/UX on top of fine tuned and maintained models.

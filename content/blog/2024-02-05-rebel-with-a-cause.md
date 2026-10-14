@@ -8,7 +8,9 @@ tags: ["Generative Media & Diffusion","AI Coding & Developer Tools"]
 readTime: "3 min read"
 ---
 
-Hotelling’s Law:
+### Rebel with a cause
+
+Hotelling's Law:
 
 Rival products (burgers, pop songs, political parties) tend to grow more alike over time, because creators copy more successful rivals to replicate their success and steal their customers/audiences. Paradoxically, this increases the value of being different.
 
@@ -42,14 +44,14 @@ Interesting work that shows just how much value there is from building complex p
 
 ### Does using AI make a difference?
 
+![Figure](/images/blog/2024-02-05-rebel-with-a-cause/image-02.png)
+
 [https://papers.ssrn.com/sol3/papers.cfm?abstract\_id=4626276](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4626276)
 
 [https://www.oneusefulthing.org/p/everyone-is-above-average](https://www.oneusefulthing.org/p/everyone-is-above-average)
 
-![Figure](/images/blog/2024-02-05-rebel-with-a-cause/image-02.png)
-
 ### Fun on purpose?
 
-[https://x.com/webdevMason/status/1751450119076294865?s=20](https://x.com/webdevMason/status/1751450119076294865?s=20)
-
 ![Figure](/images/blog/2024-02-05-rebel-with-a-cause/image-03.png)
+
+[https://x.com/webdevMason/status/1751450119076294865?s=20](https://x.com/webdevMason/status/1751450119076294865?s=20)

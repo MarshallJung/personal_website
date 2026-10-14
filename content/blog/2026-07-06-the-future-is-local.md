@@ -10,8 +10,6 @@ readTime: "6 min read"
 
 ![Figure](/images/blog/2026-07-06-the-future-is-local/image-01.png)
 
-(720)315–6713
-
 ### The Future is Local-ish
 
 Happy birthday to the United States! While 250 years is brief in the span of history, it’s an accomplishment to be proud of. Wherever you are, have a great 4th of July and appreciate the blessings we share as citizens and patriots of the United States.
@@ -22,11 +20,11 @@ I’ll be on vacation this week, so this newsletter is a bit shorter than usual.
 
 ![Figure](/images/blog/2026-07-06-the-future-is-local/image-03.png)
 
-[https://www.internationalcyberdigest.com/claude-code-accused-of-hiding-china-proxy-fingerprints-inside-system-prompts/](https://www.internationalcyberdigest.com/claude-code-accused-of-hiding-china-proxy-fingerprints-inside-system-prompts/)
-
 ![Figure](/images/blog/2026-07-06-the-future-is-local/image-04.png)
 
 ![Figure](/images/blog/2026-07-06-the-future-is-local/image-05.png)
+
+[https://www.internationalcyberdigest.com/claude-code-accused-of-hiding-china-proxy-fingerprints-inside-system-prompts/](https://www.internationalcyberdigest.com/claude-code-accused-of-hiding-china-proxy-fingerprints-inside-system-prompts/)
 
 —
 
@@ -65,8 +63,11 @@ About a year ago, I consulted on some predictive maintenance work using language
 Long-time readers know I’m low-key obsessed with building a “second brain” for my day-to-day work. I want a way to store all interactions with coworkers, contractors, and projects so I can quickly find and reference them, or hand them to AI agents to leverage existing knowledge. I’ve been building this personal brain in markdown, stored in an Obsidian vault. However, this article argues that file systems are human- and machine-comprehensible and meet the following qualifications.
 
 1.  Retain facts across sessions
+
 2.  Retrieve facts selectively, because “just dump everything into the context window” stops working quickly
+
 3.  Update and correct itself over time, which rules out a lot of read-only approaches
+
 4.  Stay inspectable by humans, because LLMs are non-deterministic, and a black-box memory system is a debugging nightmare
 
 What are you using for long-term memory and context storage in your AI interactions?

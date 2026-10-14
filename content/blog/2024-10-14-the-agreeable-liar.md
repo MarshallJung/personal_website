@@ -12,6 +12,8 @@ Late night Sunday, long weekend at the racetrack for the last Porsche Club DE of
 
 It was a remarkably quiet week in the world of AI, almost too quiet? No major announcements, releases or advancements. Very interesting. There are a few things of note though and I hope that my dear readers will get something out of it!
 
+### The agreeable liar
+
 Inspired by a tweet/X post that I read this past week, I enlisted a friend of the newsletter to help with a small experiment. We both asked a question of Claude but with just the positive and negative viewpoints from our side switched. I asked why cats make the best pets and are better than dogs. It agreed with me and provided a bunch of reasonable reasons why cats are better pets and even attempted a few scientific explanations. My friend then asked why cats are not the best pets and the LLM agreed with my friend as well, citing reasons that exactly contradicted the reasons that were just given to me. It is fascinating to see how far most foundational LLMs have been tuned for agreeableness, and will only contradict me on a few narrow topics.  
 It makes sense if you understand how transformers are constructed and the likely content of the training corpus, but it does bring up the cautionary concept of how to use these tools and for what purposes.
 
@@ -24,9 +26,9 @@ Try it here: [https://openbb.co/](https://openbb.co/)
 
 ### Super faster CFD!
 
-[https://developer.nvidia.com/blog/transforming-cfd-simulations-with-ml-using-nvidia-modulus/](https://developer.nvidia.com/blog/transforming-cfd-simulations-with-ml-using-nvidia-modulus/)
-
 ![Figure](/images/blog/2024-10-14-the-agreeable-liar/image-02.jpg)
+
+[https://developer.nvidia.com/blog/transforming-cfd-simulations-with-ml-using-nvidia-modulus/](https://developer.nvidia.com/blog/transforming-cfd-simulations-with-ml-using-nvidia-modulus/)
 
 Fascinating article that claims to have made meaningful advancements in efficiency for CFD. I raised a little eyebrow when they called Fourier neural operators (FNO), “AI” but I am resigned to the fact that ML=AI these days, so I won’t argue. For those who are interested, traditional Navier-Stokes methodologies for CFD are computationally intensive and not very parallelizable. Using a Lattice Boltzmann Method (LBM) instead of directly solving macroscopic equations, LBM simulates fluid flow by tracking the movement and collisions of fictitious particles on a discrete lattice. Combining FNOs with the traditional LBM methods parallelizes, and allows work with lower resolution data. Pluses all around.
 

@@ -8,13 +8,15 @@ tags: ["AI Coding & Developer Tools","Open Source & Local AI"]
 readTime: "5 min read"
 ---
 
+### Stay strong
+
 A favorite book of mine by the author C.S. Lewis has a line that I often remember when times get tough.
 
 “Courage is not simply one of the virtues but the form of every virtue at the testing point”
 
 Whether it is love, understanding or wisdom, when times are tough in the world around us and with the people that we interact with, have courage to stick to what is moral and right. In the end this will see us all through.
 
-### As Shaggy said…
+### As Shaggy said...
 
 Of course it wasn’t me, but my small voice added to the chorus of calls to be more open, compatible and frictionless with the AI dev ecosystem. Google has made Gemini accessible via the OpenAI libraries.
 
@@ -36,7 +38,7 @@ There are probably many, many of these out there at the moment, but I liked the 
 
 ### An AI code dev
 
-Anyone remember Magic.dev? Maybe Devin? Or even Poolside? I’m sure the VC’s that have dropped several unicorn’s worth of $$$ between all three are well aware of the challenges of developing a truly useful “AI Dev”. Hopefully one of them will actually create something, but in the meantime the open source community is marching forward. [https://composio.dev/swe-kit/](https://composio.dev/swe-kit/) is an open source software dev kit that seems to be performing well and adopted in a fair number of places. It’s fully open-source, customizable, and simple to use. • You can use any LLM you want (Llama 3, ChatGPT, Claude, etc.). You can customize the prompts, use any agentic framework (llama\_index, LangChainAI, etc.), Python and JavaScript flavors and has agentic tools like Code RAG, Code Analyser, and a Code LSP to interact with your codebase. Interesting!
+Anyone remember Magic.dev? Maybe Devin? Or even Poolside? I’m sure the VC’s that have dropped several unicorn’s worth of $$$ between all three are well aware of the challenges of developing a truly useful “AI Dev”. Hopefully one of them will actually create something, but in the meantime the open source community is marching forward. [https://composio.dev/swe-kit/](https://composio.dev/swe-kit/) is an open source software dev kit that seems to be performing well and adopted in a fair number of places. It's fully open-source, customizable, and simple to use. • You can use any LLM you want (Llama 3, ChatGPT, Claude, etc.). You can customize the prompts, use any agentic framework (llama\_index, LangChainAI, etc.), Python and JavaScript flavors and has agentic tools like Code RAG, Code Analyser, and a Code LSP to interact with your codebase. Interesting!
 
 ### Now for something a little bit different
 

@@ -8,7 +8,9 @@ tags: ["Open Source & Local AI","LLM Training & Fine-Tuning"]
 readTime: "1 min read"
 ---
 
-Isaac Asimov once said “The most exciting phrase to hear in science, the one that heralds new discoveries, is not ‘Eureka!’ but ‘Hmmm…that’s funny…’”
+### Discovery
+
+Isaac Asimov once said “The most exciting phrase to hear in science, the one that heralds new discoveries, is not ‘Eureka!’ but ‘Hmmm...that’s funny…'”
 
 ### Free LLM Co-code Course
 
@@ -48,6 +50,6 @@ RELEASE ab979f50d7d406ab8d0b07d09806c72c
 
 ### IYKYK
 
-I have recently had this experience…
+I have recently had this experience...
 
 ![Figure](/images/blog/2023-10-16-discovery/image-02.jpg)

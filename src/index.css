@@ -76,3 +76,80 @@
 ::-webkit-scrollbar-thumb {
   background: var(--border-subtle);
 }
+
+/* Article body typography.
+   The @tailwindcss/typography plugin is not installed, so `prose-*` utilities are no-ops and
+   Tailwind preflight strips list bullets, heading sizes, and spacing. These rules restore them. */
+.article-body {
+  font-size: 1.0625rem;
+  line-height: 1.75;
+}
+.article-body > * + * { margin-top: 1.25em; }
+.article-body h2,
+.article-body h3,
+.article-body h4 {
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  line-height: 1.25;
+  text-transform: uppercase;
+}
+.article-body h2 { font-size: 1.75rem; margin-top: 2.5em; padding-bottom: 0.4em; border-bottom: 1px solid var(--border-subtle); }
+.article-body h3 { font-size: 1.375rem; margin-top: 2.25em; padding-bottom: 0.35em; border-bottom: 1px solid var(--border-subtle); }
+.article-body h4 { font-size: 1.125rem; margin-top: 1.75em; }
+.article-body h2 + *, .article-body h3 + *, .article-body h4 + * { margin-top: 0.75em; }
+.article-body strong { font-weight: 700; }
+.article-body em { font-style: italic; }
+.article-body u { text-decoration: underline; text-underline-offset: 3px; }
+.article-body a {
+  text-decoration: underline;
+  text-underline-offset: 4px;
+  text-decoration-color: var(--text-muted);
+  overflow-wrap: anywhere;
+}
+.article-body a:hover { text-decoration-color: var(--text-main); }
+.article-body ul, .article-body ol { padding-left: 1.5em; }
+.article-body ul { list-style: disc; }
+.article-body ol { list-style: decimal; }
+.article-body ul ul { list-style: circle; }
+.article-body ol ol { list-style: lower-alpha; }
+.article-body li + li { margin-top: 0.4em; }
+.article-body li > ul, .article-body li > ol { margin-top: 0.4em; }
+.article-body li::marker { color: var(--text-muted); }
+.article-body blockquote {
+  border-left: 2px solid var(--text-main);
+  padding: 0.25em 0 0.25em 1.25em;
+  color: var(--text-muted);
+  font-style: italic;
+}
+.article-body img {
+  display: block;
+  margin: 2em auto;
+  max-height: 560px;
+  width: auto;
+  max-width: 100%;
+  border: 1px solid var(--border-subtle);
+}
+.article-body hr { border: 0; border-top: 1px solid var(--border-subtle); margin: 3em 0; }
+.article-body code {
+  font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+  font-size: 0.85em;
+  padding: 0.1em 0.35em;
+  border: 1px solid var(--border-subtle);
+}
+.article-body pre { overflow-x: auto; padding: 1em; border: 1px solid var(--border-subtle); }
+.article-body pre code { border: 0; padding: 0; }
+.article-body table {
+  display: block;
+  overflow-x: auto;
+  border-collapse: collapse;
+  font-size: 0.875rem;
+  line-height: 1.5;
+}
+.article-body th, .article-body td {
+  border: 1px solid var(--border-subtle);
+  padding: 0.5em 0.75em;
+  text-align: left;
+  vertical-align: top;
+}
+.article-body th { font-weight: 700; background: color-mix(in srgb, var(--border-subtle) 45%, transparent); }
+.article-body td p, .article-body th p { margin: 0; }

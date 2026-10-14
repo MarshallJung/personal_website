@@ -10,8 +10,11 @@ readTime: "5 min read"
 
 ![Figure](/images/blog/2024-05-27-this-is-why-we-cant-have-nice-things/image-01.jpg)
 
-[https://youtu.be/NPOHf20slZg?si=i4kVhIkMMM6-u8bi  
-](https://youtu.be/NPOHf20slZg?si=i4kVhIkMMM6-u8bi)[https://youtu.be/zLvFc\_24vSM?si=kRgSsnKVt7JiT33z](https://youtu.be/zLvFc_24vSM?si=kRgSsnKVt7JiT33z)
+<u>This is why we can’t have nice things  
+</u>
+
+<u><https://youtu.be/NPOHf20slZg?si=i4kVhIkMMM6-u8bi>  
+<https://youtu.be/zLvFc_24vSM?si=kRgSsnKVt7JiT33z></u>
 
 When the web 3.0/crypto/NFT hype was at its peak, I’ll admit that I was singularly unimpressed. Sure, there are interesting uses for blockchain technology in very specific cryptographic applications, however the hype far outweighed the reality. (Cue the crypto bros sending me angry, threatening messages). I’m seeing these same overtones in the AI space.
 
@@ -58,7 +61,9 @@ Python has become slow over time. We all know this but truthfully it’s usually
 [http://labs.google/code](http://labs.google/code)
 
 -   Helps with complex tasks like planning, and error correction.
+
 -   Helps with data science tasks like predictive modeling.
+
 -   Outputs an AI-generated Colab notebook based on your prompt.
 
 Interesting effort from the Google team. Agent based LLM pipelines are complex and all the rage right now. Here they have built one for data analytics in the browser. Like Google’s NotbookLM I think they don’t get enough credit for putting together these cutting edge ML processes while the rest of the industry crows about the individual parts and pieces. I found the tool to be helpful in a more exploratory manner. Complex data sets where you might be a deep expert are probably beyond its ken right now, but the process is pretty cool.

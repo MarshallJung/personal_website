@@ -8,6 +8,8 @@ tags: ["LLM Training & Fine-Tuning","Reasoning Models & RL"]
 readTime: "2 min read"
 ---
 
+### When you need to write something...
+
 Whether writing an article, creating a presentation or making an argument remember the Serial-Position Effect:
 
 We tend to recall the beginnings (Primacy Effect) and endings (Recency Effect) of things better than the middles. So if you create anything with a beginning & ending, focus more effort there.

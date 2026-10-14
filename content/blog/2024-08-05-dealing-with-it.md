@@ -8,6 +8,8 @@ tags: ["Data Science & Classic ML","AI Hype & Skepticism","AI Economics & Infras
 readTime: "4 min read"
 ---
 
+### Dealing with it
+
 So I’m not typically given to frustration, but it has been a bit disheartening to be both right and have nothing to show for it. I think we are well on our way to an AI wipeout at this point. Combined with an oncoming global recession, it’s tough to see the job market improving substantially for those of us that are still looking for a role where we can contribute commensurate with our talents.
 
 I’ve been saying for a while now that companies going all-in on the AI hype train, ESPECIALLY when they don’t have any decent data process in place to support the effort will be both disappointed if they are buying and totally unsuccessful if they are selling. I’ve given maybe dozens of interviews and pro bono consultations with companies that want to build an “AI” roadmap and my steadfast, first-principles “old school” methodology to incorporate these newer technologies hasn’t really gotten me any traction. By the time you see ads on X for Oracle pitching data-first AI initiatives, it’s already too late.
@@ -40,5 +42,5 @@ Referencing the previous article, should you have enough proprietary data, using
 
 ### Remember this
 
-“If you think of a nice, true thing to tell another person, say it. It will probably be the best thing that happens to them all day.”   
+"If you think of a nice, true thing to tell another person, say it. It will probably be the best thing that happens to them all day."  
 ― Dale Carnegie

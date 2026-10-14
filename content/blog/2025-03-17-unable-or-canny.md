@@ -8,9 +8,11 @@ tags: ["Motorsport & Engineering","AI Economics & Infrastructure"]
 readTime: "8 min read"
 ---
 
-I’m back from driving my race car at Circuit of the Americas in Texas. It was a great weekend where I got to learn more about my winter modifications and how well they performed at the limit. There’s nothing like real-world testing. No reliability issues which makes me proud. The weak point was brakes as usual. We’ll get to some ML applications at the end of the newsletter. First some industry news.
+I'm back from driving my race car at Circuit of the Americas in Texas. It was a great weekend where I got to learn more about my winter modifications and how well they performed at the limit. There's nothing like real-world testing. No reliability issues which makes me proud. The weak point was brakes as usual. We’ll get to some ML applications at the end of the newsletter. First some industry news.
 
-I am working on breaking down some LLM “agentic” concepts. Even defining what “agentic” means can be challenging. For our purposes, let’s assume it refers to an LLM’s ability to independently operate tools like browsers. This seems to be dominated by MCPs from Anthropic and a more robust implementation from the Chinese lab called Manus. I’ll prepare a summary for next week’s newsletter.
+I am working on breaking down some LLM “agentic” concepts. Even defining what "agentic" means can be challenging. For our purposes, let's assume it refers to an LLM's ability to independently operate tools like browsers. This seems to be dominated by MCPs from Anthropic and a more robust implementation from the Chinese lab called Manus. I'll prepare a summary for next week's newsletter.
+
+### Unable or Canny?
 
 [https://www.macrumors.com/2024/03/18/apple-google-gemini-ios-18-iphone/?s=01](https://www.macrumors.com/2024/03/18/apple-google-gemini-ios-18-iphone/?s=01)
 
@@ -22,7 +24,7 @@ Back to the Apple and Google partnership about integrating Gemini into their nex
 
 ### The Real Slim Shady
 
-Remember back when Satya announced the discovery of a new phase of matter that could revolutionize quantum computing with a “topological qubit”? It all seemed a bit unbelievable, and even the style of tweet felt somewhat fabricated at the time. Well it turns out that others seem to think so as well. The main issue with Microsoft’s Majorana protocol, as highlighted by Henry Lee in a comment on the arXiv for the paper, is that the identification of the topological phase depends on arbitrarily chosen cutoffs in the data range. This means that the protocol’s output (which supposedly identifies the region where Majorana states should exist) changes depending on the chosen range of the data plotted. This shouldn’t be the case because the existence of a topological phase should be independent of the data range being analyzed. (But really, who hasn’t adjusted a few graphs to make a point?) Henry Lee’s critique points to a fundamental flaw in the protocol, suggesting it might not be reliable for identifying Majorana states. It highlights a lack of robustness and objectivity in the analysis, casting doubt on MSFT’s claim of having successfully created topological qubits.
+Remember back when Satya announced the discovery of a new phase of matter that could revolutionize quantum computing with a “topological qubit”? It all seemed a bit unbelievable, and even the style of tweet felt somewhat fabricated at the time. Well it turns out that others seem to think so as well. The main issue with Microsoft's Majorana protocol, as highlighted by Henry Lee in a comment on the arXiv for the paper, is that the identification of the topological phase depends on arbitrarily chosen cutoffs in the data range. This means that the protocol's output (which supposedly identifies the region where Majorana states should exist) changes depending on the chosen range of the data plotted. This shouldn't be the case because the existence of a topological phase should be independent of the data range being analyzed. (But really, who hasn’t adjusted a few graphs to make a point?) Henry Lee's critique points to a fundamental flaw in the protocol, suggesting it might not be reliable for identifying Majorana states. It highlights a lack of robustness and objectivity in the analysis, casting doubt on MSFT’s claim of having successfully created topological qubits.
 
 ### It’s all Postgres
 
@@ -33,25 +35,35 @@ In the ongoing debate over whether SQL vs noSQL will determine the fate of the u
 You can use PostgreSQL as a full-stack solution, eliminating the need for many other services. It has advanced data types, is extensible, and has a massive ecosystem of extensions that add new features regularly.
 
 -   It supports binary JSON, allowing you to store and query unstructured data.
+
 -   Using the PG Cron extension, you can schedule tasks to run on a regular basis.
+
 -   You can create a simple cache by using unlog tables.
+
 -   Vector databases -The PG Vector extension allows you to store and query multi-dimensional data.
+
 -   PostgreSQL supports full-text search using the TS Vector type.
+
 -   The PG GraphQL extension can turn your database into a GraphQL API.
+
 -   Electric SQL acts as a sync layer between your database and frontend code for real-time updates.
+
 -   Combining extensions like PG Crypto and PG JWT allows you to implement robust authentication and authorization.
+
 -   PG Mooncake transforms PostgreSQL into a time-series database.
+
 -   PostREST automatically turns your database into a RESTful API.
+
 -   You can store your entire frontend code in PostgreSQL, making it truly full-stack.
 
 ### Diffusion for Structured Data
 
 Diffusion-based methodologies may not seem well suited to structured data, but they are actually effective for creating synthetic datasets. Structured data tends to be verifiable, and synthetic data can enhance smaller datasets while maintaining fidelity and variety.
 
-[https://openreview.net/forum?id=swvURjrt8z  
-](https://openreview.net/forum?id=swvURjrt8z)[https://github.com/MinkaiXu/TabDiff](https://github.com/MinkaiXu/TabDiff)
-
 ![Figure](/images/blog/2025-03-17-unable-or-canny/image-01.jpg)
+
+[https://openreview.net/forum?id=swvURjrt8z](https://openreview.net/forum?id=swvURjrt8z)  
+[https://github.com/MinkaiXu/TabDiff](https://github.com/MinkaiXu/TabDiff)
 
 ### A Few Dashes of Wisdom
 
@@ -77,7 +89,7 @@ After some considerable futzing with the code, I was able to output a result, as
 
 ![Figure](/images/blog/2025-03-17-unable-or-canny/image-06.jpg)
 
-Clearly the results won’t be sufficient for creating a digital twin for aerodynamic modeling. Some features render better than others. For example, the rear wing of the race car is not rendered well at all, possibly because it appears narrow and difficult to see from certain angles, while it is more noticeable from others. In some pictures, where a feature may disappear and then reappear, the simultaneous processing of the images might not highlight that feature as much. This is only a hypothesis, however. I did learned a bunch about the methodology, particularly bi-directional flow in the transformer architecture, and how it helps achieve a global understanding of the scene from all input images simultaneously. I also gained insights into the use of index embeddings to provide “metadata”, which explains the origin coordinates of the resulting 3D image from individual 2D images, along with local and global point maps, position interpolation, and image context.
+Clearly the results won't be sufficient for creating a digital twin for aerodynamic modeling. Some features render better than others. For example, the rear wing of the race car is not rendered well at all, possibly because it appears narrow and difficult to see from certain angles, while it is more noticeable from others. In some pictures, where a feature may disappear and then reappear, the simultaneous processing of the images might not highlight that feature as much. This is only a hypothesis, however. I did learned a bunch about the methodology, particularly bi-directional flow in the transformer architecture, and how it helps achieve a global understanding of the scene from all input images simultaneously. I also gained insights into the use of index embeddings to provide “metadata”, which explains the origin coordinates of the resulting 3D image from individual 2D images, along with local and global point maps, position interpolation, and image context.
 
 Stepping back from my race car for a moment, what are the potential business applications of this algorithm? There’s the opportunity to create digital twins of objects using just a camera phone, and also to reconstruct three-dimensional objects from sources like satellite images or UAV cameras. The speed of this methodology also enables applications in robotics, allowing robots to learn novel scenes and manipulate objects or perform tasks within those environments quickly and accurately.
 

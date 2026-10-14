@@ -8,6 +8,8 @@ tags: ["AI Hype & Skepticism","Generative Media & Diffusion","RAG & Embeddings"]
 readTime: "4 min read"
 ---
 
+### Not a palette cleanser...
+
 As I was listening to my wife talk about the VA, and the tragic inability of our veterans to get the mental health help they so desperately need I was saddened. Much of the problem stems from the labyrinthine and maddening crush of paperwork, much of it still on physical paper, duplicative and unneeded. I was reminded of a quote from Alexis De Tocqueville’s “What Sort Of Despotism Democratic Nations Have To Fear”
 
 “It covers the surface of society with a network of small complicated rules, minute and uniform, through which the most original minds and the most energetic characters cannot penetrate, to rise above the crowd. The will of man is not shattered, but softened, bent, and guided: men are seldom forced by it to act, but they are constantly restrained from acting: such a power does not destroy, but it prevents existence; it does not tyrannize, but it compresses, enervates, extinguishes, and stupefies a people, till each nation is reduced to be nothing better than a flock of timid and industrious animals, of which the government is the shepherd.”
@@ -20,9 +22,9 @@ While the “death of AI” is still circulating, there have been a few predicta
 
 ### Not just 3D Generation
 
-[https://research.nvidia.com/labs/dir/edify-3d/](https://research.nvidia.com/labs/dir/edify-3d/)
-
 ![Figure](/images/blog/2024-11-25-not-a-palette-cleanser/image-01.jpg)
+
+[https://research.nvidia.com/labs/dir/edify-3d/](https://research.nvidia.com/labs/dir/edify-3d/)
 
 NVIDIA just released another 3D generative model that generates meshes with detailed geometry. Previously models have generated rendered 3D items with texture and colors, but if these items need to be incorporated into actual 3D programs like Fusion, SolidWorks and CATIA then the meshes are a great place to start. I’m looking forward to these models using engineering math as an input for the generated item. It seems simple, but that “language” is pretty hard to turn into a set of embeddings.
 

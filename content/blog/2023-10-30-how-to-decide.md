@@ -8,9 +8,11 @@ tags: ["RAG & Embeddings","LLM Training & Fine-Tuning","Motorsport & Engineering
 readTime: "3 min read"
 ---
 
-“A man who procrastinates in his choosing will inevitably have his choice made for him by circumstance.” — Hunter S. Thompson
+### How to Decide
 
-Uphill Decisions — If you can’t decide between two equally difficult choices, take the path that’s more difficult/painful in the short term. — Gurwinder Bhogal
+"A man who procrastinates in his choosing will inevitably have his choice made for him by circumstance." - Hunter S. Thompson
+
+Uphill Decisions - If you can't decide between two equally difficult choices, take the path that's more difficult/painful in the short term. - Gurwinder Bhogal
 
 Humans are guilty of “temporal discounting,” the tendency to overvalue short term pain/reward and undervalue long term pain/reward. So if a decision is painful in the short term, you’re likely overestimating that pain, and should choose it over the longer term pain that only seems small because it’s far away.
 
@@ -40,7 +42,7 @@ Is your model *chinchilla* optimized? Adding more parameters to a model without 
 
 Yes, yes I know that I had this last week, but this is something newer and I think even more detailed and usable. I go on and on about the need for models to be more focussed, more “language” specific. And I do see RAG as the methodology for getting that type of information into a well done model on a more “real time” basis.
 
-### Australian V8 Supercars — In slow mo
+### Australian V8 Supercars - In slow mo
 
 These cars have the best racing in the world. Like NASCAR but way better. My brother is at the Gold Coast race this weekend and I thought that I’d post a video of the cars hopping the famous curbs at the race. Think about the impact the suspension needs to deal with while still providing wheel rate control on the smoother parts of the track. Lots of engineering in these cars. (Reminds me of the 80’s DTM cars *second video* with 80’s soundtrack AWESOME!!)
 

@@ -10,8 +10,6 @@ readTime: "6 min read"
 
 ![Figure](/images/blog/2026-07-19-still-so-early/image-01.png)
 
-(720)315–6713
-
 ### We’ere Still So Early
 
 ![Figure](/images/blog/2026-07-19-still-so-early/image-02.png)
@@ -35,7 +33,7 @@ It’s vital for anyone with strong views, especially in technical fields, to ke
 
 Ed Zitron, a financial commentator and prolific journalist, stands out as a leading AI critic, with strong sources inside many Silicon Valley venture capital and tech firms. In his latest newsletter, there’s an early paragraph that summarizes his view on AI’s current impact in the enterprise market.
 
-*“The AI bubble isn’t a result of any actual return on investment — whether that be in purely monetary terms, like revenue or profitability , productivity gains, or anything tangible or measurable. Rather, it’s an episode of cult-like psychosis that infected the brains of some of the most powerful and wealthy individuals and institutions, where the powerful mythology of a company inspired — and been used to inspire — the greatest capital misallocation in history.” — Ed Zitron*
+*“The AI bubble isn’t a result of any actual return on investment — whether that be in purely monetary terms, like revenue or profitability , productivity gains, or anything tangible or measurable. Rather, it’s an episode of cult-like psychosis that infected the brains of some of the most powerful and wealthy individuals and institutions, where the powerful mythology of a company inspired — and been used to inspire — the greatest capital misallocation in history.” - Ed Zitron*
 
 I agree with parts of Ed’s take on the AI investment supercycle. There is real misallocation, and a reckoning is likely as apps and claims fail to deliver ROI, with potential knock-on effects in the U.S. and globally. Still I think AI critics are making a category error when it comes to understanding AI as “software”.
 
@@ -43,7 +41,7 @@ Ed and his cohort often overlook that clear, demonstrable AI ROIs are hard to ca
 
 Given that, I can’t outright reject Ed’s view. My belief is that AI’s most tangible impact so far has been in hyper-personalized environments. Here are a couple of observations from my role as Senior Director of Global AI at Valvoline Global Operations. I use a two-pronged strategy: broad AI enablement is hard to measure for ROI across thousands of employees, so while we roll out AI to each employee we also prioritize targeted moonshot projects that are more visible to leadership and help secure support to scale AI across the organization. In my experience (likely shared by others in similar roles) demand is intense: employees across functions have real, specific use cases, from invoice processing and customer email management to specialized technical workflows. Nearly everyone is eager to use AI or get more access to it.
 
-Sure, much AI use may be superfluous or redundant, and there’s an ongoing cultural effort to maintain high-quality, tasteful output. The battle against organizational “slopification” will continue for the foreseeable future. Still, I’ve seen enough examples of employees doing interesting, useful work with AI that have driven overall efficiency gains.
+Sure, much AI use may be superfluous or redundant, and there’s an ongoing cultural effort to maintain high-quality, tasteful output. The battle against organizational “slopification" will continue for the foreseeable future. Still, I’ve seen enough examples of employees doing interesting, useful work with AI that have driven overall efficiency gains.
 
 AI adoption is often misunderstood by critics like Ed Zitron who aren’t directly involved with how average companies are using it today. Across most organizations, interest and enthusiasm to learn and use AI are growing; employees aren’t resisting out of job fear. With the right culture and rollout, they see AI as a way to become better employees and take on more responsibility, not as a threat.
 

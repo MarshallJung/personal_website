@@ -8,29 +8,31 @@ tags: ["Motorsport & Engineering","AI Hype & Skepticism","Leadership & Personal 
 readTime: "7 min read"
 ---
 
+### The buck stops...
+
 The Abilene paradox is a group dynamic where a group of people agree on a course of action that goes against the preferences of the individual members. This explains why a group made up of very intelligent folks can together arrive at a very stupid outcome. No one wants to rock the boat so a suboptimal outcome for everyone results. I’ve spoken about this before, but in this case I’ll extend the advice. A business decision by committee usually ends up being the least best. While expertise should be solicited from everyone, the ultimate responsibility for the outcome should be owned, publicly owned, by one person.
 
 ### Despite AWS Re-Invent, AI is not the solution for everything.
 
 [https://www.platformer.news/p/amazons-q-has-severe-hallucinations](https://www.platformer.news/p/amazons-q-has-severe-hallucinations)
 
-It seems like the best idea ever right? Everytime I’m in AWS console I get the two-pizza box team mentality. Product development at AWS is like raccoons and the garbage bin. You know exactly what the end result is going to look like and it ‘aint going to be pretty. So layering an LLM chatbot over the top to help? Not so fast. Attention based transformers are not good at anything that requires precise recall and zero errors. I’m sure the AWS engineers thought it sounded great until you figure out where the training data was coming from. I would have hoped that they didn’t just dump raw support logs into the data pile, but you know trash pandas and last week’s spoiled spaghetti.
+It seems like the best idea ever right? Everytime I’m in AWS console I get the two-pizza box team mentality. Product development at AWS is like raccoons and the garbage bin. You know exactly what the end result is going to look like and it ‘aint going to be pretty. So layering an LLM chatbot over the top to help? Not so fast. Attention based transformers are not good at anything that requires precise recall and zero errors. I’m sure the AWS engineers thought it sounded great until you figure out where the training data was coming from. I would have hoped that they didn’t just dump raw support logs into the data pile, but you know trash pandas and last week's spoiled spaghetti.
 
-### Making Large Language Models Uncool Again
+### Making LArge Language Models Uncool Again
 
 [https://www.youtube.com/watch?v=6LXw2beprGI](https://www.youtube.com/watch?v=6LXw2beprGI)
 
 I had YouTube run the transcript of this and fed into Bard for a few good take aways. So I was using LLMs for exactly the thing they were meant to be good at.
 
-“So something everybody I think pretty much agrees on, including Sam Altman, including Yann LeCun, is that LLMs aren’t going to make it. The current LLMs are not a path to ASI. They’re getting more and more expensive, they’re getting more and more slow, and the more we use them, the more we realize their limitations.
+“So something everybody I think pretty much agrees on, including Sam Altman, including Yann LeCun, is that LLMs aren't going to make it. The current LLMs are not a path to ASI. They're getting more and more expensive, they're getting more and more slow, and the more we use them, the more we realize their limitations.
 
-We’re also getting better at taking advantage of them, and they’re super cool and helpful, but they appear to be behaving as extremely flexible, fuzzy, compressed search engines, which when you have enough data that’s kind of compressed into the weights, turns out to be an amazingly powerful operation to have at your disposal.
+We're also getting better at taking advantage of them, and they're super cool and helpful, but they appear to be behaving as extremely flexible, fuzzy, compressed search engines, which when you have enough data that's kind of compressed into the weights, turns out to be an amazingly powerful operation to have at your disposal.
 
-\[…\] And the thing you can really see missing here is this planning piece, right? So if you try to get an LLM to solve fairly simple graph coloring problems or fairly simple stacking problems, things that require backtracking and trying things and stuff, unless it’s something pretty similar in its training, they just fail terribly.
+\[...\] And the thing you can really see missing here is this planning piece, right? So if you try to get an LLM to solve fairly simple graph coloring problems or fairly simple stacking problems, things that require backtracking and trying things and stuff, unless it's something pretty similar in its training, they just fail terribly.
 
-\[…\] So that’s the theory about what something like Q\* might be, or just in general, how do we get past this current constraint that we have?”
+\[...\] So that's the theory about what something like Q\* might be, or just in general, how do we get past this current constraint that we have?”
 
-\-Jeremy Howard, Co-Founder of fast.ai
+-Jeremy Howard, Co-Founder of fast.ai
 
 ### LLM all-in-one?
 
@@ -40,7 +42,7 @@ Download a 4GB binary, child 755 it and now you have a full LLM and the software
 
 ### Going forwards and backwards.
 
-After all these years this is my first time published on actual dead trees. Granted it’s only in Porsche Club’s Rocky Mountain Region magazine, but still another accomplishment! I’m going to be writing a series of these over the next year on race car concepts.
+After all these years this is my first time published on actual dead trees. Granted it's only in Porsche Club's Rocky Mountain Region magazine, but still another accomplishment! I'm going to be writing a series of these over the next year on race car concepts.
 
 ![Figure](/images/blog/2023-12-04-the-buck-stops/image-01.jpg)
 
@@ -52,14 +54,18 @@ Tires are just springs.
 
 Like many things in the world of physics, tires are actually easily modelled as springs. They are simply rolling air springs that work very similar to the airbags used for heavy trucks or load levelling on pickups. The basic equation for modelling tires is as follows:
 
-m \* d²x/dt² + kx + bx = 0
+m \* d^2x/dt^2 + kx + bx = 0
 
 Where:
 
 -   m is the mass of the oscillating object
+
 -   k is the spring constant
+
 -   b is the damping coefficient
+
 -   x is the displacement of the oscillating object from its equilibrium position
+
 -   t is time
 
 If you recall the pre-2022 F1 cars they ran a 13” wheel with a bulky sidewall tire (large tire aspect ratio). In slow motion this tire compressed and rebounded, oscillated and shook over curbs and track imperfections. The teams actually modelled the tire as a meaningful part of the car’s suspension. When the ground effect rules began in 2022, the new lower profile tires compressed less and oscillated at a faster rate which caused the rest of the suspension to need to deal with different loading. From the equation above the new tires increased the spring constant and the damping coefficient. How should you think about this concept when choosing tires for your car? Tires with taller sidewalls will absorb more track irregularities like curb impacts and high frequency impacts without upsetting the car’s dynamics. It would also allow suspension tuning to be tailored to car dynamics like roll and dive which are movements that suspension dampers are more capable of handling well. But like anything with track cars this comes with a tradeoff…

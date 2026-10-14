@@ -8,9 +8,11 @@ tags: ["Motorsport & Engineering"]
 readTime: "9 min read"
 ---
 
+### I built a race car…
+
 Hello! And welcome to my…tens of subscribers?
 
-It occurred to me that while everyone was so terribly impressed with my amazing driving videos ([https://www.youtube.com/channel/UCCYYfBZ4nLjst04g8RpKNNA](https://www.youtube.com/channel/UCCYYfBZ4nLjst04g8RpKNNA)), I hadn’t actually told anyone about the car specifically.
+It occurred to me that while everyone was so terribly impressed with my amazing driving videos (<https://www.youtube.com/channel/UCCYYfBZ4nLjst04g8RpKNNA>), I hadn’t actually told anyone about the car specifically.
 
 There is history to the project and it’s been part of my life for some considerable time. You know how when you are young you often make decisions that, at the time, seem to be pretty logical and straightforward?
 

@@ -8,7 +8,9 @@ tags: ["AI Coding & Developer Tools","RAG & Embeddings","Open Source & Local AI"
 readTime: "4 min read"
 ---
 
-“The rise of social media as the primary mode of interaction has caused us to overvalue opinions as a gauge of character. We are now defined more by what we say than what we actually do, and words, unlike deeds, are easy to counterfeit” — Guwrinder Bohgal
+### Being Authentic Today
+
+“The rise of social media as the primary mode of interaction has caused us to overvalue opinions as a gauge of character. We are now defined more by what we say than what we actually do, and words, unlike deeds, are easy to counterfeit” - Guwrinder Bohgal
 
 I suppose it depends on your age, or at least life experience, whether or not this applies. Still I’d caution folks to be careful of who they really want to appeal to with their words, regardless of where those words are written.
 
@@ -16,7 +18,7 @@ I suppose it depends on your age, or at least life experience, whether or not th
 
 [https://arxiv.org/abs/2401.08500](https://arxiv.org/abs/2401.08500)
 
-The paper calls it flow engineering vs. prompt engineering, and the proposed LLM AlphaCodium is pretty unique. While it does achieve SoTA on complex code generation the unique process explores beyond traditional prompting (i.e., prompt -> answer), and breaks the problem down into different components (self-reflection, reasoning, and iterative code solution generation), and includes interesting tricks such as AI-generated tests, self-reflection, and reasoning along the “flow”. In the larger picture I see this as a unique evolution showing how a structured language can be evolved to give meaningful stepwise change. Apply this to 3D design language, GIS type data, or even medical. Anywhere that is rigorous directly improves.
+The paper calls it flow engineering vs. prompt engineering, and the proposed LLM AlphaCodium is pretty unique. While it does achieve SoTA on complex code generation the unique process explores beyond traditional prompting (i.e., prompt -&gt; answer), and breaks the problem down into different components (self-reflection, reasoning, and iterative code solution generation), and includes interesting tricks such as AI-generated tests, self-reflection, and reasoning along the "flow". In the larger picture I see this as a unique evolution showing how a structured language can be evolved to give meaningful stepwise change. Apply this to 3D design language, GIS type data, or even medical. Anywhere that is rigorous directly improves.
 
 ### Open source if you can handle it
 
@@ -28,7 +30,7 @@ This seems to be a bit of a problem for anyone using OpenAI as an API for servic
 
 [https://github.com/bclavie/RAGatouille/blob/main/README.md](https://github.com/bclavie/RAGatouille/blob/main/README.md)
 
-Use ColBERT as a re-ranker directly after retrieval in your RAG pipeline. RAG processes can be a tad…mysterious at times. Here is a way to make the process a bit more repeatable and explainable. Use dense retrieval can be a bit clumsy so this gets you the performance boost without having to deal with all the knobs.
+Use ColBERT as a re-ranker directly after retrieval in your RAG pipeline. RAG processes can be a tad...mysterious at times. Here is a way to make the process a bit more repeatable and explainable. Use dense retrieval can be a bit clumsy so this gets you the performance boost without having to deal with all the knobs.
 
 ### Time for more time series?
 
@@ -48,42 +50,42 @@ Reminds me of the time I spent logging out in the field with Halliburton. The ne
 
 [https://arxiv.org/abs/2309.16534](https://arxiv.org/abs/2309.16534)
 
-### Corporate Speak — Feel free to add to the list
+### Corporate Speak - Feel free to add to the list
 
 Courtesy of @ChrisJBakke on X
 
-Navigating “corporate speak” isn’t easy.
+Navigating "corporate speak" isn't easy.
 
-Here’s a helpful guide I put together:
+Here's a helpful guide I put together:
 
-“Let me check with my team” = No
+"Let me check with my team" = No
 
-“Possibly” = No
+"Possibly" = No
 
-“On my roadmap” = Not happening
+"On my roadmap" = Not happening
 
-“This will be done in Q4” = This will be done in Q2 next year
+"This will be done in Q4" = This will be done in Q2 next year
 
-“Disagree and commit” = I hate you
+"Disagree and commit" = I hate you
 
-“Per my last email” = Try reading, for once in your life
+"Per my last email" = Try reading, for once in your life
 
-“Challenging landscape” = We’re going out of business, quickly
+"Challenging landscape" = We're going out of business, quickly
 
-“Digital transformation” = We’re going out of business, slowly
+"Digital transformation" = We're going out of business, slowly
 
-“Let’s circle back” = We’ll never speak of this again
+"Let's circle back" = We'll never speak of this again
 
-“Take it offline” = We’ll never speak of this again
+"Take it offline" = We'll never speak of this again
 
-“30,000 foot view” = I don’t know what I’m saying
+"30,000 foot view" = I don't know what I'm saying
 
-“Low hanging fruit” = Easy promotion
+"Low hanging fruit" = Easy promotion
 
-“Open up the kimono” = HR violation
+"Open up the kimono" = HR violation
 
-“We use AI” = We don’t use AI
+"We use AI" = We don't use AI
 
-“We use machine learning” = We don’t use machine learning
+"We use machine learning" = We don't use machine learning
 
-“All hands on deck” = Let’s actually try for once, please
+"All hands on deck" = Let's actually try for once, please

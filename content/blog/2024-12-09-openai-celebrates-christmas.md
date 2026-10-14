@@ -12,6 +12,8 @@ It was quite busy this past week, so we will get this week underway with a rapid
 
 For those that did not read it, my article in The NewStack on infra in the DevOps world went live last week. Read it here: [https://thenewstack.io/why-devops-is-backward-and-how-we-can-solve-it/](https://thenewstack.io/why-devops-is-backward-and-how-we-can-solve-it/)
 
+### OpenAI celebrates Christmas
+
 OpenAI has proclaimed 12 Days of AI or some such, releasing unspecified new models and features for the days leading up to Christmas. The one that I think has made the biggest splash so far, as of the writing of this newsletter is OpenAI o1 is now out of preview in ChatGPT. It’s multimodal as well as more concise in its thinking, resulting in faster response times than o1-preview. OpenAI claims that o1 outperforms o1-preview, reducing major errors on difficult real-world questions by 34%. It’s supposedly safe, though it was jailbroken in about 10 minutes by tricking it into a simulated Gotham City.
 
 Time will tell if this is a gamechanger, though I doubt there will be a major uplift necessitating a rewrite of my o1-preview review newsletter. But for sure there will be specialized applications that will excel with the full version. I’ll be poking at it over the next few weeks.
@@ -22,7 +24,7 @@ In summary, a garden of ITC reasoning models, a healthy crop of open source pret
 
 ![Figure](/images/blog/2024-12-09-openai-celebrates-christmas/image-01.jpg)
 
-It is worth noting that this is an increasingly common message from insiders at the big AI labs. It isn’t unanimous, and you absolutely don’t have to believe them, but I hear the same confidence privately as they are broadcasting publicly. Still not sure how you plan for this and what type of skill sets in the knowledge industry will be valuable, but suffice it to say that this is the biggest disruption of human progress since the advent of computer programming.
+It is worth noting that this is an increasingly common message from insiders at the big AI labs. It isn't unanimous, and you absolutely don't have to believe them, but I hear the same confidence privately as they are broadcasting publicly. Still not sure how you plan for this and what type of skill sets in the knowledge industry will be valuable, but suffice it to say that this is the biggest disruption of human progress since the advent of computer programming.
 
 ### So smol
 
@@ -32,7 +34,7 @@ For anyone interested in fine-tuning or aligning LLMs, this is a free and open c
 
 For those that want to wrap a small model into an agent that can be deployed as part of an application in order to accomplish a narrow task well, this might be a great starting point. HIPAA compliance, on-prem coding models, refactoring!, mobile apps. You’ll think of something.
 
-### Not investment advice…really not
+### Not investment advice...really not
 
 [https://apps.apple.com/us/app/autopilot-investment-app/id1613625799?mt=8](https://apps.apple.com/us/app/autopilot-investment-app/id1613625799?mt=8)
 

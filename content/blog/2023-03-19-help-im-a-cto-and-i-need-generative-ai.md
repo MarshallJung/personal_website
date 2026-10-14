@@ -10,6 +10,8 @@ readTime: "6 min read"
 
 ![Figure](/images/blog/2023-03-19-help-im-a-cto-and-i-need-generative-ai/image-01.jpg)
 
+### Help! I’m a CTO and I need Generative AI
+
 Sometimes when I’m talking to a C-Suite customer about Generative AI we are on video, and at other times I’m talking over the phone. But in both cases, where I’m face to face and in the other situations where I’m not, I imagine Dr. David Bowman and the Monolith. What is this black box? What does it do exactly and how does it do it? Can I be reasonably assured that pushing this technology will actually make a difference? As is the case with any enterprise technology decision maker, risk is usually a primary concern. Does the AI tech open the company up to potential legal issues? Can it harm productivity or decision making and how do I know that it has done so? Is this technology going to end up being an albatross around the neck of the company?
 
 Much of this uncertainty stems from the sometimes impenetrable language found in machine learning research and tech articles, and much of it also comes from the fact that there are many “AI Enhanced Technologies” that claim to use AI techniques, but despite the proliferation of different models, products and articles there is precious little research that compares the models and shows why differences might exist. There are good reasons for why this happens and in this article I’ll try and distill some jargon and frame some basic questions that a CTO might want to ask any potential technology provider that comes through the door with the best, newest “AI Enhanced Technology”

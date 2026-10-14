@@ -10,11 +10,9 @@ readTime: "7 min read"
 
 ![Figure](/images/blog/2026-07-13-was-it-always-thus/image-01.png)
 
-(720)315–6713
-
 ### It Was Always About Management?
 
-Even before agents became the main way to do productive work — coding or knowledge tasks — prompting tricks had already lost much of their value. The Wharton research linked below details this.
+Even before agents became the main way to do productive work—coding or knowledge tasks—prompting tricks had already lost much of their value. The Wharton research linked below details this.
 
 [https://gail.wharton.upenn.edu/research-and-insights/](https://gail.wharton.upenn.edu/research-and-insights/)
 
@@ -22,22 +20,27 @@ The most reliable way to work with AI tools right now is to clearly state your g
 
 If this sounds a lot like being a manager, that’s because it is. If you lead a team or collaborate with others (defining projects, managing people, and evaluating outputs toward a goal) you’re likely good at using AI. The format of your management methodology matters far less than the content, so use whatever you know best (RFP, PRD, SOP, or any other TLA). What matters is maintaining consistent, deep context and direction across the entire process from start to finish.
 
-For example, instead of saying “Help me write a marketing email”, a skilled AI user might define a project’s scope and goals like this, “Collaborate with me as a B2B SaaS copywriter. Write a 3-email cold sequence targeting CTOs of mid-sized healthcare companies to book a 15-minute demo. The tone must be urgent but compliant with medical data standards.”
+For example, instead of saying "Help me write a marketing email”, a skilled AI user might define a project’s scope and goals like this, "Collaborate with me as a B2B SaaS copywriter. Write a 3-email cold sequence targeting CTOs of mid-sized healthcare companies to book a 15-minute demo. The tone must be urgent but compliant with medical data standards."
 
 For leadership in established enterprises, it’s helpful to identify people who are naturally inclined and skilled at this work. Because the interface for AI is natural language, the barrier to entry is zero, but the barrier to *mastery* is incredibly high. Certain backgrounds give people a big advantage.
 
 Here are characteristics of groups that often thrive immediately with AI without formal training, because their day jobs already require them to manage messy, unpredictable human inputs or strict logical structures.
 
--   **Product & Project Managers:** Obviously. Their entire career is spent translating vague executive mandates into explicit tickets for developers. They already speak “Specification.”
--   **Editors and Creative Directors:** They are used to taking a rough draft from a human writer or designer and giving precise, actionable feedback (*“Make this sharper,” “The pacing is off in section two, expand the conflict”*). They excel at the iterative prompting loop.
+-   **Product & Project Managers:** Obviously. Their entire career is spent translating vague executive mandates into explicit tickets for developers. They already speak "Specification."
+
+-   **Editors and Creative Directors:** They are used to taking a rough draft from a human writer or designer and giving precise, actionable feedback (*"Make this sharper," "The pacing is off in section two, expand the conflict"*). They excel at the iterative prompting loop.
+
 -   **Lawyers:** Legal training is entirely based on edge cases, strict definitions, and closing loopholes. A lawyer writing a prompt treats it like a contract, leaving the AI zero room for unwanted interpretation.
--   **People with High Conscientiousness & Low Agreeableness (Personality Traits):** Conscientious people naturally organize information logically. Crucially, *low agreeableness* is a superpower here. Agreeable people accept mediocre AI answers because they don’t want to “bother” the tool or feel rude. Disagreeable users ruthlessly reject bad outputs and demand revisions until it’s perfect.
+
+-   **People with High Conscientiousness & Low Agreeableness (Personality Traits):** Conscientious people naturally organize information logically. Crucially, *low agreeableness* is a superpower here. Agreeable people accept mediocre AI answers because they don't want to "bother" the tool or feel rude. Disagreeable users ruthlessly reject bad outputs and demand revisions until it’s perfect.
 
 BUT, certain mindsets find the current state of AI deeply frustrating because it conflicts with how they usually solve problems.
 
--   **The “Individual Contributor” Visual/Technical Expert:** People who are used to doing the craft entirely themselves (e.g., pure execution-focused developers or illustrators) sometimes struggle because they want to grab the steering wheel. They find it hard to *delegate* the execution and focus purely on direction.
--   **Highly Intuitive / Non-Verbal Thinkers:** People who operate on “vibes,” feelings, or visual intuition without translating it into structured language find AI incredibly frustrating. If you cannot articulate *why* something looks or feels wrong in explicit words, you cannot guide an LLM to fix it.
--   **The “Google Generation”:** Users who grew up treating search boxes as magic portals where you type 2–3 keywords and browse results. They treat AI like an advanced search engine, get a generic paragraph back, and conclude that “AI is overhyped.”
+-   **The "Individual Contributor" Visual/Technical Expert:** People who are used to doing the craft entirely themselves (e.g., pure execution-focused developers or illustrators) sometimes struggle because they want to grab the steering wheel. They find it hard to *delegate* the execution and focus purely on direction.
+
+-   **Highly Intuitive / Non-Verbal Thinkers:** People who operate on "vibes," feelings, or visual intuition without translating it into structured language find AI incredibly frustrating. If you cannot articulate *why* something looks or feels wrong in explicit words, you cannot guide an LLM to fix it.
+
+-   **The "Google Generation":** Users who grew up treating search boxes as magic portals where you type 2–3 keywords and browse results. They treat AI like an advanced search engine, get a generic paragraph back, and conclude that "AI is overhyped."
 
 AI is shifting the human role in enterprise from creator to editor-in-chief. The leaders of the next decade in white-collar knowledge work won’t necessarily be the best coders or fastest writers, but those who excel at organizing thoughts, delegating tasks, defining parameters, and enforcing quality control.
 
@@ -47,7 +50,7 @@ There’s a downside to being good with AI. In the past, managing a team meant e
 
 ### Can we rely on Open Source for AI?
 
-[**https://www.reuters.com/world/beijing-is-looking-curbing-overseas-access-chinas-top-ai-models-sources-say-2026-07-07/**](https://www.reuters.com/world/beijing-is-looking-curbing-overseas-access-chinas-top-ai-models-sources-say-2026-07-07/)
+**<u>https://www.reuters.com/world/beijing-is-looking-curbing-overseas-access-chinas-top-ai-models-sources-say-2026-07-07/</u>**
 
 Open source in AI doesn’t mirror traditional open source. Classic software scales because code is cheap to copy and run. AI models break this in three ways:
 
@@ -69,7 +72,7 @@ The result is model-agnostic middleware. Abstraction layers that let enterprises
 
 Over my vacation I’ve been noodling Anthropic’s latest paper. In very brief summary… neuroscience suggests thoughts become conscious when they enter a privileged, brain-wide broadcast workspace. Anthropic reports a similar mechanism in Claude models, which they call the J-space.
 
-I’m sure this research will prompt people far smarter than me to explore ways to make frontier large-parameter models more efficient or easier to steer toward specific solutions. Still, as I read it, I couldn’t help thinking back to my linear algebra and NN days… So, are Anthropic researchers really surprised that intermediate LLM layers manipulate concepts tied to inputs and outputs? Layered matrix transformations have always worked this way. Maybe I’m missing the brilliance of the paper — my readers will have to tell me what I’m not seeing.
+I’m sure this research will prompt people far smarter than me to explore ways to make frontier large-parameter models more efficient or easier to steer toward specific solutions. Still, as I read it, I couldn’t help thinking back to my linear algebra and NN days... So, are Anthropic researchers really surprised that intermediate LLM layers manipulate concepts tied to inputs and outputs? Layered matrix transformations have always worked this way. Maybe I’m missing the brilliance of the paper—my readers will have to tell me what I’m not seeing.
 
 ### The Data Moat
 

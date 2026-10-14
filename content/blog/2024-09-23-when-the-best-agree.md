@@ -8,9 +8,11 @@ tags: ["Generative Media & Diffusion","Reasoning Models & RL","AI Hype & Skeptic
 readTime: "5 min read"
 ---
 
-Last week’s newsletter was more of a deep dive article into OpenAI’s o1 model. I thought it important enough to focus on since it does represent a meaningful step change in LLM type models. (Or iLLMs as we shall call them from now on). BUT, we are back to the regularly scheduled program this week with some rapid fire news and observations. So here we go!
+Last week's newsletter was more of a deep dive article into OpenAI’s o1 model. I thought it important enough to focus on since it does represent a meaningful step change in LLM type models. (Or iLLMs as we shall call them from now on). BUT, we are back to the regularly scheduled program this week with some rapid fire news and observations. So here we go!
 
 ![Figure](/images/blog/2024-09-23-when-the-best-agree/image-01.jpg)
+
+### When the best agree ;-)
 
 Referencing my intro, I was glad to see that one of the best in the business and I were writing about the same concept on the same day last Saturday ([https://medium.com/@jung.marshall/the-forbidden-fruit-tasty-but-is-it-a-game-changer-382377ae84cc](https://medium.com/@jung.marshall/the-forbidden-fruit-tasty-but-is-it-a-game-changer-382377ae84cc)) when we were observing that o1 and “LLM” isn’t really a good way of naming foundational models. However, I think that AK’s tweet does not address some important details in the application of autoregressive transformers to other problem domains like vision, chemistry or 3D items. In order for the “autoregressive” part to work, you need to define a single linear sequence for your tokens. This makes sense when using language, of course, and for vision we just use raster order because it’s convenient. But for other domains picking the sequence order is not obvious, and impacts the model’s inductive bias. While in theory a transformer can imitate any neural network architecture, I doubt their generalization for problem domains that aren’t intrinsically linear in their data representation. You can train transformers in a non-autoregressive way, but that is a square peg in a round hole.
 
@@ -18,7 +20,7 @@ I recently had a conversation with someone that is trying to use genAI to solve 
 
 ### Way too much money
 
-So [https://www.worldlabs.ai/](https://www.worldlabs.ai/) is a unicorn straight out of stealth with no product…BUT, BUT, BUT I can do you one better. [https://magic.dev/](https://magic.dev/) has raised $515 million and shipped a grand total of 217 lines of code in like 2 years ([https://github.com/magicproduct/hash-hop/blob/main/hashhop/generate.py](https://github.com/magicproduct/hash-hop/blob/main/hashhop/generate.py)). It’s a damn good grift if you can land it. I was very tangential to web3 hype, but did it ever get to this level?
+So [https://www.worldlabs.ai/](https://www.worldlabs.ai/) is a unicorn straight out of stealth with no product...BUT, BUT, BUT I can do you one better. [https://magic.dev/](https://magic.dev/) has raised $515 million and shipped a grand total of 217 lines of code in like 2 years ([https://github.com/magicproduct/hash-hop/blob/main/hashhop/generate.py](https://github.com/magicproduct/hash-hop/blob/main/hashhop/generate.py)). It’s a damn good grift if you can land it. I was very tangential to web3 hype, but did it ever get to this level?
 
 ### Refining the test time scaling concept
 
@@ -69,6 +71,7 @@ Given the tools available it may indeed be the last thing that anyone in tech do
 Opinions?
 
 1.  The new contender: [https://github.com/UdaraJay/pile](https://github.com/UdaraJay/pile)
+
 2.  The reigning champ: [https://obsidian.md/](https://obsidian.md/)
 
 Let me know and why!

@@ -8,6 +8,8 @@ tags: ["Leadership & Personal Growth","Motorsport & Engineering"]
 readTime: "3 min read"
 ---
 
+### Merry Christmas!!
+
 I wrote a story a while back, but I thought it might be interesting for others to read.
 
 In days past people did not die. When they were apart from one another each forgot the other so that when they met again it was as if things occurred for the first time. In this way the world was kept broad and new. As each person would move from place to place, each acquaintance was new even if they had crossed each other’s paths many times over the years. There were good people and bad people, but because each only was providential to themselves the world was generally a happy place.

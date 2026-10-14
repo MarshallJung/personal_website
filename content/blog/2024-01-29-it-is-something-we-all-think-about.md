@@ -8,13 +8,15 @@ tags: ["Open Source & Local AI","AI Security & Safety","Generative Media & Diffu
 readTime: "4 min read"
 ---
 
-“Our complaint against dying is ultimately an admission that we haven’t learnt how to live. The goal shouldn’t be to stretch time out yet further. We should be ready to go pretty much any time after four decades on this busy planet; sad to leave of course, but neither devastated nor incensed. Our fingers should prise themselves lightly from the handrail. We’ll have learnt how to live — and properly deserve the gift we’ve been given — once we know how to say a relatively crisp, relatively untragic, darkly amused goodbye.” — The School of Life
+### It is something we all think about
+
+“Our complaint against dying is ultimately an admission that we haven’t learnt how to live. The goal shouldn’t be to stretch time out yet further. We should be ready to go pretty much any time after four decades on this busy planet; sad to leave of course, but neither devastated nor incensed. Our fingers should prise themselves lightly from the handrail. We’ll have learnt how to live - and properly deserve the gift we’ve been given - once we know how to say a relatively crisp, relatively untragic, darkly amused goodbye.” - The School of Life
 
 ### The Leaderboard
 
-[https://huggingface.co/spaces/lmsys/chatbot-arena-leaderboard](https://huggingface.co/spaces/lmsys/chatbot-arena-leaderboard)
-
 ![Figure](/images/blog/2024-01-29-it-is-something-we-all-think-about/image-01.jpg)
+
+[https://huggingface.co/spaces/lmsys/chatbot-arena-leaderboard](https://huggingface.co/spaces/lmsys/chatbot-arena-leaderboard)
 
 I’m sure that most of my readers are aware of my skepticism of LLM leaderboards or the types of assessment algorithms that go into figuring out the ranking. While the problem of the models (especially the really big ones) having already seen the data used in the tests is getting worked around, I still think that there is some ambiguity that’s basically impossible to quantify. Still it’s interesting to see these rankings as a measure of model progress. Anecdotally, I have noticed a significant improvement in Gemini over the past few months, and the integration with Google search does make it a powerful tool to help return resources that can be used a references.
 
@@ -48,4 +50,4 @@ Part 2: The ethics. Most know that I cut Google more slack than I might MSFT, bu
 
 [https://scitechdaily.com/cannot-be-explained-scientists-unveil-revolutionary-ss-h2-steel/](https://scitechdaily.com/cannot-be-explained-scientists-unveil-revolutionary-ss-h2-steel/)
 
-This article describes a new type of stainless steel called SS-H2. It is more resistant to corrosion than other types of stainless steel and cheaper to produce, making it a promising material for hydrogen production. They use a new process called “sequential dual-passivation,” which creates a protective layer on the steel that prevents corrosion. It has the potential for various applications, including hydrogen production from renewable sources BUT more importantly can this steel solve the hydrogen embrittlement issue that plagues high temp nuclear reactors necessitating shutdown and replacement of very expensive piping. Could the same process be worked on other high temperature alloys like Hastelloy or Inconel?
+This article describes a new type of stainless steel called SS-H2. It is more resistant to corrosion than other types of stainless steel and cheaper to produce, making it a promising material for hydrogen production. They use a new process called "sequential dual-passivation," which creates a protective layer on the steel that prevents corrosion. It has the potential for various applications, including hydrogen production from renewable sources BUT more importantly can this steel solve the hydrogen embrittlement issue that plagues high temp nuclear reactors necessitating shutdown and replacement of very expensive piping. Could the same process be worked on other high temperature alloys like Hastelloy or Inconel?

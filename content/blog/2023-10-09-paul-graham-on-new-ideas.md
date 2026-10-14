@@ -8,7 +8,9 @@ tags: ["LLM Training & Fine-Tuning","Data Science & Classic ML"]
 readTime: "4 min read"
 ---
 
-“The best new ideas always have unanticipated benefits. So it’s stupid to require people who want to do new things to enumerate the benefits beforehand. The best you can do is choose smart people and then trust their intuitions about what’s worth exploring.”
+### Paul Graham on new ideas
+
+"The best new ideas always have unanticipated benefits. So it's stupid to require people who want to do new things to enumerate the benefits beforehand. The best you can do is choose smart people and then trust their intuitions about what's worth exploring."
 
 ### Variance
 
@@ -36,15 +38,20 @@ Distributed Shampoo is a second-order optimization method that makes training la
 
 ### Don’t tell anyone
 
-Everyone pretends they know this when they are talking to you, but maybe they don’t…and maybe you don’t either? It’s our little secret.
+Everyone pretends they know this when they are talking to you, but maybe they don’t...and maybe you don’t either? It’s our little secret.
 
 The LLM inference process:
 
 1.  Text entry: The user enters a prompt into the LLM system.
-2.  Tokenization: The LLM system breaks the prompt into a sequence of tokens. It allows the model to understand the structure of the prompt and to generate a response that is consistent with the user’s intentions. You can change this method, and it affects the output. What’s your LLM using?
+
+2.  Tokenization: The LLM system breaks the prompt into a sequence of tokens. It allows the model to understand the structure of the prompt and to generate a response that is consistent with the user's intentions. You can change this method, and it affects the output. What's your LLM using?
+
 3.  (RAG if you want): The retrieval task can be implemented in a variety of ways. One common approach is to use a dense retrieval model. Dense retrieval models learn to represent documents and queries as vectors in a high-dimensional space. The similarity between two documents is then measured by the cosine similarity between their vectors. Another approach to retrieval is to use a sparse retrieval model. Sparse retrieval models learn to index documents and queries into a hash table. The similarity between two documents is then measured by the number of hash buckets that they share.
+
 4.  Embedding: The LLM system generates an embedding for each token. Embeddings are dense vectors that capture the meaning and relationships of words and tokens to other words in the vocabulary. Embeddings are used by the LLM model to understand the context of the prompt and to generate a relevant response. This is also customizable and affects the rest of the transformer algorithm.
+
 5.  Model processing: The LLM system processes the sequence of embeddings to generate a response. We require numbers here (aka vector embeddings) [https://towardsdatascience.com/attention-and-transformer-models-fe667f958378](https://towardsdatascience.com/attention-and-transformer-models-fe667f958378)
+
 6.  Model response: The LLM system returns the generated response to the user.
 
 ### If you know this guy, you are my kindred spirit

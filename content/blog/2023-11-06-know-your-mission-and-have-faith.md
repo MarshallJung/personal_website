@@ -8,24 +8,24 @@ tags: ["Generative Media & Diffusion","Leadership & Personal Growth","AI Hype & 
 readTime: "3 min read"
 ---
 
-“I spent so much of my life terrified of what I was going to become and whether I was going to be right here right now. God, how much time did I waste afraid I wasn’t going to be right here right now? If I could change, the only thing I’d change about my whole life would be fearing less that I wouldn’t get right here — the place I was going anyway. I wouldn’t change all the mistakes and mishaps, I needed those. But all the constant worry that I wasn’t going to make it, that took me out of enjoying the moment. It took me out of enjoying these experiences, smiling or eating my lunch or doing whatever I was doing.
+![Figure](/images/blog/2023-11-06-know-your-mission-and-have-faith/image-02.jpg)
 
-Know your mission, have faith you’re going to get there. Wherever you go, it’s going to be alright.” — Aubrey Marcus
+### Know your mission and have faith
+
+“I spent so much of my life terrified of what I was going to become and whether I was going to be right here right now. God, how much time did I waste afraid I wasn’t going to be right here right now? If I could change, the only thing I’d change about my whole life would be fearing less that I wouldn’t get right here - the place I was going anyway. I wouldn’t change all the mistakes and mishaps, I needed those. But all the constant worry that I wasn’t going to make it, that took me out of enjoying the moment. It took me out of enjoying these experiences, smiling or eating my lunch or doing whatever I was doing.
+
+Know your mission, have faith you’re going to get there. Wherever you go, it’s going to be alright.” - Aubrey Marcus
 
 ### Super resolution
 
-I had an interesting conversation with someone that works for a company making high resolution long range LADAR(LIDAR) for targeting systems. While I’ve had some experience with LADAR mapping on outcrops for subsurface modeling, long range focussed systems are a little different. Gaussian laser beams are said to be diffraction limited when their radial beam divergence
+I had an interesting conversation with someone that works for a company making high resolution long range LADAR(LIDAR) for targeting systems. While I’ve had some experience with LADAR mapping on outcrops for subsurface modeling, long range focussed systems are a little different. Gaussian laser beams are said to be diffraction limited when their radial beam divergence  is close to the minimum possible value, which is given by  where lambda is the laser wavelength and w0 is the radius of the beam at its narrowest point. For a given platform (that is going to be useful in any case, think UAV) this likely means that the transceiver assembly is pretty small. At distance this would mean that the image resolution is probably a little rough. I think with the right training data set, we could use super resolution algorithms to correctly upscale the target image for better results. Here are a few resources that might get one started.
 
 ![Figure](/images/blog/2023-11-06-know-your-mission-and-have-faith/image-01.jpg)
 
-is close to the minimum possible value, which is given by
-
-![Figure](/images/blog/2023-11-06-know-your-mission-and-have-faith/image-02.jpg)
-
-where lambda is the laser wavelength and w0 is the radius of the beam at its narrowest point. For a given platform (that is going to be useful in any case, think UAV) this likely means that the transceiver assembly is pretty small. At distance this would mean that the image resolution is probably a little rough. I think with the right training data set, we could use super resolution algorithms to correctly upscale the target image for better results. Here are a few resources that might get one started.
-
 1.  [https://blog.research.google/2021/07/high-fidelity-image-generation-using.html](https://blog.research.google/2021/07/high-fidelity-image-generation-using.html)
+
 2.  [https://openaccess.thecvf.com/content/CVPR2023/papers/Gao\_Implicit\_Diffusion\_Models\_for\_Continuous\_Super-Resolution\_CVPR\_2023\_paper.pdf](https://openaccess.thecvf.com/content/CVPR2023/papers/Gao_Implicit_Diffusion_Models_for_Continuous_Super-Resolution_CVPR_2023_paper.pdf)
+
 3.  [https://jina.ai/news/a-guide-for-super-resolution-ordinary-to-extraordinary-with-inference/](https://jina.ai/news/a-guide-for-super-resolution-ordinary-to-extraordinary-with-inference/)
 
 ### Content discovery with Beam

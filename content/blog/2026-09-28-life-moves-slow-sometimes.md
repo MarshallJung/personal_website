@@ -10,13 +10,13 @@ readTime: "5 min read"
 
 ![Figure](/images/blog/2026-09-28-life-moves-slow-sometimes/image-01.png)
 
-### Life Moves Slow Sometimes
+### Life moves slow sometimes
 
 We all feel like the world moves slower than it should sometimes. While time can fly, waiting for an exciting future makes the present feel drawn out.
 
 I notice this often in my daily work and conversations around AI. Having been immersed in this space for so long, I expected people would have a deeper understanding by now of how AI works, its limitations, its benefits, its future, and how to use it effectively. The reality is that we are not there yet.
 
-I came across a couple of articles this week that speak to this from both a business and a human psychological perspective. Let’s use these to lead this week\x27s newsletter before we dive into some more technical subjects.
+I came across a couple of articles this week that speak to this from both a business and a human psychological perspective. Let’s use these to lead this week's newsletter before we dive into some more technical subjects.
 
 [https://research.socialcapital.com/p/ai-roi](https://research.socialcapital.com/p/ai-roi)
 
@@ -24,7 +24,7 @@ The first piece is a down-to-earth, observant article by Chamath Palihapitiya. I
 
 Today, individual knowledge workers can look 2-10 times more productive with AI, but most firms do not show those gains from the outside. Most of a corporate workweek is not spent actually producing the thing. Instead, time goes to meetings, handoffs, signoffs, status docs, “alignment”, legal review, and waiting on someone with the right password or access to an esoteric database.
 
-For firms that pay on CC, Ramp\x27s AI index, the median company spends $12.50 per employee each month on AI. Compared to an average monthly employee cost of around $8,500, AI only needs to boost a person\x27s productivity by about 0.15% to pay for itself.
+For firms that pay on CC, Ramp's AI index, the median company spends $12.50 per employee each month on AI. Compared to an average monthly employee cost of around $8,500, AI only needs to boost a person's productivity by about 0.15% to pay for itself.
 
 This shows that humans are likely the bottleneck to AI return on investment. AI creates extra time for employees, but it cannot decide how they use it. If that saved time just goes into another meeting or another week of waiting on access to a document or database, the return is zero.
 
@@ -40,11 +40,15 @@ AI speeds up the production slice, but it does almost nothing for this coordinat
 
 Elon Musk has a five-step process to fix this:
 
-1. Question every process and requirement
-2. Delete what you can
-3. Simplify what’s left
-4. Speed it up
-5. Only then automate.
+1.  Question every process and requirement
+
+2.  Delete what you can
+
+3.  Simplify what’s left
+
+4.  Speed it up
+
+5.  Only then automate.
 
 Elon noted that one of his biggest mistakes at Tesla was running his five-step process backwards and automating things that turned out to be unneeded. Many firms today claiming to "leverage AI" are making that exact mistake.
 
@@ -56,7 +60,7 @@ AND this brings me to the second article, well post really.
 
 While the post is a bit crude, it matches my experience when working with others. AI assistants are usually pitched as effort-savers that handle tasks for us, but in practice, they often increase both the decisions we need to make and the volume of work we execute. Instead of creating spare capacity, they raise the pace and scope of work. The more you use them, the more you end up doing, which rarely feels like empowerment.
 
-In my experience, people who are really good at using these tools often get frustrated because their pace is so much faster than the folks around them who refuse, struggle, or don\x27t care to use AI. Most employees prefer lower cognitive load and simpler routines over maximum output. Tools that quietly execute without needing ongoing input and judgment are adopted much more easily than those that constantly surface new decisions and opportunities. Just like the article above notes, efficiency gains often expand the pipeline of work rather than shrink it.
+In my experience, people who are really good at using these tools often get frustrated because their pace is so much faster than the folks around them who refuse, struggle, or don't care to use AI. Most employees prefer lower cognitive load and simpler routines over maximum output. Tools that quietly execute without needing ongoing input and judgment are adopted much more easily than those that constantly surface new decisions and opportunities. Just like the article above notes, efficiency gains often expand the pipeline of work rather than shrink it.
 
 ### Jev Inspires!
 
@@ -68,7 +72,7 @@ But it is not just autoregressive architectures, though. Google previously relea
 
 This approach brings the extra advantage of bidirectional attention for well calibrated probability distributions over options, as well as native multimodal support from Gemma 4 for visual and text decisions. It is entirely open source and runs on a reasonably powered local machine, or you can easily host it inside a larger VM to serve as a decision making gating mechanism in front of other workflows.
 
-Deploying DiffusionGemma-Jev (djev) is pretty easy too. You can now spin up a Jev API-compatible endpoint on Google Cloud Run using a single command. Performance is solid: ~35-60 ms for single step latency and batch@32 is ~100-123 requests/sec. It\x27s a straightforward way to experiment without needing your own GPU. Runs at roughly $3/hr and drops to $0 when idle. [https://github.com/taeold/djev-run](https://github.com/taeold/djev-run)
+Deploying DiffusionGemma-Jev (djev) is pretty easy too. You can now spin up a Jev API-compatible endpoint on Google Cloud Run using a single command. Performance is solid: \~35-60 ms for single step latency and batch@32 is \~100-123 requests/sec. It's a straightforward way to experiment without needing your own GPU. Runs at roughly $3/hr and drops to $0 when idle. [https://github.com/taeold/djev-run](https://github.com/taeold/djev-run)
 
 Oh, and here’s another one with a totally different architecture: [https://contrastive-lm.notion.site/](https://contrastive-lm.notion.site/)
 

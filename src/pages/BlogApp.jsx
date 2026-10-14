@@ -211,7 +211,7 @@ export default function BlogApp() {
           </div>
         ) : (
           <div
-            className="prose prose-neutral max-w-none text-[var(--text-main)]
+            className="article-body prose prose-neutral max-w-none text-[var(--text-main)]
               prose-headings:text-[var(--text-main)] prose-headings:font-bold prose-headings:tracking-tight prose-headings:uppercase
               prose-h2:text-2xl sm:prose-h2:text-3xl prose-h2:mt-14 prose-h2:mb-5 prose-h2:hairline-b prose-h2:pb-3
               prose-h3:text-xl sm:prose-h3:text-2xl prose-h3:mt-10 prose-h3:mb-4

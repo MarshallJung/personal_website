@@ -10,9 +10,11 @@ readTime: "4 min read"
 
 ![Figure](/images/blog/2026-05-04-slow-your-roll/image-01.png)
 
-[https://x.com/levie/status/2049714403050918067?s=20](https://x.com/levie/status/2049714403050918067?s=20)
-
 ![Figure](/images/blog/2026-05-04-slow-your-roll/image-02.png)
+
+### Slow Your Roll
+
+[https://x.com/levie/status/2049714403050918067?s=20](https://x.com/levie/status/2049714403050918067?s=20)
 
 Aaron, Box’s CEO, is a prominent voice in tech and AI, and I agree with his post in principle. But this kind of enthusiasm, especially the idea of a forward-deployed engineer wiring agents into systems of record, often comes from the leading edge of AI. In most legacy enterprises, that role will hit ownership silos, operational concerns, security blockades, and internal politics. While adoption will vary, I expect the average legacy enterprise won’t see meaningful success from this model for at least two to five years.
 

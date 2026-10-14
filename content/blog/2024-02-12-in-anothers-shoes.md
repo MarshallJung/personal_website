@@ -8,7 +8,9 @@ tags: ["LLM Training & Fine-Tuning","Generative Media & Diffusion","AI Coding & 
 readTime: "3 min read"
 ---
 
-“Every single person is exactly what you would be if you were them. This includes your political opponents. So instead of dismissing them as evil or stupid, maybe seek to understand the circumstances that led them to their conclusions.” — Gurwinder Bhogal
+### In another's shoes
+
+“Every single person is exactly what you would be if you were them. This includes your political opponents. So instead of dismissing them as evil or stupid, maybe seek to understand the circumstances that led them to their conclusions.” - Gurwinder Bhogal
 
 It’s comfortable to dismiss those with different viewpoints as uninformed or lesser than yourself or your in-group. I’ve found “walking a mile in someone else’s shoes” is an old saying that still applies today. It isn’t meant to necessarily make you change your own mind, but there is wisdom and virtue to be found in trying to genuinely understand another’s worldview.
 
@@ -46,6 +48,6 @@ This is one of those ideas where when you hear about it you wonder, “Why didn�
 
 ### A fair statement.
 
-Perhaps if you need the GDP of a G7 nation and the power consumption of the entire UK, I think it’s safe to say that your design is…suboptimal.
+Perhaps if you need the GDP of a G7 nation and the power consumption of the entire UK, I think it’s safe to say that your design is...suboptimal.
 
 ![Figure](/images/blog/2024-02-12-in-anothers-shoes/image-01.jpg)

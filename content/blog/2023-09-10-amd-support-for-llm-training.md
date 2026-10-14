@@ -8,15 +8,17 @@ tags: ["AI Economics & Infrastructure","AI Coding & Developer Tools","RAG & Embe
 readTime: "2 min read"
 ---
 
+### AMD Support for LLM training
+
 [https://github.com/ggerganov/llama.cpp/pull/1087](https://github.com/ggerganov/llama.cpp/pull/1087)
 
 If anyone has been following the shady, shady business with Blackrock, Magnetar and NVIDIA ([Follow the drama here](https://themadking.com/article/nvidia-the-red-flags/))it would probably behoove folks to get some of the LLM [fine tuning techniques](https://medium.com/@jung.marshall/training-llms-a-taxonomy-76a7488c4163) working on other GPU’s. AMD GPU’s are now supported for some of the basic efforts.
 
 ### Better IDE integration for DE Tools
 
-[https://www.cursor.so/](https://www.cursor.so/)
-
 ![Figure](/images/blog/2023-09-10-amd-support-for-llm-training/image-01.jpg)
+
+[https://www.cursor.so/](https://www.cursor.so/)
 
 I’ve been using the free version of this VSCode fork and the integration with API docs is great. For $20/month this would likely make any continuing DE Tools development or third party dev much easier. I’m sure there will be an open source plugin at some point as well. Definitely a space to keep an eye on.
 

@@ -10,7 +10,7 @@ readTime: "6 min read"
 
 ![Figure](/images/blog/2026-05-10-ai-homewreckers/image-01.png)
 
-### AI Homewreckers — SF Style
+### AI Homewreckers - SF Style
 
 (This week I tried to emulate a favorite X account in a dialogue style, mixing a bit of spiciness with the current tech landscape. I spent much longer than usual, struggling to make the flow witty, clear and technically competent all at once. It’s probably not my natural voice, but it was worth a try. I likely won’t do it again.)
 
@@ -42,17 +42,17 @@ Dude: Yeah?
 
 **Dude**: \[laughs\] Classic tech “it’s not a breakup, it’s a next phase.”
 
-**Bro:** But plot twist…May 6. Anthropic just locked in the entire Colossus 1 cluster with SpaceX/xAI: 220k+ GPUs, 300MW, all theirs for Claude inference. xAI flips the old mixed-gen straggler farm into a $5–6B annual neo-cloud printer, keeps shiny Colossus 2 for Grok training.
+**Bro:** But plot twist…May 6. Anthropic just locked in the entire Colossus 1 cluster with SpaceX/xAI: 220k+ GPUs, 300MW, all theirs for Claude inference. xAI flips the old mixed-gen straggler farm into a $5-6B annual neo-cloud printer, keeps shiny Colossus 2 for Grok training.
 
-**Dude**: Wait — Microsoft’s already going with Anthropic on Azure… and now Anthropic’s fooling with Elon’s GPUs too?
+**Dude**: Wait—Microsoft’s already going with Anthropic on Azure… and now Anthropic’s fooling with Elon’s GPUs too?
 
 **Bro:** Peak “everyone hedging the entire stack.” OpenAI feels the compute heat, Microsoft’s multi-model moat just got rocket-boosted as Claude scales harder independently, and the whole arena turns into one giant inference swap meet.
 
-**Dude**: Everybody wins… except the lawyers on redline #17. But lowkey, this circular financing ouroboros is the real disaster waiting to happen. Microsoft’s cash loops into OpenAI who loops into Azure who loops into Anthropic who now loops straight back into xAI’s Colossus. One revenue miss and the whole interdependent stack implodes like a bad model training run.
+**Dude**: Everybody wins… except the lawyers on redline \#17. But lowkey, this circular financing ouroboros is the real disaster waiting to happen. Microsoft’s cash loops into OpenAI who loops into Azure who loops into Anthropic who now loops straight back into xAI’s Colossus. One revenue miss and the whole interdependent stack implodes like a bad model training run.
 
 **Bro:** IMF’s already waving red flags on systemic spillover. It’s all cute relationships until it’s the same money chasing itself in a $1T+ closed loop.
 
-**Dude**: Fudge… AI relationships move faster than a 2x speedrun.
+**Dude**: Fudge... AI relationships move faster than a 2x speedrun.
 
 **Bro:** Welcome to 2026, bro. Monogamy is for betas. The real players run multi-model, multi-cloud, multi-Colossus portfolios… until the circular bill comes due.
 
@@ -71,8 +71,10 @@ This is why a robust “Showback” model must prove its worth over a rigid char
 We can map this new economic reality directly onto our favorite concept of the Three-Layer AI Pyramid, which provides the necessary architectural synthesis for enterprise deployment:
 
 -   Base Layer: This is occupied by the massive, general-purpose frontier models (expensive, but offering maximum capability).
+
 -   Middle Layer: This comprises the enterprise-contextualized systems, focused on RAG (Retrieval-Augmented Generation) and the secure utilization of localized, proprietary data.
--   Top/Apex Layer: This is the domain of the highly specialized, self-improving agents. These agents run on task-specific Small Language Models (SLMs) and LoRA adapters, precisely the kind of fine-tuning that the Lab’s new model facilitates.
+
+-   Top/Apex Layer: This is the domain of the highly specialized, self-improving agents. These agents run on task-specific Small Language Models (SLMs) and LoRA adapters, precisely the kind of fine-tuning that the Lab's new model facilitates.
 
 The strategic imperative here is to self-host these fine-tuned SLMs for high-volume, specific tasks. This action creates a predictable, manageable token budget and significantly reduces reliance on the expensive base layer for routine operations.
 

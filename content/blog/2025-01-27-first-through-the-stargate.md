@@ -8,13 +8,15 @@ tags: ["AI Economics & Infrastructure","Reasoning Models & RL","AI Agents & Agen
 readTime: "6 min read"
 ---
 
+### First through the Stargate
+
 This last week the new administration and some tech leaders combined with Japanese cash announced “Project Stargate”. ([https://x.com/OpenAI/status/1881830103858172059](https://x.com/OpenAI/status/1881830103858172059))
 
-First, unless this is a superpositional faster than light transport portal, I think they should rename it. Second, is this more hype than substance? Maybe. $500B is an awful lot of money and that’s cash that Softbank doesn’t have liquid. So it’s more of a commitment to best effort over time rather than a guarantee right now. The people involved in this announcement combined with the political winds of the moment also tell part of the story about the game of chess being played. Third, is this really a requirement for advancing the current approach to AI? Given that Deepseek has done nearly as well (trust those benchmarks right?) with ostensibly a fraction of the resources of OpenAI, is there really a need for a $.5T infrastructure investment to get to where we need to go? Who knows but Altman asked for like 7 Trillion so maybe .5 is the best he can get.
+First, unless this is a superpositional faster than light transport portal, I think they should rename it. Second, is this more hype than substance? Maybe. $500B is an awful lot of money and that’s cash that Softbank doesn’t have liquid. So it’s more of a commitment to best effort over time rather than a guarantee right now. The people involved in this announcement combined with the political winds of the moment also tell part of the story about the game of chess being played. Third, is this really a requirement for advancing the current approach to AI? Given that Deepseek has done nearly as well (trust those benchmarks right?) with ostensibly a fraction of the resources of OpenAI, is there really a need for a $.5T infrastructure investment to get to where we need to go? Who knows but Altman asked for like 7 Trillion so maybe .5 is the best he can get.
 
 And lastly, this AI investment is predicated on a bunch of assumptions. I did a breakdown of the costs of AI data centers last year, but if we follow that same logic the amount of power required to run the whole shebang quite literally does not exist, unless you are willing to put a few major US states into permanent blackout.  
-[https://x.com/energybants/status/1881860142108377412  
-](https://x.com/energybants/status/1881860142108377412)So power, water, not to mention the ancillary hardware required is probably years away from being available. I have to say this is likely mostly posturing. And if any of Project Stargate is built it will likely be a small fraction of the pie-in-the-sky vision. AI will advance but it won’t be through the “Stargate”.
+[https://x.com/energybants/status/1881860142108377412](https://x.com/energybants/status/1881860142108377412)  
+So power, water, not to mention the ancillary hardware required is probably years away from being available. I have to say this is likely mostly posturing. And if any of Project Stargate is built it will likely be a small fraction of the pie-in-the-sky vision. AI will advance but it won’t be through the “Stargate”.
 
 ### A bit about Deepseek R1
 
@@ -24,7 +26,7 @@ It’s bigger in the MLverse than even OAI’s o3 release. Whether you believe i
 
 It looks like this prognostication is headed in the right direction, even if the gov alignment isn’t yet apparent. Lots of companies are planning to fine tune this model for on-prem and even on-device AI systems. As a competitive impetus in the space, I like it.
 
-A bit about how it achieved such good performance on comparatively inferior (hypothetically) hardware: Basically pure reinforcement learning. Base Model -> RL ->Finetune -> RL -> Finetune → RL and so on. The paper here: [https://arxiv.org/abs/2501.12948](https://arxiv.org/abs/2501.12948) Pure reinforcement learning (RL) enables an LLM to automatically learn to think and reflect. It is a bit of a simple ripost to the OAI’s o1 family of “reasoning” models that require extensive chain of thought data. Simply incentivizing the model like they did way back in the AlphaGO days gets you similar performance.
+A bit about how it achieved such good performance on comparatively inferior (hypothetically) hardware: Basically pure reinforcement learning. Base Model -&gt; RL -&gt;Finetune -&gt; RL -&gt; Finetune → RL and so on. The paper here: [https://arxiv.org/abs/2501.12948](https://arxiv.org/abs/2501.12948) Pure reinforcement learning (RL) enables an LLM to automatically learn to think and reflect. It is a bit of a simple ripost to the OAI’s o1 family of “reasoning” models that require extensive chain of thought data. Simply incentivizing the model like they did way back in the AlphaGO days gets you similar performance.
 
 It also highlights another interesting thought experiment. One diagram in the R1 paper shows a pretty linear relationship between inference and the response length.
 
@@ -44,11 +46,11 @@ It’s an AI enabled terminal that has a freemium model to try out. The one thin
 
 ### My view on Agents
 
-These days, it’s hard to miss the hype around AI Agents. They’re everywhere: booking flights, managing calendars, even fixing code. With any new technology comes some confusion around the terminology. But beyond defining what an Agent is, it’s also crucial to understand the technical nuances.
+These days, it's hard to miss the hype around AI Agents. They're everywhere: booking flights, managing calendars, even fixing code. With any new technology comes some confusion around the terminology. But beyond defining what an Agent is, it's also crucial to understand the technical nuances.
 
-Let’s start with the definition. I define agents narrowly: they should have well-defined inputs and produce consistent, reasonable outputs. Think of it like functional programming, but with the added power of a Large Language Model (LLM) as the underlying code. While the agent’s “code” isn’t written line by line, its capabilities and processes are clear. I view agents as atomic operators that can be chained together into well-defined programming workflows.
+Let's start with the definition. I define agents narrowly: they should have well-defined inputs and produce consistent, reasonable outputs. Think of it like functional programming, but with the added power of a Large Language Model (LLM) as the underlying code. While the agent's "code" isn't written line by line, its capabilities and processes are clear. I view agents as atomic operators that can be chained together into well-defined programming workflows.
 
-Understanding the technical side aspect to agent design is also important. When developers use AI for tasks like generating unit tests, interacting with a CLI, or any number of other capabilities, they expect predictability and consistency. Without this, the AI tool risks trapping the developer in a frustrating cycle of errors and prompt loops. Often, this ends up wasting more time than doing things the “old-fashioned way.” In short, the developer loses trust. This issue tends to be even more pronounced with experienced developers.
+Understanding the technical side aspect to agent design is also important. When developers use AI for tasks like generating unit tests, interacting with a CLI, or any number of other capabilities, they expect predictability and consistency. Without this, the AI tool risks trapping the developer in a frustrating cycle of errors and prompt loops. Often, this ends up wasting more time than doing things the "old-fashioned way." In short, the developer loses trust. This issue tends to be even more pronounced with experienced developers.
 
 So agents should be atomic and tightly defined. Provide access to semantically consistent data and you now have an auditable and consistent “agentic network”
 

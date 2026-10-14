@@ -10,7 +10,9 @@ readTime: "5 min read"
 
 ![Disclosure — Thoughts are based off my daily research and this article: https://www.semianalysis.com/p/google-gemini-eats-the-world-gemini](/images/blog/2023-08-29-we-need-to-have-the-talk-about-googles-gemini/image-01.jpg)
 
-*Disclosure — Thoughts are based off my daily research and this article: https://www.semianalysis.com/p/google-gemini-eats-the-world-gemini*
+### We need to have “The Talk” (about Google’s Gemini)
+
+*Disclosure — Thoughts are based off my daily research and this article: [https://www.semianalysis.com/p/google-gemini-eats-the-world-gemini](https://www.semianalysis.com/p/google-gemini-eats-the-world-gemini)*
 
 ### Was I wrong?
 

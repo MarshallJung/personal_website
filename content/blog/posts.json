@@ -1121,19 +1121,6 @@
     "file": "content/blog/2025-03-24-nvidia-gtc-the-dead-walking-a-review.md"
   },
   {
-    "title": "NVIDIA GTC — The Dead Walking — A Review",
-    "slug": "2025-03-23-nvidia-gtc-the-dead-walking-a-review",
-    "date": "2025-03-23",
-    "description": "I can’t actually remember the last time I was at a tech conference. It was probably way back when I was still at Google and they moved…",
-    "coverImage": "/images/blog/2025-03-23-nvidia-gtc-the-dead-walking-a-review/image-01.jpg",
-    "tags": [
-      "AI Economics & Infrastructure",
-      "AI Hype & Skepticism"
-    ],
-    "readTime": "5 min read",
-    "file": "content/blog/2025-03-23-nvidia-gtc-the-dead-walking-a-review.md"
-  },
-  {
     "title": "Unable or Canny?",
     "slug": "2025-03-17-unable-or-canny",
     "date": "2025-03-17",
@@ -1312,30 +1299,18 @@
     "file": "content/blog/2024-12-23-i-missed-something.md"
   },
   {
-    "title": "Wrote this week in another article here:https://me",
+    "title": "Year in Review and a View to 2025",
     "slug": "2024-12-16-wrote-this-week-in-another-article-here-https-me",
     "date": "2024-12-16",
-    "description": "By Marshall Jung on December 16, 2024",
-    "coverImage": "",
-    "tags": [
-      "AI Economics & Infrastructure"
-    ],
-    "readTime": "1 min read",
-    "file": "content/blog/2024-12-16-wrote-this-week-in-another-article-here-https-me.md"
-  },
-  {
-    "title": "Year in Review and a View to 2025",
-    "slug": "2024-12-15-year-in-review-and-a-view-to-2025",
-    "date": "2024-12-15",
     "description": "Yay! It’s time! Time for the end of the year predictions and review of the prognostications for the last 12 months. These are supposed to…",
-    "coverImage": "/images/blog/2024-12-15-year-in-review-and-a-view-to-2025/image-01.png",
+    "coverImage": "/images/blog/2024-12-16-wrote-this-week-in-another-article-here-https-me/image-01.png",
     "tags": [
       "AI Economics & Infrastructure",
       "LLM Training & Fine-Tuning",
       "AI Security & Safety"
     ],
     "readTime": "22 min read",
-    "file": "content/blog/2024-12-15-year-in-review-and-a-view-to-2025.md"
+    "file": "content/blog/2024-12-16-wrote-this-week-in-another-article-here-https-me.md"
   },
   {
     "title": "OpenAI celebrates Christmas",
@@ -1515,20 +1490,6 @@
     ],
     "readTime": "8 min read",
     "file": "content/blog/2024-09-16-the-forbidden-fruit-tasty-but-is-it-a-game-changer.md"
-  },
-  {
-    "title": "The forbidden fruit. Tasty but is it a game changer?",
-    "slug": "2024-09-14-the-forbidden-fruit-tasty-but-is-it-a-game-changer",
-    "date": "2024-09-14",
-    "description": "It’s always important to acknowledge when events that change your paradigm happen. Does o1/Strawberry/Q*/Orion change the outlook that I…",
-    "coverImage": "/images/blog/2024-09-14-the-forbidden-fruit-tasty-but-is-it-a-game-changer/image-01.jpg",
-    "tags": [
-      "Reasoning Models & RL",
-      "Frontier Labs & Model Releases",
-      "AI Economics & Infrastructure"
-    ],
-    "readTime": "8 min read",
-    "file": "content/blog/2024-09-14-the-forbidden-fruit-tasty-but-is-it-a-game-changer.md"
   },
   {
     "title": "Mental Superposition",
@@ -1782,14 +1743,14 @@
     "title": "Same as it always was…",
     "slug": "2024-05-10-same-as-it-always-was",
     "date": "2024-05-10",
-    "description": "Synthetic Data — Meet the new Oops…same as the old one.",
+    "description": "A few observational paragraphs this week before we get into the news. The observation and the opinion piece are related.",
     "coverImage": "/images/blog/2024-05-10-same-as-it-always-was/image-01.jpg",
     "tags": [
       "Data Science & Classic ML",
       "LLM Training & Fine-Tuning",
       "RAG & Embeddings"
     ],
-    "readTime": "3 min read",
+    "readTime": "5 min read",
     "file": "content/blog/2024-05-10-same-as-it-always-was.md"
   },
   {
@@ -1879,29 +1840,15 @@
     "title": "Traversing the Hype Curve",
     "slug": "2024-03-26-traversing-the-hype-curve",
     "date": "2024-03-26",
-    "description": "I’ll go ahead and make the assumption that most of my readers are experienced users of AI tools. But for those that are not, I assume that…",
+    "description": "A bit shorter take this week. The world of AI seems to move in waves, as is the way in all things in this world. So a bit of an observation and a few nifty things after that.",
     "coverImage": "/images/blog/2024-03-26-traversing-the-hype-curve/image-01.jpg",
     "tags": [
       "AI Hype & Skepticism",
       "AI Economics & Infrastructure",
       "Enterprise AI Adoption & ROI"
     ],
-    "readTime": "5 min read",
-    "file": "content/blog/2024-03-26-traversing-the-hype-curve.md"
-  },
-  {
-    "title": "Peak AI? (Excerpt from my Medium blog of the same title)",
-    "slug": "2024-03-25-peak-ai-excerpt-from-my-medium-blog-of-the-same-title",
-    "date": "2024-03-25",
-    "description": "A bit shorter take this week. The world of AI seems to move in waves, as is the way in all things in this world. So a bit of an observation and a few nifty things after that.",
-    "coverImage": "/images/blog/2024-03-25-peak-ai-excerpt-from-my-medium-blog-of-the-same-title/image-01.jpg",
-    "tags": [
-      "AI Hype & Skepticism",
-      "AI Economics & Infrastructure",
-      "Enterprise AI Adoption & ROI"
-    ],
     "readTime": "7 min read",
-    "file": "content/blog/2024-03-25-peak-ai-excerpt-from-my-medium-blog-of-the-same-title.md"
+    "file": "content/blog/2024-03-26-traversing-the-hype-curve.md"
   },
   {
     "title": "Why moonshots are important",

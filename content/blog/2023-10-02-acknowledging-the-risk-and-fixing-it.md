@@ -8,11 +8,13 @@ tags: ["Data Science & Classic ML","Leadership & Personal Growth","Open Source &
 readTime: "5 min read"
 ---
 
-Peter Thiel — Zero to One
+### Acknowledging the risk…and fixing it
 
-“The best thing I did as a manager at PayPal was to make every person in the company responsible for doing just one thing.
+Peter Thiel - Zero to One
 
-Every employee’s one thing was unique, and everyone knew I would evaluate them only on that one thing.
+"The best thing I did as a manager at PayPal was to make every person in the company responsible for doing just one thing.
+
+Every employee's one thing was unique, and everyone knew I would evaluate them only on that one thing.
 
 I had started doing this just to simplify the task of managing people.
 
@@ -30,9 +32,9 @@ When a startup fails, we often imagine it succumbing to predatory rivals in a co
 
 But every company is also its own ecosystem, and factional strife makes it vulnerable to outside threats.
 
-Internal conflict is like an autoimmune disease: the technical cause of death may be pneumonia, but the real cause remains hidden from plain view.”
+Internal conflict is like an autoimmune disease: the technical cause of death may be pneumonia, but the real cause remains hidden from plain view."
 
-### What is old is new again — Part One: Trees for 3D
+### What is old is new again - Part One: Trees for 3D
 
 I’m looking at two 3D objects: A high downforce front wing next to a Monza spec wing. OR I’m looking at a 3D geo-seismic volume of the Bakken and one in the Midland basin. Maybe a P&W turbofan next to a GE one… Are these similar? How similar? What if I want to compare more than two? A hundred? Ten thousand?
 
@@ -43,18 +45,50 @@ KD-trees and ball trees are spatial partitioning data structures that can be use
 Basic pipeline for importing 3D shapes and using KD-trees and ball trees to classify the objects against a catalog of other 3D objects:
 
 1.  Import the 3D shapes. This can be done using a variety of different 3D file formats, such as OBJ, STL, or PLY. This can be done using a variety of different Python libraries, such as: trimesh, Open3D or PyMesh
+
 2.  Rescale 3D objects so that the point cloud based trees will have similar distances or similar features:
 
-```
-import trimeshdef rescale_3d_object(object, desired_bounding_box_size):"""Rescales a 3D object using a bounding box.Args:object: A trimesh.Trimesh object.desired_bounding_box_size: The desired size of the object's bounding box.Returns:A rescaled trimesh.Trimesh object."""bounding_box = object.bounding_boxscale_factor = desired_bounding_box_size / bounding_box.extentrescaled_object = object.scaled(scale_factor)return rescaled_object# Example usage:object = trimesh.load('object.obj')rescaled_object = rescale_3d_object(object, desired_bounding_box_size=1.0)
-```
+> import trimesh
+>
+> def rescale\_3d\_object(object, desired\_bounding\_box\_size):
+>
+> """Rescales a 3D object using a bounding box.
+>
+> Args:
+>
+> object: A trimesh.Trimesh object.
+>
+> desired\_bounding\_box\_size: The desired size of the object's bounding box.
+>
+> Returns:
+>
+> A rescaled trimesh.Trimesh object.
+>
+> """
+>
+> bounding\_box = object.bounding\_box
+>
+> scale\_factor = desired\_bounding\_box\_size / bounding\_box.extent
+>
+> rescaled\_object = object.scaled(scale\_factor)
+>
+> return rescaled\_object
+>
+> \# Example usage:
+>
+> object = trimesh.load('object.obj')
+>
+> rescaled\_object = rescale\_3d\_object(object, desired\_bounding\_box\_size=1.0)
+>
+> \[Note that rescaling 3D objects can affect the features of the objects. For example, if we rescale an object so that it is much smaller than its original size, then the features of the object may become less distinctive. It is important to choose a rescaling factor that preserves the features of the objects as much as possible.\]
 
-\[Note that rescaling 3D objects can affect the features of the objects. For example, if we rescale an object so that it is much smaller than its original size, then the features of the object may become less distinctive. It is important to choose a rescaling factor that preserves the features of the objects as much as possible.\]
+3.  Represent the 3D shapes as point clouds. This can be done by sampling points from the surface of the shapes. Use the same Python libraries as above.
 
-1.  Represent the 3D shapes as point clouds. This can be done by sampling points from the surface of the shapes. Use the same Python libraries as above.
-2.  Construct a KD-tree or ball tree for the point cloud of each shape. This will allow us to efficiently search for points in the shape. Use scikit-learn, flann or ANN
-3.  Compare the KD-trees or ball trees of the two shapes. This can be done by computing the distance between the corresponding points in the two trees.
-4.  Classify the shapes based on the distance between their KD-trees or ball trees. If the distance is small, then the shapes are similar. If the distance is large, then the shapes are different.
+4.  Construct a KD-tree or ball tree for the point cloud of each shape. This will allow us to efficiently search for points in the shape. Use scikit-learn, flann or ANN
+
+5.  Compare the KD-trees or ball trees of the two shapes. This can be done by computing the distance between the corresponding points in the two trees.
+
+6.  Classify the shapes based on the distance between their KD-trees or ball trees. If the distance is small, then the shapes are similar. If the distance is large, then the shapes are different.
 
 This is a basic pipeline for using KD-trees and ball trees to classify 3D objects. There are a number of different ways to improve the accuracy and performance of this pipeline. For example, we can use more sophisticated distance metrics to compare the shapes, and we can use machine learning techniques to train a classifier to classify the shapes based on the distance between their KD-trees or ball trees.
 

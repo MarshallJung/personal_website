@@ -10,18 +10,23 @@ readTime: "6 min read"
 
 ![Figure](/images/blog/2026-08-17-a-tough-choice-a-bitter-pill/image-01.png)
 
+### A Tough Choice, A Bitter Pill
+
 If you have successfully integrated​ even one agent into your core workflows, you are already operating in the top tier of AI practitioners​ (like the top 1%). While consumer adoption dominates headlines, the far more significant shift is occurring inside the enterprise. The widening divide between basic prompt-and-response users and those constructing compounding, high-leverage workflows.
 
 Enterprise adoption consistently mirrors a power-law curve. 5–10% of an organization naturally emerges as high-leverage builders driving the vast majority of token consumption and business impact, while the broader workforce interacts superficially with general tooling.
 
-[https://x.com/arpit\_bhayani/status/2085207537843077396?s=20  
-](https://x.com/arpit_bhayani/status/2085207537843077396?s=20)[https://x.com/MBeierschoder/status/2083844697143808210?s=20](https://x.com/MBeierschoder/status/2083844697143808210?s=20)
+[https://x.com/arpit\_bhayani/status/2085207537843077396?s=20](https://x.com/arpit_bhayani/status/2085207537843077396?s=20)  
+[https://x.com/MBeierschoder/status/2083844697143808210?s=20](https://x.com/MBeierschoder/status/2083844697143808210?s=20)
 
 This gap exists because building agentic leverage is an exacting engineering craft, not a general office skill. It requires:
 
 -   **Rigorous Context Management:** Curating compact, high-signal prompt windows and state persistence.
+
 -   **Modular Skill Files & Tooling:** Equipping models with deterministic API boundaries and clear execution constraints.
+
 -   **Deterministic vs. Stochastic Routing:** Systematically deciding where rule-based logic must govern and where probabilistic reasoning should take over.
+
 -   **Differential Reviews:** Auditing model outputs against ground-truth systems rather than relying on qualitative spot-checks.
 
 Because this craft cannot scale through generic prompt webinars, treating AI as a decentralized personal productivity tool quickly hits a plateau. Capturing asymmetric value requires deliberate organizational disruption.
@@ -31,7 +36,9 @@ To build enterprise capability, organizations must assemble their curious, first
 This transition inevitably creates friction across long-standing operating models:
 
 -   **Talent Reallocation:** Pulling top-tier problem solvers out of traditional silos directly challenges legacy team compositions and departmental roadmaps.
+
 -   **Redefining Ownership:** Shifting from isolated functional databases to a unified, governed ontology forces teams to surrender territorial data boundaries.
+
 -   **Workflow Deconstruction:** Long-standing, manually intensive processes must be systematically pulled apart and rebuilt into human-in-the-loop agentic architectures.
 
 Disrupting familiar structures and reallocating resources and budget across deeply entrenched departmental boundaries is uncomfortable, and it cannot happen from the bottom up. It requires direct, committed executive sponsorship to provide air cover and redefine performance metrics around unified execution.
@@ -54,11 +61,11 @@ But what really bothers me is Anthropic’s apparent hypocrisy and lack of patri
 
 ### Skills Everywhere
 
-Lately, I’ve found it really helpful to visualize code — and projects in general. I’m a very visual learner, so asking my AI tools to create visual representations of how a process or code repository works helps me understand the system and troubleshoot issues more effectively.
+Lately, I’ve found it really helpful to visualize code—and projects in general. I’m a very visual learner, so asking my AI tools to create visual representations of how a process or code repository works helps me understand the system and troubleshoot issues more effectively.
 
 ![Figure](/images/blog/2026-08-17-a-tough-choice-a-bitter-pill/image-02.png)
 
-### [**https://x.com/mattpocockuk/status/2088290952704151671?s=20**](https://x.com/mattpocockuk/status/2088290952704151671?s=20)
+[**<u>https://x.com/mattpocockuk/status/2088290952704151671?s=20</u>**](https://x.com/mattpocockuk/status/2088290952704151671?s=20)
 
 AI engineer and blogger Matt Pocock released a 10-minute video summarizing his AI coding skills for engineering. While some are too technical for project managers or other non-coding knowledge workers, many are highly transferable and useful. My takeaway is skills should be specific in language, yet generic enough in their technology references to stay transferable across different models, harnesses, and over time.
 

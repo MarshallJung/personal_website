@@ -8,7 +8,9 @@ tags: ["AI Security & Safety","Open Source & Local AI","Leadership & Personal Gr
 readTime: "6 min read"
 ---
 
-Your attitude is not proportional to how you feel about your successes. Your attitude is how you feel about your failures. A person who loves and cares for themselves does not have an overwhelming need to do everything right or perfect or correct the first time. — Mark Manson
+### Willingness to fail...
+
+Your attitude is not proportional to how you feel about your successes. Your attitude is how you feel about your failures. A person who loves and cares for themselves does not have an overwhelming need to do everything right or perfect or correct the first time. - Mark Manson
 
 This type of person is also the best teammate, employee and friend FYI.
 
@@ -50,4 +52,4 @@ The second idea that I present is that of the human “soul” and its relations
 
 Should we keep building towards the inevitable? Should we slow down? What are the downsides? I’m not sure where the faith of each of us leaves room for a technological creation that ultimately may be indistinguishable from our fellow humans.
 
-P.S. — Asimov, as usual, already nailed this. Read [here](https://users.ece.cmu.edu/~gamvrosi/thelastq.html).
+P.S. - Asimov, as usual, already nailed this. Read [here](https://users.ece.cmu.edu/~gamvrosi/thelastq.html).

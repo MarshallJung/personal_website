@@ -8,35 +8,37 @@ tags: ["RAG & Embeddings","Leadership & Personal Growth","Motorsport & Engineeri
 readTime: "5 min read"
 ---
 
+### Do the thing
+
 *Here is a list of things that are not doing the thing:*
 
-“Preparing to do the thing isn’t doing the thing.
+“Preparing to do the thing isn't doing the thing.
 
-Scheduling time to do the thing isn’t doing the thing.
+Scheduling time to do the thing isn't doing the thing.
 
-Making a to-do list for the thing isn’t doing the thing.
+Making a to-do list for the thing isn't doing the thing.
 
-Telling people you’re going to do the thing isn’t doing the thing.
+Telling people you're going to do the thing isn't doing the thing.
 
-Messaging friends who may or may not be doing the thing isn’t doing the thing.
+Messaging friends who may or may not be doing the thing isn't doing the thing.
 
-Writing a banger tweet about how you’re going to do the thing isn’t doing the thing.
+Writing a banger tweet about how you're going to do the thing isn't doing the thing.
 
-Hating on yourself for not doing the thing isn’t doing the thing.
+Hating on yourself for not doing the thing isn't doing the thing.
 
-Hating on other people who have done the thing isn’t doing the thing.
+Hating on other people who have done the thing isn't doing the thing.
 
-Hating on the obstacles in the way of doing the thing isn’t doing the thing.
+Hating on the obstacles in the way of doing the thing isn't doing the thing.
 
-Fantasizing about all of the adoration you’ll receive once you do the thing isn’t doing the thing.
+Fantasizing about all of the adoration you'll receive once you do the thing isn't doing the thing.
 
-Reading about how to do the thing isn’t doing the thing.
+Reading about how to do the thing isn't doing the thing.
 
-Reading about how other people did the thing isn’t doing the thing.
+Reading about how other people did the thing isn't doing the thing.
 
-Reading this list isn’t doing the thing.
+Reading this list isn't doing the thing.
 
-The only thing that is doing the thing is doing the thing.” — Strangest Loop
+The only thing that is doing the thing is doing the thing.” — Strangest Loop
 
 In Alex Hormozi’s words…
 
@@ -60,9 +62,27 @@ So what is a vector embedding? Vector embeddings are a way to represent data as 
 
 Popular open source models for generating vector embeddings include ResNet-50 and Whisper. For image vector embeddings here’s a code snippet using HF:
 
-```
-# Load model directlyfrom transformers import AutoFeatureExtractor, AutoModelForImageClassificationextractor = AutoFeatureExtractor.from_pretrained("microsoft/resnet-50")model = AutoModelForImageClassification.from_pretrained("microsoft/resnet-50")from PIL import Imageimage = Image.open("<image path>")# image = Resize(size=(256, 256))(image)inputs = extractor(images=image, return_tensors="pt")# print(inputs)outputs = model(**inputs)vector_embeddings = outputs[1][-1].squeeze()
-```
+> \# Load model directly
+>
+> from transformers import AutoFeatureExtractor, AutoModelForImageClassification
+>
+> extractor = AutoFeatureExtractor.from\_pretrained("microsoft/resnet-50")
+>
+> model = AutoModelForImageClassification.from\_pretrained("microsoft/resnet-50")
+>
+> from PIL import Image
+>
+> image = Image.open("&lt;image path&gt;")
+>
+> \# image = Resize(size=(256, 256))(image)
+>
+> inputs = extractor(images=image, return\_tensors="pt")
+>
+> \# print(inputs)
+>
+> outputs = model(\*\*inputs)
+>
+> vector\_embeddings = outputs\[1\]\[-1\].squeeze()
 
 Think about how this embeddings model might be used for storage of images for use in 3D reconstruction via a Gaussian Splatting methodology.
 
@@ -76,6 +96,6 @@ From here: [https://newsletter.pragmaticengineer.com/p/engineering-leadership-sk
 
 ### Racecar Aero Visualized
 
-I had the rear diffuser off my race car for some routine maintenance after a wet drive back from a track weekend. (Note to self: Figure out better windshield defrost methodology to not die…anyway) Like the flow viz paint F1 teams use to “see” airflow on body surfaces, the dirt from the road is telling the story of the air here on my car. The diffuser is standing on end with the back of the car on the top of the picture. You can see the air traveling from the front coalesse towards the center section as the lower control arm cutouts in the diffuser cause some airflow turbulence. The diffuser throat expands here vertically so the overall airflow does not seem to detach. A basic, but on balance successful design. I would encourage everyone to inspect their cars after a rainy highway drive to see where the air flows. Fascinating lessons!
+I had the rear diffuser off my race car for some routine maintenance after a wet drive back from a track weekend. (Note to self: Figure out better windshield defrost methodology to not die...anyway) Like the flow viz paint F1 teams use to “see” airflow on body surfaces, the dirt from the road is telling the story of the air here on my car. The diffuser is standing on end with the back of the car on the top of the picture. You can see the air traveling from the front coalesse towards the center section as the lower control arm cutouts in the diffuser cause some airflow turbulence. The diffuser throat expands here vertically so the overall airflow does not seem to detach. A basic, but on balance successful design. I would encourage everyone to inspect their cars after a rainy highway drive to see where the air flows. Fascinating lessons!
 
 ![Figure](/images/blog/2023-09-18-do-the-thing/image-03.jpg)

@@ -12,16 +12,21 @@ readTime: "8 min read"
 
 Lots to cover this week. I’ll keep the opening brief and dive into the most interesting and wild developments from the past week.
 
-A team that includes one of my favorite authors, Ethan Mollick, at the University of Chicago released a recent paper on how generative AI and teamwork are changing the landscape of enterprise business. [https://pubsonline.informs.org/doi/10.1287/orsc.2025.20702  
-](https://pubsonline.informs.org/doi/10.1287/orsc.2025.20702)They evaluated 791 R&D and commercial professionals at Procter & Gamble tackling real enterprise product innovation challenges. Participants were randomly assigned in a 2x2 design: working individually or in cross-functional pairs, and with or without AI assistance. Solo workers using generative AI matched or outperformed unassisted two-person cross-functional teams, as AI effectively substituted key collaborative functions. Without AI, R&D professionals defaulted to technical solutions while commercial staff favored market-focused ideas. Generative AI enabled both groups to produce balanced, cross-disciplinary proposals, eliminating functional blind spots. It served as a quality amplifier during ideation, while human teams held a slight edge in evaluating and selecting which top idea to advance. Human teams paired with generative AI were nearly three times more likely to produce top-decile (top 10%) solutions than solo workers without AI. Conversational AI also reduced anxiety and frustration while boosting enthusiasm, acting as an active collaborative teammate rather than a static productivity tool.
+### The Org is Shifting
+
+A team that includes one of my favorite authors, Ethan Mollick, at the University of Chicago released a recent paper on how generative AI and teamwork are changing the landscape of enterprise business. [https://pubsonline.informs.org/doi/10.1287/orsc.2025.20702](https://pubsonline.informs.org/doi/10.1287/orsc.2025.20702)  
+They evaluated 791 R&D and commercial professionals at Procter & Gamble tackling real enterprise product innovation challenges. Participants were randomly assigned in a 2x2 design: working individually or in cross-functional pairs, and with or without AI assistance. Solo workers using generative AI matched or outperformed unassisted two-person cross-functional teams, as AI effectively substituted key collaborative functions. Without AI, R&D professionals defaulted to technical solutions while commercial staff favored market-focused ideas. Generative AI enabled both groups to produce balanced, cross-disciplinary proposals, eliminating functional blind spots. It served as a quality amplifier during ideation, while human teams held a slight edge in evaluating and selecting which top idea to advance. Human teams paired with generative AI were nearly three times more likely to produce top-decile (top 10%) solutions than solo workers without AI. Conversational AI also reduced anxiety and frustration while boosting enthusiasm, acting as an active collaborative teammate rather than a static productivity tool.
 
 ![Figure](/images/blog/2026-08-03-the-org-is-shifting/image-02.png)
 
 What strategic actions can an enterprise take to leverage these findings?
 
 1.  Position generative AI as a connective interface across functions, not a siloed productivity tool. Pair R&D scientists with managers and sales directors.
+
 2.  Structure lean teams. Once AI is introduced, larger human teams show diminishing returns. For early-stage innovation and problem solving, prefer solo-plus-AI or small, two person teams over large cross-department committees.
+
 3.  Decouple ideation from selection. Design workflows so generative AI expands candidate solution quality and option space, while humans retain strict gatekeeping for final concept selection and capital allocation.
+
 4.  Uplift non-core task performance. The largest gains occur when specialists tackle tasks outside their core domain. Deploy generative AI cross-functionally so technical generalists can operate with domain-expert agility in adjacent functions.
 
 Will you run into problems? Absolutely, but this problem isn’t going away. The paper underestimates how AI-driven changes will clash with existing silos and political barriers. Some people will be deeply distrustful and resist outsiders working within their teams or contributing to certain roles. Making this work will require dedicated, flexible, and at times very directed leadership.
@@ -58,7 +63,7 @@ When you use long-running or complex agentic systems, agent memory can be epheme
 
 [https://github.com/VictorTaelin/OptMem](https://github.com/VictorTaelin/OptMem)
 
-Victor Taelin released a GitHub tool that maintains permanent state for agents within a task. In theory, this is great — though it can grow large on particularly difficult tasks. Still, it’s a solid idea and worth trying.
+Victor Taelin released a GitHub tool that maintains permanent state for agents within a task. In theory, this is great—though it can grow large on particularly difficult tasks. Still, it’s a solid idea and worth trying.
 
 Scaling this to enterprise-level documentation for an enterprise intelligence layer requires a standard format across all AI agents. Google’s Open Knowledge Format (v0.2) represents knowledge as plain markdown files with YAML front matter. I’ve built something similar for personal use in Obsidian on my laptop, but this seems better suited for a larger team or organization. It would be fascinating to use this from the start of a project to see how we can build knowledge that can be captured, used, stored, and disseminated across the organization.
 

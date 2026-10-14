@@ -8,6 +8,8 @@ tags: ["Careers, Hiring & Future of Work","LLM Training & Fine-Tuning"]
 readTime: "6 min read"
 ---
 
+### Words are Cheap(er)
+
 I’ve often written in my newsletter that as AI becomes an easier everyday assistant, authenticity will grow more valuable, not less. This might seem counter-intuitive in a world where AI can effortlessly generate high-quality text, but the core of our interactions, whether in the professional sphere or in a personal note, remains fundamentally human. Even if AI can replace vast portions of the work itself, we still deal with other people. Whether in the office, on a video call, or through thoughtful emails to friends and colleagues. The value shift lies not in the *production* of content, but in the *intent* and *personal voice* behind it.
 
 This academic paper ([https://jesse-silbert.github.io/website/silbert\_jmp.pdf](https://jesse-silbert.github.io/website/silbert_jmp.pdf)) argues that the written word has become far cheaper, both in terms of time and cognitive effort, thanks to large language models. This shift has significant implications for signaling theory. Signaling, in this context, refers to the observable actions, outputs, or characteristics that convey information about an individual’s hidden qualities. This could be produced work, such as a well-written report or a piece of art, or even non-output signals like coherent speech, which traditionally signaled that a person was intelligent, hardworking, and diligent.
@@ -20,9 +22,9 @@ To realize AI’s promised productivity gains, we should remove meaningless, bur
 
 ![Figure](/images/blog/2025-11-10-words-are-cheap-er/image-01.png)
 
-### The Low Hanging Fruit in Marketing
+<u>The Low Hanging Fruit in Marketing
 
-[https://labs.google.com/pomelli/about/](https://labs.google.com/pomelli/about/)
+<https://labs.google.com/pomelli/about/></u>
 
 Based on your website URL, this new Google Labs experiment can help you build effective campaigns tailored to your brand and business identity. Obviously your website should be up to date and solid in branding already, and if so this offers a quick way to generate scalable, on-brand content for social media and other advertising. Just another interesting AI application that is transforming the creative space. Will it replace the need for a marketing/ads agency to do the work? Probably not entirely, but it will allow faster iteration.
 
@@ -30,7 +32,7 @@ The other side of this coin is that it lowers the cost of content which will inc
 
 ### Upskilling Your AI
 
-As some my readers are already aware, Claude Skills are customizable folders containing instructions, scripts, and resources that enhance Anthropics AI for specific tasks. They package expertise to turn Claude into a task-specific specialist. You use them by placing documents in a single folder; Claude automatically identifies and loads the relevant skills based on the task — no manual selection required.
+As some my readers are already aware, Claude Skills are customizable folders containing instructions, scripts, and resources that enhance Anthropics AI for specific tasks. They package expertise to turn Claude into a task-specific specialist. You use them by placing documents in a single folder; Claude automatically identifies and loads the relevant skills based on the task—no manual selection required.
 
 Users create skills with Claude’s internal skill tool, which guides workflow setup and generates the folder structure. Custom skills can also be uploaded directly.
 
@@ -40,11 +42,11 @@ This GitHub repo provides an open-source Python tool that converts documentation
 
 [https://huggingface.co/spaces/HuggingFaceTB/smol-training-playbook](https://huggingface.co/spaces/HuggingFaceTB/smol-training-playbook)
 
-The authors tell you to set aside 2–4 days to read and work through this blog/book. So this isn’t a small undertaking! Hugging Face’s “Smol Training Playbook” distills four years of practical LLM training experience into a 200+ page guide, covering pre-training ablation strategies, post-training optimization, and infrastructure resilience based on SmolLM3’s month-long run on 384 H100s.
+The authors tell you to set aside 2-4 days to read and work through this blog/book. So this isn’t a small undertaking! Hugging Face's "Smol Training Playbook" distills four years of practical LLM training experience into a 200+ page guide, covering pre-training ablation strategies, post-training optimization, and infrastructure resilience based on SmolLM3's month-long run on 384 H100s.
 
-The playbook addresses real-world challenges like noisy loss curves and NCCL debugging — often omitted from academic papers — offering actionable rules for hyperparameter scaling and data curation to achieve state-of-the-art small models.
+The playbook addresses real-world challenges like noisy loss curves and NCCL debugging—often omitted from academic papers—offering actionable rules for hyperparameter scaling and data curation to achieve state-of-the-art small models.
 
-Released amid growing open-source AI efforts, the guide’s rapid 1.5M views and community threads underscore demand for transparent, reproducible pipelines that bridge research gaps in efficient LLM development.
+Released amid growing open-source AI efforts, the guide's rapid 1.5M views and community threads underscore demand for transparent, reproducible pipelines that bridge research gaps in efficient LLM development.
 
 If you’ll need a fine‑tuned language model for an enterprise application, this playbook is a great place to start to understand exactly what you’ll need to make it happen.
 

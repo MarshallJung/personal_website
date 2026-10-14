@@ -10,8 +10,6 @@ readTime: "5 min read"
 
 ![Figure](/images/blog/2026-06-28-walking-the-wire/image-01.png)
 
-(720)315–6713
-
 ### Walking the Wire
 
 The drama in AI and the race for the industry’s future are always fascinating. This week, OpenAI released a couple of “smaller” models that landed just shy of Anthropic’s Mythos level still stuck in the purgatory of government ire. OAI conveniently capturing market share while Anthropic navigates their poorly run public relations campaign with the government.
@@ -30,7 +28,7 @@ Advisors say OpenAI should either wait until 2027 to aim for a $1 trillion valua
 
 ![Figure](/images/blog/2026-06-28-walking-the-wire/image-03.png)
 
-With AI already seen as pricey, overcharging customers is a bad look. An AI auditing startup reports some customers may be overpaying for Anthropic and OpenAI due to billing inaccuracies. From March to June, 60 companies spending $34 million — mostly on Anthropic’s cloud code — found about $1.7 million in mistaken overcharges.
+With AI already seen as pricey, overcharging customers is a bad look. An AI auditing startup reports some customers may be overpaying for Anthropic and OpenAI due to billing inaccuracies. From March to June, 60 companies spending $34 million—mostly on Anthropic’s cloud code—found about $1.7 million in mistaken overcharges.
 
 Common issues were getting billed for newer, pricier models despite using older, cheaper ones. Charged when agents/chatbots didn’t complete requests or returned server-side errors. Unnoticed agent failures that kept retrying tasks (often due to customer, tbf) built agentic loops. Still, it’d be helpful if AI vendors offered safeguards to prevent these loops from hitting customers’ wallets.
 
@@ -54,7 +52,7 @@ Underreporting is common, and many employees bypass AI security and compliance t
 
 If an organization invests in using AI as a force multiplier and rewards appropriate usage, it won’t be all puppy dogs and roses. Some segments of the workforce will struggle, especially as AI really engages/enables in day-to-day activities in the company. This is largely a human and psychological issue tied to identity (a “carbon bottleneck” issue, not a silicon one). When people define themselves by intelligence or academic achievement, it can be hard to accept that the same level of intelligence may matter less in the future. Being “AGI-pilled” can be very unpleasant, and many intelligent people can’t stomach it. Be cautious of technical leaders who block general AI adoption because they view it as a threat to their status.
 
-### Death of the Apprenticeship
+### Death of the Apprenticeship”
 
 [https://www.pwc.com/gx/en/news-room/press-releases/2026/pwc-2026-ai-jobs-barometer.html](https://www.pwc.com/gx/en/news-room/press-releases/2026/pwc-2026-ai-jobs-barometer.html)
 

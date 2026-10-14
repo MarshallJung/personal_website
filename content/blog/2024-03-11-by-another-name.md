@@ -10,9 +10,11 @@ readTime: "4 min read"
 
 ![Figure](/images/blog/2024-03-11-by-another-name/image-01.jpg)
 
-Recently Jensen Huang, CEO of NVIDIA, claimed that programming languages are a thing of the past. He believes that in the future humans will interact with computer systems using prompting via LLM type tools. This last week Claude3 from Anthropic was released and was largely competitive with OpenAI and Google’s models. One of the suggestions that came from Anthropic when working with the new model was to use markup to structure the query. In the case of a text analysis it was suggested to sandwich it via <txt> and </txt>.
+### By another name
 
-Two observations from this suggestion. One, it tells me that the structure of the training dataset was scraped or stored in a particular manner and hewing closely to the training data gives better answers. This makes sense in LLMs. Second, the idea that we should carefully structure our prompts in a uniform and repeatable manner seems like a … programming language? That’s why I’m suggesting the name “Socrato” derived from the philosopher Socrates and the questioning methodology named after him. We’ll dee if it sticks.
+Recently Jensen Huang, CEO of NVIDIA, claimed that programming languages are a thing of the past. He believes that in the future humans will interact with computer systems using prompting via LLM type tools. This last week Claude3 from Anthropic was released and was largely competitive with OpenAI and Google’s models. One of the suggestions that came from Anthropic when working with the new model was to use markup to structure the query. In the case of a text analysis it was suggested to sandwich it via &lt;txt&gt; and &lt;/txt&gt;.
+
+Two observations from this suggestion. One, it tells me that the structure of the training dataset was scraped or stored in a particular manner and hewing closely to the training data gives better answers. This makes sense in LLMs. Second, the idea that we should carefully structure our prompts in a uniform and repeatable manner seems like a ... programming language? That’s why I’m suggesting the name “Socrato” derived from the philosopher Socrates and the questioning methodology named after him. We’ll dee if it sticks.
 
 ### One more lesson
 

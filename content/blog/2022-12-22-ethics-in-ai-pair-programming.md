@@ -10,6 +10,8 @@ readTime: "4 min read"
 
 ![Early autumn in the Rockies](/images/blog/2022-12-22-ethics-in-ai-pair-programming/image-01.jpg)
 
+### Ethics in AI Pair Programming
+
 *Early autumn in the Rockies*
 
 As ethics questions go, the judgement of AI applicability to programming might not rate all that high on the list of thorny moral conundrums. But AI is a part of our lives now. From the curated on our Twitter feeds to the music we listen to. In a technologically driven world it’s hard to find an activity where we don’t have machine learning code somewhere close at hand or actively assisting our pursuits whether we like it or not. Still are there ethical considerations that Tabnine, or any company involved in AI code assistance, should think about? I think the answer is an absolute yes!

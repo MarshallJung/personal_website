@@ -10,6 +10,8 @@ readTime: "6 min read"
 
 ![Figure](/images/blog/2026-08-22-thanks-i-hate-it/image-01.png)
 
+### Thanks, I Hate It
+
 It is hard to open any species of media today without sensing a public disapproval of data centers that borders on the visceral. One might almost prefer the sooty embrace of a coal-fired plant, curious as that sounds. Yet here we are. The claims about costs, inputs, and externalities deserve examination, the truth behind them, and the psychological weather that has brought us to this point.
 
 I hear the same refrains in conversation and online. The electricity, the noise, the water, the blight on neighborhoods. Some discourse has reached the point where a coal fired power plant is preferred to a server farm.

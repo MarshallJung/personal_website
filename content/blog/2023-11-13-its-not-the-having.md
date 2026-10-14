@@ -8,7 +8,9 @@ tags: ["Context, Memory & Knowledge Management","Generative Media & Diffusion","
 readTime: "3 min read"
 ---
 
-“Dopamine is not about the pursuit of happiness, it is about the happiness of pursuit.” — Dr Robert Sapolsky
+### It’s not the having...
+
+“Dopamine is not about the pursuit of happiness, it is about the happiness of pursuit.” — Dr Robert Sapolsky
 
 So true. So much of life and enjoyment is about the anticipation of things coming. In fact, the anticipation is often actually more enjoyable than the experience. This puts a new perspective on “it’s not the journey it’s the destination”. There actually is no destination. Each arrival at a destination simply marks the beginning of another journey toward the next destination. When I was a kid I had a poster on my wall that had the 10 things that I learned from Star Trek. The only one that I remember was a quote from Spock, “Having is not so pleasing a thing as wanting. It is not logical but often true.”
 

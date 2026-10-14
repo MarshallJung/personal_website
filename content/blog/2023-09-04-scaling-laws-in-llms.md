@@ -8,13 +8,15 @@ tags: ["LLM Training & Fine-Tuning","Motorsport & Engineering"]
 readTime: "4 min read"
 ---
 
+### Scaling Laws in LLMs
+
 [https://markov.bio/biomedical-progress/](https://markov.bio/biomedical-progress/)
 
 While the paper is written for the biomedical field, the principles are perfectly transferrable to low fidelity 3D datasets. Let’s look at an [OpenAI paper on scaling](https://arxiv.org/pdf/2102.01293.pdf)
 
 ![Figure](/images/blog/2023-09-04-scaling-laws-in-llms/image-01.jpg)
 
-In the above example, we see that for a 40M parameter transformer fine-tuned on 3e5 characters, DT is approximately 1000x bigger than DF. The less fine-tuning data is available, the more pre-training helps. What are the pre-training datasets that Istari has that can help speed the application of industry specific LLMs?
+In the above example, we see that for a 40M parameter transformer fine-tuned on 3e5 characters, D<sub>T</sub> is approximately 1000x bigger than D<sub>F</sub>. The less fine-tuning data is available, the more pre-training helps. What are the pre-training datasets that Istari has that can help speed the application of industry specific LLMs?
 
 ### Helping customers use Istari LLMs
 
@@ -36,8 +38,12 @@ Tracking the changes in a 3D point cloud can be a difficult task. Here Meta impl
 
 ### Blog Idea
 
-**Humans in the Loop —** (Why this topic? Thinking from the customer’s perspective handing over a design process that has traditionally been very dependent on human process to an algorithm that abstracts much of that management can be a decision fraught with nervousness. Istari believes in the process, as do I, but there will be a need to guide the customer. This blog concept is the idea that Istari as a company honors that process while building a vision for the future. Accelerationaist vision aside, we need to respect the place humans have in the process. After all, Adrian Newey designs and iterates on Red Bull’s Formula 1 cars using a traditional manual drafting board!)
+**Humans in the Loop -** (Why this topic? Thinking from the customer’s perspective handing over a design process that has traditionally been very dependent on human process to an algorithm that abstracts much of that management can be a decision fraught with nervousness. Istari believes in the process, as do I, but there will be a need to guide the customer. This blog concept is the idea that Istari as a company honors that process while building a vision for the future. Accelerationaist vision aside, we need to respect the place humans have in the process. After all, Adrian Newey designs and iterates on Red Bull’s Formula 1 cars using a traditional manual drafting board!)
 
 Digital design has the promise of automating much of the hands-on process of building, testing and verifying everything from airplanes to medical devices. Being able to specify a concept through natural language description or from a library of existing designs promises to shorten development time significantly. Automated design pipelines that use a simple universal API language from structure through aero and stress analysis is a process that has not previously been accomplished. While the concept of a Star Trek like “replicator” is something that will in the fullness of time be possible, for our foreseeable future we must take advantage of the most valuable resource available to any company employing Istari’s software. I am of course speaking of the fantastically adept neural net that is sitting in between each of our ears.
 
 The human brain is a wonderful computer. Capable of complex real time calculus that allows our hand to be in exactly the right place to catch a baseball, or to look at a racecar suspension design and know that it’ll work better than a competitors. We often forget that there is a place where a passionate and educated human can improve on the efficiency of a 3D ML pipeline. Inserting humans in the design loop can help catch issues early if only because something simply doesn’t “look right”. In 2012 John Hurly was working on NASA’s Orion spacecraft, when he noticed that the parachute system wasn’t working correctly. While the design met the aerodynamic specs, the fabric was not woven correctly leading to it being too stiff for deployment. A human, particularly a passionate and observational one, is a fantastic addition to a ML design pipeline. Let’s take full advantage of people and their ability to bring creativity and observational skills to the future of our digital metaverse.
+
+### In other news
+
+I’m getting to work on rebuilding my race car engine management solution to take advantage of newer arduino 600mHz processors. Is this strictly necessary to run my car…of course not! But the faster processing would allow better transient response for extremely high revving IC engines. A little trivia for you here: V10 F1 engines of the 2000’s revved to 18000 RPM, given the bore x stroke ratios this saw peak piston acceleration values in the 10000+g arena meaning the piston+1/2rod weight was in the several ton range at TDC/BDC. Keeping track of fuel and spark in these situations is EXTREMELY important since the tiniest miscalc can lead to catastrophic engine failure. Faster ECU processing speeds (combined with supporting hardware of course) is vital to running these types of speeds. Keep an eye out for a link to the github repo in future newsletters.
