@@ -1740,20 +1740,6 @@
     "file": "content/blog/2024-05-13-n-a-x-a-l-t-fallacy.md"
   },
   {
-    "title": "Same as it always was…",
-    "slug": "2024-05-10-same-as-it-always-was",
-    "date": "2024-05-10",
-    "description": "A few observational paragraphs this week before we get into the news. The observation and the opinion piece are related.",
-    "coverImage": "/images/blog/2024-05-10-same-as-it-always-was/image-01.jpg",
-    "tags": [
-      "Data Science & Classic ML",
-      "LLM Training & Fine-Tuning",
-      "RAG & Embeddings"
-    ],
-    "readTime": "5 min read",
-    "file": "content/blog/2024-05-10-same-as-it-always-was.md"
-  },
-  {
     "title": "Dealing with tough times",
     "slug": "2024-05-06-dealing-with-tough-times",
     "date": "2024-05-06",
