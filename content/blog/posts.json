@@ -1,5 +1,29 @@
 [
   {
+    "title": "Surfing the Uncertainty",
+    "slug": "2026-10-12-surfing-the-uncertainty",
+    "date": "2026-10-12",
+    "description": "One of my biggest challenges is keeping up with the constant stream of new models (and their harnesses). People frequently, and vociferously, point out that they need the latest models just to do their jobs...",
+    "coverImage": "/images/blog/2026-10-12-surfing-the-uncertainty/image-01.jpg",
+    "tags": [
+      "AI Strategy"
+    ],
+    "readTime": "7 min read",
+    "file": "content/blog/2026-10-12-surfing-the-uncertainty.md"
+  },
+  {
+    "title": "The Gauntlet Yet to Come",
+    "slug": "2026-10-05-the-gauntlet-yet-to-come",
+    "date": "2026-10-05",
+    "description": "I rarely cover macroeconomics here, which is a bit funny given that I actually have a degree in economics. I usually stick to business or industry-specific analysis. Recently, though...",
+    "coverImage": "/images/blog/2026-10-05-the-gauntlet-yet-to-come/image-01.jpg",
+    "tags": [
+      "AI Strategy"
+    ],
+    "readTime": "6 min read",
+    "file": "content/blog/2026-10-05-the-gauntlet-yet-to-come.md"
+  },
+  {
     "title": "Life Moves Slow Sometimes",
     "slug": "2026-09-28-life-moves-slow-sometimes",
     "date": "2026-09-28",
