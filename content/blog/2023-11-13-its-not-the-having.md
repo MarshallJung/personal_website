@@ -4,7 +4,7 @@ slug: "2023-11-13-its-not-the-having"
 date: "2023-11-13"
 description: "“Dopamine is not about the pursuit of happiness, it is about the happiness of pursuit.” — Dr Robert Sapolsky"
 coverImage: "/images/blog/2023-11-13-its-not-the-having/image-01.jpg"
-tags: ["AI Strategy"]
+tags: ["Context, Memory & Knowledge Management","Generative Media & Diffusion","AI Economics & Infrastructure"]
 readTime: "3 min read"
 ---
 

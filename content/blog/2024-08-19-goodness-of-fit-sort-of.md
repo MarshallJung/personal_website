@@ -4,7 +4,7 @@ slug: "2024-08-19-goodness-of-fit-sort-of"
 date: "2024-08-19"
 description: "Those that know me understand that staying fit is a lifetime passion for me. Not only does it keep a person feeling energetic, it has many mental health benefits as well. It’s awfully easy to stay so ..."
 coverImage: "/images/blog/2024-08-19-goodness-of-fit-sort-of/image-01.jpg"
-tags: ["AI Strategy"]
+tags: ["AI Hype & Skepticism","LLM Training & Fine-Tuning"]
 readTime: "6 min read"
 ---
 

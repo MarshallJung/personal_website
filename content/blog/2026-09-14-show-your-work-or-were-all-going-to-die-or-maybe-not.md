@@ -4,7 +4,7 @@ slug: "2026-09-14-show-your-work-or-were-all-going-to-die-or-maybe-not"
 date: "2026-09-14"
 description: "Long-time readers of my blog know that I occasionally talk about AI pushback from people who are plugged in online and aware of its capabilities. Even nearly a year ago, though, I encountered everyday..."
 coverImage: "/images/blog/2026-09-14-show-your-work-or-were-all-going-to-die-or-maybe-not/image-01.jpg"
-tags: ["AI Strategy"]
+tags: ["AI Security & Safety","AI Hype & Skepticism","Context, Memory & Knowledge Management"]
 readTime: "6 min read"
 ---
 

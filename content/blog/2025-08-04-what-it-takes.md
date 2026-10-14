@@ -4,7 +4,7 @@ slug: "2025-08-04-what-it-takes"
 date: "2025-08-04"
 description: "Last week, a conversation about the future of work got me thinking: what truly makes someone effective in the age of AI? We often hear about learning to use AI via technical courses, but as I integrat..."
 coverImage: "/images/blog/2025-08-04-what-it-takes/image-01.jpg"
-tags: ["AI Strategy"]
+tags: ["Careers, Hiring & Future of Work","AI Economics & Infrastructure","Data Science & Classic ML"]
 readTime: "7 min read"
 ---
 

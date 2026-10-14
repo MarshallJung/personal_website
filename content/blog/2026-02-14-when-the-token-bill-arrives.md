@@ -4,7 +4,7 @@ slug: "2026-02-14-when-the-token-bill-arrives"
 date: "2026-02-14"
 description: "As the buzz from the OpenClaw release fades, we are left with a lingering headache. It isn’t quite the effect of a Pan-Galactic Gargle Blaster, but the pain is real enough when the invoice hits."
 coverImage: "/images/blog/2026-02-14-when-the-token-bill-arrives/image-01.png"
-tags: ["AI Strategy"]
+tags: ["AI Economics & Infrastructure","AI Agents & Agentic Workflows"]
 readTime: "4 min read"
 ---
 

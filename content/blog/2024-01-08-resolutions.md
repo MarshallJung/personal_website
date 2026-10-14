@@ -4,7 +4,7 @@ slug: "2024-01-08-resolutions"
 date: "2024-01-08"
 description: "I came across this picture on Twitter and I felt it was a good reminder for us to think about daily. Few of us are gifted with the ability to see things from a realistic distance in a naturally talent..."
 coverImage: "/images/blog/2024-01-08-resolutions/image-01.jpg"
-tags: ["Intelligence"]
+tags: ["Motorsport & Engineering","RAG & Embeddings","Leadership & Personal Growth"]
 readTime: "2 min read"
 ---
 

@@ -4,7 +4,7 @@ slug: "2023-03-19-help-im-a-cto-and-i-need-generative-ai"
 date: "2023-03-19"
 description: "Sometimes when I’m talking to a C-Suite customer about Generative AI we are on video, and at other times I’m talking over the phone. But in…"
 coverImage: "/images/blog/2023-03-19-help-im-a-cto-and-i-need-generative-ai/image-01.jpg"
-tags: ["AI Strategy"]
+tags: ["Enterprise AI Adoption & ROI","LLM Training & Fine-Tuning"]
 readTime: "6 min read"
 ---
 

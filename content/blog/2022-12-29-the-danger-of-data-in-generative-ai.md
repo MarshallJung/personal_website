@@ -4,7 +4,7 @@ slug: "2022-12-29-the-danger-of-data-in-generative-ai"
 date: "2022-12-29"
 description: "Sometimes I write articles that I believe are unnecessary. I feel like my words have been spoken many, many times before by people far more…"
 coverImage: "/images/blog/2022-12-29-the-danger-of-data-in-generative-ai/image-01.jpg"
-tags: ["AI Strategy"]
+tags: ["Data Science & Classic ML","AI Hype & Skepticism","LLM Training & Fine-Tuning"]
 readTime: "5 min read"
 ---
 

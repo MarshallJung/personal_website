@@ -4,7 +4,7 @@ slug: "2026-06-08-return-on-indecision"
 date: "2026-06-08"
 description: "Last week, Bain & Company released a report noting disappointing ROI from AI in most enterprise settings. It caught on quickly in our polarized climate, where you’re either an AI accelerationist or an..."
 coverImage: "/images/blog/2026-06-08-return-on-indecision/image-01.png"
-tags: ["AI Strategy"]
+tags: ["Enterprise AI Adoption & ROI"]
 readTime: "5 min read"
 ---
 

@@ -6,7 +6,9 @@
     "description": "One of my biggest challenges is keeping up with the constant stream of new models (and their harnesses). People frequently, and vociferously, point out that they need the latest models just to do their jobs...",
     "coverImage": "/images/blog/2026-10-12-surfing-the-uncertainty/image-01.jpg",
     "tags": [
-      "AI Strategy"
+      "AI Agents & Agentic Workflows",
+      "LLM Training & Fine-Tuning",
+      "Reasoning Models & RL"
     ],
     "readTime": "7 min read",
     "file": "content/blog/2026-10-12-surfing-the-uncertainty.md"
@@ -18,7 +20,9 @@
     "description": "I rarely cover macroeconomics here, which is a bit funny given that I actually have a degree in economics. I usually stick to business or industry-specific analysis. Recently, though...",
     "coverImage": "/images/blog/2026-10-05-the-gauntlet-yet-to-come/image-01.jpg",
     "tags": [
-      "AI Strategy"
+      "AI Economics & Infrastructure",
+      "Context, Memory & Knowledge Management",
+      "Careers, Hiring & Future of Work"
     ],
     "readTime": "6 min read",
     "file": "content/blog/2026-10-05-the-gauntlet-yet-to-come.md"
@@ -30,7 +34,8 @@
     "description": "We all feel like the world moves slower than it should sometimes. While time can fly, waiting for an exciting future makes the present feel drawn out...",
     "coverImage": "/images/blog/2026-09-28-life-moves-slow-sometimes/image-01.png",
     "tags": [
-      "AI Strategy"
+      "Enterprise AI Adoption & ROI",
+      "Open Source & Local AI"
     ],
     "readTime": "5 min read",
     "file": "content/blog/2026-09-28-life-moves-slow-sometimes.md"
@@ -42,7 +47,8 @@
     "description": "It's PCA club race weekend for me, so I'll be pretty busy at the track. Since I didn't get a real chance to work on the newsletter beforehand, this edition will be a bit less authored with some rapid-fire facts...",
     "coverImage": "/images/blog/2026-09-21-small-question-for-the-future/image-01.jpg",
     "tags": [
-      "AI Strategy"
+      "AI Agents & Agentic Workflows",
+      "Enterprise AI Adoption & ROI"
     ],
     "readTime": "7 min read",
     "file": "content/blog/2026-09-21-small-question-for-the-future.md"
@@ -54,7 +60,9 @@
     "description": "Long-time readers of my blog know that I occasionally talk about AI pushback from people who are plugged in online and aware of its capabilities. Even nearly a year ago, though, I encountered everyday...",
     "coverImage": "/images/blog/2026-09-14-show-your-work-or-were-all-going-to-die-or-maybe-not/image-01.jpg",
     "tags": [
-      "AI Strategy"
+      "AI Security & Safety",
+      "AI Hype & Skepticism",
+      "Context, Memory & Knowledge Management"
     ],
     "readTime": "6 min read",
     "file": "content/blog/2026-09-14-show-your-work-or-were-all-going-to-die-or-maybe-not.md"
@@ -66,7 +74,9 @@
     "description": "There are rarely boring weeks in the AI world, but some are definitely more action-packed than others. This past week brought several new frontier models from multiple labs...",
     "coverImage": "/images/blog/2026-09-07-all-the-new-models/image-01.png",
     "tags": [
-      "AI Strategy"
+      "Frontier Labs & Model Releases",
+      "AI Security & Safety",
+      "LLM Training & Fine-Tuning"
     ],
     "readTime": "5 min read",
     "file": "content/blog/2026-09-07-all-the-new-models.md"
@@ -78,7 +88,9 @@
     "description": "This week, we will cover a few economic and business strategy concepts. Don’t worry, I will still include some tech tips at the end for readers who like getting some dirt under their fingernails.",
     "coverImage": "/images/blog/2026-08-31-touching-grass/image-01.png",
     "tags": [
-      "AI Strategy"
+      "AI Economics & Infrastructure",
+      "Open Source & Local AI",
+      "AI Hype & Skepticism"
     ],
     "readTime": "6 min read",
     "file": "content/blog/2026-08-31-touching-grass.md"
@@ -90,7 +102,8 @@
     "description": "It is hard to open any species of media today without sensing a public disapproval of data centers that borders on the visceral. One might almost prefer the sooty embrace of a coal-fired plant, curiou...",
     "coverImage": "/images/blog/2026-08-22-thanks-i-hate-it/image-01.png",
     "tags": [
-      "AI Strategy"
+      "AI Economics & Infrastructure",
+      "Open Source & Local AI"
     ],
     "readTime": "6 min read",
     "file": "content/blog/2026-08-22-thanks-i-hate-it.md"
@@ -102,7 +115,9 @@
     "description": "If you have successfully integrated​ even one agent into your core workflows, you are already operating in the top tier of AI practitioners​ (like the top 1%). While consumer adoption dominates headli...",
     "coverImage": "/images/blog/2026-08-17-a-tough-choice-a-bitter-pill/image-01.png",
     "tags": [
-      "AI Strategy"
+      "Enterprise AI Adoption & ROI",
+      "AI Agents & Agentic Workflows",
+      "Frontier Labs & Model Releases"
     ],
     "readTime": "6 min read",
     "file": "content/blog/2026-08-17-a-tough-choice-a-bitter-pill.md"
@@ -114,7 +129,9 @@
     "description": "Last week, OpenAI gave a Black Hat keynote detailing the HuggingFace incident. I covered this in a newsletter a few weeks ago, but the talk adds new insights. It’s worth watching even if you’re not in...",
     "coverImage": "/images/blog/2026-08-10-black-hat/image-01.png",
     "tags": [
-      "AI Strategy"
+      "AI Security & Safety",
+      "AI Economics & Infrastructure",
+      "Motorsport & Engineering"
     ],
     "readTime": "5 min read",
     "file": "content/blog/2026-08-10-black-hat.md"
@@ -126,7 +143,9 @@
     "description": "Lots to cover this week. I’ll keep the opening brief and dive into the most interesting and wild developments from the past week.",
     "coverImage": "/images/blog/2026-08-03-the-org-is-shifting/image-01.jpg",
     "tags": [
-      "AI Strategy"
+      "Enterprise AI Adoption & ROI",
+      "AI Security & Safety",
+      "AI Economics & Infrastructure"
     ],
     "readTime": "8 min read",
     "file": "content/blog/2026-08-03-the-org-is-shifting.md"
@@ -138,7 +157,9 @@
     "description": "Most people have probably seen reports about an autonomous cyber incident involving OpenAI and the Hugging Face open source model community website. I won’t rehash, but here’s a concise timeline:",
     "coverImage": "/images/blog/2026-07-27-skynet-awakens/image-01.png",
     "tags": [
-      "AI Strategy"
+      "AI Security & Safety",
+      "Context, Memory & Knowledge Management",
+      "Open Source & Local AI"
     ],
     "readTime": "6 min read",
     "file": "content/blog/2026-07-27-skynet-awakens.md"
@@ -150,7 +171,9 @@
     "description": "That 2.2% figure sparked a look into the data. A few additional metrics worth considering: (numbers seem a little mismatched, but I don’t know survey methods)",
     "coverImage": "/images/blog/2026-07-19-still-so-early/image-01.png",
     "tags": [
-      "AI Strategy"
+      "AI Hype & Skepticism",
+      "Enterprise AI Adoption & ROI",
+      "Open Source & Local AI"
     ],
     "readTime": "6 min read",
     "file": "content/blog/2026-07-19-still-so-early.md"
@@ -162,7 +185,8 @@
     "description": "Even before agents became the main way to do productive work — coding or knowledge tasks — prompting tricks had already lost much of their value. The Wharton research linked below details this.",
     "coverImage": "/images/blog/2026-07-13-was-it-always-thus/image-01.png",
     "tags": [
-      "AI Strategy"
+      "Careers, Hiring & Future of Work",
+      "Open Source & Local AI"
     ],
     "readTime": "7 min read",
     "file": "content/blog/2026-07-13-was-it-always-thus.md"
@@ -174,7 +198,9 @@
     "description": "Happy birthday to the United States! While 250 years is brief in the span of history, it’s an accomplishment to be proud of. Wherever you are, have a great 4th of July and appreciate the blessings we ...",
     "coverImage": "/images/blog/2026-07-06-the-future-is-local/image-01.png",
     "tags": [
-      "AI Strategy"
+      "Open Source & Local AI",
+      "Enterprise AI Adoption & ROI",
+      "Context, Memory & Knowledge Management"
     ],
     "readTime": "6 min read",
     "file": "content/blog/2026-07-06-the-future-is-local.md"
@@ -186,7 +212,9 @@
     "description": "The drama in AI and the race for the industry’s future are always fascinating. This week, OpenAI released a couple of “smaller” models that landed just shy of Anthropic’s Mythos level still stuck in t...",
     "coverImage": "/images/blog/2026-06-28-walking-the-wire/image-01.png",
     "tags": [
-      "AI Strategy"
+      "Frontier Labs & Model Releases",
+      "Careers, Hiring & Future of Work",
+      "AI Economics & Infrastructure"
     ],
     "readTime": "5 min read",
     "file": "content/blog/2026-06-28-walking-the-wire.md"
@@ -198,7 +226,9 @@
     "description": "If you’re a regular reader of this newsletter, you’ve likely come across podcaster and AI intellectual Dwarkesh Patel. He’s an interesting figure I often resonate with, partly because he isn’t selling...",
     "coverImage": "/images/blog/2026-06-20-agi-nah-not-soon-anyway/image-01.png",
     "tags": [
-      "AI Strategy"
+      "AI Hype & Skepticism",
+      "Context, Memory & Knowledge Management",
+      "Open Source & Local AI"
     ],
     "readTime": "5 min read",
     "file": "content/blog/2026-06-20-agi-nah-not-soon-anyway.md"
@@ -210,7 +240,9 @@
     "description": "Fable — /ˈfāb(ə)l/ — A fable is a short, fictitious story designed to teach a moral lesson.",
     "coverImage": "/images/blog/2026-06-13-have-we-learned-our-lesson/image-01.png",
     "tags": [
-      "AI Strategy"
+      "Frontier Labs & Model Releases",
+      "AI Security & Safety",
+      "Open Source & Local AI"
     ],
     "readTime": "5 min read",
     "file": "content/blog/2026-06-13-have-we-learned-our-lesson.md"
@@ -222,7 +254,7 @@
     "description": "Last week, Bain & Company released a report noting disappointing ROI from AI in most enterprise settings. It caught on quickly in our polarized climate, where you’re either an AI accelerationist or an...",
     "coverImage": "/images/blog/2026-06-08-return-on-indecision/image-01.png",
     "tags": [
-      "AI Strategy"
+      "Enterprise AI Adoption & ROI"
     ],
     "readTime": "5 min read",
     "file": "content/blog/2026-06-08-return-on-indecision.md"
@@ -234,8 +266,9 @@
     "description": "A couple of months ago, I wrote about the hangover from the looming “API token bill.” Back then it was early rumblings, but this past week brought both unfortunate and unbelievable stories, all pointi...",
     "coverImage": "/images/blog/2026-05-31-the-cost-of-doing-business/image-01.png",
     "tags": [
-      "AI Strategy",
-      "Motorsport & Dynamics"
+      "Enterprise AI Adoption & ROI",
+      "AI Economics & Infrastructure",
+      "AI Agents & Agentic Workflows"
     ],
     "readTime": "7 min read",
     "file": "content/blog/2026-05-31-the-cost-of-doing-business.md"
@@ -247,7 +280,8 @@
     "description": "AI is reshaping the assumptions about modern corporate work. I’d even argue this extends beyond corporate America, though it’s most acute in legacy enterprises. Here’s the problem: The assumption that...",
     "coverImage": "/images/blog/2026-05-24-dont-hide-it/image-01.png",
     "tags": [
-      "AI Strategy"
+      "Careers, Hiring & Future of Work",
+      "AI Economics & Infrastructure"
     ],
     "readTime": "4 min read",
     "file": "content/blog/2026-05-24-dont-hide-it.md"
@@ -259,7 +293,8 @@
     "description": "Longtime readers may recall many months ago when I coined “The Carbon Bottleneck,” noting that the slow adoption of AI isn’t due to models or deployment tech, it’s people and processes(data!!!) within...",
     "coverImage": "/images/blog/2026-05-16-harder-than-it-looks/image-01.png",
     "tags": [
-      "AI Strategy"
+      "Enterprise AI Adoption & ROI",
+      "Frontier Labs & Model Releases"
     ],
     "readTime": "8 min read",
     "file": "content/blog/2026-05-16-harder-than-it-looks.md"
@@ -271,7 +306,9 @@
     "description": "(This week I tried to emulate a favorite X account in a dialogue style, mixing a bit of spiciness with the current tech landscape. I spent much longer than usual, struggling to make the flow witty, cl...",
     "coverImage": "/images/blog/2026-05-10-ai-homewreckers/image-01.png",
     "tags": [
-      "AI Strategy"
+      "AI Economics & Infrastructure",
+      "Frontier Labs & Model Releases",
+      "LLM Training & Fine-Tuning"
     ],
     "readTime": "6 min read",
     "file": "content/blog/2026-05-10-ai-homewreckers.md"
@@ -283,7 +320,9 @@
     "description": "Aaron, Box’s CEO, is a prominent voice in tech and AI, and I agree with his post in principle. But this kind of enthusiasm, especially the idea of a forward-deployed engineer wiring agents into system...",
     "coverImage": "/images/blog/2026-05-04-slow-your-roll/image-01.png",
     "tags": [
-      "AI Strategy"
+      "Enterprise AI Adoption & ROI",
+      "Frontier Labs & Model Releases",
+      "Open Source & Local AI"
     ],
     "readTime": "4 min read",
     "file": "content/blog/2026-05-04-slow-your-roll.md"
@@ -295,7 +334,9 @@
     "description": "I can’t remember the last time I was in Las Vegas for a conference, especially a Google one. It was probably 2021, right before I left on my startup journey. This year was billed as the biggest yet, w...",
     "coverImage": "/images/blog/2026-04-25-google-next-26/image-01.png",
     "tags": [
-      "AI Strategy"
+      "Frontier Labs & Model Releases",
+      "Enterprise AI Adoption & ROI",
+      "AI Economics & Infrastructure"
     ],
     "readTime": "8 min read",
     "file": "content/blog/2026-04-25-google-next-26.md"
@@ -307,7 +348,9 @@
     "description": "Almost two years ago, I wrote in my newsletter that the AI hype train seemed near its peak after the photo of Jensen Huang signing a woman’s chest at Taiwan’s Computex expo was published. But, as with...",
     "coverImage": "/images/blog/2026-04-18-sole-powered/image-01.png",
     "tags": [
-      "AI Strategy"
+      "AI Economics & Infrastructure",
+      "Enterprise AI Adoption & ROI",
+      "Open Source & Local AI"
     ],
     "readTime": "4 min read",
     "file": "content/blog/2026-04-18-sole-powered.md"
@@ -319,7 +362,9 @@
     "description": "In my previous newsletter, which I released early due to concerns about open source security and AI application development, I called for industry-wide cooperation to secure open source software packa...",
     "coverImage": "/images/blog/2026-04-09-a-plan-for-the-future/image-01.png",
     "tags": [
-      "AI Strategy"
+      "AI Security & Safety",
+      "Context, Memory & Knowledge Management",
+      "Frontier Labs & Model Releases"
     ],
     "readTime": "6 min read",
     "file": "content/blog/2026-04-09-a-plan-for-the-future.md"
@@ -331,7 +376,9 @@
     "description": "Note: I’m releasing my Monday morning newsletter early this week to put a stake in the ground on the open source security issues currently plaguing the AI development environment. It’s mostly opinion,...",
     "coverImage": "/images/blog/2026-04-02-things-fall-apart/image-01.png",
     "tags": [
-      "AI Strategy"
+      "AI Security & Safety",
+      "Open Source & Local AI",
+      "AI Coding & Developer Tools"
     ],
     "readTime": "9 min read",
     "file": "content/blog/2026-04-02-things-fall-apart.md"
@@ -343,7 +390,9 @@
     "description": "If you’re in the AI space then you’ve probably seen the news about the LiteLLM supply chain attack from last week. There are plenty of in-depth analyses available, and I’m not a security researcher, b...",
     "coverImage": "/images/blog/2026-03-27-risk-reward/image-01.png",
     "tags": [
-      "AI Strategy"
+      "AI Security & Safety",
+      "Reasoning Models & RL",
+      "AI Agents & Agentic Workflows"
     ],
     "readTime": "7 min read",
     "file": "content/blog/2026-03-27-risk-reward.md"
@@ -355,7 +404,9 @@
     "description": "In some ways, this also anticipated the “SaaS apocalypse,” which recently saw companies like Workday, Salesforce, and other enterprise SaaS tools get hammered in the public markets.",
     "coverImage": "/images/blog/2026-03-21-nvidia-gtc-2026/image-01.png",
     "tags": [
-      "AI Strategy"
+      "AI Economics & Infrastructure",
+      "Enterprise AI Adoption & ROI",
+      "AI Agents & Agentic Workflows"
     ],
     "readTime": "7 min read",
     "file": "content/blog/2026-03-21-nvidia-gtc-2026.md"
@@ -367,7 +418,8 @@
     "description": "The world is shaped by thinkers and doers, and sometimes they overlap. I’m not one of those rare combinations. I often have interesting ideas and I’m not short of builds, but I often lack the time or ...",
     "coverImage": "/images/blog/2026-03-15-if-only-i-was-smarter/image-01.png",
     "tags": [
-      "AI Strategy"
+      "AI Agents & Agentic Workflows",
+      "Motorsport & Engineering"
     ],
     "readTime": "5 min read",
     "file": "content/blog/2026-03-15-if-only-i-was-smarter.md"
@@ -379,7 +431,8 @@
     "description": "It’s often hard to gauge how other enterprise AI initiatives compare to what I’m helping to build at Valvoline Global Operations. I recently read a Wall Street Journal piece on Colgate-Palmolive, high...",
     "coverImage": "/images/blog/2026-03-07-a-long-long-way-to-go/image-01.png",
     "tags": [
-      "AI Strategy"
+      "AI Agents & Agentic Workflows",
+      "Enterprise AI Adoption & ROI"
     ],
     "readTime": "5 min read",
     "file": "content/blog/2026-03-07-a-long-long-way-to-go.md"
@@ -391,7 +444,9 @@
     "description": "This week’s newsletter includes a couple of relatively spicy takes. I know strong opinions exist on both sides, but that won’t stop me from addressing them as logically as I can. Some will disagree — ...",
     "coverImage": "/images/blog/2026-02-28-spicy-takes/image-01.png",
     "tags": [
-      "AI Strategy"
+      "AI Security & Safety",
+      "Context, Memory & Knowledge Management",
+      "Frontier Labs & Model Releases"
     ],
     "readTime": "6 min read",
     "file": "content/blog/2026-02-28-spicy-takes.md"
@@ -403,7 +458,8 @@
     "description": "There is a question circulating in boardrooms right now, usually asked by a strategic advisor staring at a flat ROI chart: “If this technology is so revolutionary, why can’t we just buy the playbook f...",
     "coverImage": "/images/blog/2026-02-21-the-missing-manual/image-01.png",
     "tags": [
-      "AI Strategy"
+      "Enterprise AI Adoption & ROI",
+      "AI Agents & Agentic Workflows"
     ],
     "readTime": "4 min read",
     "file": "content/blog/2026-02-21-the-missing-manual.md"
@@ -415,7 +471,8 @@
     "description": "As the buzz from the OpenClaw release fades, we are left with a lingering headache. It isn’t quite the effect of a Pan-Galactic Gargle Blaster, but the pain is real enough when the invoice hits.",
     "coverImage": "/images/blog/2026-02-14-when-the-token-bill-arrives/image-01.png",
     "tags": [
-      "AI Strategy"
+      "AI Economics & Infrastructure",
+      "AI Agents & Agentic Workflows"
     ],
     "readTime": "4 min read",
     "file": "content/blog/2026-02-14-when-the-token-bill-arrives.md"
@@ -427,7 +484,9 @@
     "description": "I try to avoid the self-congratulatory victory laps common in this industry — mostly because the market has a way of humbling prophets mere hours after they hit “publish.” However, the record is the r...",
     "coverImage": "/images/blog/2026-02-07-step-by-step/image-01.jpg",
     "tags": [
-      "AI Strategy"
+      "AI Agents & Agentic Workflows",
+      "Careers, Hiring & Future of Work",
+      "Enterprise AI Adoption & ROI"
     ],
     "readTime": "5 min read",
     "file": "content/blog/2026-02-07-step-by-step.md"
@@ -439,7 +498,9 @@
     "description": "In this week’s newsletter, I’m weaving a larger narrative from articles and observations I gathered over the week.",
     "coverImage": "/images/blog/2026-01-31-over-our-skis/image-01.png",
     "tags": [
-      "AI Strategy"
+      "AI Agents & Agentic Workflows",
+      "AI Economics & Infrastructure",
+      "AI Security & Safety"
     ],
     "readTime": "5 min read",
     "file": "content/blog/2026-01-31-over-our-skis.md"
@@ -451,7 +512,9 @@
     "description": "I was talking with my twin brother about the future of management in large enterprises as AI tools mature. We explored some unconventional ideas for how senior managers and C-suite leaders could be ef...",
     "coverImage": "/images/blog/2026-01-26-a-tale-of-two/image-01.png",
     "tags": [
-      "AI Strategy"
+      "Leadership & Personal Growth",
+      "Enterprise AI Adoption & ROI",
+      "AI Economics & Infrastructure"
     ],
     "readTime": "6 min read",
     "file": "content/blog/2026-01-26-a-tale-of-two.md"
@@ -463,7 +526,8 @@
     "description": "I thought my job was to teach the workforce to fish. It turns out, the best way to start is to build a better fishing boat.",
     "coverImage": "/images/blog/2026-01-16-its-upside-down/image-01.png",
     "tags": [
-      "AI Strategy"
+      "Enterprise AI Adoption & ROI",
+      "Leadership & Personal Growth"
     ],
     "readTime": "8 min read",
     "file": "content/blog/2026-01-16-its-upside-down.md"
@@ -475,7 +539,8 @@
     "description": "In an era where a stochastic parrot can generate a 5,000-word essay on the geopolitical nuances of 17th-century spice trade in four seconds, we face a paradox: Human writing has never been more ineffi...",
     "coverImage": "/images/blog/2026-01-12-words-matter/image-01.png",
     "tags": [
-      "AI Strategy"
+      "Careers, Hiring & Future of Work",
+      "AI Economics & Infrastructure"
     ],
     "readTime": "5 min read",
     "file": "content/blog/2026-01-12-words-matter.md"
@@ -487,7 +552,9 @@
     "description": "The 2026 Scorecard: Boring is the New Bullish",
     "coverImage": "/images/blog/2026-01-03-year-ahead-2026/image-01.png",
     "tags": [
-      "AI Strategy"
+      "Enterprise AI Adoption & ROI",
+      "AI Economics & Infrastructure",
+      "AI Security & Safety"
     ],
     "readTime": "6 min read",
     "file": "content/blog/2026-01-03-year-ahead-2026.md"
@@ -499,7 +566,9 @@
     "description": "Writing a consistent blog or newsletter is a valuable pursuit for any number of reasons, but if its goal is to deliver cutting-edge technology insights to busy readers, you owe it to your readers to r...",
     "coverImage": "/images/blog/2025-12-28-year-in-review-2025/image-01.png",
     "tags": [
-      "AI Strategy"
+      "Leadership & Personal Growth",
+      "Enterprise AI Adoption & ROI",
+      "AI Economics & Infrastructure"
     ],
     "readTime": "6 min read",
     "file": "content/blog/2025-12-28-year-in-review-2025.md"
@@ -511,8 +580,9 @@
     "description": "The modern enterprise is currently drowning in a flood of “intelligence.” Every software vendor you pay, from the monolithic CRM to the humble HR portal, has recently slapped a sparkle icon on their i...",
     "coverImage": "/images/blog/2025-12-22-the-3-layer-pyramid-a-blueprint-for-enterprise-survival/image-01.png",
     "tags": [
-      "Monday Morning ML",
-      "AI Strategy"
+      "Enterprise AI Adoption & ROI",
+      "AI Agents & Agentic Workflows",
+      "AI Coding & Developer Tools"
     ],
     "readTime": "11 min read",
     "file": "content/blog/2025-12-22-the-3-layer-pyramid-a-blueprint-for-enterprise-survival.md"
@@ -524,7 +594,9 @@
     "description": "I’ve spent my first two weeks as Senior Director of Global AI at Valvoline Global Operations, and it has clarified a suspicion I’ve held for years: The primary bottleneck in enterprise AI is not the s...",
     "coverImage": "/images/blog/2025-12-15-the-human-firmware-update/image-01.png",
     "tags": [
-      "AI Strategy"
+      "Enterprise AI Adoption & ROI",
+      "AI Economics & Infrastructure",
+      "AI Agents & Agentic Workflows"
     ],
     "readTime": "6 min read",
     "file": "content/blog/2025-12-15-the-human-firmware-update.md"
@@ -536,7 +608,9 @@
     "description": "Some personal news: I have accepted a role as Senior Director of Global Artificial Intelligence at Valvoline.",
     "coverImage": "/images/blog/2025-12-08-from-the-sandbox-to-the-assembly-line/image-01.png",
     "tags": [
-      "AI Strategy"
+      "Enterprise AI Adoption & ROI",
+      "Leadership & Personal Growth",
+      "Context, Memory & Knowledge Management"
     ],
     "readTime": "4 min read",
     "file": "content/blog/2025-12-08-from-the-sandbox-to-the-assembly-line.md"
@@ -548,7 +622,8 @@
     "description": "First, it goes without saying that nothing in these newsletters is investment advice. That said, because money drives economic opportunity and growth in the United States, and because AI and its secon...",
     "coverImage": "/images/blog/2025-12-01-financial-due-diligence/image-01.png",
     "tags": [
-      "AI Strategy"
+      "AI Economics & Infrastructure",
+      "AI Hype & Skepticism"
     ],
     "readTime": "7 min read",
     "file": "content/blog/2025-12-01-financial-due-diligence.md"
@@ -560,7 +635,9 @@
     "description": "We are often told that the line on the graph only goes up. Usually at a “super-exponential” angle that suggests we should all start packing our bags for the post-labor economy.",
     "coverImage": "/images/blog/2025-11-24-the-curve-bends/image-01.png",
     "tags": [
-      "AI Strategy"
+      "AI Hype & Skepticism",
+      "Frontier Labs & Model Releases",
+      "AI Economics & Infrastructure"
     ],
     "readTime": "5 min read",
     "file": "content/blog/2025-11-24-the-curve-bends.md"
@@ -572,7 +649,9 @@
     "description": "I was recently on a business trip to help an enterprise with AI transformation. After landing, I went to the rental car facility, where, while waiting for my reservation to be confirmed, an attendant ...",
     "coverImage": "/images/blog/2025-11-17-ai-pushback/image-01.jpg",
     "tags": [
-      "AI Strategy"
+      "Enterprise AI Adoption & ROI",
+      "Careers, Hiring & Future of Work",
+      "AI Security & Safety"
     ],
     "readTime": "21 min read",
     "file": "content/blog/2025-11-17-ai-pushback.md"
@@ -584,7 +663,8 @@
     "description": "I’ve often written in my newsletter that as AI becomes an easier everyday assistant, authenticity will grow more valuable, not less. This might seem counter-intuitive in a world where AI can effortles...",
     "coverImage": "/images/blog/2025-11-10-words-are-cheap-er/image-01.png",
     "tags": [
-      "AI Strategy"
+      "Careers, Hiring & Future of Work",
+      "LLM Training & Fine-Tuning"
     ],
     "readTime": "6 min read",
     "file": "content/blog/2025-11-10-words-are-cheap-er.md"
@@ -596,7 +676,8 @@
     "description": "This last week I had a wonderful opportunity to spend most of the day speaking with folks from a well-established but still forward-thinking company that wants to improve their operations using AI. Th...",
     "coverImage": "/images/blog/2025-11-03-what-ive-learned-in-the-wild/image-01.png",
     "tags": [
-      "AI Strategy"
+      "Enterprise AI Adoption & ROI",
+      "AI Agents & Agentic Workflows"
     ],
     "readTime": "10 min read",
     "file": "content/blog/2025-11-03-what-ive-learned-in-the-wild.md"
@@ -608,7 +689,9 @@
     "description": "This week I read an article by Dan Shipper from https://every.to/ that I found particularly interesting. It discusses AI’s use in creative spaces. We know AI has successfully tackled more technical pu...",
     "coverImage": "/images/blog/2025-10-27-creativity-and-ai/image-01.png",
     "tags": [
-      "AI Strategy"
+      "Careers, Hiring & Future of Work",
+      "Context, Memory & Knowledge Management",
+      "Enterprise AI Adoption & ROI"
     ],
     "readTime": "5 min read",
     "file": "content/blog/2025-10-27-creativity-and-ai.md"
@@ -620,7 +703,8 @@
     "description": "Graphite.io released a study that quantified the prevalence of AI vs. human articles on the internet. The study (linked here: https://graphite.io/five-percent/more-articles-are-now-created-by-ai-than-...",
     "coverImage": "/images/blog/2025-10-20-the-price-of-authenticity/image-01.png",
     "tags": [
-      "AI Strategy"
+      "LLM Training & Fine-Tuning",
+      "Enterprise AI Adoption & ROI"
     ],
     "readTime": "6 min read",
     "file": "content/blog/2025-10-20-the-price-of-authenticity.md"
@@ -632,7 +716,9 @@
     "description": "The algorithm has served me up all sorts of info after the past weeks where I’ve been talking about and searching for information on DSPy and other programmatic LLm interface technologies. And along c...",
     "coverImage": "/images/blog/2025-10-13-an-instructional/image-01.png",
     "tags": [
-      "AI Strategy"
+      "LLM Training & Fine-Tuning",
+      "RAG & Embeddings",
+      "Careers, Hiring & Future of Work"
     ],
     "readTime": "6 min read",
     "file": "content/blog/2025-10-13-an-instructional.md"
@@ -644,7 +730,8 @@
     "description": "Bit of an info blast this week as I’m on the road.",
     "coverImage": "/images/blog/2025-10-06-security-in-docs/image-01.png",
     "tags": [
-      "AI Strategy"
+      "AI Security & Safety",
+      "Careers, Hiring & Future of Work"
     ],
     "readTime": "6 min read",
     "file": "content/blog/2025-10-06-security-in-docs.md"
@@ -656,7 +743,9 @@
     "description": "A couple of papers to lead the week. I think they claim some very interesting and (as of yet) underreported findings. The first one definitely challenges my assumptions about how transformer-based mod...",
     "coverImage": "/images/blog/2025-09-29-proving-me-wrong/image-01.png",
     "tags": [
-      "AI Strategy"
+      "Careers, Hiring & Future of Work",
+      "LLM Training & Fine-Tuning",
+      "AI Economics & Infrastructure"
     ],
     "readTime": "6 min read",
     "file": "content/blog/2025-09-29-proving-me-wrong.md"
@@ -668,7 +757,9 @@
     "description": "Anthropic had a very bad month in terms of model reliability. I certainly noticed folks complaining on X, but my go to “vibe” tool, Superwhisper, had been performing remarkably poorly and it’s backed ...",
     "coverImage": "/images/blog/2025-09-22-anthropics-postmortem/image-01.png",
     "tags": [
-      "AI Strategy"
+      "Frontier Labs & Model Releases",
+      "AI Agents & Agentic Workflows",
+      "RAG & Embeddings"
     ],
     "readTime": "5 min read",
     "file": "content/blog/2025-09-22-anthropics-postmortem.md"
@@ -680,7 +771,9 @@
     "description": "Most of my readers know me from my time in the technology space. And for sure, I have strong opinions, but they’re focused on observations of an ever-changing field where application is represented in...",
     "coverImage": "/images/blog/2025-09-15-how-things-have-changed/image-01.png",
     "tags": [
-      "AI Strategy"
+      "Leadership & Personal Growth",
+      "AI Security & Safety",
+      "Careers, Hiring & Future of Work"
     ],
     "readTime": "6 min read",
     "file": "content/blog/2025-09-15-how-things-have-changed.md"
@@ -692,7 +785,9 @@
     "description": "As my readers know, I’m often very early on particular trends in the technology space. While this isn’t a great investment or money-making methodology, I do think I frequently end up on the bleeding e...",
     "coverImage": "/images/blog/2025-09-08-schumpeter-was-right/image-01.png",
     "tags": [
-      "AI Strategy"
+      "AI Economics & Infrastructure",
+      "AI Hype & Skepticism",
+      "AI Agents & Agentic Workflows"
     ],
     "readTime": "6 min read",
     "file": "content/blog/2025-09-08-schumpeter-was-right.md"
@@ -704,7 +799,7 @@
     "description": "I often wonder about the daily frustration security professionals face in the tech world. They repeatedly encounter nearly identical vulnerabilities across multiple clients and vendors. Despite their ...",
     "coverImage": "/images/blog/2025-09-01-safety-first/image-01.png",
     "tags": [
-      "AI Strategy"
+      "AI Security & Safety"
     ],
     "readTime": "4 min read",
     "file": "content/blog/2025-09-01-safety-first.md"
@@ -716,7 +811,9 @@
     "description": "I’m sure my readers will relate to this, but I often have a flurry of ideas around a particular technology concept and then take in-depth time to collect those thoughts and build an argument from them...",
     "coverImage": "/images/blog/2025-08-25-green-shoots/image-01.jpg",
     "tags": [
-      "AI Strategy"
+      "Enterprise AI Adoption & ROI",
+      "AI Hype & Skepticism",
+      "LLM Training & Fine-Tuning"
     ],
     "readTime": "7 min read",
     "file": "content/blog/2025-08-25-green-shoots.md"
@@ -728,7 +825,8 @@
     "description": "There’s a prevailing belief in the tech world that the cost of Large Language Model (LLM) inference is on a relentless, one-way path downward. While long-term efficiency gains are almost certain, a re...",
     "coverImage": "/images/blog/2025-08-18-giving-us-a-bad-name/image-01.jpg",
     "tags": [
-      "AI Strategy"
+      "AI Economics & Infrastructure",
+      "RAG & Embeddings"
     ],
     "readTime": "8 min read",
     "file": "content/blog/2025-08-18-giving-us-a-bad-name.md"
@@ -740,7 +838,9 @@
     "description": "For the past two years, the AI industry has moved at a pace that defied prediction. But after the initial gold rush, the peak of inflated expectations, we are entering a new, more sober phase. The hyp...",
     "coverImage": "/images/blog/2025-08-11-shifting-under-our-feet/image-01.jpg",
     "tags": [
-      "AI Strategy"
+      "AI Hype & Skepticism",
+      "Enterprise AI Adoption & ROI",
+      "LLM Training & Fine-Tuning"
     ],
     "readTime": "7 min read",
     "file": "content/blog/2025-08-11-shifting-under-our-feet.md"
@@ -752,7 +852,9 @@
     "description": "Last week, a conversation about the future of work got me thinking: what truly makes someone effective in the age of AI? We often hear about learning to use AI via technical courses, but as I integrat...",
     "coverImage": "/images/blog/2025-08-04-what-it-takes/image-01.jpg",
     "tags": [
-      "AI Strategy"
+      "Careers, Hiring & Future of Work",
+      "AI Economics & Infrastructure",
+      "Data Science & Classic ML"
     ],
     "readTime": "7 min read",
     "file": "content/blog/2025-08-04-what-it-takes.md"
@@ -764,7 +866,9 @@
     "description": "Some interesting papers to lead off this week!",
     "coverImage": "/images/blog/2025-07-28-not-as-it-seems/image-01.jpg",
     "tags": [
-      "AI Strategy"
+      "AI Security & Safety",
+      "Reasoning Models & RL",
+      "Context, Memory & Knowledge Management"
     ],
     "readTime": "4 min read",
     "file": "content/blog/2025-07-28-not-as-it-seems.md"
@@ -776,7 +880,9 @@
     "description": "It has been just over a week since significant developments unfolded in the AI M&A space, marked by a dramatic and intricate (some might say controversial) deal between Windsurf and Google. In April, ...",
     "coverImage": "/images/blog/2025-07-21-the-game/image-01.jpg",
     "tags": [
-      "AI Strategy"
+      "AI Economics & Infrastructure",
+      "AI Coding & Developer Tools",
+      "Careers, Hiring & Future of Work"
     ],
     "readTime": "6 min read",
     "file": "content/blog/2025-07-21-the-game.md"
@@ -788,7 +894,9 @@
     "description": "This past week, the thin ice on which we are skating cracked, but it did not break. When xAI’s Grok model was jailbroken on X in real time, we witnessed a well-known but studiously ignored issue: the ...",
     "coverImage": "/images/blog/2025-07-14-truth-or-beauty/image-01.jpg",
     "tags": [
-      "AI Strategy"
+      "AI Security & Safety",
+      "AI Coding & Developer Tools",
+      "LLM Training & Fine-Tuning"
     ],
     "readTime": "9 min read",
     "file": "content/blog/2025-07-14-truth-or-beauty.md"
@@ -800,7 +908,9 @@
     "description": "There has been significant discussion on the social medias/internet recently about the activities of major AI model labs and other key AI players like Google and Microsoft. This last week the steak ta...",
     "coverImage": "/images/blog/2025-07-07-how-it-ends-maybe/image-01.png",
     "tags": [
-      "AI Strategy"
+      "AI Economics & Infrastructure",
+      "AI Hype & Skepticism",
+      "Careers, Hiring & Future of Work"
     ],
     "readTime": "7 min read",
     "file": "content/blog/2025-07-07-how-it-ends-maybe.md"
@@ -812,7 +922,8 @@
     "description": "I assure you this newsletter isn’t turning into a security blog, but it’s important to consider the unintended consequences and mistakes related to AI during this ongoing integration phase. As foundat...",
     "coverImage": "/images/blog/2025-06-30-things-that-go-bump-in-the-night/image-01.jpg",
     "tags": [
-      "AI Strategy"
+      "AI Security & Safety",
+      "Careers, Hiring & Future of Work"
     ],
     "readTime": "6 min read",
     "file": "content/blog/2025-06-30-things-that-go-bump-in-the-night.md"
@@ -824,7 +935,8 @@
     "description": "It’s been several months since major AI labs released new foundational models, and recent updates have mainly been iterations of existing ones. This pause seems to result from a mix of economics, stra...",
     "coverImage": "/images/blog/2025-06-23-take-a-breather/image-01.jpg",
     "tags": [
-      "AI Strategy"
+      "AI Economics & Infrastructure",
+      "Enterprise AI Adoption & ROI"
     ],
     "readTime": "5 min read",
     "file": "content/blog/2025-06-23-take-a-breather.md"
@@ -836,7 +948,9 @@
     "description": "A well-known saying, often attributed to Baron Rothschild after the financial panic following the Battle of Waterloo, suggests that it’s time to “buy when there’s blood in the streets”. This notion ha...",
     "coverImage": "/images/blog/2025-06-16-blood-in-the-streets/image-01.jpg",
     "tags": [
-      "AI Strategy"
+      "Careers, Hiring & Future of Work",
+      "AI Security & Safety",
+      "AI Coding & Developer Tools"
     ],
     "readTime": "7 min read",
     "file": "content/blog/2025-06-16-blood-in-the-streets.md"
@@ -848,7 +962,9 @@
     "description": "Last week on the All-In podcast (https://open.spotify.com/episode/3MTSo0kmsIHRxtsJkP9Km8?si=b0a3f907afc84b93), which I believe many of my readers listen to as well, the first half of the episode focus...",
     "coverImage": "/images/blog/2025-06-09-power-struggle/image-01.jpg",
     "tags": [
-      "AI Strategy"
+      "AI Hype & Skepticism",
+      "Careers, Hiring & Future of Work",
+      "Enterprise AI Adoption & ROI"
     ],
     "readTime": "6 min read",
     "file": "content/blog/2025-06-09-power-struggle.md"
@@ -860,7 +976,8 @@
     "description": "Publish AI thoughts online long enough and you’ll inevitably attract attention from AI data companies. These firms typically crowdsource expertise across various industries to correct LLM outputs. The...",
     "coverImage": "/images/blog/2025-06-02-it-dont-smell-that-good/image-01.jpg",
     "tags": [
-      "AI Strategy"
+      "AI Security & Safety",
+      "LLM Training & Fine-Tuning"
     ],
     "readTime": "5 min read",
     "file": "content/blog/2025-06-02-it-dont-smell-that-good.md"
@@ -872,7 +989,8 @@
     "description": "I’m not one to shy away from self-congratulation, but last week’s newsletter entry highlighted the looming price hikes for SOTA AI models. Those with keen eyes might have noticed my timing was rather ...",
     "coverImage": "/images/blog/2025-05-26-did-i-call-the-top/image-01.jpg",
     "tags": [
-      "AI Strategy"
+      "AI Economics & Infrastructure",
+      "Open Source & Local AI"
     ],
     "readTime": "6 min read",
     "file": "content/blog/2025-05-26-did-i-call-the-top.md"
@@ -884,7 +1002,9 @@
     "description": "Many of us in the AI field are probably pretty jaded and often disappointed with new model releases. We keep hoping for serious advancements in coding, scientific computing, and multimodal. However, i...",
     "coverImage": "/images/blog/2025-05-19-the-numbers-dont-lie/image-01.jpg",
     "tags": [
-      "AI Strategy"
+      "AI Economics & Infrastructure",
+      "AI Security & Safety",
+      "Frontier Labs & Model Releases"
     ],
     "readTime": "7 min read",
     "file": "content/blog/2025-05-19-the-numbers-dont-lie.md"
@@ -896,7 +1016,9 @@
     "description": "I’m a bit late to the story, but OpenAI, in a strategic move typical of a Silicon Valley unicorn, decided to tweak the GPT-4o model to enhance its intuitiveness and effectiveness. What they ended up c...",
     "coverImage": "/images/blog/2025-05-12-raised-or-glazed/image-01.jpg",
     "tags": [
-      "AI Strategy"
+      "AI Security & Safety",
+      "Reasoning Models & RL",
+      "AI Economics & Infrastructure"
     ],
     "readTime": "6 min read",
     "file": "content/blog/2025-05-12-raised-or-glazed.md"
@@ -908,7 +1030,9 @@
     "description": "Just the other day I was having a really in-depth conversation about an AI app that is meant to serve a group of folks that most people would think are not a target audience for AI. It was very intere...",
     "coverImage": "/images/blog/2025-05-05-bubbles-all-the-way-down/image-01.jpg",
     "tags": [
-      "AI Strategy"
+      "Enterprise AI Adoption & ROI",
+      "AI Agents & Agentic Workflows",
+      "AI Economics & Infrastructure"
     ],
     "readTime": "6 min read",
     "file": "content/blog/2025-05-05-bubbles-all-the-way-down.md"
@@ -920,7 +1044,8 @@
     "description": "We often explore various topics here, and recently, I’ve been researching security in AI-enabled platforms and tools. Security has never been my strong suit; I usually defer to the cybersecurity exper...",
     "coverImage": "",
     "tags": [
-      "AI Strategy"
+      "AI Security & Safety",
+      "AI Agents & Agentic Workflows"
     ],
     "readTime": "6 min read",
     "file": "content/blog/2025-04-28-risk-and-security.md"
@@ -932,7 +1057,9 @@
     "description": "If you’re not using these tools as a programmer, it’s only a matter of time before you’re replaced. While none of the tools we’ll discuss today can do everything, they are essential resources. So buck...",
     "coverImage": "/images/blog/2025-04-21-choose-your-champ/image-01.jpg",
     "tags": [
-      "AI Strategy"
+      "AI Coding & Developer Tools",
+      "AI Economics & Infrastructure",
+      "Reasoning Models & RL"
     ],
     "readTime": "6 min read",
     "file": "content/blog/2025-04-21-choose-your-champ.md"
@@ -944,7 +1071,9 @@
     "description": "I’ve been using LLM-based tools for quite some time, and the initial sense of magic has faded. When I started over two years ago, even less capable models occasionally delivered astonishing results. H...",
     "coverImage": "/images/blog/2025-04-14-theory-of-mind/image-01.jpg",
     "tags": [
-      "AI Strategy"
+      "AI Security & Safety",
+      "Frontier Labs & Model Releases",
+      "Careers, Hiring & Future of Work"
     ],
     "readTime": "6 min read",
     "file": "content/blog/2025-04-14-theory-of-mind.md"
@@ -956,7 +1085,9 @@
     "description": "It’s likely true across various fields that those at the forefront find some place where cutting edge insights about the latest developments. In the AI space, significant news, new models, and interes...",
     "coverImage": "/images/blog/2025-04-07-quiet-on-the-western-front/image-01.jpg",
     "tags": [
-      "AI Strategy"
+      "AI Hype & Skepticism",
+      "Frontier Labs & Model Releases",
+      "Generative Media & Diffusion"
     ],
     "readTime": "6 min read",
     "file": "content/blog/2025-04-07-quiet-on-the-western-front.md"
@@ -968,7 +1099,9 @@
     "description": "This past weekend, I was reminded of the importance of gratitude in our lives, especially towards those who help us during difficult times or inspire us when our own spirit gives up. Reflecting on my ...",
     "coverImage": "/images/blog/2025-03-31-gratitude-for-others/image-01.jpg",
     "tags": [
-      "AI Strategy"
+      "Generative Media & Diffusion",
+      "Leadership & Personal Growth",
+      "Reasoning Models & RL"
     ],
     "readTime": "5 min read",
     "file": "content/blog/2025-03-31-gratitude-for-others.md"
@@ -980,7 +1113,9 @@
     "description": "I can’t actually remember the last time I was at a tech conference. It was probably way back when I was still at Google and they moved their annual conference from SF to Las Vegas when it got too big ...",
     "coverImage": "/images/blog/2025-03-24-nvidia-gtc-the-dead-walking-a-review/image-01.jpg",
     "tags": [
-      "AI Strategy"
+      "AI Economics & Infrastructure",
+      "AI Hype & Skepticism",
+      "Open Source & Local AI"
     ],
     "readTime": "8 min read",
     "file": "content/blog/2025-03-24-nvidia-gtc-the-dead-walking-a-review.md"
@@ -992,7 +1127,8 @@
     "description": "I can’t actually remember the last time I was at a tech conference. It was probably way back when I was still at Google and they moved…",
     "coverImage": "/images/blog/2025-03-23-nvidia-gtc-the-dead-walking-a-review/image-01.jpg",
     "tags": [
-      "AI Strategy"
+      "AI Economics & Infrastructure",
+      "AI Hype & Skepticism"
     ],
     "readTime": "5 min read",
     "file": "content/blog/2025-03-23-nvidia-gtc-the-dead-walking-a-review.md"
@@ -1004,7 +1140,8 @@
     "description": "I’m back from driving my race car at Circuit of the Americas in Texas. It was a great weekend where I got to learn more about my winter modifications and how well they performed at the limit. There’s ...",
     "coverImage": "/images/blog/2025-03-17-unable-or-canny/image-01.jpg",
     "tags": [
-      "AI Strategy"
+      "Motorsport & Engineering",
+      "AI Economics & Infrastructure"
     ],
     "readTime": "8 min read",
     "file": "content/blog/2025-03-17-unable-or-canny.md"
@@ -1016,7 +1153,8 @@
     "description": "A bit shorter this week as I’m in TX over the weekend at PCA COTA. Hopefully some pictures in the next newsletter!",
     "coverImage": "/images/blog/2025-03-10-resolving-thought/image-01.jpg",
     "tags": [
-      "AI Strategy"
+      "LLM Training & Fine-Tuning",
+      "Reasoning Models & RL"
     ],
     "readTime": "5 min read",
     "file": "content/blog/2025-03-10-resolving-thought.md"
@@ -1028,7 +1166,9 @@
     "description": "It isn’t often that I write from the heart in my weekly newsletter, but when life is sufficiently rocky enough to teach me a lesson I try and take it to heart. It is this last week that another one of...",
     "coverImage": "/images/blog/2025-03-03-how-to-endure/image-01.jpg",
     "tags": [
-      "AI Strategy"
+      "Frontier Labs & Model Releases",
+      "Leadership & Personal Growth",
+      "Careers, Hiring & Future of Work"
     ],
     "readTime": "8 min read",
     "file": "content/blog/2025-03-03-how-to-endure.md"
@@ -1040,7 +1180,9 @@
     "description": "I’m following up on our discussion about AI in education from last week. I found an article that raises some additional questions for me. Used properly, AI is a great way to understand new and unique ...",
     "coverImage": "/images/blog/2025-02-24-are-we-learning/image-01.jpg",
     "tags": [
-      "AI Strategy"
+      "Frontier Labs & Model Releases",
+      "AI Hype & Skepticism",
+      "AI Coding & Developer Tools"
     ],
     "readTime": "7 min read",
     "file": "content/blog/2025-02-24-are-we-learning.md"
@@ -1052,7 +1194,8 @@
     "description": "This last week I was at my kids school’s junior high orientation for my youngest. I asked the school principal what their stance was on AI. I tried to make it easy to answer my question by offering ex...",
     "coverImage": "/images/blog/2025-02-17-the-future-of-education/image-01.jpg",
     "tags": [
-      "AI Strategy"
+      "Careers, Hiring & Future of Work",
+      "Reasoning Models & RL"
     ],
     "readTime": "6 min read",
     "file": "content/blog/2025-02-17-the-future-of-education.md"
@@ -1064,7 +1207,8 @@
     "description": "A bit of a shift in the world of ML/AI this week. Yes, there were new models from Google (and a ripoff of Google with OAI’s “Deep Research”), but I’m talking more about the gut feeling, reactions and ...",
     "coverImage": "/images/blog/2025-02-10-feeling-the-vibe/image-01.jpg",
     "tags": [
-      "AI Strategy"
+      "AI Hype & Skepticism",
+      "Careers, Hiring & Future of Work"
     ],
     "readTime": "6 min read",
     "file": "content/blog/2025-02-10-feeling-the-vibe.md"
@@ -1076,7 +1220,9 @@
     "description": "“Talk is cheap”. “Actions speak louder than words”. Chances are that you’ve heard these sayings before. And, yes dear reader, I’m keenly aware that by writing a newsletter all I’m really doing is talk...",
     "coverImage": "/images/blog/2025-02-03-a-tale-as-old-as-time/image-01.jpg",
     "tags": [
-      "AI Strategy"
+      "AI Economics & Infrastructure",
+      "Reasoning Models & RL",
+      "Leadership & Personal Growth"
     ],
     "readTime": "6 min read",
     "file": "content/blog/2025-02-03-a-tale-as-old-as-time.md"
@@ -1088,7 +1234,9 @@
     "description": "This last week the new administration and some tech leaders combined with Japanese cash announced “Project Stargate”. (https://x.com/OpenAI/status/1881830103858172059)",
     "coverImage": "/images/blog/2025-01-27-first-through-the-stargate/image-01.jpg",
     "tags": [
-      "AI Strategy"
+      "AI Economics & Infrastructure",
+      "Reasoning Models & RL",
+      "AI Agents & Agentic Workflows"
     ],
     "readTime": "6 min read",
     "file": "content/blog/2025-01-27-first-through-the-stargate.md"
@@ -1100,7 +1248,9 @@
     "description": "Given that Google search analytics are, for now, reasonably good proxies for the general interest and understanding of society more broadly, I’d like to present you with this graph…",
     "coverImage": "/images/blog/2025-01-20-welcome-to-my-our-bubble/image-01.jpg",
     "tags": [
-      "AI Strategy"
+      "AI Hype & Skepticism",
+      "LLM Training & Fine-Tuning",
+      "AI Agents & Agentic Workflows"
     ],
     "readTime": "5 min read",
     "file": "content/blog/2025-01-20-welcome-to-my-our-bubble.md"
@@ -1112,7 +1262,9 @@
     "description": "Recently I was working on a few items for an AI company for their DevRel and messaging. For part of this effort I was attempting to distill the ideas to a pitch deck that combined some Douglas Adams h...",
     "coverImage": "/images/blog/2025-01-13-why-your-frustration-around-llms-can-be-explained-by-sapir-whorf/image-01.jpg",
     "tags": [
-      "AI Strategy"
+      "Generative Media & Diffusion",
+      "AI Security & Safety",
+      "AI Agents & Agentic Workflows"
     ],
     "readTime": "6 min read",
     "file": "content/blog/2025-01-13-why-your-frustration-around-llms-can-be-explained-by-sapir-whorf.md"
@@ -1124,7 +1276,9 @@
     "description": "My dear readers will need to forgive me this week. I will include a few useful tools and interesting papers that I’ve encountered, but there is some introspection that needs to be done now that we are...",
     "coverImage": "/images/blog/2025-01-06-do-i-use-ai-to-write-this-newsletter/image-01.jpg",
     "tags": [
-      "AI Strategy"
+      "Leadership & Personal Growth",
+      "Generative Media & Diffusion",
+      "AI Agents & Agentic Workflows"
     ],
     "readTime": "6 min read",
     "file": "content/blog/2025-01-06-do-i-use-ai-to-write-this-newsletter.md"
@@ -1136,7 +1290,9 @@
     "description": "The last newsletter of the year. Got all 52 weeks, and combined with the previous efforts from 2023 brings the total to 71 weeks unbroken. There are certainly some weeks where I don’t feel much like w...",
     "coverImage": "/images/blog/2024-12-30-the-value-of-experts-in-ai/image-01.jpg",
     "tags": [
-      "AI Strategy"
+      "Careers, Hiring & Future of Work",
+      "Frontier Labs & Model Releases",
+      "Reasoning Models & RL"
     ],
     "readTime": "8 min read",
     "file": "content/blog/2024-12-30-the-value-of-experts-in-ai.md"
@@ -1148,8 +1304,9 @@
     "description": "Last week I reviewed my 2024 predictions and put my thoughts and beliefs on paper for 2025. However, I missed something in prediction and it was also something that I failed to recognize or predict du...",
     "coverImage": "/images/blog/2024-12-23-i-missed-something/image-01.jpg",
     "tags": [
-      "AI Strategy",
-      "Motorsport & Dynamics"
+      "Reasoning Models & RL",
+      "Motorsport & Engineering",
+      "Context, Memory & Knowledge Management"
     ],
     "readTime": "7 min read",
     "file": "content/blog/2024-12-23-i-missed-something.md"
@@ -1161,7 +1318,7 @@
     "description": "By Marshall Jung on December 16, 2024",
     "coverImage": "",
     "tags": [
-      "Intelligence"
+      "AI Economics & Infrastructure"
     ],
     "readTime": "1 min read",
     "file": "content/blog/2024-12-16-wrote-this-week-in-another-article-here-https-me.md"
@@ -1173,7 +1330,9 @@
     "description": "Yay! It’s time! Time for the end of the year predictions and review of the prognostications for the last 12 months. These are supposed to…",
     "coverImage": "/images/blog/2024-12-15-year-in-review-and-a-view-to-2025/image-01.png",
     "tags": [
-      "AI Strategy"
+      "AI Economics & Infrastructure",
+      "LLM Training & Fine-Tuning",
+      "AI Security & Safety"
     ],
     "readTime": "22 min read",
     "file": "content/blog/2024-12-15-year-in-review-and-a-view-to-2025.md"
@@ -1185,7 +1344,9 @@
     "description": "It was quite busy this past week, so we will get this week underway with a rapid fire M(3). Next week I’ll be trying to scrutinize the inner workings for my 2025 crystal ball.",
     "coverImage": "/images/blog/2024-12-09-openai-celebrates-christmas/image-01.jpg",
     "tags": [
-      "AI Strategy"
+      "Frontier Labs & Model Releases",
+      "Reasoning Models & RL",
+      "Motorsport & Engineering"
     ],
     "readTime": "5 min read",
     "file": "content/blog/2024-12-09-openai-celebrates-christmas.md"
@@ -1197,7 +1358,8 @@
     "description": "This past week I had a short, but very enlightening conversation with a recruiter. Someone who has had great success finding, and attracting top technical talent to tech organisations. Think L7 type I...",
     "coverImage": "/images/blog/2024-12-02-those-who-know/image-01.jpg",
     "tags": [
-      "AI Strategy"
+      "AI Agents & Agentic Workflows",
+      "Careers, Hiring & Future of Work"
     ],
     "readTime": "5 min read",
     "file": "content/blog/2024-12-02-those-who-know.md"
@@ -1209,7 +1371,9 @@
     "description": "As I was listening to my wife talk about the VA, and the tragic inability of our veterans to get the mental health help they so desperately need I was saddened. Much of the problem stems from the laby...",
     "coverImage": "/images/blog/2024-11-25-not-a-palette-cleanser/image-01.jpg",
     "tags": [
-      "AI Strategy"
+      "AI Hype & Skepticism",
+      "Generative Media & Diffusion",
+      "RAG & Embeddings"
     ],
     "readTime": "4 min read",
     "file": "content/blog/2024-11-25-not-a-palette-cleanser.md"
@@ -1221,7 +1385,9 @@
     "description": "So it was bound to happen. I am perpetually early to trends and technology, however I tend to get at least the direction correct, even if the details might need a little filling. It’s not because I’m ...",
     "coverImage": "/images/blog/2024-11-18-the-rumors-of-my-demise/image-01.jpg",
     "tags": [
-      "AI Strategy"
+      "AI Hype & Skepticism",
+      "AI Economics & Infrastructure",
+      "LLM Training & Fine-Tuning"
     ],
     "readTime": "8 min read",
     "file": "content/blog/2024-11-18-the-rumors-of-my-demise.md"
@@ -1233,7 +1399,8 @@
     "description": "A favorite book of mine by the author C.S. Lewis has a line that I often remember when times get tough.",
     "coverImage": "/images/blog/2024-11-11-stay-strong/image-01.jpg",
     "tags": [
-      "AI Strategy"
+      "AI Coding & Developer Tools",
+      "Open Source & Local AI"
     ],
     "readTime": "5 min read",
     "file": "content/blog/2024-11-11-stay-strong.md"
@@ -1245,7 +1412,9 @@
     "description": "It’s my favorite month! Mo’vember! Partly because it makes my wife groan, but let’s gooo! C’mon fellow mustachioed enthusiasts. Post ‘em.",
     "coverImage": "/images/blog/2024-11-04-adoption/image-01.jpg",
     "tags": [
-      "AI Strategy"
+      "Enterprise AI Adoption & ROI",
+      "AI Hype & Skepticism",
+      "RAG & Embeddings"
     ],
     "readTime": "5 min read",
     "file": "content/blog/2024-11-04-adoption.md"
@@ -1257,7 +1426,9 @@
     "description": "Last Sunday I listened to a sermon that I think has some crossover to the world of AI and ultimately the pursuit of AGI. While the words were not specifically, nor generally, aimed at the world of tec...",
     "coverImage": "/images/blog/2024-10-28-a-controversial-take/image-01.jpg",
     "tags": [
-      "AI Strategy"
+      "Frontier Labs & Model Releases",
+      "AI Security & Safety",
+      "AI Agents & Agentic Workflows"
     ],
     "readTime": "7 min read",
     "file": "content/blog/2024-10-28-a-controversial-take.md"
@@ -1269,7 +1440,8 @@
     "description": "So, dear readers…I’ll ask you the same question I’ve seen posed in several places across the bleeding edge of the internet over the past 3…",
     "coverImage": "/images/blog/2024-10-21-when-the-low-hanging-fruit-is-rotten/image-01.jpg",
     "tags": [
-      "AI Strategy"
+      "RAG & Embeddings",
+      "Enterprise AI Adoption & ROI"
     ],
     "readTime": "9 min read",
     "file": "content/blog/2024-10-21-when-the-low-hanging-fruit-is-rotten.md"
@@ -1281,8 +1453,9 @@
     "description": "Late night Sunday, long weekend at the racetrack for the last Porsche Club DE of the 2024 season. Sometimes banging out these newsletters is tougher than other times. Habits are a good thing though an...",
     "coverImage": "/images/blog/2024-10-14-the-agreeable-liar/image-01.jpg",
     "tags": [
-      "AI Strategy",
-      "Motorsport & Dynamics"
+      "Motorsport & Engineering",
+      "AI Security & Safety",
+      "AI Hype & Skepticism"
     ],
     "readTime": "5 min read",
     "file": "content/blog/2024-10-14-the-agreeable-liar.md"
@@ -1294,7 +1467,9 @@
     "description": "Two stories and a tweet to read this week that touch on the transition to an AI powered knowledge economy. While some might see them as a bit negative, I prefer to see them through a glass half full.",
     "coverImage": "/images/blog/2024-10-07-a-problem-with-trust/image-01.jpg",
     "tags": [
-      "AI Strategy"
+      "Enterprise AI Adoption & ROI",
+      "Context, Memory & Knowledge Management",
+      "AI Security & Safety"
     ],
     "readTime": "7 min read",
     "file": "content/blog/2024-10-07-a-problem-with-trust.md"
@@ -1306,7 +1481,9 @@
     "description": "Swings and roundabouts. It was always going to be that way. In the last week I read two articles around the failure to launch for AI initiatives at two of the biggest.",
     "coverImage": "/images/blog/2024-09-30-being-overeager/image-01.jpg",
     "tags": [
-      "AI Strategy"
+      "Enterprise AI Adoption & ROI",
+      "Open Source & Local AI",
+      "AI Hype & Skepticism"
     ],
     "readTime": "5 min read",
     "file": "content/blog/2024-09-30-being-overeager.md"
@@ -1318,7 +1495,9 @@
     "description": "Last week’s newsletter was more of a deep dive article into OpenAI’s o1 model. I thought it important enough to focus on since it does represent a meaningful step change in LLM type models. (Or iLLMs ...",
     "coverImage": "/images/blog/2024-09-23-when-the-best-agree/image-01.jpg",
     "tags": [
-      "AI Strategy"
+      "Generative Media & Diffusion",
+      "Reasoning Models & RL",
+      "AI Hype & Skepticism"
     ],
     "readTime": "5 min read",
     "file": "content/blog/2024-09-23-when-the-best-agree.md"
@@ -1330,7 +1509,9 @@
     "description": "It’s always important to acknowledge when events that change your paradigm happen. Does o1/Strawberry/Q*/Orion change the outlook that I had with regards to plateauing of AI models? In a way yes it do...",
     "coverImage": "/images/blog/2024-09-16-the-forbidden-fruit-tasty-but-is-it-a-game-changer/image-01.jpg",
     "tags": [
-      "AI Strategy"
+      "Reasoning Models & RL",
+      "Frontier Labs & Model Releases",
+      "AI Economics & Infrastructure"
     ],
     "readTime": "8 min read",
     "file": "content/blog/2024-09-16-the-forbidden-fruit-tasty-but-is-it-a-game-changer.md"
@@ -1342,7 +1523,9 @@
     "description": "It’s always important to acknowledge when events that change your paradigm happen. Does o1/Strawberry/Q*/Orion change the outlook that I…",
     "coverImage": "/images/blog/2024-09-14-the-forbidden-fruit-tasty-but-is-it-a-game-changer/image-01.jpg",
     "tags": [
-      "AI Strategy"
+      "Reasoning Models & RL",
+      "Frontier Labs & Model Releases",
+      "AI Economics & Infrastructure"
     ],
     "readTime": "8 min read",
     "file": "content/blog/2024-09-14-the-forbidden-fruit-tasty-but-is-it-a-game-changer.md"
@@ -1354,7 +1537,9 @@
     "description": "This past week I had a lovely and enlightening conversation with one of the people that I have been lucky to meet in my effort to expand my network and knowledge base while looking for my next role. O...",
     "coverImage": "/images/blog/2024-09-09-mental-superposition/image-01.jpg",
     "tags": [
-      "AI Strategy"
+      "Careers, Hiring & Future of Work",
+      "AI Economics & Infrastructure",
+      "Leadership & Personal Growth"
     ],
     "readTime": "6 min read",
     "file": "content/blog/2024-09-09-mental-superposition.md"
@@ -1366,7 +1551,8 @@
     "description": "This past week I had the opportunity to interview (and test) with a leading AI research company. You might know them, as the AI is French and writes music and poetry. I’ll save you the suspense and te...",
     "coverImage": "/images/blog/2024-09-03-happy-i-made-it-this-far/image-01.png",
     "tags": [
-      "AI Strategy"
+      "Careers, Hiring & Future of Work",
+      "LLM Training & Fine-Tuning"
     ],
     "readTime": "6 min read",
     "file": "content/blog/2024-09-03-happy-i-made-it-this-far.md"
@@ -1378,7 +1564,9 @@
     "description": "Those longer term readers of the newsletter will know that I am very bullish on LLM based tools making a real impact in industry verticals rather than broad based “AGI” type tools. The more structured...",
     "coverImage": "/images/blog/2024-08-26-where-it-all-makes-a-difference/image-01.jpg",
     "tags": [
-      "AI Strategy"
+      "Enterprise AI Adoption & ROI",
+      "RAG & Embeddings",
+      "AI Economics & Infrastructure"
     ],
     "readTime": "5 min read",
     "file": "content/blog/2024-08-26-where-it-all-makes-a-difference.md"
@@ -1390,7 +1578,8 @@
     "description": "Those that know me understand that staying fit is a lifetime passion for me. Not only does it keep a person feeling energetic, it has many mental health benefits as well. It’s awfully easy to stay so ...",
     "coverImage": "/images/blog/2024-08-19-goodness-of-fit-sort-of/image-01.jpg",
     "tags": [
-      "AI Strategy"
+      "AI Hype & Skepticism",
+      "LLM Training & Fine-Tuning"
     ],
     "readTime": "6 min read",
     "file": "content/blog/2024-08-19-goodness-of-fit-sort-of.md"
@@ -1402,7 +1591,9 @@
     "description": "When I say that this is written to the masses, in this case I mean both employees and employers in the tech space. So…not exactly the masses, but enough folks these days. I was tracking tech layoffs (...",
     "coverImage": "/images/blog/2024-08-12-message-to-the-masses/image-01.jpg",
     "tags": [
-      "AI Strategy"
+      "Careers, Hiring & Future of Work",
+      "Reasoning Models & RL",
+      "Motorsport & Engineering"
     ],
     "readTime": "5 min read",
     "file": "content/blog/2024-08-12-message-to-the-masses.md"
@@ -1414,7 +1605,9 @@
     "description": "So I’m not typically given to frustration, but it has been a bit disheartening to be both right and have nothing to show for it. I think we are well on our way to an AI wipeout at this point. Combined...",
     "coverImage": "/images/blog/2024-08-05-dealing-with-it/image-01.jpg",
     "tags": [
-      "AI Strategy"
+      "Data Science & Classic ML",
+      "AI Hype & Skepticism",
+      "AI Economics & Infrastructure"
     ],
     "readTime": "4 min read",
     "file": "content/blog/2024-08-05-dealing-with-it.md"
@@ -1426,7 +1619,9 @@
     "description": "OpenAI may lose $5B this year & may run out of cash in 12 months, unless they raise more $, per analysis by The Information (above link). What is their moat? Unique tech? What is their route in profit...",
     "coverImage": "/images/blog/2024-07-29-it-worked-for-other-tech-companies-why-not-openai/image-01.jpg",
     "tags": [
-      "AI Strategy"
+      "AI Economics & Infrastructure",
+      "Reasoning Models & RL",
+      "Data Science & Classic ML"
     ],
     "readTime": "4 min read",
     "file": "content/blog/2024-07-29-it-worked-for-other-tech-companies-why-not-openai.md"
@@ -1438,7 +1633,9 @@
     "description": "News in the tech space comes fast. I am mostly interested in the world of machine learning, but occasionally something that crosses paths with the future of technology as I see it piques my interest. ...",
     "coverImage": "/images/blog/2024-07-22-how-complex-systems-fail/image-01.jpg",
     "tags": [
-      "AI Strategy"
+      "AI Security & Safety",
+      "LLM Training & Fine-Tuning",
+      "RAG & Embeddings"
     ],
     "readTime": "5 min read",
     "file": "content/blog/2024-07-22-how-complex-systems-fail.md"
@@ -1450,7 +1647,9 @@
     "description": "In the latest episode here: https://music.youtube.com/watch?v=w30WLkNU47g&si=np_Qj_Tj_ut9YzWJ&t=1248 they talk about the “bubble” in AI investment. In particular they referenced this blog by David Cah...",
     "coverImage": "/images/blog/2024-07-15-all-in/image-01.jpg",
     "tags": [
-      "AI Strategy"
+      "AI Economics & Infrastructure",
+      "Data Science & Classic ML",
+      "Motorsport & Engineering"
     ],
     "readTime": "5 min read",
     "file": "content/blog/2024-07-15-all-in.md"
@@ -1462,7 +1661,9 @@
     "description": "Sometimes when the news cycle in the world of machine learning is a bit slower around the holidays and in the summer when people are on vacation I tend to look for ideas that are more inspirational. P...",
     "coverImage": "/images/blog/2024-07-08-truth-that-i-wished-i-knew-earlier/image-01.jpg",
     "tags": [
-      "AI Strategy"
+      "LLM Training & Fine-Tuning",
+      "RAG & Embeddings",
+      "Leadership & Personal Growth"
     ],
     "readTime": "5 min read",
     "file": "content/blog/2024-07-08-truth-that-i-wished-i-knew-earlier.md"
@@ -1474,7 +1675,9 @@
     "description": "Everyone’s an expert right? Only about 18 months after the widespread publicity of GPT-3 and other foundational models the number of people with “AI Innovator” or other guru like title is thicker than...",
     "coverImage": "/images/blog/2024-07-01-where-to-specialize/image-01.jpg",
     "tags": [
-      "AI Strategy"
+      "Careers, Hiring & Future of Work",
+      "Context, Memory & Knowledge Management",
+      "AI Security & Safety"
     ],
     "readTime": "4 min read",
     "file": "content/blog/2024-07-01-where-to-specialize.md"
@@ -1486,7 +1689,9 @@
     "description": "With any new technology, be it silicon based, medical or physical, we are not immune from the hype curve. This is different from the adoption curve, which one might say is the first derivative of the ...",
     "coverImage": "/images/blog/2024-06-24-the-slope-of-cope/image-01.jpg",
     "tags": [
-      "AI Strategy"
+      "AI Hype & Skepticism",
+      "RAG & Embeddings",
+      "Careers, Hiring & Future of Work"
     ],
     "readTime": "6 min read",
     "file": "content/blog/2024-06-24-the-slope-of-cope.md"
@@ -1498,7 +1703,9 @@
     "description": "NOTE: I’m now uploading my weekly newsletters to my Medium page (newest on top) for folks to find them should the e-mail go missing or is hard to find.",
     "coverImage": "/images/blog/2024-06-17-note/image-01.jpg",
     "tags": [
-      "AI Strategy"
+      "Frontier Labs & Model Releases",
+      "AI Security & Safety",
+      "LLM Training & Fine-Tuning"
     ],
     "readTime": "5 min read",
     "file": "content/blog/2024-06-17-note.md"
@@ -1510,7 +1717,9 @@
     "description": "I’ve been pretty outspoken about the appropriate application of autoregressive transformer based models to everyday business use cases. I recently had a brief conversation with a big cloud company tha...",
     "coverImage": "/images/blog/2024-06-10-on-the-application-of-llms/image-01.jpg",
     "tags": [
-      "AI Strategy"
+      "AI Economics & Infrastructure",
+      "AI Hype & Skepticism",
+      "Data Science & Classic ML"
     ],
     "readTime": "5 min read",
     "file": "content/blog/2024-06-10-on-the-application-of-llms.md"
@@ -1522,7 +1731,9 @@
     "description": "I recently had an interview with a startup company in the AI model management space. It seems like a solid company from what I can gather, and in an area that I believe will actually be quite needed i...",
     "coverImage": "/images/blog/2024-06-03-thoughts-on-coding-exams/image-01.jpg",
     "tags": [
-      "AI Strategy"
+      "Careers, Hiring & Future of Work",
+      "Data Science & Classic ML",
+      "RAG & Embeddings"
     ],
     "readTime": "7 min read",
     "file": "content/blog/2024-06-03-thoughts-on-coding-exams.md"
@@ -1534,7 +1745,8 @@
     "description": "When the web 3.0/crypto/NFT hype was at its peak, I’ll admit that I was singularly unimpressed. Sure, there are interesting uses for blockchain technology in very specific cryptographic applications, ...",
     "coverImage": "/images/blog/2024-05-27-this-is-why-we-cant-have-nice-things/image-01.jpg",
     "tags": [
-      "AI Strategy"
+      "AI Hype & Skepticism",
+      "AI Security & Safety"
     ],
     "readTime": "5 min read",
     "file": "content/blog/2024-05-27-this-is-why-we-cant-have-nice-things.md"
@@ -1546,7 +1758,9 @@
     "description": "This last week saw two of the biggest heavyweights in AI, Google and OpenAI release new all-in-one models. In some ways they were very similar. Multimodal models that are trying to be everything to ev...",
     "coverImage": "/images/blog/2024-05-20-a-war-on-two-fronts/image-01.jpg",
     "tags": [
-      "AI Strategy"
+      "Frontier Labs & Model Releases",
+      "AI Security & Safety",
+      "Generative Media & Diffusion"
     ],
     "readTime": "6 min read",
     "file": "content/blog/2024-05-20-a-war-on-two-fronts.md"
@@ -1558,7 +1772,8 @@
     "description": "A few observational paragraphs this week before we get into the news. The observation and the opinion piece are related.",
     "coverImage": "/images/blog/2024-05-13-n-a-x-a-l-t-fallacy/image-01.jpg",
     "tags": [
-      "AI Strategy"
+      "Data Science & Classic ML",
+      "AI Hype & Skepticism"
     ],
     "readTime": "6 min read",
     "file": "content/blog/2024-05-13-n-a-x-a-l-t-fallacy.md"
@@ -1570,7 +1785,9 @@
     "description": "Synthetic Data — Meet the new Oops…same as the old one.",
     "coverImage": "/images/blog/2024-05-10-same-as-it-always-was/image-01.jpg",
     "tags": [
-      "AI Strategy"
+      "Data Science & Classic ML",
+      "LLM Training & Fine-Tuning",
+      "RAG & Embeddings"
     ],
     "readTime": "3 min read",
     "file": "content/blog/2024-05-10-same-as-it-always-was.md"
@@ -1582,7 +1799,9 @@
     "description": "We all go through tough times. For some it’s family related, others have health issues. But for the vast number of us we will also at some point face pain in our working lives. I know that these days ...",
     "coverImage": "/images/blog/2024-05-06-dealing-with-tough-times/image-01.jpg",
     "tags": [
-      "AI Strategy"
+      "Leadership & Personal Growth",
+      "LLM Training & Fine-Tuning",
+      "AI Hype & Skepticism"
     ],
     "readTime": "3 min read",
     "file": "content/blog/2024-05-06-dealing-with-tough-times.md"
@@ -1594,7 +1813,8 @@
     "description": "So many people are confused about the relation between human cognitive errors and LLM hallucinations that I wrote this short explainer:",
     "coverImage": "/images/blog/2024-04-29-they-are-not-human-yet/image-01.jpg",
     "tags": [
-      "AI Strategy"
+      "AI Hype & Skepticism",
+      "AI Economics & Infrastructure"
     ],
     "readTime": "5 min read",
     "file": "content/blog/2024-04-29-they-are-not-human-yet.md"
@@ -1606,7 +1826,9 @@
     "description": "This Twitter thread is, I think, a good summary of how the vast majority of folks will use AI in the coding world. I count myself among this identified group. People who are intelligent, curious and u...",
     "coverImage": "/images/blog/2024-04-22-useful-rules-and-razors/image-01.jpg",
     "tags": [
-      "AI Strategy"
+      "Frontier Labs & Model Releases",
+      "AI Economics & Infrastructure",
+      "Leadership & Personal Growth"
     ],
     "readTime": "7 min read",
     "file": "content/blog/2024-04-22-useful-rules-and-razors.md"
@@ -1618,7 +1840,9 @@
     "description": "I think it’s a uniquely rare quality to have an open mind with defensible and consistent ethical principles COMBINED with the willingness to be public with one’s opinions. I strive to read the tea lea...",
     "coverImage": "/images/blog/2024-04-15-know-when-youre-wrong/image-01.jpg",
     "tags": [
-      "AI Strategy"
+      "AI Hype & Skepticism",
+      "LLM Training & Fine-Tuning",
+      "RAG & Embeddings"
     ],
     "readTime": "4 min read",
     "file": "content/blog/2024-04-15-know-when-youre-wrong.md"
@@ -1630,7 +1854,9 @@
     "description": "If you have the same opinions as everyone around you, then either you are basing your views on your friends or you are basing your friends on your views.",
     "coverImage": "/images/blog/2024-04-08-when-youre-out-there-in-the-world/image-01.jpg",
     "tags": [
-      "AI Strategy"
+      "Enterprise AI Adoption & ROI",
+      "LLM Training & Fine-Tuning",
+      "AI Security & Safety"
     ],
     "readTime": "4 min read",
     "file": "content/blog/2024-04-08-when-youre-out-there-in-the-world.md"
@@ -1642,7 +1868,9 @@
     "description": "This last week I spent a day at a workshop sponsored by a big player in the data analytics platform space. They, like many others, have gone all in with the “AI” revolution. Curiously, when I had talk...",
     "coverImage": "/images/blog/2024-04-01-are-you-sure-you-want-to-do-that/image-01.jpg",
     "tags": [
-      "AI Strategy"
+      "Enterprise AI Adoption & ROI",
+      "AI Security & Safety",
+      "Context, Memory & Knowledge Management"
     ],
     "readTime": "4 min read",
     "file": "content/blog/2024-04-01-are-you-sure-you-want-to-do-that.md"
@@ -1654,7 +1882,9 @@
     "description": "I’ll go ahead and make the assumption that most of my readers are experienced users of AI tools. But for those that are not, I assume that…",
     "coverImage": "/images/blog/2024-03-26-traversing-the-hype-curve/image-01.jpg",
     "tags": [
-      "AI Strategy"
+      "AI Hype & Skepticism",
+      "AI Economics & Infrastructure",
+      "Enterprise AI Adoption & ROI"
     ],
     "readTime": "5 min read",
     "file": "content/blog/2024-03-26-traversing-the-hype-curve.md"
@@ -1666,7 +1896,9 @@
     "description": "A bit shorter take this week. The world of AI seems to move in waves, as is the way in all things in this world. So a bit of an observation and a few nifty things after that.",
     "coverImage": "/images/blog/2024-03-25-peak-ai-excerpt-from-my-medium-blog-of-the-same-title/image-01.jpg",
     "tags": [
-      "AI Strategy"
+      "AI Hype & Skepticism",
+      "AI Economics & Infrastructure",
+      "Enterprise AI Adoption & ROI"
     ],
     "readTime": "7 min read",
     "file": "content/blog/2024-03-25-peak-ai-excerpt-from-my-medium-blog-of-the-same-title.md"
@@ -1678,7 +1910,9 @@
     "description": "“…failure and invention are inseparable twins. To invent you have to experiment, and if you know in advance that it’s going to work, it’s not an experiment. Most large organizations embrace the idea o...",
     "coverImage": "/images/blog/2024-03-18-why-moonshots-are-important/image-01.jpg",
     "tags": [
-      "AI Strategy"
+      "Context, Memory & Knowledge Management",
+      "AI Economics & Infrastructure",
+      "Leadership & Personal Growth"
     ],
     "readTime": "6 min read",
     "file": "content/blog/2024-03-18-why-moonshots-are-important.md"
@@ -1690,7 +1924,9 @@
     "description": "Recently Jensen Huang, CEO of NVIDIA, claimed that programming languages are a thing of the past. He believes that in the future humans will interact with computer systems using prompting via LLM type...",
     "coverImage": "/images/blog/2024-03-11-by-another-name/image-01.jpg",
     "tags": [
-      "AI Strategy"
+      "Frontier Labs & Model Releases",
+      "RAG & Embeddings",
+      "Generative Media & Diffusion"
     ],
     "readTime": "4 min read",
     "file": "content/blog/2024-03-11-by-another-name.md"
@@ -1702,7 +1938,9 @@
     "description": "Not to beat a dead horse, but the risks, ethics and misunderstandings of AI continue to be something that I discuss with folks on an increasing basis and especially after the recent Google Gemini issu...",
     "coverImage": "/images/blog/2024-03-04-feedback/image-01.jpg",
     "tags": [
-      "AI Strategy"
+      "AI Security & Safety",
+      "Frontier Labs & Model Releases",
+      "LLM Training & Fine-Tuning"
     ],
     "readTime": "7 min read",
     "file": "content/blog/2024-03-04-feedback.md"
@@ -1714,7 +1952,9 @@
     "description": "This Monday’s newsletter will be a bit shorter on the news side, and more heavy on the opinion side. While there were interesting concepts I found while researching, the real news came from the ruckus...",
     "coverImage": "",
     "tags": [
-      "AI Strategy"
+      "Frontier Labs & Model Releases",
+      "Leadership & Personal Growth",
+      "AI Security & Safety"
     ],
     "readTime": "5 min read",
     "file": "content/blog/2024-02-26-trust.md"
@@ -1726,7 +1966,9 @@
     "description": "There comes a time in many meetings where someone says something of the form",
     "coverImage": "/images/blog/2024-02-18-dont-wait-for-the-followup-meeting/image-01.jpg",
     "tags": [
-      "AI Strategy"
+      "Frontier Labs & Model Releases",
+      "Generative Media & Diffusion",
+      "Leadership & Personal Growth"
     ],
     "readTime": "4 min read",
     "file": "content/blog/2024-02-18-dont-wait-for-the-followup-meeting.md"
@@ -1738,7 +1980,9 @@
     "description": "“Every single person is exactly what you would be if you were them. This includes your political opponents. So instead of dismissing them as evil or stupid, maybe seek to understand the circumstances ...",
     "coverImage": "/images/blog/2024-02-12-in-anothers-shoes/image-01.jpg",
     "tags": [
-      "AI Strategy"
+      "LLM Training & Fine-Tuning",
+      "Generative Media & Diffusion",
+      "AI Coding & Developer Tools"
     ],
     "readTime": "3 min read",
     "file": "content/blog/2024-02-12-in-anothers-shoes.md"
@@ -1750,7 +1994,8 @@
     "description": "Rival products (burgers, pop songs, political parties) tend to grow more alike over time, because creators copy more successful rivals to replicate their success and steal their customers/audiences. P...",
     "coverImage": "/images/blog/2024-02-05-rebel-with-a-cause/image-01.png",
     "tags": [
-      "AI Strategy"
+      "Generative Media & Diffusion",
+      "AI Coding & Developer Tools"
     ],
     "readTime": "3 min read",
     "file": "content/blog/2024-02-05-rebel-with-a-cause.md"
@@ -1762,7 +2007,9 @@
     "description": "“Our complaint against dying is ultimately an admission that we haven’t learnt how to live. The goal shouldn’t be to stretch time out yet further. We should be ready to go pretty much any time after f...",
     "coverImage": "/images/blog/2024-01-29-it-is-something-we-all-think-about/image-01.jpg",
     "tags": [
-      "AI Strategy"
+      "Open Source & Local AI",
+      "AI Security & Safety",
+      "Generative Media & Diffusion"
     ],
     "readTime": "4 min read",
     "file": "content/blog/2024-01-29-it-is-something-we-all-think-about.md"
@@ -1774,7 +2021,9 @@
     "description": "“The rise of social media as the primary mode of interaction has caused us to overvalue opinions as a gauge of character. We are now defined more by what we say than what we actually do, and words, un...",
     "coverImage": "/images/blog/2024-01-22-being-authentic-today/image-01.jpg",
     "tags": [
-      "AI Strategy"
+      "AI Coding & Developer Tools",
+      "RAG & Embeddings",
+      "Open Source & Local AI"
     ],
     "readTime": "4 min read",
     "file": "content/blog/2024-01-22-being-authentic-today.md"
@@ -1786,8 +2035,7 @@
     "description": "Personal growth and self improvement is liberating, fulfilling and exciting. But it’s also a trap that convinces you that you’re somehow unfinished and that life isn’t something to enjoy living quite ...",
     "coverImage": "/images/blog/2024-01-15-personal-growth/image-01.jpg",
     "tags": [
-      "AI Strategy",
-      "Motorsport & Dynamics"
+      "Leadership & Personal Growth"
     ],
     "readTime": "4 min read",
     "file": "content/blog/2024-01-15-personal-growth.md"
@@ -1799,7 +2047,9 @@
     "description": "I came across this picture on Twitter and I felt it was a good reminder for us to think about daily. Few of us are gifted with the ability to see things from a realistic distance in a naturally talent...",
     "coverImage": "/images/blog/2024-01-08-resolutions/image-01.jpg",
     "tags": [
-      "Intelligence"
+      "Motorsport & Engineering",
+      "RAG & Embeddings",
+      "Leadership & Personal Growth"
     ],
     "readTime": "2 min read",
     "file": "content/blog/2024-01-08-resolutions.md"
@@ -1811,7 +2061,8 @@
     "description": "I hope everyone is having a lovely start to the new year. I’ll pretend that this newsletter will cure all hangovers and help facilitate a productive start to 2024, but alas, that is up to y’all. I wil...",
     "coverImage": "/images/blog/2024-01-01-happy-new-year/image-01.jpg",
     "tags": [
-      "AI Strategy"
+      "Frontier Labs & Model Releases",
+      "AI Security & Safety"
     ],
     "readTime": "3 min read",
     "file": "content/blog/2024-01-01-happy-new-year.md"
@@ -1823,7 +2074,8 @@
     "description": "I wrote a story a while back, but I thought it might be interesting for others to read.",
     "coverImage": "/images/blog/2023-12-25-merry-christmas/image-01.jpg",
     "tags": [
-      "Intelligence"
+      "Leadership & Personal Growth",
+      "Motorsport & Engineering"
     ],
     "readTime": "3 min read",
     "file": "content/blog/2023-12-25-merry-christmas.md"
@@ -1835,7 +2087,9 @@
     "description": "I’m going to be paraphrasing Tom Bilyeu here. Too many of us today define ourselves through the echo. We see ourselves only through what we hear back from others. Whether through social media or gossi...",
     "coverImage": "",
     "tags": [
-      "AI Strategy"
+      "AI Hype & Skepticism",
+      "RAG & Embeddings",
+      "Leadership & Personal Growth"
     ],
     "readTime": "5 min read",
     "file": "content/blog/2023-12-18-the-echo-and-the-shout.md"
@@ -1847,7 +2101,9 @@
     "description": "Your attitude is not proportional to how you feel about your successes. Your attitude is how you feel about your failures. A person who loves and cares for themselves does not have an overwhelming nee...",
     "coverImage": "/images/blog/2023-12-11-willingness-to-fail/image-01.jpg",
     "tags": [
-      "AI Strategy"
+      "AI Security & Safety",
+      "Open Source & Local AI",
+      "Leadership & Personal Growth"
     ],
     "readTime": "6 min read",
     "file": "content/blog/2023-12-11-willingness-to-fail.md"
@@ -1859,8 +2115,9 @@
     "description": "The Abilene paradox is a group dynamic where a group of people agree on a course of action that goes against the preferences of the individual members. This explains why a group made up of very intell...",
     "coverImage": "/images/blog/2023-12-04-the-buck-stops/image-01.jpg",
     "tags": [
-      "AI Strategy",
-      "Motorsport & Dynamics"
+      "Motorsport & Engineering",
+      "AI Hype & Skepticism",
+      "Leadership & Personal Growth"
     ],
     "readTime": "7 min read",
     "file": "content/blog/2023-12-04-the-buck-stops.md"
@@ -1872,7 +2129,8 @@
     "description": "Whether writing an article, creating a presentation or making an argument remember the Serial-Position Effect:",
     "coverImage": "",
     "tags": [
-      "AI Strategy"
+      "LLM Training & Fine-Tuning",
+      "Reasoning Models & RL"
     ],
     "readTime": "2 min read",
     "file": "content/blog/2023-11-27-when-you-need-to-write-something.md"
@@ -1884,7 +2142,9 @@
     "description": "“If you had disadvantages — I agree with you. You are right. It’s harder to be successful if “X” happened to you. Replace “X” with: Gender, race, birth deformity, different language, different country...",
     "coverImage": "/images/blog/2023-11-20-play-the-hand-youre-dealt/image-01.jpg",
     "tags": [
-      "AI Strategy"
+      "Leadership & Personal Growth",
+      "Frontier Labs & Model Releases",
+      "Motorsport & Engineering"
     ],
     "readTime": "4 min read",
     "file": "content/blog/2023-11-20-play-the-hand-youre-dealt.md"
@@ -1896,7 +2156,9 @@
     "description": "“Dopamine is not about the pursuit of happiness, it is about the happiness of pursuit.” — Dr Robert Sapolsky",
     "coverImage": "/images/blog/2023-11-13-its-not-the-having/image-01.jpg",
     "tags": [
-      "AI Strategy"
+      "Context, Memory & Knowledge Management",
+      "Generative Media & Diffusion",
+      "AI Economics & Infrastructure"
     ],
     "readTime": "3 min read",
     "file": "content/blog/2023-11-13-its-not-the-having.md"
@@ -1908,7 +2170,9 @@
     "description": "“I spent so much of my life terrified of what I was going to become and whether I was going to be right here right now. God, how much time did I waste afraid I wasn’t going to be right here right now?...",
     "coverImage": "/images/blog/2023-11-06-know-your-mission-and-have-faith/image-01.jpg",
     "tags": [
-      "Intelligence"
+      "Generative Media & Diffusion",
+      "Leadership & Personal Growth",
+      "AI Hype & Skepticism"
     ],
     "readTime": "3 min read",
     "file": "content/blog/2023-11-06-know-your-mission-and-have-faith.md"
@@ -1920,8 +2184,9 @@
     "description": "“A man who procrastinates in his choosing will inevitably have his choice made for him by circumstance.” — Hunter S. Thompson",
     "coverImage": "",
     "tags": [
-      "AI Strategy",
-      "Motorsport & Dynamics"
+      "RAG & Embeddings",
+      "LLM Training & Fine-Tuning",
+      "Motorsport & Engineering"
     ],
     "readTime": "3 min read",
     "file": "content/blog/2023-10-30-how-to-decide.md"
@@ -1933,7 +2198,9 @@
     "description": "“A journey will have pain and failure. It is not only the steps forward that we must accept. It is the stumbles. The trials. The knowledge that we will fail. That we will hurt those around us. But if ...",
     "coverImage": "/images/blog/2023-10-23-the-path/image-01.jpg",
     "tags": [
-      "AI Strategy"
+      "RAG & Embeddings",
+      "AI Agents & Agentic Workflows",
+      "Data Science & Classic ML"
     ],
     "readTime": "3 min read",
     "file": "content/blog/2023-10-23-the-path.md"
@@ -1945,7 +2212,8 @@
     "description": "For the past month or so there has been a thought rattling around my head in quieter times while organizing my garage or cleaning the…",
     "coverImage": "/images/blog/2023-10-22-the-language-of-embeddings/image-01.jpg",
     "tags": [
-      "AI Strategy"
+      "RAG & Embeddings",
+      "LLM Training & Fine-Tuning"
     ],
     "readTime": "5 min read",
     "file": "content/blog/2023-10-22-the-language-of-embeddings.md"
@@ -1957,7 +2225,8 @@
     "description": "Isaac Asimov once said “The most exciting phrase to hear in science, the one that heralds new discoveries, is not ‘Eureka!’ but ‘Hmmm…that’s funny…’”",
     "coverImage": "/images/blog/2023-10-16-discovery/image-01.jpg",
     "tags": [
-      "AI Strategy"
+      "Open Source & Local AI",
+      "LLM Training & Fine-Tuning"
     ],
     "readTime": "1 min read",
     "file": "content/blog/2023-10-16-discovery.md"
@@ -1969,7 +2238,8 @@
     "description": "“The best new ideas always have unanticipated benefits. So it’s stupid to require people who want to do new things to enumerate the benefits beforehand. The best you can do is choose smart people and ...",
     "coverImage": "/images/blog/2023-10-09-paul-graham-on-new-ideas/image-01.jpg",
     "tags": [
-      "AI Strategy"
+      "LLM Training & Fine-Tuning",
+      "Data Science & Classic ML"
     ],
     "readTime": "4 min read",
     "file": "content/blog/2023-10-09-paul-graham-on-new-ideas.md"
@@ -1981,7 +2251,9 @@
     "description": "“The best thing I did as a manager at PayPal was to make every person in the company responsible for doing just one thing.",
     "coverImage": "/images/blog/2023-10-02-acknowledging-the-risk-and-fixing-it/image-01.jpg",
     "tags": [
-      "AI Strategy"
+      "Data Science & Classic ML",
+      "Leadership & Personal Growth",
+      "Open Source & Local AI"
     ],
     "readTime": "5 min read",
     "file": "content/blog/2023-10-02-acknowledging-the-risk-and-fixing-it.md"
@@ -1993,7 +2265,9 @@
     "description": "Here is a list of things that are not doing the thing:",
     "coverImage": "/images/blog/2023-09-18-do-the-thing/image-01.jpg",
     "tags": [
-      "AI Strategy"
+      "RAG & Embeddings",
+      "Leadership & Personal Growth",
+      "Motorsport & Engineering"
     ],
     "readTime": "5 min read",
     "file": "content/blog/2023-09-18-do-the-thing.md"
@@ -2005,8 +2279,9 @@
     "description": "“You can gauge someone’s ignorance by the number of AI solutions they explain with the same answer. Those who fix many different issues (e.g. time-series, tabular, physics constrained) with just 1 sol...",
     "coverImage": "/images/blog/2023-09-18-the-ml-paraphrase-of-gurwinder-bohgal/image-01.jpg",
     "tags": [
-      "Monday Morning ML",
-      "AI Strategy"
+      "Data Science & Classic ML",
+      "RAG & Embeddings",
+      "Motorsport & Engineering"
     ],
     "readTime": "4 min read",
     "file": "content/blog/2023-09-18-the-ml-paraphrase-of-gurwinder-bohgal.md"
@@ -2018,7 +2293,9 @@
     "description": "If anyone has been following the shady, shady business with Blackrock, Magnetar and NVIDIA (Follow the drama here)it would probably behoove folks to get some of the LLM fine tuning techniques working ...",
     "coverImage": "/images/blog/2023-09-10-amd-support-for-llm-training/image-01.jpg",
     "tags": [
-      "AI Strategy"
+      "AI Economics & Infrastructure",
+      "AI Coding & Developer Tools",
+      "RAG & Embeddings"
     ],
     "readTime": "2 min read",
     "file": "content/blog/2023-09-10-amd-support-for-llm-training.md"
@@ -2030,7 +2307,7 @@
     "description": "Fully trained, fine-tuned, LoRA, QLoRA, BLoRA, hyper-parameters and everything in between. When someone talks about the newest and best…",
     "coverImage": "/images/blog/2023-09-09-training-llms-a-taxonomy/image-01.jpg",
     "tags": [
-      "AI Strategy"
+      "LLM Training & Fine-Tuning"
     ],
     "readTime": "17 min read",
     "file": "content/blog/2023-09-09-training-llms-a-taxonomy.md"
@@ -2042,8 +2319,8 @@
     "description": "While the paper is written for the biomedical field, the principles are perfectly transferrable to low fidelity 3D datasets. Let’s look at an OpenAI paper on scaling",
     "coverImage": "/images/blog/2023-09-04-scaling-laws-in-llms/image-01.jpg",
     "tags": [
-      "AI Strategy",
-      "Motorsport & Dynamics"
+      "LLM Training & Fine-Tuning",
+      "Motorsport & Engineering"
     ],
     "readTime": "4 min read",
     "file": "content/blog/2023-09-04-scaling-laws-in-llms.md"
@@ -2055,7 +2332,9 @@
     "description": "For most of my career in ML, big generic models were usually worse at performing particular industry specific tasks than carefully fine-tuned, smaller and curated algorithms. With the release of OpenA...",
     "coverImage": "/images/blog/2023-08-29-we-need-to-have-the-talk-about-googles-gemini/image-01.jpg",
     "tags": [
-      "AI Strategy"
+      "Frontier Labs & Model Releases",
+      "AI Economics & Infrastructure",
+      "Enterprise AI Adoption & ROI"
     ],
     "readTime": "5 min read",
     "file": "content/blog/2023-08-29-we-need-to-have-the-talk-about-googles-gemini.md"
@@ -2067,7 +2346,8 @@
     "description": "What is this letter all about? Well, I love the world of ML and see it in, perhaps, a unique way. So I’m writing this letter to Istari on a weekly basis (barring vacations, etc.) to summarize a few in...",
     "coverImage": "/images/blog/2023-08-24-the-code-llama/image-01.jpg",
     "tags": [
-      "AI Strategy"
+      "LLM Training & Fine-Tuning",
+      "Frontier Labs & Model Releases"
     ],
     "readTime": "2 min read",
     "file": "content/blog/2023-08-24-the-code-llama.md"
@@ -2079,7 +2359,8 @@
     "description": "Fear, Uncertainty and Doubt. Eliciting these emotions sells news. Humans tend to react more vigorously to negative emotions than positive…",
     "coverImage": "/images/blog/2023-04-24-fud-in-ai/image-01.png",
     "tags": [
-      "AI Strategy"
+      "AI Hype & Skepticism",
+      "Careers, Hiring & Future of Work"
     ],
     "readTime": "5 min read",
     "file": "content/blog/2023-04-24-fud-in-ai.md"
@@ -2091,7 +2372,7 @@
     "description": "Hello! And welcome to my…tens of subscribers?",
     "coverImage": "/images/blog/2023-04-03-i-built-a-race-car/image-01.jpg",
     "tags": [
-      "Motorsport & Dynamics"
+      "Motorsport & Engineering"
     ],
     "readTime": "9 min read",
     "file": "content/blog/2023-04-03-i-built-a-race-car.md"
@@ -2103,7 +2384,8 @@
     "description": "Sometimes when I’m talking to a C-Suite customer about Generative AI we are on video, and at other times I’m talking over the phone. But in…",
     "coverImage": "/images/blog/2023-03-19-help-im-a-cto-and-i-need-generative-ai/image-01.jpg",
     "tags": [
-      "AI Strategy"
+      "Enterprise AI Adoption & ROI",
+      "LLM Training & Fine-Tuning"
     ],
     "readTime": "6 min read",
     "file": "content/blog/2023-03-19-help-im-a-cto-and-i-need-generative-ai.md"
@@ -2115,7 +2397,9 @@
     "description": "Sometimes I write articles that I believe are unnecessary. I feel like my words have been spoken many, many times before by people far more…",
     "coverImage": "/images/blog/2022-12-29-the-danger-of-data-in-generative-ai/image-01.jpg",
     "tags": [
-      "AI Strategy"
+      "Data Science & Classic ML",
+      "AI Hype & Skepticism",
+      "LLM Training & Fine-Tuning"
     ],
     "readTime": "5 min read",
     "file": "content/blog/2022-12-29-the-danger-of-data-in-generative-ai.md"
@@ -2127,7 +2411,8 @@
     "description": "As ethics questions go, the judgement of AI applicability to programming might not rate all that high on the list of thorny moral…",
     "coverImage": "/images/blog/2022-12-22-ethics-in-ai-pair-programming/image-01.jpg",
     "tags": [
-      "AI Strategy"
+      "AI Security & Safety",
+      "AI Coding & Developer Tools"
     ],
     "readTime": "4 min read",
     "file": "content/blog/2022-12-22-ethics-in-ai-pair-programming.md"
@@ -2139,7 +2424,9 @@
     "description": "Over the last week I’ve spent more time with customers than in the past six months combined. There is a general and marked increase in the…",
     "coverImage": "/images/blog/2022-12-12-the-right-tool-for-the-job/image-01.jpg",
     "tags": [
-      "AI Strategy"
+      "Enterprise AI Adoption & ROI",
+      "AI Coding & Developer Tools",
+      "Data Science & Classic ML"
     ],
     "readTime": "4 min read",
     "file": "content/blog/2022-12-12-the-right-tool-for-the-job.md"

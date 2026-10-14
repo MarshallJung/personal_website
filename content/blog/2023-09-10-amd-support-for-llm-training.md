@@ -4,7 +4,7 @@ slug: "2023-09-10-amd-support-for-llm-training"
 date: "2023-09-10"
 description: "If anyone has been following the shady, shady business with Blackrock, Magnetar and NVIDIA (Follow the drama here)it would probably behoove folks to get some of the LLM fine tuning techniques working ..."
 coverImage: "/images/blog/2023-09-10-amd-support-for-llm-training/image-01.jpg"
-tags: ["AI Strategy"]
+tags: ["AI Economics & Infrastructure","AI Coding & Developer Tools","RAG & Embeddings"]
 readTime: "2 min read"
 ---
 

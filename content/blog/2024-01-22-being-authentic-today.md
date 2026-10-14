@@ -4,7 +4,7 @@ slug: "2024-01-22-being-authentic-today"
 date: "2024-01-22"
 description: "“The rise of social media as the primary mode of interaction has caused us to overvalue opinions as a gauge of character. We are now defined more by what we say than what we actually do, and words, un..."
 coverImage: "/images/blog/2024-01-22-being-authentic-today/image-01.jpg"
-tags: ["AI Strategy"]
+tags: ["AI Coding & Developer Tools","RAG & Embeddings","Open Source & Local AI"]
 readTime: "4 min read"
 ---
 

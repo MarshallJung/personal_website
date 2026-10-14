@@ -4,7 +4,7 @@ slug: "2023-09-18-the-ml-paraphrase-of-gurwinder-bohgal"
 date: "2023-09-18"
 description: "“You can gauge someone’s ignorance by the number of AI solutions they explain with the same answer. Those who fix many different issues (e.g. time-series, tabular, physics constrained) with just 1 sol..."
 coverImage: "/images/blog/2023-09-18-the-ml-paraphrase-of-gurwinder-bohgal/image-01.jpg"
-tags: ["Monday Morning ML","AI Strategy"]
+tags: ["Data Science & Classic ML","RAG & Embeddings","Motorsport & Engineering"]
 readTime: "4 min read"
 ---
 

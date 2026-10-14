@@ -4,7 +4,7 @@ slug: "2023-12-18-the-echo-and-the-shout"
 date: "2023-12-18"
 description: "I’m going to be paraphrasing Tom Bilyeu here. Too many of us today define ourselves through the echo. We see ourselves only through what we hear back from others. Whether through social media or gossi..."
 coverImage: ""
-tags: ["AI Strategy"]
+tags: ["AI Hype & Skepticism","RAG & Embeddings","Leadership & Personal Growth"]
 readTime: "5 min read"
 ---
 

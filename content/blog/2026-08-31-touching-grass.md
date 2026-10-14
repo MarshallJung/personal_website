@@ -4,7 +4,7 @@ slug: "2026-08-31-touching-grass"
 date: "2026-08-31"
 description: "This week, we will cover a few economic and business strategy concepts. Don’t worry, I will still include some tech tips at the end for readers who like getting some dirt under their fingernails."
 coverImage: "/images/blog/2026-08-31-touching-grass/image-01.png"
-tags: ["AI Strategy"]
+tags: ["AI Economics & Infrastructure","Open Source & Local AI","AI Hype & Skepticism"]
 readTime: "6 min read"
 ---
 

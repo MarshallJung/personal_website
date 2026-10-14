@@ -4,7 +4,7 @@ slug: "2024-03-26-traversing-the-hype-curve"
 date: "2024-03-26"
 description: "I’ll go ahead and make the assumption that most of my readers are experienced users of AI tools. But for those that are not, I assume that…"
 coverImage: "/images/blog/2024-03-26-traversing-the-hype-curve/image-01.jpg"
-tags: ["AI Strategy"]
+tags: ["AI Hype & Skepticism","AI Economics & Infrastructure","Enterprise AI Adoption & ROI"]
 readTime: "5 min read"
 ---
 

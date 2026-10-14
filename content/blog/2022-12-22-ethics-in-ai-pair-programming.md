@@ -4,7 +4,7 @@ slug: "2022-12-22-ethics-in-ai-pair-programming"
 date: "2022-12-22"
 description: "As ethics questions go, the judgement of AI applicability to programming might not rate all that high on the list of thorny moral…"
 coverImage: "/images/blog/2022-12-22-ethics-in-ai-pair-programming/image-01.jpg"
-tags: ["AI Strategy"]
+tags: ["AI Security & Safety","AI Coding & Developer Tools"]
 readTime: "4 min read"
 ---
 

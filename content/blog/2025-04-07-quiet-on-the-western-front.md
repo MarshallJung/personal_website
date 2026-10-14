@@ -4,7 +4,7 @@ slug: "2025-04-07-quiet-on-the-western-front"
 date: "2025-04-07"
 description: "It’s likely true across various fields that those at the forefront find some place where cutting edge insights about the latest developments. In the AI space, significant news, new models, and interes..."
 coverImage: "/images/blog/2025-04-07-quiet-on-the-western-front/image-01.jpg"
-tags: ["AI Strategy"]
+tags: ["AI Hype & Skepticism","Frontier Labs & Model Releases","Generative Media & Diffusion"]
 readTime: "6 min read"
 ---
 

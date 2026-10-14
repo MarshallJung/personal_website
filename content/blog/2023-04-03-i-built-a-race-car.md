@@ -4,7 +4,7 @@ slug: "2023-04-03-i-built-a-race-car"
 date: "2023-04-03"
 description: "Hello! And welcome to my…tens of subscribers?"
 coverImage: "/images/blog/2023-04-03-i-built-a-race-car/image-01.jpg"
-tags: ["Motorsport & Dynamics"]
+tags: ["Motorsport & Engineering"]
 readTime: "9 min read"
 ---
 

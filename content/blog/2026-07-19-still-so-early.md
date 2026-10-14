@@ -4,7 +4,7 @@ slug: "2026-07-19-still-so-early"
 date: "2026-07-19"
 description: "That 2.2% figure sparked a look into the data. A few additional metrics worth considering: (numbers seem a little mismatched, but I don’t know survey methods)"
 coverImage: "/images/blog/2026-07-19-still-so-early/image-01.png"
-tags: ["AI Strategy"]
+tags: ["AI Hype & Skepticism","Enterprise AI Adoption & ROI","Open Source & Local AI"]
 readTime: "6 min read"
 ---
 

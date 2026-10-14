@@ -4,7 +4,7 @@ slug: "2024-04-22-useful-rules-and-razors"
 date: "2024-04-22"
 description: "This Twitter thread is, I think, a good summary of how the vast majority of folks will use AI in the coding world. I count myself among this identified group. People who are intelligent, curious and u..."
 coverImage: "/images/blog/2024-04-22-useful-rules-and-razors/image-01.jpg"
-tags: ["AI Strategy"]
+tags: ["Frontier Labs & Model Releases","AI Economics & Infrastructure","Leadership & Personal Growth"]
 readTime: "7 min read"
 ---
 

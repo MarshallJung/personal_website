@@ -4,7 +4,7 @@ slug: "2023-10-22-the-language-of-embeddings"
 date: "2023-10-22"
 description: "For the past month or so there has been a thought rattling around my head in quieter times while organizing my garage or cleaning the…"
 coverImage: "/images/blog/2023-10-22-the-language-of-embeddings/image-01.jpg"
-tags: ["AI Strategy"]
+tags: ["RAG & Embeddings","LLM Training & Fine-Tuning"]
 readTime: "5 min read"
 ---
 

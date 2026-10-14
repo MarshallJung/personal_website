@@ -4,7 +4,7 @@ slug: "2024-09-30-being-overeager"
 date: "2024-09-30"
 description: "Swings and roundabouts. It was always going to be that way. In the last week I read two articles around the failure to launch for AI initiatives at two of the biggest."
 coverImage: "/images/blog/2024-09-30-being-overeager/image-01.jpg"
-tags: ["AI Strategy"]
+tags: ["Enterprise AI Adoption & ROI","Open Source & Local AI","AI Hype & Skepticism"]
 readTime: "5 min read"
 ---
 

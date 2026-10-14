@@ -4,7 +4,7 @@ slug: "2025-12-01-financial-due-diligence"
 date: "2025-12-01"
 description: "First, it goes without saying that nothing in these newsletters is investment advice. That said, because money drives economic opportunity and growth in the United States, and because AI and its secon..."
 coverImage: "/images/blog/2025-12-01-financial-due-diligence/image-01.png"
-tags: ["AI Strategy"]
+tags: ["AI Economics & Infrastructure","AI Hype & Skepticism"]
 readTime: "7 min read"
 ---
 

@@ -4,7 +4,7 @@ slug: "2026-08-22-thanks-i-hate-it"
 date: "2026-08-22"
 description: "It is hard to open any species of media today without sensing a public disapproval of data centers that borders on the visceral. One might almost prefer the sooty embrace of a coal-fired plant, curiou..."
 coverImage: "/images/blog/2026-08-22-thanks-i-hate-it/image-01.png"
-tags: ["AI Strategy"]
+tags: ["AI Economics & Infrastructure","Open Source & Local AI"]
 readTime: "6 min read"
 ---
 

@@ -4,7 +4,7 @@ slug: "2022-12-12-the-right-tool-for-the-job"
 date: "2022-12-12"
 description: "Over the last week I’ve spent more time with customers than in the past six months combined. There is a general and marked increase in the…"
 coverImage: "/images/blog/2022-12-12-the-right-tool-for-the-job/image-01.jpg"
-tags: ["AI Strategy"]
+tags: ["Enterprise AI Adoption & ROI","AI Coding & Developer Tools","Data Science & Classic ML"]
 readTime: "4 min read"
 ---
 

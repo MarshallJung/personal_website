@@ -4,7 +4,7 @@ slug: "2025-10-06-security-in-docs"
 date: "2025-10-06"
 description: "Bit of an info blast this week as I’m on the road."
 coverImage: "/images/blog/2025-10-06-security-in-docs/image-01.png"
-tags: ["AI Strategy"]
+tags: ["AI Security & Safety","Careers, Hiring & Future of Work"]
 readTime: "6 min read"
 ---
 

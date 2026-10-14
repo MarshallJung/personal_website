@@ -4,7 +4,7 @@ slug: "2025-03-03-how-to-endure"
 date: "2025-03-03"
 description: "It isn’t often that I write from the heart in my weekly newsletter, but when life is sufficiently rocky enough to teach me a lesson I try and take it to heart. It is this last week that another one of..."
 coverImage: "/images/blog/2025-03-03-how-to-endure/image-01.jpg"
-tags: ["AI Strategy"]
+tags: ["Frontier Labs & Model Releases","Leadership & Personal Growth","Careers, Hiring & Future of Work"]
 readTime: "8 min read"
 ---
 

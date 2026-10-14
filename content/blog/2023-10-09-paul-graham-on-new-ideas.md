@@ -4,7 +4,7 @@ slug: "2023-10-09-paul-graham-on-new-ideas"
 date: "2023-10-09"
 description: "“The best new ideas always have unanticipated benefits. So it’s stupid to require people who want to do new things to enumerate the benefits beforehand. The best you can do is choose smart people and ..."
 coverImage: "/images/blog/2023-10-09-paul-graham-on-new-ideas/image-01.jpg"
-tags: ["AI Strategy"]
+tags: ["LLM Training & Fine-Tuning","Data Science & Classic ML"]
 readTime: "4 min read"
 ---
 

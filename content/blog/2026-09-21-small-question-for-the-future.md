@@ -4,7 +4,7 @@ slug: "2026-09-21-small-question-for-the-future"
 date: "2026-09-21"
 description: "It\x27s PCA club race weekend for me, so I\x27ll be pretty busy at the track. Since I didn\x27t get a real chance to work on the newsletter beforehand, this edition will be a bit less authored with some rapid-fire facts..."
 coverImage: "/images/blog/2026-09-21-small-question-for-the-future/image-01.jpg"
-tags: ["AI Strategy"]
+tags: ["AI Agents & Agentic Workflows","Enterprise AI Adoption & ROI"]
 readTime: "7 min read"
 ---
 

@@ -4,7 +4,7 @@ slug: "2024-10-28-a-controversial-take"
 date: "2024-10-28"
 description: "Last Sunday I listened to a sermon that I think has some crossover to the world of AI and ultimately the pursuit of AGI. While the words were not specifically, nor generally, aimed at the world of tec..."
 coverImage: "/images/blog/2024-10-28-a-controversial-take/image-01.jpg"
-tags: ["AI Strategy"]
+tags: ["Frontier Labs & Model Releases","AI Security & Safety","AI Agents & Agentic Workflows"]
 readTime: "7 min read"
 ---
 

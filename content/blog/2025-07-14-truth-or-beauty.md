@@ -4,7 +4,7 @@ slug: "2025-07-14-truth-or-beauty"
 date: "2025-07-14"
 description: "This past week, the thin ice on which we are skating cracked, but it did not break. When xAI’s Grok model was jailbroken on X in real time, we witnessed a well-known but studiously ignored issue: the ..."
 coverImage: "/images/blog/2025-07-14-truth-or-beauty/image-01.jpg"
-tags: ["AI Strategy"]
+tags: ["AI Security & Safety","AI Coding & Developer Tools","LLM Training & Fine-Tuning"]
 readTime: "9 min read"
 ---
 

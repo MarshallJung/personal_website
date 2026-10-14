@@ -4,7 +4,7 @@ slug: "2026-03-07-a-long-long-way-to-go"
 date: "2026-03-07"
 description: "It’s often hard to gauge how other enterprise AI initiatives compare to what I’m helping to build at Valvoline Global Operations. I recently read a Wall Street Journal piece on Colgate-Palmolive, high..."
 coverImage: "/images/blog/2026-03-07-a-long-long-way-to-go/image-01.png"
-tags: ["AI Strategy"]
+tags: ["AI Agents & Agentic Workflows","Enterprise AI Adoption & ROI"]
 readTime: "5 min read"
 ---
 

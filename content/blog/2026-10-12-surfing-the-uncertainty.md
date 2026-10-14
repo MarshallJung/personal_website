@@ -4,7 +4,7 @@ slug: "2026-10-12-surfing-the-uncertainty"
 date: "2026-10-12"
 description: "One of my biggest challenges is keeping up with the constant stream of new models (and their harnesses). People frequently, and vociferously, point out that they need the latest models just to do their jobs..."
 coverImage: "/images/blog/2026-10-12-surfing-the-uncertainty/image-01.jpg"
-tags: ["AI Strategy"]
+tags: ["AI Agents & Agentic Workflows","LLM Training & Fine-Tuning","Reasoning Models & RL"]
 readTime: "7 min read"
 ---
 

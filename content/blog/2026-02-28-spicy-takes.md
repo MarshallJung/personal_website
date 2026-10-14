@@ -4,7 +4,7 @@ slug: "2026-02-28-spicy-takes"
 date: "2026-02-28"
 description: "This week’s newsletter includes a couple of relatively spicy takes. I know strong opinions exist on both sides, but that won’t stop me from addressing them as logically as I can. Some will disagree — ..."
 coverImage: "/images/blog/2026-02-28-spicy-takes/image-01.png"
-tags: ["AI Strategy"]
+tags: ["AI Security & Safety","Context, Memory & Knowledge Management","Frontier Labs & Model Releases"]
 readTime: "6 min read"
 ---
 

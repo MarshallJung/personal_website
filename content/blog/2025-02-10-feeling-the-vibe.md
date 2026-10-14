@@ -4,7 +4,7 @@ slug: "2025-02-10-feeling-the-vibe"
 date: "2025-02-10"
 description: "A bit of a shift in the world of ML/AI this week. Yes, there were new models from Google (and a ripoff of Google with OAI’s “Deep Research”), but I’m talking more about the gut feeling, reactions and ..."
 coverImage: "/images/blog/2025-02-10-feeling-the-vibe/image-01.jpg"
-tags: ["AI Strategy"]
+tags: ["AI Hype & Skepticism","Careers, Hiring & Future of Work"]
 readTime: "6 min read"
 ---
 

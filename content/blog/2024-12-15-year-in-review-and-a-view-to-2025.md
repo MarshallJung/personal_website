@@ -4,7 +4,7 @@ slug: "2024-12-15-year-in-review-and-a-view-to-2025"
 date: "2024-12-15"
 description: "Yay! It’s time! Time for the end of the year predictions and review of the prognostications for the last 12 months. These are supposed to…"
 coverImage: "/images/blog/2024-12-15-year-in-review-and-a-view-to-2025/image-01.png"
-tags: ["AI Strategy"]
+tags: ["AI Economics & Infrastructure","LLM Training & Fine-Tuning","AI Security & Safety"]
 readTime: "22 min read"
 ---
 

@@ -4,7 +4,7 @@ slug: "2026-07-13-was-it-always-thus"
 date: "2026-07-13"
 description: "Even before agents became the main way to do productive work — coding or knowledge tasks — prompting tricks had already lost much of their value. The Wharton research linked below details this."
 coverImage: "/images/blog/2026-07-13-was-it-always-thus/image-01.png"
-tags: ["AI Strategy"]
+tags: ["Careers, Hiring & Future of Work","Open Source & Local AI"]
 readTime: "7 min read"
 ---
 

@@ -4,7 +4,7 @@ slug: "2025-03-10-resolving-thought"
 date: "2025-03-10"
 description: "A bit shorter this week as I’m in TX over the weekend at PCA COTA. Hopefully some pictures in the next newsletter!"
 coverImage: "/images/blog/2025-03-10-resolving-thought/image-01.jpg"
-tags: ["AI Strategy"]
+tags: ["LLM Training & Fine-Tuning","Reasoning Models & RL"]
 readTime: "5 min read"
 ---
 

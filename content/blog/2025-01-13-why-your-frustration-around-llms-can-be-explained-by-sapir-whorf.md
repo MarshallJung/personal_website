@@ -4,7 +4,7 @@ slug: "2025-01-13-why-your-frustration-around-llms-can-be-explained-by-sapir-who
 date: "2025-01-13"
 description: "Recently I was working on a few items for an AI company for their DevRel and messaging. For part of this effort I was attempting to distill the ideas to a pitch deck that combined some Douglas Adams h..."
 coverImage: "/images/blog/2025-01-13-why-your-frustration-around-llms-can-be-explained-by-sapir-whorf/image-01.jpg"
-tags: ["AI Strategy"]
+tags: ["Generative Media & Diffusion","AI Security & Safety","AI Agents & Agentic Workflows"]
 readTime: "6 min read"
 ---
 

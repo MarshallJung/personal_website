@@ -4,7 +4,7 @@ slug: "2026-01-16-its-upside-down"
 date: "2026-01-16"
 description: "I thought my job was to teach the workforce to fish. It turns out, the best way to start is to build a better fishing boat."
 coverImage: "/images/blog/2026-01-16-its-upside-down/image-01.png"
-tags: ["AI Strategy"]
+tags: ["Enterprise AI Adoption & ROI","Leadership & Personal Growth"]
 readTime: "8 min read"
 ---
 

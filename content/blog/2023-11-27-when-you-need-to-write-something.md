@@ -4,7 +4,7 @@ slug: "2023-11-27-when-you-need-to-write-something"
 date: "2023-11-27"
 description: "Whether writing an article, creating a presentation or making an argument remember the Serial-Position Effect:"
 coverImage: ""
-tags: ["AI Strategy"]
+tags: ["LLM Training & Fine-Tuning","Reasoning Models & RL"]
 readTime: "2 min read"
 ---
 

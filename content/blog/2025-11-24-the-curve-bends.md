@@ -4,7 +4,7 @@ slug: "2025-11-24-the-curve-bends"
 date: "2025-11-24"
 description: "We are often told that the line on the graph only goes up. Usually at a “super-exponential” angle that suggests we should all start packing our bags for the post-labor economy."
 coverImage: "/images/blog/2025-11-24-the-curve-bends/image-01.png"
-tags: ["AI Strategy"]
+tags: ["AI Hype & Skepticism","Frontier Labs & Model Releases","AI Economics & Infrastructure"]
 readTime: "5 min read"
 ---
 

@@ -4,7 +4,7 @@ slug: "2025-09-08-schumpeter-was-right"
 date: "2025-09-08"
 description: "As my readers know, I’m often very early on particular trends in the technology space. While this isn’t a great investment or money-making methodology, I do think I frequently end up on the bleeding e..."
 coverImage: "/images/blog/2025-09-08-schumpeter-was-right/image-01.png"
-tags: ["AI Strategy"]
+tags: ["AI Economics & Infrastructure","AI Hype & Skepticism","AI Agents & Agentic Workflows"]
 readTime: "6 min read"
 ---
 

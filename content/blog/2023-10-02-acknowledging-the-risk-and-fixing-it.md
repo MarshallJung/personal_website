@@ -4,7 +4,7 @@ slug: "2023-10-02-acknowledging-the-risk-and-fixing-it"
 date: "2023-10-02"
 description: "“The best thing I did as a manager at PayPal was to make every person in the company responsible for doing just one thing."
 coverImage: "/images/blog/2023-10-02-acknowledging-the-risk-and-fixing-it/image-01.jpg"
-tags: ["AI Strategy"]
+tags: ["Data Science & Classic ML","Leadership & Personal Growth","Open Source & Local AI"]
 readTime: "5 min read"
 ---
 

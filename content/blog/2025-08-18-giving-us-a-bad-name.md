@@ -4,7 +4,7 @@ slug: "2025-08-18-giving-us-a-bad-name"
 date: "2025-08-18"
 description: "There’s a prevailing belief in the tech world that the cost of Large Language Model (LLM) inference is on a relentless, one-way path downward. While long-term efficiency gains are almost certain, a re..."
 coverImage: "/images/blog/2025-08-18-giving-us-a-bad-name/image-01.jpg"
-tags: ["AI Strategy"]
+tags: ["AI Economics & Infrastructure","RAG & Embeddings"]
 readTime: "8 min read"
 ---
 

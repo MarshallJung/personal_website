@@ -4,7 +4,7 @@ slug: "2023-09-04-scaling-laws-in-llms"
 date: "2023-09-04"
 description: "While the paper is written for the biomedical field, the principles are perfectly transferrable to low fidelity 3D datasets. Let’s look at an OpenAI paper on scaling"
 coverImage: "/images/blog/2023-09-04-scaling-laws-in-llms/image-01.jpg"
-tags: ["AI Strategy","Motorsport & Dynamics"]
+tags: ["LLM Training & Fine-Tuning","Motorsport & Engineering"]
 readTime: "4 min read"
 ---
 

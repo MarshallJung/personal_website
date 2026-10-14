@@ -4,7 +4,7 @@ slug: "2026-05-31-the-cost-of-doing-business"
 date: "2026-05-31"
 description: "A couple of months ago, I wrote about the hangover from the looming “API token bill.” Back then it was early rumblings, but this past week brought both unfortunate and unbelievable stories, all pointi..."
 coverImage: "/images/blog/2026-05-31-the-cost-of-doing-business/image-01.png"
-tags: ["AI Strategy","Motorsport & Dynamics"]
+tags: ["Enterprise AI Adoption & ROI","AI Economics & Infrastructure","AI Agents & Agentic Workflows"]
 readTime: "7 min read"
 ---
 

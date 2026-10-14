@@ -4,7 +4,7 @@ slug: "2026-01-26-a-tale-of-two"
 date: "2026-01-26"
 description: "I was talking with my twin brother about the future of management in large enterprises as AI tools mature. We explored some unconventional ideas for how senior managers and C-suite leaders could be ef..."
 coverImage: "/images/blog/2026-01-26-a-tale-of-two/image-01.png"
-tags: ["AI Strategy"]
+tags: ["Leadership & Personal Growth","Enterprise AI Adoption & ROI","AI Economics & Infrastructure"]
 readTime: "6 min read"
 ---
 

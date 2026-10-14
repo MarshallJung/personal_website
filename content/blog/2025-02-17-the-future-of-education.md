@@ -4,7 +4,7 @@ slug: "2025-02-17-the-future-of-education"
 date: "2025-02-17"
 description: "This last week I was at my kids school’s junior high orientation for my youngest. I asked the school principal what their stance was on AI. I tried to make it easy to answer my question by offering ex..."
 coverImage: "/images/blog/2025-02-17-the-future-of-education/image-01.jpg"
-tags: ["AI Strategy"]
+tags: ["Careers, Hiring & Future of Work","Reasoning Models & RL"]
 readTime: "6 min read"
 ---
 

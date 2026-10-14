@@ -4,7 +4,7 @@ slug: "2024-05-20-a-war-on-two-fronts"
 date: "2024-05-20"
 description: "This last week saw two of the biggest heavyweights in AI, Google and OpenAI release new all-in-one models. In some ways they were very similar. Multimodal models that are trying to be everything to ev..."
 coverImage: "/images/blog/2024-05-20-a-war-on-two-fronts/image-01.jpg"
-tags: ["AI Strategy"]
+tags: ["Frontier Labs & Model Releases","AI Security & Safety","Generative Media & Diffusion"]
 readTime: "6 min read"
 ---
 

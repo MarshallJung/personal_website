@@ -4,7 +4,7 @@ slug: "2024-05-10-same-as-it-always-was"
 date: "2024-05-10"
 description: "Synthetic Data — Meet the new Oops…same as the old one."
 coverImage: "/images/blog/2024-05-10-same-as-it-always-was/image-01.jpg"
-tags: ["AI Strategy"]
+tags: ["Data Science & Classic ML","LLM Training & Fine-Tuning","RAG & Embeddings"]
 readTime: "3 min read"
 ---
 

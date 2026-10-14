@@ -4,7 +4,7 @@ slug: "2024-06-10-on-the-application-of-llms"
 date: "2024-06-10"
 description: "I’ve been pretty outspoken about the appropriate application of autoregressive transformer based models to everyday business use cases. I recently had a brief conversation with a big cloud company tha..."
 coverImage: "/images/blog/2024-06-10-on-the-application-of-llms/image-01.jpg"
-tags: ["AI Strategy"]
+tags: ["AI Economics & Infrastructure","AI Hype & Skepticism","Data Science & Classic ML"]
 readTime: "5 min read"
 ---
 

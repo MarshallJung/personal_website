@@ -4,7 +4,7 @@ slug: "2026-02-07-step-by-step"
 date: "2026-02-07"
 description: "I try to avoid the self-congratulatory victory laps common in this industry — mostly because the market has a way of humbling prophets mere hours after they hit “publish.” However, the record is the r..."
 coverImage: "/images/blog/2026-02-07-step-by-step/image-01.jpg"
-tags: ["AI Strategy"]
+tags: ["AI Agents & Agentic Workflows","Careers, Hiring & Future of Work","Enterprise AI Adoption & ROI"]
 readTime: "5 min read"
 ---
 

@@ -4,7 +4,7 @@ slug: "2026-04-09-a-plan-for-the-future"
 date: "2026-04-09"
 description: "In my previous newsletter, which I released early due to concerns about open source security and AI application development, I called for industry-wide cooperation to secure open source software packa..."
 coverImage: "/images/blog/2026-04-09-a-plan-for-the-future/image-01.png"
-tags: ["AI Strategy"]
+tags: ["AI Security & Safety","Context, Memory & Knowledge Management","Frontier Labs & Model Releases"]
 readTime: "6 min read"
 ---
 

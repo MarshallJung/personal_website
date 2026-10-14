@@ -4,7 +4,7 @@ slug: "2024-10-21-when-the-low-hanging-fruit-is-rotten"
 date: "2024-10-21"
 description: "So, dear readers…I’ll ask you the same question I’ve seen posed in several places across the bleeding edge of the internet over the past 3…"
 coverImage: "/images/blog/2024-10-21-when-the-low-hanging-fruit-is-rotten/image-01.jpg"
-tags: ["AI Strategy"]
+tags: ["RAG & Embeddings","Enterprise AI Adoption & ROI"]
 readTime: "9 min read"
 ---
 

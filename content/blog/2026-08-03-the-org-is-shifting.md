@@ -4,7 +4,7 @@ slug: "2026-08-03-the-org-is-shifting"
 date: "2026-08-03"
 description: "Lots to cover this week. I’ll keep the opening brief and dive into the most interesting and wild developments from the past week."
 coverImage: "/images/blog/2026-08-03-the-org-is-shifting/image-01.jpg"
-tags: ["AI Strategy"]
+tags: ["Enterprise AI Adoption & ROI","AI Security & Safety","AI Economics & Infrastructure"]
 readTime: "8 min read"
 ---
 

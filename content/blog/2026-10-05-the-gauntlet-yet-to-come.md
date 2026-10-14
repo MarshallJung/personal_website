@@ -4,7 +4,7 @@ slug: "2026-10-05-the-gauntlet-yet-to-come"
 date: "2026-10-05"
 description: "I rarely cover macroeconomics here, which is a bit funny given that I actually have a degree in economics. I usually stick to business or industry-specific analysis. Recently, though..."
 coverImage: "/images/blog/2026-10-05-the-gauntlet-yet-to-come/image-01.jpg"
-tags: ["AI Strategy"]
+tags: ["AI Economics & Infrastructure","Context, Memory & Knowledge Management","Careers, Hiring & Future of Work"]
 readTime: "6 min read"
 ---
 

@@ -4,7 +4,7 @@ slug: "2026-06-20-agi-nah-not-soon-anyway"
 date: "2026-06-20"
 description: "If you’re a regular reader of this newsletter, you’ve likely come across podcaster and AI intellectual Dwarkesh Patel. He’s an interesting figure I often resonate with, partly because he isn’t selling..."
 coverImage: "/images/blog/2026-06-20-agi-nah-not-soon-anyway/image-01.png"
-tags: ["AI Strategy"]
+tags: ["AI Hype & Skepticism","Context, Memory & Knowledge Management","Open Source & Local AI"]
 readTime: "5 min read"
 ---
 

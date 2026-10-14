@@ -4,7 +4,7 @@ slug: "2026-06-28-walking-the-wire"
 date: "2026-06-28"
 description: "The drama in AI and the race for the industry’s future are always fascinating. This week, OpenAI released a couple of “smaller” models that landed just shy of Anthropic’s Mythos level still stuck in t..."
 coverImage: "/images/blog/2026-06-28-walking-the-wire/image-01.png"
-tags: ["AI Strategy"]
+tags: ["Frontier Labs & Model Releases","Careers, Hiring & Future of Work","AI Economics & Infrastructure"]
 readTime: "5 min read"
 ---
 

@@ -4,7 +4,7 @@ slug: "2024-11-18-the-rumors-of-my-demise"
 date: "2024-11-18"
 description: "So it was bound to happen. I am perpetually early to trends and technology, however I tend to get at least the direction correct, even if the details might need a little filling. It’s not because I’m ..."
 coverImage: "/images/blog/2024-11-18-the-rumors-of-my-demise/image-01.jpg"
-tags: ["AI Strategy"]
+tags: ["AI Hype & Skepticism","AI Economics & Infrastructure","LLM Training & Fine-Tuning"]
 readTime: "8 min read"
 ---
 

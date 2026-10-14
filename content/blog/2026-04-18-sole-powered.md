@@ -4,7 +4,7 @@ slug: "2026-04-18-sole-powered"
 date: "2026-04-18"
 description: "Almost two years ago, I wrote in my newsletter that the AI hype train seemed near its peak after the photo of Jensen Huang signing a woman’s chest at Taiwan’s Computex expo was published. But, as with..."
 coverImage: "/images/blog/2026-04-18-sole-powered/image-01.png"
-tags: ["AI Strategy"]
+tags: ["AI Economics & Infrastructure","Enterprise AI Adoption & ROI","Open Source & Local AI"]
 readTime: "4 min read"
 ---
 

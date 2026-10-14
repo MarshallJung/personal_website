@@ -4,7 +4,7 @@ slug: "2026-05-16-harder-than-it-looks"
 date: "2026-05-16"
 description: "Longtime readers may recall many months ago when I coined “The Carbon Bottleneck,” noting that the slow adoption of AI isn’t due to models or deployment tech, it’s people and processes(data!!!) within..."
 coverImage: "/images/blog/2026-05-16-harder-than-it-looks/image-01.png"
-tags: ["AI Strategy"]
+tags: ["Enterprise AI Adoption & ROI","Frontier Labs & Model Releases"]
 readTime: "8 min read"
 ---
 

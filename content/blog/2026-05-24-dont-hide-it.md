@@ -4,7 +4,7 @@ slug: "2026-05-24-dont-hide-it"
 date: "2026-05-24"
 description: "AI is reshaping the assumptions about modern corporate work. I’d even argue this extends beyond corporate America, though it’s most acute in legacy enterprises. Here’s the problem: The assumption that..."
 coverImage: "/images/blog/2026-05-24-dont-hide-it/image-01.png"
-tags: ["AI Strategy"]
+tags: ["Careers, Hiring & Future of Work","AI Economics & Infrastructure"]
 readTime: "4 min read"
 ---
 

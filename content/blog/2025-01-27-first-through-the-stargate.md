@@ -4,7 +4,7 @@ slug: "2025-01-27-first-through-the-stargate"
 date: "2025-01-27"
 description: "This last week the new administration and some tech leaders combined with Japanese cash announced “Project Stargate”. (https://x.com/OpenAI/status/1881830103858172059)"
 coverImage: "/images/blog/2025-01-27-first-through-the-stargate/image-01.jpg"
-tags: ["AI Strategy"]
+tags: ["AI Economics & Infrastructure","Reasoning Models & RL","AI Agents & Agentic Workflows"]
 readTime: "6 min read"
 ---
 

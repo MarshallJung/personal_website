@@ -4,7 +4,7 @@ slug: "2025-02-03-a-tale-as-old-as-time"
 date: "2025-02-03"
 description: "“Talk is cheap”. “Actions speak louder than words”. Chances are that you’ve heard these sayings before. And, yes dear reader, I’m keenly aware that by writing a newsletter all I’m really doing is talk..."
 coverImage: "/images/blog/2025-02-03-a-tale-as-old-as-time/image-01.jpg"
-tags: ["AI Strategy"]
+tags: ["AI Economics & Infrastructure","Reasoning Models & RL","Leadership & Personal Growth"]
 readTime: "6 min read"
 ---
 

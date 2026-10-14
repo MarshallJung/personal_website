@@ -4,7 +4,7 @@ slug: "2024-04-08-when-youre-out-there-in-the-world"
 date: "2024-04-08"
 description: "If you have the same opinions as everyone around you, then either you are basing your views on your friends or you are basing your friends on your views."
 coverImage: "/images/blog/2024-04-08-when-youre-out-there-in-the-world/image-01.jpg"
-tags: ["AI Strategy"]
+tags: ["Enterprise AI Adoption & ROI","LLM Training & Fine-Tuning","AI Security & Safety"]
 readTime: "4 min read"
 ---
 

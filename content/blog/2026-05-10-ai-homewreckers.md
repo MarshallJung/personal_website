@@ -4,7 +4,7 @@ slug: "2026-05-10-ai-homewreckers"
 date: "2026-05-10"
 description: "(This week I tried to emulate a favorite X account in a dialogue style, mixing a bit of spiciness with the current tech landscape. I spent much longer than usual, struggling to make the flow witty, cl..."
 coverImage: "/images/blog/2026-05-10-ai-homewreckers/image-01.png"
-tags: ["AI Strategy"]
+tags: ["AI Economics & Infrastructure","Frontier Labs & Model Releases","LLM Training & Fine-Tuning"]
 readTime: "6 min read"
 ---
 

@@ -104,9 +104,22 @@ export default function BlogApp() {
     return map;
   }, []);
 
+  // Topic counts across all posts; pills are sorted by count (desc), then alphabetically.
+  const tagCounts = useMemo(() => {
+    const counts = new Map();
+    posts.forEach((p) => (p.tags || []).forEach((t) => counts.set(t, (counts.get(t) || 0) + 1)));
+    counts.set('All', posts.length);
+    return counts;
+  }, []);
+
   const allTags = useMemo(
-    () => ['All', ...Array.from(new Set(posts.flatMap((p) => p.tags || [])))],
-    []
+    () => [
+      'All',
+      ...Array.from(tagCounts.keys())
+        .filter((t) => t !== 'All')
+        .sort((a, b) => tagCounts.get(b) - tagCounts.get(a) || a.localeCompare(b)),
+    ],
+    [tagCounts]
   );
 
   const filteredPosts = useMemo(() => {
@@ -276,6 +289,9 @@ export default function BlogApp() {
                       }`}
                     >
                       {tag}
+                      <span className={`ml-1.5 ${isSelected ? 'opacity-80' : 'opacity-60'}`}>
+                        {tagCounts.get(tag)}
+                      </span>
                     </button>
                   );
                 })}

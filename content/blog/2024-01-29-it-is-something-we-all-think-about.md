@@ -4,7 +4,7 @@ slug: "2024-01-29-it-is-something-we-all-think-about"
 date: "2024-01-29"
 description: "“Our complaint against dying is ultimately an admission that we haven’t learnt how to live. The goal shouldn’t be to stretch time out yet further. We should be ready to go pretty much any time after f..."
 coverImage: "/images/blog/2024-01-29-it-is-something-we-all-think-about/image-01.jpg"
-tags: ["AI Strategy"]
+tags: ["Open Source & Local AI","AI Security & Safety","Generative Media & Diffusion"]
 readTime: "4 min read"
 ---
 

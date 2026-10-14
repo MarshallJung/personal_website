@@ -4,7 +4,7 @@ slug: "2024-07-29-it-worked-for-other-tech-companies-why-not-openai"
 date: "2024-07-29"
 description: "OpenAI may lose $5B this year & may run out of cash in 12 months, unless they raise more $, per analysis by The Information (above link). What is their moat? Unique tech? What is their route in profit..."
 coverImage: "/images/blog/2024-07-29-it-worked-for-other-tech-companies-why-not-openai/image-01.jpg"
-tags: ["AI Strategy"]
+tags: ["AI Economics & Infrastructure","Reasoning Models & RL","Data Science & Classic ML"]
 readTime: "4 min read"
 ---
 

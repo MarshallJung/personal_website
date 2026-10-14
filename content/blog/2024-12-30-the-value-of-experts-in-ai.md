@@ -4,7 +4,7 @@ slug: "2024-12-30-the-value-of-experts-in-ai"
 date: "2024-12-30"
 description: "The last newsletter of the year. Got all 52 weeks, and combined with the previous efforts from 2023 brings the total to 71 weeks unbroken. There are certainly some weeks where I don’t feel much like w..."
 coverImage: "/images/blog/2024-12-30-the-value-of-experts-in-ai/image-01.jpg"
-tags: ["AI Strategy"]
+tags: ["Careers, Hiring & Future of Work","Frontier Labs & Model Releases","Reasoning Models & RL"]
 readTime: "8 min read"
 ---
 

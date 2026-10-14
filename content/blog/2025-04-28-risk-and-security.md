@@ -4,7 +4,7 @@ slug: "2025-04-28-risk-and-security"
 date: "2025-04-28"
 description: "We often explore various topics here, and recently, I’ve been researching security in AI-enabled platforms and tools. Security has never been my strong suit; I usually defer to the cybersecurity exper..."
 coverImage: ""
-tags: ["AI Strategy"]
+tags: ["AI Security & Safety","AI Agents & Agentic Workflows"]
 readTime: "6 min read"
 ---
 

@@ -4,7 +4,7 @@ slug: "2024-07-08-truth-that-i-wished-i-knew-earlier"
 date: "2024-07-08"
 description: "Sometimes when the news cycle in the world of machine learning is a bit slower around the holidays and in the summer when people are on vacation I tend to look for ideas that are more inspirational. P..."
 coverImage: "/images/blog/2024-07-08-truth-that-i-wished-i-knew-earlier/image-01.jpg"
-tags: ["AI Strategy"]
+tags: ["LLM Training & Fine-Tuning","RAG & Embeddings","Leadership & Personal Growth"]
 readTime: "5 min read"
 ---
 

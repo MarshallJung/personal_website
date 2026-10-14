@@ -4,7 +4,7 @@ slug: "2023-08-29-we-need-to-have-the-talk-about-googles-gemini"
 date: "2023-08-29"
 description: "For most of my career in ML, big generic models were usually worse at performing particular industry specific tasks than carefully fine-tuned, smaller and curated algorithms. With the release of OpenA..."
 coverImage: "/images/blog/2023-08-29-we-need-to-have-the-talk-about-googles-gemini/image-01.jpg"
-tags: ["AI Strategy"]
+tags: ["Frontier Labs & Model Releases","AI Economics & Infrastructure","Enterprise AI Adoption & ROI"]
 readTime: "5 min read"
 ---
 

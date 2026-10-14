@@ -4,7 +4,7 @@ slug: "2024-11-11-stay-strong"
 date: "2024-11-11"
 description: "A favorite book of mine by the author C.S. Lewis has a line that I often remember when times get tough."
 coverImage: "/images/blog/2024-11-11-stay-strong/image-01.jpg"
-tags: ["AI Strategy"]
+tags: ["AI Coding & Developer Tools","Open Source & Local AI"]
 readTime: "5 min read"
 ---
 

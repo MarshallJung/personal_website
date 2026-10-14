@@ -4,7 +4,7 @@ slug: "2025-09-22-anthropics-postmortem"
 date: "2025-09-22"
 description: "Anthropic had a very bad month in terms of model reliability. I certainly noticed folks complaining on X, but my go to “vibe” tool, Superwhisper, had been performing remarkably poorly and it’s backed ..."
 coverImage: "/images/blog/2025-09-22-anthropics-postmortem/image-01.png"
-tags: ["AI Strategy"]
+tags: ["Frontier Labs & Model Releases","AI Agents & Agentic Workflows","RAG & Embeddings"]
 readTime: "5 min read"
 ---
 

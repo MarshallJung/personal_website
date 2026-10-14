@@ -4,7 +4,7 @@ slug: "2025-11-10-words-are-cheap-er"
 date: "2025-11-10"
 description: "I’ve often written in my newsletter that as AI becomes an easier everyday assistant, authenticity will grow more valuable, not less. This might seem counter-intuitive in a world where AI can effortles..."
 coverImage: "/images/blog/2025-11-10-words-are-cheap-er/image-01.png"
-tags: ["AI Strategy"]
+tags: ["Careers, Hiring & Future of Work","LLM Training & Fine-Tuning"]
 readTime: "6 min read"
 ---
 

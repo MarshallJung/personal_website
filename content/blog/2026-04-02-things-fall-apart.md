@@ -4,7 +4,7 @@ slug: "2026-04-02-things-fall-apart"
 date: "2026-04-02"
 description: "Note: I’m releasing my Monday morning newsletter early this week to put a stake in the ground on the open source security issues currently plaguing the AI development environment. It’s mostly opinion,..."
 coverImage: "/images/blog/2026-04-02-things-fall-apart/image-01.png"
-tags: ["AI Strategy"]
+tags: ["AI Security & Safety","Open Source & Local AI","AI Coding & Developer Tools"]
 readTime: "9 min read"
 ---
 

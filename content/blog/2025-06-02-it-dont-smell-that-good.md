@@ -4,7 +4,7 @@ slug: "2025-06-02-it-dont-smell-that-good"
 date: "2025-06-02"
 description: "Publish AI thoughts online long enough and you’ll inevitably attract attention from AI data companies. These firms typically crowdsource expertise across various industries to correct LLM outputs. The..."
 coverImage: "/images/blog/2025-06-02-it-dont-smell-that-good/image-01.jpg"
-tags: ["AI Strategy"]
+tags: ["AI Security & Safety","LLM Training & Fine-Tuning"]
 readTime: "5 min read"
 ---
 

@@ -4,7 +4,7 @@ slug: "2025-09-29-proving-me-wrong"
 date: "2025-09-29"
 description: "A couple of papers to lead the week. I think they claim some very interesting and (as of yet) underreported findings. The first one definitely challenges my assumptions about how transformer-based mod..."
 coverImage: "/images/blog/2025-09-29-proving-me-wrong/image-01.png"
-tags: ["AI Strategy"]
+tags: ["Careers, Hiring & Future of Work","LLM Training & Fine-Tuning","AI Economics & Infrastructure"]
 readTime: "6 min read"
 ---
 

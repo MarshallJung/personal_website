@@ -4,7 +4,7 @@ slug: "2025-08-11-shifting-under-our-feet"
 date: "2025-08-11"
 description: "For the past two years, the AI industry has moved at a pace that defied prediction. But after the initial gold rush, the peak of inflated expectations, we are entering a new, more sober phase. The hyp..."
 coverImage: "/images/blog/2025-08-11-shifting-under-our-feet/image-01.jpg"
-tags: ["AI Strategy"]
+tags: ["AI Hype & Skepticism","Enterprise AI Adoption & ROI","LLM Training & Fine-Tuning"]
 readTime: "7 min read"
 ---
 

@@ -4,7 +4,7 @@ slug: "2024-10-07-a-problem-with-trust"
 date: "2024-10-07"
 description: "Two stories and a tweet to read this week that touch on the transition to an AI powered knowledge economy. While some might see them as a bit negative, I prefer to see them through a glass half full."
 coverImage: "/images/blog/2024-10-07-a-problem-with-trust/image-01.jpg"
-tags: ["AI Strategy"]
+tags: ["Enterprise AI Adoption & ROI","Context, Memory & Knowledge Management","AI Security & Safety"]
 readTime: "7 min read"
 ---
 

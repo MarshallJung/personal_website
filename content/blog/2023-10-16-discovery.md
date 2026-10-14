@@ -4,7 +4,7 @@ slug: "2023-10-16-discovery"
 date: "2023-10-16"
 description: "Isaac Asimov once said “The most exciting phrase to hear in science, the one that heralds new discoveries, is not ‘Eureka!’ but ‘Hmmm…that’s funny…’”"
 coverImage: "/images/blog/2023-10-16-discovery/image-01.jpg"
-tags: ["AI Strategy"]
+tags: ["Open Source & Local AI","LLM Training & Fine-Tuning"]
 readTime: "1 min read"
 ---
 

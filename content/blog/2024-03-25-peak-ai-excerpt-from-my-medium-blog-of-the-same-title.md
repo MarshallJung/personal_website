@@ -4,7 +4,7 @@ slug: "2024-03-25-peak-ai-excerpt-from-my-medium-blog-of-the-same-title"
 date: "2024-03-25"
 description: "A bit shorter take this week. The world of AI seems to move in waves, as is the way in all things in this world. So a bit of an observation and a few nifty things after that."
 coverImage: "/images/blog/2024-03-25-peak-ai-excerpt-from-my-medium-blog-of-the-same-title/image-01.jpg"
-tags: ["AI Strategy"]
+tags: ["AI Hype & Skepticism","AI Economics & Infrastructure","Enterprise AI Adoption & ROI"]
 readTime: "7 min read"
 ---
 

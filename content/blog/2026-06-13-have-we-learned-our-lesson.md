@@ -4,7 +4,7 @@ slug: "2026-06-13-have-we-learned-our-lesson"
 date: "2026-06-13"
 description: "Fable — /ˈfāb(ə)l/ — A fable is a short, fictitious story designed to teach a moral lesson."
 coverImage: "/images/blog/2026-06-13-have-we-learned-our-lesson/image-01.png"
-tags: ["AI Strategy"]
+tags: ["Frontier Labs & Model Releases","AI Security & Safety","Open Source & Local AI"]
 readTime: "5 min read"
 ---
 

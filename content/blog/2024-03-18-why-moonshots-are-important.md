@@ -4,7 +4,7 @@ slug: "2024-03-18-why-moonshots-are-important"
 date: "2024-03-18"
 description: "“…failure and invention are inseparable twins. To invent you have to experiment, and if you know in advance that it’s going to work, it’s not an experiment. Most large organizations embrace the idea o..."
 coverImage: "/images/blog/2024-03-18-why-moonshots-are-important/image-01.jpg"
-tags: ["AI Strategy"]
+tags: ["Context, Memory & Knowledge Management","AI Economics & Infrastructure","Leadership & Personal Growth"]
 readTime: "6 min read"
 ---
 

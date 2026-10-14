@@ -4,7 +4,7 @@ slug: "2026-09-07-all-the-new-models"
 date: "2026-09-07"
 description: "There are rarely boring weeks in the AI world, but some are definitely more action-packed than others. This past week brought several new frontier models from multiple labs..."
 coverImage: "/images/blog/2026-09-07-all-the-new-models/image-01.png"
-tags: ["AI Strategy"]
+tags: ["Frontier Labs & Model Releases","AI Security & Safety","LLM Training & Fine-Tuning"]
 readTime: "5 min read"
 ---
 

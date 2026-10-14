@@ -4,7 +4,7 @@ slug: "2025-05-19-the-numbers-dont-lie"
 date: "2025-05-19"
 description: "Many of us in the AI field are probably pretty jaded and often disappointed with new model releases. We keep hoping for serious advancements in coding, scientific computing, and multimodal. However, i..."
 coverImage: "/images/blog/2025-05-19-the-numbers-dont-lie/image-01.jpg"
-tags: ["AI Strategy"]
+tags: ["AI Economics & Infrastructure","AI Security & Safety","Frontier Labs & Model Releases"]
 readTime: "7 min read"
 ---
 

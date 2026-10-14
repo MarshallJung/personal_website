@@ -4,7 +4,7 @@ slug: "2023-09-18-do-the-thing"
 date: "2023-09-18"
 description: "Here is a list of things that are not doing the thing:"
 coverImage: "/images/blog/2023-09-18-do-the-thing/image-01.jpg"
-tags: ["AI Strategy"]
+tags: ["RAG & Embeddings","Leadership & Personal Growth","Motorsport & Engineering"]
 readTime: "5 min read"
 ---
 

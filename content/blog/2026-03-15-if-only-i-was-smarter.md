@@ -4,7 +4,7 @@ slug: "2026-03-15-if-only-i-was-smarter"
 date: "2026-03-15"
 description: "The world is shaped by thinkers and doers, and sometimes they overlap. I’m not one of those rare combinations. I often have interesting ideas and I’m not short of builds, but I often lack the time or ..."
 coverImage: "/images/blog/2026-03-15-if-only-i-was-smarter/image-01.png"
-tags: ["AI Strategy"]
+tags: ["AI Agents & Agentic Workflows","Motorsport & Engineering"]
 readTime: "5 min read"
 ---
 

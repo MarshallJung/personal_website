@@ -4,7 +4,7 @@ slug: "2024-01-15-personal-growth"
 date: "2024-01-15"
 description: "Personal growth and self improvement is liberating, fulfilling and exciting. But it’s also a trap that convinces you that you’re somehow unfinished and that life isn’t something to enjoy living quite ..."
 coverImage: "/images/blog/2024-01-15-personal-growth/image-01.jpg"
-tags: ["AI Strategy","Motorsport & Dynamics"]
+tags: ["Leadership & Personal Growth"]
 readTime: "4 min read"
 ---
 

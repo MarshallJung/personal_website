@@ -4,7 +4,7 @@ slug: "2024-05-13-n-a-x-a-l-t-fallacy"
 date: "2024-05-13"
 description: "A few observational paragraphs this week before we get into the news. The observation and the opinion piece are related."
 coverImage: "/images/blog/2024-05-13-n-a-x-a-l-t-fallacy/image-01.jpg"
-tags: ["AI Strategy"]
+tags: ["Data Science & Classic ML","AI Hype & Skepticism"]
 readTime: "6 min read"
 ---
 

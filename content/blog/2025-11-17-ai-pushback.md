@@ -4,7 +4,7 @@ slug: "2025-11-17-ai-pushback"
 date: "2025-11-17"
 description: "I was recently on a business trip to help an enterprise with AI transformation. After landing, I went to the rental car facility, where, while waiting for my reservation to be confirmed, an attendant ..."
 coverImage: "/images/blog/2025-11-17-ai-pushback/image-01.jpg"
-tags: ["AI Strategy"]
+tags: ["Enterprise AI Adoption & ROI","Careers, Hiring & Future of Work","AI Security & Safety"]
 readTime: "21 min read"
 ---
 

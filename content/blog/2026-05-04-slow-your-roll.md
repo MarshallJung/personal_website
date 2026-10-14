@@ -4,7 +4,7 @@ slug: "2026-05-04-slow-your-roll"
 date: "2026-05-04"
 description: "Aaron, Box’s CEO, is a prominent voice in tech and AI, and I agree with his post in principle. But this kind of enthusiasm, especially the idea of a forward-deployed engineer wiring agents into system..."
 coverImage: "/images/blog/2026-05-04-slow-your-roll/image-01.png"
-tags: ["AI Strategy"]
+tags: ["Enterprise AI Adoption & ROI","Frontier Labs & Model Releases","Open Source & Local AI"]
 readTime: "4 min read"
 ---
 

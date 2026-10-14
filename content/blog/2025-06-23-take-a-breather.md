@@ -4,7 +4,7 @@ slug: "2025-06-23-take-a-breather"
 date: "2025-06-23"
 description: "It’s been several months since major AI labs released new foundational models, and recent updates have mainly been iterations of existing ones. This pause seems to result from a mix of economics, stra..."
 coverImage: "/images/blog/2025-06-23-take-a-breather/image-01.jpg"
-tags: ["AI Strategy"]
+tags: ["AI Economics & Infrastructure","Enterprise AI Adoption & ROI"]
 readTime: "5 min read"
 ---
 

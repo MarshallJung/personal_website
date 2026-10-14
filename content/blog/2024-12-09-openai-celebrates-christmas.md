@@ -4,7 +4,7 @@ slug: "2024-12-09-openai-celebrates-christmas"
 date: "2024-12-09"
 description: "It was quite busy this past week, so we will get this week underway with a rapid fire M(3). Next week I’ll be trying to scrutinize the inner workings for my 2025 crystal ball."
 coverImage: "/images/blog/2024-12-09-openai-celebrates-christmas/image-01.jpg"
-tags: ["AI Strategy"]
+tags: ["Frontier Labs & Model Releases","Reasoning Models & RL","Motorsport & Engineering"]
 readTime: "5 min read"
 ---
 

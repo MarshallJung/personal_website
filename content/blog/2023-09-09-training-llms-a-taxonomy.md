@@ -4,7 +4,7 @@ slug: "2023-09-09-training-llms-a-taxonomy"
 date: "2023-09-09"
 description: "Fully trained, fine-tuned, LoRA, QLoRA, BLoRA, hyper-parameters and everything in between. When someone talks about the newest and best…"
 coverImage: "/images/blog/2023-09-09-training-llms-a-taxonomy/image-01.jpg"
-tags: ["AI Strategy"]
+tags: ["LLM Training & Fine-Tuning"]
 readTime: "17 min read"
 ---
 

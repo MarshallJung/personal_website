@@ -4,7 +4,7 @@ slug: "2025-03-24-nvidia-gtc-the-dead-walking-a-review"
 date: "2025-03-24"
 description: "I can’t actually remember the last time I was at a tech conference. It was probably way back when I was still at Google and they moved their annual conference from SF to Las Vegas when it got too big ..."
 coverImage: "/images/blog/2025-03-24-nvidia-gtc-the-dead-walking-a-review/image-01.jpg"
-tags: ["AI Strategy"]
+tags: ["AI Economics & Infrastructure","AI Hype & Skepticism","Open Source & Local AI"]
 readTime: "8 min read"
 ---
 

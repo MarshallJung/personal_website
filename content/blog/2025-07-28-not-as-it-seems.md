@@ -4,7 +4,7 @@ slug: "2025-07-28-not-as-it-seems"
 date: "2025-07-28"
 description: "Some interesting papers to lead off this week!"
 coverImage: "/images/blog/2025-07-28-not-as-it-seems/image-01.jpg"
-tags: ["AI Strategy"]
+tags: ["AI Security & Safety","Reasoning Models & RL","Context, Memory & Knowledge Management"]
 readTime: "4 min read"
 ---
 

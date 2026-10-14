@@ -4,7 +4,7 @@ slug: "2026-03-27-risk-reward"
 date: "2026-03-27"
 description: "If you’re in the AI space then you’ve probably seen the news about the LiteLLM supply chain attack from last week. There are plenty of in-depth analyses available, and I’m not a security researcher, b..."
 coverImage: "/images/blog/2026-03-27-risk-reward/image-01.png"
-tags: ["AI Strategy"]
+tags: ["AI Security & Safety","Reasoning Models & RL","AI Agents & Agentic Workflows"]
 readTime: "7 min read"
 ---
 

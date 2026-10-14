@@ -4,7 +4,7 @@ slug: "2024-03-11-by-another-name"
 date: "2024-03-11"
 description: "Recently Jensen Huang, CEO of NVIDIA, claimed that programming languages are a thing of the past. He believes that in the future humans will interact with computer systems using prompting via LLM type..."
 coverImage: "/images/blog/2024-03-11-by-another-name/image-01.jpg"
-tags: ["AI Strategy"]
+tags: ["Frontier Labs & Model Releases","RAG & Embeddings","Generative Media & Diffusion"]
 readTime: "4 min read"
 ---
 

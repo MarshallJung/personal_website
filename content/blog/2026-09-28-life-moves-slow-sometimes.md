@@ -4,7 +4,7 @@ slug: "2026-09-28-life-moves-slow-sometimes"
 date: "2026-09-28"
 description: "We all feel like the world moves slower than it should sometimes. While time can fly, waiting for an exciting future makes the present feel drawn out..."
 coverImage: "/images/blog/2026-09-28-life-moves-slow-sometimes/image-01.png"
-tags: ["AI Strategy"]
+tags: ["Enterprise AI Adoption & ROI","Open Source & Local AI"]
 readTime: "5 min read"
 ---
 

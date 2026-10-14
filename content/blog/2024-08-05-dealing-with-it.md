@@ -4,7 +4,7 @@ slug: "2024-08-05-dealing-with-it"
 date: "2024-08-05"
 description: "So I’m not typically given to frustration, but it has been a bit disheartening to be both right and have nothing to show for it. I think we are well on our way to an AI wipeout at this point. Combined..."
 coverImage: "/images/blog/2024-08-05-dealing-with-it/image-01.jpg"
-tags: ["AI Strategy"]
+tags: ["Data Science & Classic ML","AI Hype & Skepticism","AI Economics & Infrastructure"]
 readTime: "4 min read"
 ---
 

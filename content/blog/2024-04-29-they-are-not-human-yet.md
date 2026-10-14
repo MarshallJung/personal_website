@@ -4,7 +4,7 @@ slug: "2024-04-29-they-are-not-human-yet"
 date: "2024-04-29"
 description: "So many people are confused about the relation between human cognitive errors and LLM hallucinations that I wrote this short explainer:"
 coverImage: "/images/blog/2024-04-29-they-are-not-human-yet/image-01.jpg"
-tags: ["AI Strategy"]
+tags: ["AI Hype & Skepticism","AI Economics & Infrastructure"]
 readTime: "5 min read"
 ---
 

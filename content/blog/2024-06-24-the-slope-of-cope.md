@@ -4,7 +4,7 @@ slug: "2024-06-24-the-slope-of-cope"
 date: "2024-06-24"
 description: "With any new technology, be it silicon based, medical or physical, we are not immune from the hype curve. This is different from the adoption curve, which one might say is the first derivative of the ..."
 coverImage: "/images/blog/2024-06-24-the-slope-of-cope/image-01.jpg"
-tags: ["AI Strategy"]
+tags: ["AI Hype & Skepticism","RAG & Embeddings","Careers, Hiring & Future of Work"]
 readTime: "6 min read"
 ---
 

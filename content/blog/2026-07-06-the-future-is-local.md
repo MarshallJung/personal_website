@@ -4,7 +4,7 @@ slug: "2026-07-06-the-future-is-local"
 date: "2026-07-06"
 description: "Happy birthday to the United States! While 250 years is brief in the span of history, it’s an accomplishment to be proud of. Wherever you are, have a great 4th of July and appreciate the blessings we ..."
 coverImage: "/images/blog/2026-07-06-the-future-is-local/image-01.png"
-tags: ["AI Strategy"]
+tags: ["Open Source & Local AI","Enterprise AI Adoption & ROI","Context, Memory & Knowledge Management"]
 readTime: "6 min read"
 ---
 

@@ -4,7 +4,7 @@ slug: "2024-07-22-how-complex-systems-fail"
 date: "2024-07-22"
 description: "News in the tech space comes fast. I am mostly interested in the world of machine learning, but occasionally something that crosses paths with the future of technology as I see it piques my interest. ..."
 coverImage: "/images/blog/2024-07-22-how-complex-systems-fail/image-01.jpg"
-tags: ["AI Strategy"]
+tags: ["AI Security & Safety","LLM Training & Fine-Tuning","RAG & Embeddings"]
 readTime: "5 min read"
 ---
 

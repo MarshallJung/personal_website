@@ -4,7 +4,7 @@ slug: "2026-01-31-over-our-skis"
 date: "2026-01-31"
 description: "In this week’s newsletter, I’m weaving a larger narrative from articles and observations I gathered over the week."
 coverImage: "/images/blog/2026-01-31-over-our-skis/image-01.png"
-tags: ["AI Strategy"]
+tags: ["AI Agents & Agentic Workflows","AI Economics & Infrastructure","AI Security & Safety"]
 readTime: "5 min read"
 ---
 

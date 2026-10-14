@@ -4,7 +4,7 @@ slug: "2026-08-17-a-tough-choice-a-bitter-pill"
 date: "2026-08-17"
 description: "If you have successfully integrated​ even one agent into your core workflows, you are already operating in the top tier of AI practitioners​ (like the top 1%). While consumer adoption dominates headli..."
 coverImage: "/images/blog/2026-08-17-a-tough-choice-a-bitter-pill/image-01.png"
-tags: ["AI Strategy"]
+tags: ["Enterprise AI Adoption & ROI","AI Agents & Agentic Workflows","Frontier Labs & Model Releases"]
 readTime: "6 min read"
 ---
 
