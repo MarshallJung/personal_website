@@ -50,12 +50,19 @@ export default function CodeRepositoriesSection() {
 
       {/* Repositories Grid */}
       <div className="grid grid-cols-1 md:grid-cols-2 gap-0 hairline-all">
-        {repositories.map((repo, idx) => (
+        {repositories.map((repo, idx) => {
+          const isLastRowMd =
+            repositories.length % 2 === 0
+              ? idx >= repositories.length - 2
+              : idx === repositories.length - 1;
+          return (
           <div
             key={repo.id}
             className={`p-6 sm:p-8 bg-[var(--bg-surface)] hover:bg-[var(--border-subtle)] transition-colors flex flex-col justify-between ${
               idx % 2 === 0 ? 'md:hairline-r' : ''
-            } ${idx < repositories.length - 1 ? 'hairline-b' : 'hairline-b md:hairline-b-0'} ${
+            } ${
+              idx < repositories.length - 1 ? 'hairline-b' : ''
+            } ${isLastRowMd ? 'md:hairline-b-0' : ''} ${
               idx === repositories.length - 1 && repositories.length % 2 !== 0 ? 'md:col-span-2' : ''
             }`}
           >
@@ -91,7 +98,7 @@ export default function CodeRepositoriesSection() {
               {/* Primary Architecture Points */}
               <div className="mb-6 space-y-1.5">
                 <div className="text-[10px] font-mono text-[var(--text-main)] uppercase tracking-widest">
-                  Key Enterprise Vector:
+                  {repo.vectorLabel || 'Key Enterprise Vector:'}
                 </div>
                 <div className="text-xs font-mono text-[var(--text-muted)] leading-relaxed pl-3 hairline-l border-[var(--text-main)]">
                   {repo.enterpriseUses[0]}
@@ -136,7 +143,8 @@ export default function CodeRepositoriesSection() {
               )}
             </div>
           </div>
-        ))}
+          );
+        })}
       </div>
     </section>
   );

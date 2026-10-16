@@ -199,11 +199,11 @@ export default function BlogRepoAnalysis() {
                   </div>
                 </div>
 
-                {/* Potential Enterprise & Industrial Uses Callout */}
+                {/* Potential Enterprise / Commercial & Industrial Uses Callout */}
                 <div className="p-5 sm:p-6 hairline-all bg-[var(--bg-surface)]">
                   <div className="flex items-center gap-2 text-[11px] font-mono uppercase tracking-widest text-[var(--text-main)] font-bold mb-4">
                     <TrendingUp className="w-4 h-4" />
-                    <span>Potential Enterprise &amp; Industrial Applications</span>
+                    <span>{repo.applicationsTitle || 'Potential Enterprise & Industrial Applications'}</span>
                   </div>
 
                   <div className="grid grid-cols-1 md:grid-cols-3 gap-6">

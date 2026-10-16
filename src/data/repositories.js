@@ -6,11 +6,37 @@
 export const repositoriesData = {
   profileUrl: 'https://github.com/MarshallJung',
   title: 'Open-Source Systems & Applied AI Labs',
-  subtitle: 'Computational Architecture · Applied Machine Learning · Industrial IoT',
+  subtitle: 'Computational Architecture · Applied Machine Learning · Deterministic Kinematics',
   summary:
-    'Hands-on engineering architectures moving foundational research into mission-critical industrial applications. Spanning foundation time-series transformers, multimodal vehicle diagnostics, regulatory information extraction, and monetization infrastructure.',
+    'Hands-on engineering architectures moving foundational research and deterministic physics into production applications. Spanning cross-platform suspension kinematics, foundation time-series transformers, multimodal vehicle diagnostics, regulatory information extraction, and monetization infrastructure.',
   
   repositories: [
+    {
+      id: 'suspension-kinematics',
+      name: 'Suspension_Kinematics (Paddock Kinematics)',
+      repoName: 'MarshallJung/suspension_kinematics',
+      githubUrl: 'https://github.com/MarshallJung/suspension_kinematics',
+      category: 'Motorsport Physics & Cross-Platform Mobile',
+      badge: 'Mobile & Web App',
+      language: 'TypeScript / React Native',
+      techStack: ['React Native', 'Expo SDK 57', 'TypeScript', 'Zustand', '2D SVG Telemetry', 'Vitest'],
+      vectorLabel: 'Key Commercial / Mobile Vector:',
+      applicationsTitle: 'Potential Commercial & Consumer Mobile Applications',
+      shortSummary:
+        'An offline-first, deterministic track suspension and handling visualizer for iOS, Android, and Web that bridges driver seat-of-the-pants feedback with closed-form vehicle dynamics.',
+      detailedAnalysis:
+        'Paddock Kinematics translates multi-variable suspension geometry, transient damping, and non-linear tire load sensitivity into a real-time 60 fps 2D chassis telemetry canvas. Running 100% deterministically on-device in strict SI units (converting at the UI layer to paddock units: lbs, mph, lbs/in, PSI), its four-pillar physics pipeline couples a 3D Weierstrass half-angle arc-sphere spatial linkage solver, 4-way low/high-speed transient damper modeling, 4-corner load transfer (FRSR, TLLTD, and dynamic roll moment arm h_roll), and non-linear tire friction ellipses. Synchronized dual modes let drivers and instructors either step through a Symptom Diagnostic Wizard—complete with live ghost-ring overlays and geometry-trap warnings (such as MacPherson strut over-lowering roll-center migration)—or dial in setup changes and closed-form inverse ride-frequency spring calculations in a What-If Tuning Sandbox.',
+      architectureHighlights: [
+        '4-Pillar Deterministic Physics Engine: Closed-form Weierstrass arc-sphere camber recovery, inverse natural ride frequency (Hz to lbs/in) spring solver, and non-linear tire load sensitivity scaling across 5 drivetrain archetypes (RR, MR, FR, FF, AWD) and 3 linkage geometries (Strut, Double Wishbone, Multi-Link).',
+        'Dual Synchronized Paddock Workflows: Symptom-to-adjustment diagnostic solver ranking trackside quick tweaks (ARB blades, 4-way damper clicks, hot pressures, trail-brake overlap) alongside shop alignment changes, paired with a 60 fps interactive 2D top-down 4-corner friction circle HUD.',
+        'Offline-First Cross-Platform Architecture: Universal React Native + Expo SDK 57 + Zustand state engine with pinned baseline delta snapshots, one-tap Paddock Daylight high-contrast theme for sunlit pit lanes, and 9 Vitest deterministic physics verification suites.'
+      ],
+      enterpriseUses: [
+        'Consumer Track-Day & Club Racing Companion App: Freemium or subscription mobile app giving grassroots HPDE drivers, autocrossers, and club racers an offline digital race engineer in the paddock to diagnose understeer/oversteer and log trackside setup sheets.',
+        'HPDE Instructor & Driver-Coaching Tablet Suite: Interactive visual teaching aid for motorsport organizations (PCA, BMW CCA, NASA, SCCA) allowing instructors to demonstrate how trail-braking overlap, smoothness, and alignment presets shift 4-corner tire saturation without touching a wrench.',
+        'Aftermarket Suspension & Alignment Shop Portal: White-label mobile configurator for coilover manufacturers, alignment shops, and track prep garages to validate spring rates, target ride frequencies (1.5–2.7 Hz), and roll-center correction kits against customer vehicle specs.'
+      ]
+    },
     {
       id: 'vehicle-diagnostic',
       name: 'Vehicle_Diagnostic (CarTrouble)',
