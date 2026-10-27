@@ -1,5 +1,33 @@
 [
   {
+    "title": "A Harness Is All You Need",
+    "slug": "2026-10-26-a-harness-is-all-you-need",
+    "date": "2026-10-26",
+    "description": "I’ve been saying this in day-to-day for a while now but not really followed up in the newsletter for a while. As frontier AI models evolve, whether through fresh pre-training like Google's Gemini Argon, or refinement...",
+    "coverImage": "/images/blog/2026-10-26-a-harness-is-all-you-need/image-01.png",
+    "tags": [
+      "AI Agents & Agentic Workflows",
+      "Frontier Labs & Model Releases",
+      "AI Security & Safety"
+    ],
+    "readTime": "11 min read",
+    "file": "content/blog/2026-10-26-a-harness-is-all-you-need.md"
+  },
+  {
+    "title": "Under the Hood",
+    "slug": "2026-10-19-under-the-hood",
+    "date": "2026-10-19",
+    "description": "Long-time newsletter readers will recall AI models being pejoratively labeled \"stochastic parrots\" early on in the AI revolution. That label largely stemmed from the sheer complexity of neural networks...",
+    "coverImage": "/images/blog/2026-10-19-under-the-hood/image-01.png",
+    "tags": [
+      "AI Agents & Agentic Workflows",
+      "AI Security & Safety",
+      "Motorsport & Engineering"
+    ],
+    "readTime": "4 min read",
+    "file": "content/blog/2026-10-19-under-the-hood.md"
+  },
+  {
     "title": "Surfing the Uncertainty",
     "slug": "2026-10-12-surfing-the-uncertainty",
     "date": "2026-10-12",
