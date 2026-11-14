@@ -6,11 +6,35 @@
 export const repositoriesData = {
   profileUrl: 'https://github.com/MarshallJung',
   title: 'Open-Source Systems & Applied AI Labs',
-  subtitle: 'Computational Architecture · Applied Machine Learning · Deterministic Kinematics',
+  subtitle: 'Computational Architecture · Computer Vision · Deterministic Kinematics',
   summary:
-    'Hands-on engineering architectures moving foundational research and deterministic physics into production applications. Spanning cross-platform suspension kinematics, foundation time-series transformers, multimodal vehicle diagnostics, regulatory information extraction, and monetization infrastructure.',
+    'Hands-on engineering architectures moving foundational research and deterministic physics into production applications. Spanning Apple Silicon video super-resolution, cross-platform suspension kinematics, foundation time-series transformers, multimodal vehicle diagnostics, and schema-driven safety extraction.',
   
   repositories: [
+    {
+      id: 'super-resolution',
+      name: 'Super-Resolution (Apple Silicon MPS Video Pipeline)',
+      repoName: 'MarshallJung/super-resolution',
+      githubUrl: 'https://github.com/MarshallJung/super-resolution',
+      category: 'Computer Vision & Apple Silicon (MPS)',
+      badge: '5-Stage Video Pipeline',
+      language: 'Python / PyTorch',
+      techStack: ['PyTorch (MPS)', 'SwinIR / HAT / Real-ESRGAN', 'RAFT-Large Optical Flow', '2D Wavelets (db2)', 'Spandrel', 'PyAV'],
+      shortSummary:
+        'A pure-PyTorch, five-stage video super-resolution and temporal restoration pipeline engineered for Apple Silicon (MPS) with zero CUDA or C++ extension dependencies.',
+      detailedAnalysis:
+        'Standard 4× video upscalers fail on stretched vertical action-camera exports (such as 9:16 motorsport crops stretched to 1080×1920) because multi-pixel blur and H.264 macroblocks are mistaken for intentional soft shading, causing 8K OOM crashes and severe frame-to-frame shimmer. This five-stage pure-PyTorch pipeline solves this natively on Apple Metal (MPS): it measures the 2D radially averaged Fourier power spectrum (r95 cutoff) to collapse multi-pixel artifacts via Lanczos-4 downscaling before running blind 4× Vision Transformer super-resolution (BSRGAN-SwinIR-M, Real_HAT_GAN, Real-ESRGAN) with 2D Hann feathered tiling, RAFT-Large optical-flow temporal stabilization, and db2 wavelet low-frequency color locking—achieving a 7.1× ROI sharpness gain and ~20% flicker reduction under a 2.3 GB unified memory footprint.',
+      architectureHighlights: [
+        '2D FFT Frequency Calibration & Scale-Matched Downsampling: Quantifies true optical resolution (r95 cutoff) vs. H.264 quantization noise to collapse 2–4 px stretched macroblocks back to single-pixel scale prior to 4× blind transformer restoration.',
+        'Seam-Free 2D Hann Tiling & RAFT-Large Temporal Stabilization: Processes 256×256 reflective-padded tiles (< 2.3 GB peak MPS memory) and backward-warps adjacent frames with exponential photometric occlusion gating to reduce warping flicker (E_warp) by ~20%.',
+        'Wavelet Color Lock & Lossless PyAV Remuxing: Swaps the 3-level 2D db2 coarsest approximation band (cA3) from the reference frame to eliminate exposure drift, outputting CRF 15 H.264 video with original AAC audio and a 2.5× PiP sliding-wipe telemetry showcase.'
+      ],
+      enterpriseUses: [
+        'Motorsport & Action-Cam Telemetry Restoration: Recovering crisp chassis attitude, tire sidewall deflection, and track surface detail from heavily compressed or cropped onboard and trackside action-camera footage.',
+        'Edge & Local Apple Silicon Media Production: Running studio-grade Vision Transformer video restoration locally on MacBook Pro M-series unified memory without expensive cloud GPU clusters or brittle CUDA/mmcv dependencies.',
+        'Industrial Inspection & Remote Sensor Enhancement: Enhancing low-bitrate, bandwidth-constrained drone, borescope, or remote facility video feeds while suppressing temporal shimmer and preserving radiometric color fidelity.'
+      ]
+    },
     {
       id: 'suspension-kinematics',
       name: 'Suspension_Kinematics (Paddock Kinematics)',
@@ -108,54 +132,6 @@ export const repositoriesData = {
         'Industrial EHS Compliance: Automated parsing of global plant safety filings to identify recurrent ergonomics, chemical, or electrical hazards.',
         'Commercial Insurance Underwriting: Mining historical workplace accident narratives to price risk policies and forecast loss ratios.',
         'Root Cause Discovery: Clustering near-miss reports across thousands of job sites to identify flawed standard operating procedures.'
-      ]
-    },
-    {
-      id: 'life-sciences',
-      name: 'LifeSciences Demo Applications',
-      repoName: 'MarshallJung/LifeSciences',
-      githubUrl: 'https://github.com/MarshallJung/LifeSciences',
-      category: 'Healthcare, Biotech & Regulatory AI',
-      badge: 'Enterprise Suite',
-      language: 'Python / TypeScript',
-      techStack: ['Google Cloud Platform', 'AlphaFold (FoldRun)', 'Gemini Enterprise', 'Sentinel Agent', 'Model Garden'],
-      shortSummary:
-        'Enterprise AI application prototypes for Pharma and Life Sciences on Google Cloud, including FoldRun protein structure prediction and Sentinel regulatory compliance checking.',
-      detailedAnalysis:
-        'A comprehensive repository demonstrating regulated enterprise AI on Google Cloud. It features FoldRun (an agentic orchestration interface for AlphaFold structural biology predictions), Sentinel (multimodal evaluation validating medical video and documentation against FDA advertising guidelines), and custom Gemini Enterprise healthcare agents with grounded literature search.',
-      architectureHighlights: [
-        'Agentic orchestration pipeline for executing batch AlphaFold protein folding jobs and downstream structural parsing.',
-        'Multimodal regulatory compliance engine analyzing video frames, claims, and disclaimers against FDA/EMA rules.',
-        'Grounded clinical retrieval combining Gemini with biomedical knowledge graphs and trusted literature corpuses.'
-      ],
-      enterpriseUses: [
-        'In-Silico Drug Target Discovery: Streamlining high-throughput protein modeling and candidate screening for research scientists.',
-        'Medical Affairs & Regulatory Review: Automating the legal/compliance review cycle for promotional scientific materials, reducing turnaround from weeks to hours.',
-        'Clinical Knowledge Retrieval: Grounded conversational interfaces querying complex clinical trial protocols and regulatory dossiers.'
-      ]
-    },
-    {
-      id: 'claude-credit-pricing',
-      name: 'claude-credit-pricing-skill',
-      repoName: 'MarshallJung/claude-credit-pricing-skill',
-      githubUrl: 'https://github.com/MarshallJung/claude-credit-pricing-skill',
-      category: 'AI Monetization & Compute Economics',
-      badge: 'Claude Code Plugin',
-      language: 'Markdown / JSON / Claude Skill',
-      techStack: ['Claude Code', 'Schematic SDK', 'Usage Metering', 'SaaS Monetization'],
-      shortSummary:
-        'An engineering leadership skill for Claude Code that guides technical teams through designing and launching consumption- and credit-based pricing architectures for AI products.',
-      detailedAnalysis:
-        'A practical systems architecture framework packaged as a Claude Code skill. It walks VPs of Engineering and Staff Architects through the six critical subsystems required for reliable credit-based AI billing: high-throughput usage collection, atomic balance management, real-time quota enforcement, automated balance replenishment, user UI feedback, and immutable auditability.',
-      architectureHighlights: [
-        'Architectural blue-prints for high-volume event ingestion pipelines resilient to out-of-order delivery and double-counting.',
-        'Zero-trust balance verification strategies handling edge cases like concurrent burst requests and partial token generation.',
-        'Actionable build-vs-buy decision matrix evaluating internal ledger build costs against specialized billing APIs (Schematic).'
-      ],
-      enterpriseUses: [
-        'AI Product Monetization: Transitioning fixed-fee SaaS products into profitable credit-consumption models matching underlying token costs.',
-        'API Gateway Rate Limiting: Real-time credit burndown preventing customer runaway spend and cloud GPU margin erosion.',
-        'Enterprise Quota Allocation: Granular department-level compute budgeting for internal enterprise LLM deployments.'
       ]
     }
   ]
