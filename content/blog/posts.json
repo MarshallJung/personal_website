@@ -1,5 +1,33 @@
 [
   {
+    "title": "Merely a Flesh Wound?",
+    "slug": "2026-11-09-merely-a-flesh-wound",
+    "date": "2026-11-09",
+    "description": "Longtime readers know I typically avoid politics here, but policy inevitably impacts the AI industry. I have argued for some time that the opaque, circular financing propping up the AI buildout...",
+    "coverImage": "/images/blog/2026-11-09-merely-a-flesh-wound/image-01.png",
+    "tags": [
+      "AI Economics & Infrastructure",
+      "Enterprise AI Adoption & ROI",
+      "Context, Memory & Knowledge Management"
+    ],
+    "readTime": "6 min read",
+    "file": "content/blog/2026-11-09-merely-a-flesh-wound.md"
+  },
+  {
+    "title": "Props, but they’re still scum",
+    "slug": "2026-11-02-props-but-theyre-still-scum",
+    "date": "2026-11-02",
+    "description": "The Fake $2.8M Chevron CAIO Brief (And What It Accidentally Got Right About Industrial AI) — There are rarely boring weeks in the AI world, but getting headhunted for a $2.8M Chief Artificial Intelligence Officer seat at Chevron...",
+    "coverImage": "/images/blog/2026-11-02-props-but-theyre-still-scum/image-01.png",
+    "tags": [
+      "Enterprise AI Adoption & ROI",
+      "Careers, Hiring & Future of Work",
+      "Data Science & Classic ML"
+    ],
+    "readTime": "4 min read",
+    "file": "content/blog/2026-11-02-props-but-theyre-still-scum.md"
+  },
+  {
     "title": "A Harness Is All You Need",
     "slug": "2026-10-26-a-harness-is-all-you-need",
     "date": "2026-10-26",
