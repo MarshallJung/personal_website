@@ -1,5 +1,19 @@
 [
   {
+    "title": "Where We Fit",
+    "slug": "2026-11-16-where-we-fit",
+    "date": "2026-11-16",
+    "description": "This week's newsletter kicks off more like an open think piece than a typical news roundup. It blends a few observations from my day job with some interesting new tech advances released by the AI labs...",
+    "coverImage": "/images/blog/2026-11-16-where-we-fit/image-01.png",
+    "tags": [
+      "Enterprise AI Adoption & ROI",
+      "Careers, Hiring & Future of Work",
+      "LLM Training & Fine-Tuning"
+    ],
+    "readTime": "4 min read",
+    "file": "content/blog/2026-11-16-where-we-fit.md"
+  },
+  {
     "title": "Merely a Flesh Wound?",
     "slug": "2026-11-09-merely-a-flesh-wound",
     "date": "2026-11-09",
