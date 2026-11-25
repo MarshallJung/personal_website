@@ -1,10 +1,11 @@
-import React, { useState, useEffect, useMemo } from 'react';
+import React, { useState, useEffect, useMemo, useRef } from 'react';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 import BlogCard from '../components/BlogCard';
 import BlogRepoAnalysis from '../components/BlogRepoAnalysis';
 import posts from '../../content/blog/posts.json';
-import { marked } from 'marked';
+import 'katex/dist/katex.min.css';
+import { renderMarkdownToHtml } from '../utils/renderMarkdown';
 import { Calendar, Clock, ArrowLeft, ArrowUpRight, Search, X } from 'lucide-react';
 import MiniSearch from 'minisearch';
 
@@ -18,6 +19,7 @@ export default function BlogApp() {
   const [searchQuery, setSearchQuery] = useState('');
   const [selectedTag, setSelectedTag] = useState('All');
   const [miniSearch, setMiniSearch] = useState(null);
+  const articleBodyRef = useRef(null);
 
   useEffect(() => {
     let isMounted = true;
@@ -73,24 +75,115 @@ export default function BlogApp() {
         .then((rawMarkdown) => {
           let cleanContent = rawMarkdown.replace(/^---[\s\S]*?---\n/, '') || selectedPost.description;
           cleanContent = cleanContent.replace(/^#\s+[^\n]+\n+/, '');
-          setArticleHtml(marked.parse(cleanContent));
+          setArticleHtml(renderMarkdownToHtml(cleanContent, { enableMath: Boolean(selectedPost.math) }));
         })
         .catch(() => {
-          setArticleHtml(marked.parse(`# ${selectedPost.title}\n\n${selectedPost.description}`));
+          setArticleHtml(renderMarkdownToHtml(`# ${selectedPost.title}\n\n${selectedPost.description}`));
         })
         .finally(() => {
           setIsLoadingArticle(false);
         });
     } else {
-      setArticleHtml(marked.parse(`# ${selectedPost.title}\n\n${selectedPost.description}`));
+      setArticleHtml(renderMarkdownToHtml(`# ${selectedPost.title}\n\n${selectedPost.description}`));
       setIsLoadingArticle(false);
     }
   }, [selectedPost]);
+
+  // Render Mermaid diagrams lazily and re-render when the dark/light theme toggles
+  useEffect(() => {
+    const container = articleBodyRef.current;
+    if (!container || !articleHtml) return;
+
+    const blocks = container.querySelectorAll('.mermaid-block[data-mermaid]');
+    if (blocks.length === 0) return;
+
+    let cancelled = false;
+    let renderGen = 0;
+
+    const renderDiagrams = async () => {
+      try {
+        const { default: mermaid } = await import('mermaid');
+        if (cancelled) return;
+
+        const isDark = document.documentElement.classList.contains('dark');
+        mermaid.initialize({
+          startOnLoad: false,
+          securityLevel: 'loose',
+          theme: 'base',
+          flowchart: { htmlLabels: false, curve: 'basis', padding: 14 },
+          themeVariables: isDark
+            ? {
+                darkMode: true,
+                background: '#0a0a0a',
+                primaryColor: '#171717',
+                primaryTextColor: '#f5f5f5',
+                primaryBorderColor: '#404040',
+                lineColor: '#f97316',
+                secondaryColor: '#1f1f1f',
+                tertiaryColor: '#141414',
+                edgeLabelBackground: '#0a0a0a',
+                clusterBkg: '#121212',
+                clusterBorder: '#262626',
+                fontFamily: 'ui-monospace, SFMono-Regular, Menlo, monospace',
+                fontSize: '13px',
+              }
+            : {
+                darkMode: false,
+                background: '#fafafa',
+                primaryColor: '#ffffff',
+                primaryTextColor: '#121212',
+                primaryBorderColor: '#a3a3a3',
+                lineColor: '#ea580c',
+                secondaryColor: '#f5f5f5',
+                tertiaryColor: '#f0f0f0',
+                edgeLabelBackground: '#fafafa',
+                clusterBkg: '#f5f5f5',
+                clusterBorder: '#e5e5e5',
+                fontFamily: 'ui-monospace, SFMono-Regular, Menlo, monospace',
+                fontSize: '13px',
+              },
+        });
+
+        renderGen += 1;
+        const currentGen = renderGen;
+        for (let i = 0; i < blocks.length; i += 1) {
+          if (cancelled) return;
+          const block = blocks[i];
+          const encoded = block.getAttribute('data-mermaid') || '';
+          const source = decodeURIComponent(encoded);
+          const id = `mermaid-diagram-${currentGen}-${i}-${Date.now()}`;
+          const { svg } = await mermaid.render(id, source);
+          if (!cancelled) {
+            block.innerHTML = svg;
+          }
+        }
+      } catch (err) {
+        console.warn('Mermaid diagram render failed:', err);
+      }
+    };
+
+    renderDiagrams();
+
+    const observer = new MutationObserver(() => {
+      renderDiagrams();
+    });
+    observer.observe(document.documentElement, { attributes: true, attributeFilter: ['class'] });
+
+    return () => {
+      cancelled = true;
+      observer.disconnect();
+    };
+  }, [articleHtml]);
 
   const handleSelectPost = (post) => {
     setSelectedPost(post);
     window.history.pushState({}, '', `?post=${post.slug}`);
     window.scrollTo({ top: 0, behavior: 'smooth' });
+  };
+
+  const handleSelectPostBySlug = (slug) => {
+    const match = postMap.get(slug);
+    if (match) handleSelectPost(match);
   };
 
   const handleBack = () => {
@@ -155,62 +248,75 @@ export default function BlogApp() {
   }, [searchQuery, selectedTag, miniSearch, postMap]);
 
   const renderArticleContent = (post) => {
-    return (
-      <article className="max-w-3xl mx-auto px-4 sm:px-6 py-12 md:py-16">
-        <button
-          onClick={handleBack}
-          className="inline-flex items-center gap-1.5 text-xs font-mono uppercase tracking-widest text-[var(--text-muted)] hover:text-[var(--text-main)] mb-10 transition-colors"
-        >
-          <ArrowLeft className="w-3.5 h-3.5" /> Back to Ledger
-        </button>
+    const backButton = (
+      <button
+        onClick={handleBack}
+        className="inline-flex items-center gap-1.5 text-xs font-mono uppercase tracking-widest text-[var(--text-muted)] hover:text-[var(--text-main)] transition-colors cursor-pointer"
+      >
+        <ArrowLeft className="w-3.5 h-3.5" /> Back to Ledger
+      </button>
+    );
 
-        {/* Post Header */}
-        <header className="pb-8 hairline-b mb-12">
-          <div className="flex flex-wrap items-center gap-3 text-xs font-mono text-[var(--text-muted)] mb-4 uppercase tracking-wider">
-            <span className="flex items-center gap-1.5 text-[var(--text-main)]">
-              <Calendar className="w-3.5 h-3.5" />
-              {post.date}
-            </span>
-            {post.readTime && <span>· {post.readTime}</span>}
-            {post.canonicalUrl && (
-              <>
-                <span>·</span>
-                <a
-                  href={post.canonicalUrl}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="hover:text-[var(--text-main)] flex items-center gap-1 transition-colors"
-                >
-                  <span>Medium Original</span>
-                  <ArrowUpRight className="w-3 h-3" />
-                </a>
-              </>
-            )}
-          </div>
-
-          <h1 className="text-3xl sm:text-5xl font-extrabold text-[var(--text-main)] uppercase tracking-tight mb-6 leading-tight">
-            {post.title}
-          </h1>
-
-          <div className="flex flex-wrap gap-1.5">
-            {post.tags?.map((tag) => (
-              <span
-                key={tag}
-                className="text-[10px] font-mono uppercase tracking-wider px-2 py-0.5 text-[var(--text-muted)] hairline-all"
+    const headerContent = (
+      <>
+        <div className="flex flex-wrap items-center gap-3 text-xs font-mono text-[var(--text-muted)] mb-4 uppercase tracking-wider">
+          <span className="flex items-center gap-1.5 text-[var(--text-main)]">
+            <Calendar className="w-3.5 h-3.5" />
+            {post.date}
+          </span>
+          {post.readTime && <span>· {post.readTime}</span>}
+          {post.canonicalUrl && (
+            <>
+              <span>·</span>
+              <a
+                href={post.canonicalUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:text-[var(--text-main)] flex items-center gap-1 transition-colors"
               >
-                {tag}
-              </span>
-            ))}
-          </div>
-        </header>
+                <span>Medium Original</span>
+                <ArrowUpRight className="w-3 h-3" />
+              </a>
+            </>
+          )}
+        </div>
 
-        {/* Prose Body */}
+        <h1
+          className={`text-3xl sm:text-5xl font-extrabold text-[var(--text-main)] uppercase tracking-tight leading-tight ${
+            post.subtitle ? 'mb-3' : 'mb-6'
+          }`}
+        >
+          {post.title}
+        </h1>
+
+        {post.subtitle && (
+          <p className="text-base sm:text-xl text-[var(--text-main)]/85 font-normal leading-snug mb-6 max-w-2xl">
+            {post.subtitle}
+          </p>
+        )}
+
+        <div className="flex flex-wrap gap-1.5">
+          {post.tags?.map((tag) => (
+            <span
+              key={tag}
+              className="text-[10px] font-mono uppercase tracking-wider px-2 py-0.5 text-[var(--text-muted)] hairline-all bg-[var(--bg-surface)]/70 backdrop-blur-[2px]"
+            >
+              {tag}
+            </span>
+          ))}
+        </div>
+      </>
+    );
+
+    const bodyAndFooter = (
+      <>
         {isLoadingArticle ? (
           <div className="py-20 text-center font-mono text-xs uppercase tracking-widest text-[var(--text-muted)]">
             Loading document...
           </div>
         ) : (
           <div
+            ref={articleBodyRef}
             className="article-body prose prose-neutral max-w-none text-[var(--text-main)]
               prose-headings:text-[var(--text-main)] prose-headings:font-bold prose-headings:tracking-tight prose-headings:uppercase
               prose-h2:text-2xl sm:prose-h2:text-3xl prose-h2:mt-14 prose-h2:mb-5 prose-h2:hairline-b prose-h2:pb-3
@@ -233,13 +339,47 @@ export default function BlogApp() {
         )}
 
         <div className="mt-16 pt-8 hairline-t flex justify-between items-center">
-          <button
-            onClick={handleBack}
-            className="inline-flex items-center gap-1.5 text-xs font-mono uppercase tracking-widest text-[var(--text-muted)] hover:text-[var(--text-main)] transition-colors"
-          >
-            <ArrowLeft className="w-3.5 h-3.5" /> Back to Ledger
-          </button>
+          {backButton}
         </div>
+      </>
+    );
+
+    if (post.heroImage) {
+      return (
+        <article className="w-full">
+          {/* Washed-out, naturally scrolling lead hero header */}
+          <div className="relative w-full overflow-hidden hairline-b">
+            <img
+              src={post.heroImage}
+              alt={post.title}
+              className="absolute inset-0 w-full h-full object-cover object-[center_58%] opacity-35 dark:opacity-30 grayscale-[18%] contrast-[0.95] scale-[1.01] select-none pointer-events-none"
+            />
+            <div
+              aria-hidden="true"
+              className="absolute inset-0 pointer-events-none"
+              style={{
+                background:
+                  'linear-gradient(to bottom, color-mix(in srgb, var(--bg-surface) 28%, transparent) 0%, color-mix(in srgb, var(--bg-surface) 60%, transparent) 58%, var(--bg-surface) 100%)',
+              }}
+            />
+            <div className="relative z-10 max-w-3xl mx-auto px-4 sm:px-6 pt-10 pb-14 sm:pt-14 sm:pb-20 min-h-[340px] sm:min-h-[430px] flex flex-col justify-between">
+              <div>{backButton}</div>
+              <header className="pt-14 sm:pt-20">{headerContent}</header>
+            </div>
+          </div>
+
+          <div className="max-w-3xl mx-auto px-4 sm:px-6 py-10 md:py-14">
+            {bodyAndFooter}
+          </div>
+        </article>
+      );
+    }
+
+    return (
+      <article className="max-w-3xl mx-auto px-4 sm:px-6 py-12 md:py-16">
+        <div className="mb-10">{backButton}</div>
+        <header className="pb-8 hairline-b mb-12">{headerContent}</header>
+        {bodyAndFooter}
       </article>
     );
   };
@@ -267,7 +407,7 @@ export default function BlogApp() {
             </div>
 
             {/* Public Repositories & Engineering Architecture Deep Dive */}
-            <BlogRepoAnalysis />
+            <BlogRepoAnalysis onSelectPostBySlug={handleSelectPostBySlug} />
 
             {/* Filter and Search Bar */}
             <div className="space-y-4 mb-8">

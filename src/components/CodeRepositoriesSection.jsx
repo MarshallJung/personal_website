@@ -120,15 +120,27 @@ export default function CodeRepositoriesSection() {
 
             {/* Card Action Row */}
             <div className="pt-4 hairline-t flex items-center justify-between gap-4 text-xs font-mono uppercase tracking-wider">
-              <a
-                href={repo.githubUrl}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex items-center gap-1 text-[var(--text-main)] font-bold hover:underline underline-offset-4"
-              >
-                <span>Inspect Repository</span>
-                <ArrowUpRight className="w-3.5 h-3.5" />
-              </a>
+              <div className="flex flex-wrap items-center gap-4">
+                <a
+                  href={repo.githubUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-1 text-[var(--text-main)] font-bold hover:underline underline-offset-4"
+                >
+                  <span>Inspect Repository</span>
+                  <ArrowUpRight className="w-3.5 h-3.5" />
+                </a>
+
+                {repo.blogPostSlug && (
+                  <a
+                    href={`/blog/?post=${repo.blogPostSlug}`}
+                    className="inline-flex items-center gap-1 text-[var(--divider-orange)] font-bold hover:underline underline-offset-4"
+                  >
+                    <span>{repo.blogPostLabel || 'Read Deep Dive'}</span>
+                    <ArrowUpRight className="w-3.5 h-3.5" />
+                  </a>
+                )}
+              </div>
 
               {repo.demoUrl && (
                 <a

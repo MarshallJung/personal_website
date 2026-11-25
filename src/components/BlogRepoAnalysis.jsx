@@ -12,10 +12,11 @@ import {
   ShieldCheck,
   TrendingUp,
   Wrench,
-  Sparkles
+  Sparkles,
+  BookOpen
 } from 'lucide-react';
 
-export default function BlogRepoAnalysis() {
+export default function BlogRepoAnalysis({ onSelectPostBySlug }) {
   const [isExpanded, setIsExpanded] = useState(true);
   const [activeTab, setActiveTab] = useState('all');
   const { repositories, profileUrl } = repositoriesData;
@@ -127,7 +128,29 @@ export default function BlogRepoAnalysis() {
                     )}
                   </div>
 
-                  <div className="flex items-center gap-4 text-xs font-mono uppercase tracking-wider">
+                  <div className="flex flex-wrap items-center gap-4 text-xs font-mono uppercase tracking-wider">
+                    {repo.blogPostSlug && (
+                      onSelectPostBySlug ? (
+                        <button
+                          type="button"
+                          onClick={() => onSelectPostBySlug(repo.blogPostSlug)}
+                          className="inline-flex items-center gap-1.5 text-[var(--divider-orange)] hover:underline underline-offset-4 font-bold cursor-pointer"
+                        >
+                          <BookOpen className="w-3.5 h-3.5" />
+                          <span>{repo.blogPostLabel || 'Read Deep Dive'}</span>
+                          <ArrowUpRight className="w-3.5 h-3.5" />
+                        </button>
+                      ) : (
+                        <a
+                          href={`/blog/?post=${repo.blogPostSlug}`}
+                          className="inline-flex items-center gap-1.5 text-[var(--divider-orange)] hover:underline underline-offset-4 font-bold"
+                        >
+                          <BookOpen className="w-3.5 h-3.5" />
+                          <span>{repo.blogPostLabel || 'Read Deep Dive'}</span>
+                          <ArrowUpRight className="w-3.5 h-3.5" />
+                        </a>
+                      )
+                    )}
                     {repo.demoUrl && (
                       <a
                         href={repo.demoUrl}

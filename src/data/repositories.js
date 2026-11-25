@@ -40,20 +40,22 @@ export const repositoriesData = {
       name: 'Suspension_Kinematics (Paddock Kinematics)',
       repoName: 'MarshallJung/suspension_kinematics',
       githubUrl: 'https://github.com/MarshallJung/suspension_kinematics',
+      blogPostSlug: '2026-11-25-paddock-kinematics-math-and-lean4-verification',
+      blogPostLabel: 'Math & Lean 4 Deep Dive',
       category: 'Motorsport Physics & Cross-Platform Mobile',
       badge: 'Mobile & Web App',
       language: 'TypeScript / React Native',
-      techStack: ['React Native', 'Expo SDK 57', 'TypeScript', 'Zustand', '2D SVG Telemetry', 'Vitest'],
+      techStack: ['React Native', 'Expo SDK 57', 'TypeScript', 'Lean 4 + Mathlib', 'Zustand', '2D SVG Telemetry', 'Vitest'],
       vectorLabel: 'Key Commercial / Mobile Vector:',
       applicationsTitle: 'Potential Commercial & Consumer Mobile Applications',
       shortSummary:
         'An offline-first, deterministic track suspension and handling visualizer for iOS, Android, and Web that bridges driver seat-of-the-pants feedback with closed-form vehicle dynamics.',
       detailedAnalysis:
-        'Paddock Kinematics translates multi-variable suspension geometry, transient damping, and non-linear tire load sensitivity into a real-time 60 fps 2D chassis telemetry canvas. Running 100% deterministically on-device in strict SI units (converting at the UI layer to paddock units: lbs, mph, lbs/in, PSI), its four-pillar physics pipeline couples a 3D Weierstrass half-angle arc-sphere spatial linkage solver, 4-way low/high-speed transient damper modeling, 4-corner load transfer (FRSR, TLLTD, and dynamic roll moment arm h_roll), and non-linear tire friction ellipses. Synchronized dual modes let drivers and instructors either step through a Symptom Diagnostic Wizard—complete with live ghost-ring overlays and geometry-trap warnings (such as MacPherson strut over-lowering roll-center migration)—or dial in setup changes and closed-form inverse ride-frequency spring calculations in a What-If Tuning Sandbox.',
+        'Paddock Kinematics translates multi-variable suspension geometry, transient damping, and non-linear tire load sensitivity into a real-time 60 fps 2D chassis telemetry canvas. Running 100% deterministically on-device in strict SI units (converting at the UI layer to paddock units: lbs, mph, lbs/in, PSI), its four-pillar physics pipeline couples a singularity-free phase-amplitude 3D arc-sphere spatial linkage solver, 4-way low/high-speed transient damper modeling, iterated nonlinear roll equilibrium with roll-center migration, and globally strictly concave tire friction ellipses. Synchronized dual modes let drivers and instructors step through a Symptom Diagnostic Wizard—complete with live ghost-ring overlays and geometry-trap warnings—or test setup changes backed by 37 machine-checked Lean 4 + Mathlib proofs and 7 Vitest verification suites.',
       architectureHighlights: [
-        '4-Pillar Deterministic Physics Engine: Closed-form Weierstrass arc-sphere camber recovery, inverse natural ride frequency (Hz to lbs/in) spring solver, and non-linear tire load sensitivity scaling across 5 drivetrain archetypes (RR, MR, FR, FF, AWD) and 3 linkage geometries (Strut, Double Wishbone, Multi-Link).',
-        'Dual Synchronized Paddock Workflows: Symptom-to-adjustment diagnostic solver ranking trackside quick tweaks (ARB blades, 4-way damper clicks, hot pressures, trail-brake overlap) alongside shop alignment changes, paired with a 60 fps interactive 2D top-down 4-corner friction circle HUD.',
-        'Offline-First Cross-Platform Architecture: Universal React Native + Expo SDK 57 + Zustand state engine with pinned baseline delta snapshots, one-tap Paddock Daylight high-contrast theme for sunlit pit lanes, and 9 Vitest deterministic physics verification suites.'
+        '4-Pillar Deterministic Physics Engine: Singularity-free phase-amplitude arc-sphere camber recovery, exact inverse natural ride frequency (Hz to lbs/in) spring solver, and globally concave tire load sensitivity scaling across 5 drivetrain archetypes (RR, MR, FR, FF, AWD) and 3 linkage geometries (Strut, Double Wishbone, Multi-Link).',
+        '3-Layer Verification Pyramid: 37 public Lean 4 + Mathlib formal proofs (zero sorry placeholders) certifying conservation laws, global concavity, and 3D closure over ℝ, paired with 67 Vitest regression tests across 7 suites and explicit operating-envelope guardrails.',
+        'Offline-First Cross-Platform Architecture: Universal React Native + Expo SDK 57 + Zustand state engine with pinned baseline delta snapshots, one-tap Paddock Daylight high-contrast theme for sunlit pit lanes, and a 23-rule counterfactual setup diagnostic solver.'
       ],
       enterpriseUses: [
         'Consumer Track-Day & Club Racing Companion App: Freemium or subscription mobile app giving grassroots HPDE drivers, autocrossers, and club racers an offline digital race engineer in the paddock to diagnose understeer/oversteer and log trackside setup sheets.',

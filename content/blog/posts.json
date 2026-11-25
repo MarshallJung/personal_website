@@ -1,5 +1,22 @@
 [
   {
+    "title": "Proving Race-Car Suspension Math",
+    "subtitle": "How Complex Is Race-Car Suspension Math — And How Do You Make It Error-Free?",
+    "slug": "2026-11-25-paddock-kinematics-math-and-lean4-verification",
+    "date": "2026-11-25",
+    "description": "A behind-the-scenes look at the coupled multi-physics math of Paddock Kinematics, why textbook suspension code silently breaks, and why I and Antigravity paired TypeScript tests with machine-checked Lean 4 proofs.",
+    "coverImage": "/images/blog/2026-11-25-paddock-kinematics-math-and-lean4-verification/hero-944.jpg",
+    "heroImage": "/images/blog/2026-11-25-paddock-kinematics-math-and-lean4-verification/hero-944.jpg",
+    "math": true,
+    "tags": [
+      "Motorsport & Engineering",
+      "AI Coding & Developer Tools",
+      "AI Agents & Agentic Workflows"
+    ],
+    "readTime": "15 min read",
+    "file": "content/blog/2026-11-25-paddock-kinematics-math-and-lean4-verification.md"
+  },
+  {
     "title": "Where We Fit",
     "slug": "2026-11-16-where-we-fit",
     "date": "2026-11-16",

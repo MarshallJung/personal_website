@@ -153,3 +153,27 @@
 }
 .article-body th { font-weight: 700; background: color-mix(in srgb, var(--border-subtle) 45%, transparent); }
 .article-body td p, .article-body th p { margin: 0; }
+.article-body .katex { font-size: 1.02em; color: var(--text-main); }
+.article-body .katex-display {
+  margin: 1.5em 0;
+  padding: 0.75em 1em;
+  overflow-x: auto;
+  overflow-y: hidden;
+  border: 1px solid var(--border-subtle);
+  background: color-mix(in srgb, var(--border-subtle) 22%, transparent);
+}
+.article-body .katex-display > .katex { font-size: 1.08em; }
+.article-body .mermaid-block {
+  margin: 2em 0;
+  padding: 1.25rem;
+  border: 1px solid var(--border-subtle);
+  background: color-mix(in srgb, var(--border-subtle) 18%, transparent);
+  overflow-x: auto;
+}
+.article-body .mermaid-block svg {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  height: auto;
+}
+.article-body pre code { font-size: 0.82rem; line-height: 1.6; }
